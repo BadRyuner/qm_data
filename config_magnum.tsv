@@ -1,8 +1,7 @@
-								
 #magnum_default_params								
 Parameter	Value							
-NDSkillChargeBonus	1							
-NDCooldownTimeReduce	30							
+NDSkillChargeBonus	2							
+NDCooldownTimeReduce	168							
 NDRewardPointPerFloor	0							
 NDReputationBonus	0							
 HWSCScanFloorBonus	1							
@@ -11,9 +10,9 @@ HWSCItemDropScanFloorBonus	0
 HWSCItemLevelDropBonus	0							
 WPSTWeaponUpgradeSpeed	0							
 WPSTUpgradeWeaponCostReduce	0							
-WPSTUpgradeMoreWeapon	1							
+WPSTUpgradeMoreWeapon	2							
 WPSTAdditGradeUpgrade	0							
-ARMSTUpgradeMoreArmors	1							
+ARMSTUpgradeMoreArmors	4							
 ARMSTUpgradeSpeed	0							
 ARMSTUpgradeArmorCostReduce	0							
 ARMSTAdditGrade	0							
@@ -21,163 +20,168 @@ PRLNProduceSpeed	0
 PRLNItemSlotCount	1							
 PRLNQueueSlotCount	1							
 PUBGBonusResources	1							
-PUBGBonusFoodMeds	1							
-PUBGBonusAmmoGrenades	1							
+PUBGBonusFoodMeds	2							
+PUBGBonusAmmoGrenades	2							
 PUBGBonusArmorWeapons	1							
 StoreConstructorDepartment	0							
-STCONDisassemblyItemsSpeed	24							
+STCONDisassemblyItemsSpeed	72							
 STCONMoreCompsOnDisassembly	0							
 STCONAdditMDCompOnDisassembly	0							
 GNEDOperatorsToUpgrade	1							
 GNEDOperatorUpgradeSpeed	0							
-MEMDFfClassesToModify	1							
+MEMDFfClassesToModify	2							
 MEMDFClassUpgradeSpeed	0							
-MEMDFPerkCountToSwitch	3							
+MEMDFPerkCountToSwitch	1							
 BTEXCRankUpgradeLimit	1							
 TRCNOperatorsCountLimit	1							
 TRCNPerkUpgradeLevel	2							
 TRDSHShuttleMoveSpeed	96							
-TRDSHShuttleRestoreSpeed	24							
+TRDSHShuttleRestoreSpeed	168							
 CGSHSTShuttleInventorySize	1							
-AUCAPChargesCount	1							
-AUCAPCapsuleInventorySize	2							
-AUCAPCapsuleRestoreSpeed	24							
+AUCAPChargesCount	2							
+AUCAPCapsuleInventorySize	4							
+AUCAPCapsuleRestoreSpeed	168							
 PRCOStationProduceSpeedPercent	1							
 PRCOPostMissionBonusMult	1							
-AGSTImplantGainChanceOnAmp	0.15							
+AGSTImplantGainChanceOnAmp	0.05							
+BRENGCooldownDuration	336							
+BRENGTimeLimit	600							
+BRENGPortalRadius	32							
+BRENGStartStage	1							
 #end								
 								
 #magnum_perks								
 Id	Enabled	ModuleId	DepartmentId	IsDepartment	PositionInGraph	Parents	Modifiers	UpgradePrice
-news_department	TRUE	navigation		TRUE	2 0		NewsAnalyticsDepartment + 1	communication_relay communication_relay
-nd_charge_bonus	TRUE	navigation	news_department	FALSE	1 0	news_department	NDSkillChargeBonus + 1	expert_disk expert_disk
-nd_cooldown_time_reduce	TRUE	navigation	news_department	FALSE	3 0	news_department	NDCooldownTimeReduce - 2	communication_relay communication_relay
-nd_reward_points_per_floor	TRUE	navigation	news_department	FALSE	1 1	nd_charge_bonus	NDRewardPointPerFloor + 50	ai_module ledgerBook ai_module ledgerBook
-nd_reputation_bonus	TRUE	navigation	news_department	FALSE	4 0	nd_cooldown_time_reduce	NDReputationBonus + 3	memory_software memory_software
-nd_reputation_bonus_2	TRUE	navigation	news_department	FALSE	0 1	nd_reward_points_per_floor	NDReputationBonus + 3	memory_software memory_software memory_software
-nd_cooldown_time_reduce_2	TRUE	navigation	news_department	FALSE	2 1	nd_reward_points_per_floor	NDCooldownTimeReduce - 2	communication_relay communication_relay communication_relay
-nd_charge_bonus_2	TRUE	navigation	news_department	FALSE	4 1	nd_reputation_bonus	NDSkillChargeBonus + 1	expert_disk expert_disk expert_disk
-nd_reward_points_per_floor_2	TRUE	navigation	news_department	FALSE	3 1	nd_cooldown_time_reduce_2 nd_charge_bonus_2	NDRewardPointPerFloor + 50	ai_module ai_module ledgerBook ledgerBook ledgerBook
-hyperwave_scanner_department	TRUE	navigation		TRUE	3 2	nd_reward_points_per_floor_2	HyperWaveScannerDepartment + 1	geoscanner_device geoscanner_device
-hwsc_scan_floor_bonus	TRUE	navigation	hyperwave_scanner_department	FALSE	2 2	hyperwave_scanner_department	HWSCScanFloorBonus + 1	geoscanner_device geoscanner_device
-hwsc_enemy_floor_bonus	TRUE	navigation	hyperwave_scanner_department	FALSE	4 2	hyperwave_scanner_department	HWSCEnemyFloorBonus - 30	quasi_sensor_device quasi_sensor_device
-hwsc_itemdrop_scanfloor_bonus	TRUE	navigation	hyperwave_scanner_department	FALSE	1 2	hwsc_scan_floor_bonus	HWSCItemDropScanFloorBonus + 100	personalKey personalKey
-hwsc_enemy_floor_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	1 3	hwsc_itemdrop_scanfloor_bonus	HWSCEnemyFloorBonus - 30	quasi_sensor_device quasi_sensor_device quasi_sensor_device
-hwsc_itemdrop_scanfloor_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	2 3	hwsc_enemy_floor_bonus_2	HWSCItemDropScanFloorBonus + 100	personalKey personalKey personalKey
-hwsc_scan_floor_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	3 3	hwsc_itemdrop_scanfloor_bonus_2	HWSCScanFloorBonus + 1	geoscanner_device geoscanner_device
-hwsc_item_tlevel_drop_bonus	TRUE	navigation	hyperwave_scanner_department	FALSE	4 3	hwsc_scan_floor_bonus_2 hwsc_enemy_floor_bonus	HWSCItemLevelDropBonus + 1	electrical_parts_container electrical_parts_container scientific_equipment scientific_equipment
-hwsc_item_tlevel_drop_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	5 3	hwsc_item_tlevel_drop_bonus	HWSCItemLevelDropBonus + 1	electrical_parts_container electrical_parts_container electrical_parts_container scientific_equipment scientific_equipment
-proxycorp_department	TRUE	navigation		TRUE	1 4	hwsc_enemy_floor_bonus_2	ProxyCorpDepartment + 1	expert_disk precious_metals drug_cargo
-prco_corp_inventory	TRUE	navigation	proxycorp_department	FALSE	0 4	proxycorp_department	PRCOAllySquad + 1	engineering_parts_container
-prco_corp_strategy	TRUE	navigation	proxycorp_department	FALSE	2 4	proxycorp_department	PRCOChangeFactionType + 1	expert_disk
-prco_gain_techlevel_bonus	TRUE	navigation	proxycorp_department	FALSE	3 4	prco_corp_strategy	PRCOPostMissionBonusMult + 0.5	research_disk
-prco_item_prodspeed_bonus	TRUE	navigation	proxycorp_department	FALSE	4 4	prco_gain_techlevel_bonus	PRCOStationProduceSpeedPercent + 0.5	construction_equipment
-weaponstation_department	TRUE	engineer		TRUE	4 0		WeaponStationDepartment + 1	weapon_container weapon_container
-armorstation_department	TRUE	engineer		TRUE	1 0		ArmorStationDepartment + 1	armor_container armor_container
-augmentstation_department	TRUE	engineer		TRUE	3 3	wpst_addit_grade_upgrade armst_addit_grade_upgrade	AugmentStationDepartment + 1	robot_parts_container robot_parts_container
-wpst_weapon_upgrade_speed	TRUE	engineer	weaponstation_department	FALSE	3 0	weaponstation_department	WPSTWeaponUpgradeSpeed - 1	weapon_container weapon_container
-wpst_upg_weapon_cost_reduce	TRUE	engineer	weaponstation_department	FALSE	5 0	weaponstation_department	WPSTUpgradeWeaponCostReduce - 1	military_parts_container military_parts_container firearm_repair_kit firearm_repair_kit
-wpst_upg_more_weapons	TRUE	engineer	weaponstation_department	FALSE	3 1	wpst_weapon_upgrade_speed	WPSTUpgradeMoreWeapon + 3	robot_parts_container robot_parts_container
-wpst_upg_weapon_cost_reduce_2	TRUE	engineer	weaponstation_department	FALSE	4 1	wpst_upg_more_weapons	WPSTUpgradeWeaponCostReduce - 1	military_parts_container military_parts_container military_parts_container firearm_repair_kit firearm_repair_kit
-wpst_upg_more_weapons_2	TRUE	engineer	weaponstation_department	FALSE	5 1	wpst_upg_weapon_cost_reduce	WPSTUpgradeMoreWeapon + 6	robot_parts_container robot_parts_container robot_parts_container
-wpst_weapon_upgrade_speed_2	TRUE	engineer	weaponstation_department	FALSE	4 2	wpst_upg_weapon_cost_reduce_2 wpst_weapon_upgrade_speed_3	WPSTWeaponUpgradeSpeed - 3	weapon_container weapon_container weapon_container
-wpst_weapon_upgrade_speed_3	TRUE	engineer	weaponstation_department	FALSE	5 2	wpst_upg_more_weapons_2 wpst_weapon_upgrade_speed_2	WPSTWeaponUpgradeSpeed - 6	weapon_container weapon_container weapon_container weapon_container
-wpst_addit_grade_upgrade	TRUE	engineer	weaponstation_department	FALSE	4 3	wpst_weapon_upgrade_speed_2	WPSTMaxLevelLimit + 1	gunbang_magazine gunbang_magazine gunbang_magazine ai_module ai_module
-armst_upg_more_armors	TRUE	engineer	armorstation_department	FALSE	0 0	armorstation_department	ARMSTUpgradeMoreArmors + 3	robot_parts_container security_clothing_container security_clothing_container
-armst_armor_upgrade_speed	TRUE	engineer	armorstation_department	FALSE	2 0	armorstation_department	ARMSTUpgradeSpeed - 1	armor_container armor_container
-armst_armor_upgrade_speed_2	TRUE	engineer	armorstation_department	FALSE	0 1	armst_upg_more_armors	ARMSTUpgradeSpeed - 3	armor_container armor_container armor_container
-armst_armor_upgrade_speed_3	TRUE	engineer	armorstation_department	FALSE	2 1	armst_armor_upgrade_speed	ARMSTUpgradeSpeed - 6	armor_container armor_container armor_container armor_container
-armst_upg_armor_cost_reduce	TRUE	engineer	armorstation_department	FALSE	1 1	armst_armor_upgrade_speed_2 armst_armor_upgrade_speed_3	ARMSTUpgradeArmorCostReduce - 1	military_parts_container military_parts_container
-armst_upg_more_armors_2	TRUE	engineer	armorstation_department	FALSE	1 2	armst_upg_armor_cost_reduce	ARMSTUpgradeMoreArmors + 8	robot_parts_container robot_parts_container robot_parts_container security_clothing_container security_clothing_container
-armst_upg_armor_cost_reduce_2	TRUE	engineer	armorstation_department	FALSE	1 3	armst_upg_more_armors_2	ARMSTUpgradeArmorCostReduce - 1	military_parts_container military_parts_container military_parts_container
-armst_addit_grade_upgrade	TRUE	engineer	armorstation_department	FALSE	2 3	armst_upg_armor_cost_reduce_2	ARMSTMaxLevelLimit + 1	prototype_schematics prototype_schematics prototype_schematics ai_module ai_module
-augst_augmenic_upgrade_speed	TRUE	engineer	augmentstation_department	FALSE	3 4	augmentstation_department	AGSTImplantGainChanceOnAmp + 0.25	robot_parts_container
-augst_upg_augmenic_cost_reduce	TRUE	engineer	augmentstation_department	FALSE	2 4	augst_augmenic_upgrade_speed	AGSTNoHealthDebuff + 1	military_parts_container engineering_parts_container
-augst_addit_grade_upgrade	TRUE	engineer	augmentstation_department	FALSE	1 4	augst_upg_augmenic_cost_reduce	AGSTDropAugsOnAmp + 1	robot_parts_container
-augst_upg_more_augmentics	TRUE	engineer	augmentstation_department	FALSE	4 4	augst_augmenic_upgrade_speed	AGSTQuasiAugs + 1	military_parts_container engineering_parts_container
-prodline_department	TRUE	supply		TRUE	2 0		ProdlineDepartment + 1	welding_machine_device
-purge_brigade_department	TRUE	supply		TRUE	4 2	prln_magnum_produce_speed_4	PurgeBrigadeDepartment + 1	weapon_container weapon_container armor_container armor_container
-store_constructor_department	TRUE	supply		TRUE	1 4	pubg_bonus_food_meds_2	StoreConstructorDepartment + 1	construction_equipment construction_equipment worker_clothing_container
-prln_magnum_produce_speed	TRUE	supply	prodline_department	FALSE	1 0	prodline_department	PRLNProduceSpeed - 1	welding_machine_device welding_machine_device welding_machine_device
-prln_magnum_produce_speed_2	TRUE	supply	prodline_department	FALSE	3 0	prodline_department	PRLNProduceSpeed - 1	welding_machine_device welding_machine_device welding_machine_device
-prln_produce_item_slot_count	TRUE	supply	prodline_department	FALSE	4 0	prln_magnum_produce_speed_2	PRLNItemSlotCount + 1	engineering_parts_container engineering_parts_container
-prln_produce_queue_slot_count	TRUE	supply	prodline_department	FALSE	5 0	prln_produce_item_slot_count	PRLNQueueSlotCount + 2	construction_equipment construction_equipment packaged_industrial_robot packaged_industrial_robot
-prln_produce_item_slot_count_2	TRUE	supply	prodline_department	FALSE	1 1	prln_magnum_produce_speed	PRLNItemSlotCount + 1	engineering_parts_container engineering_parts_container engineering_parts_container
-prln_magnum_produce_speed_3	TRUE	supply	prodline_department	FALSE	2 1	prln_produce_item_slot_count_2	PRLNProduceSpeed - 1	welding_machine_device welding_machine_device welding_machine_device welding_machine_device
-prln_produce_item_slot_count_3	TRUE	supply	prodline_department	FALSE	3 1	prln_magnum_produce_speed_3	PRLNItemSlotCount + 1	engineering_parts_container engineering_parts_container engineering_parts_container engineering_parts_container
-prln_magnum_produce_speed_4	TRUE	supply	prodline_department	FALSE	4 1	prln_produce_item_slot_count_3 prln_produce_item_slot_count	PRLNProduceSpeed - 1	welding_machine_device welding_machine_device welding_machine_device welding_machine_device welding_machine_device welding_machine_device
-pubg_bonus_resources	TRUE	supply	purge_brigade_department	FALSE	3 2	purge_brigade_department	PUBGBonusResources + 1	worker_clothing_container worker_clothing_container tool_container tool_container
-pubg_bonus_food_meds	TRUE	supply	purge_brigade_department	FALSE	2 2	pubg_bonus_resources	PUBGBonusFoodMeds + 1	worker_clothing_container worker_clothing_container tool_container tool_container
-pubg_bonus_ammo_grenades	TRUE	supply	purge_brigade_department	FALSE	1 2	pubg_bonus_food_meds	PUBGBonusAmmoGrenades + 1	worker_clothing_container worker_clothing_container weapon_container weapon_container
-pubg_bonus_armors_weapons	TRUE	supply	purge_brigade_department	FALSE	0 2	pubg_bonus_ammo_grenades	PUBGBonusArmorWeapons + 1	armor_container armor_container weapon_container weapon_container
-pubg_bonus_food_meds_2	TRUE	supply	purge_brigade_department	FALSE	1 3	pubg_bonus_ammo_grenades pubg_bonus_resources_2	PUBGBonusFoodMeds + 1	worker_clothing_container worker_clothing_container tool_container tool_container tool_container
-pubg_bonus_resources_2	TRUE	supply	purge_brigade_department	FALSE	2 3	pubg_bonus_armors_weapons_2	PUBGBonusResources + 1	worker_clothing_container worker_clothing_container tool_container tool_container tool_container
-pubg_bonus_armors_weapons_2	TRUE	supply	purge_brigade_department	FALSE	3 3	pubg_bonus_ammo_grenades_2	PUBGBonusArmorWeapons + 1	armor_container armor_container armor_container armor_container weapon_container weapon_container weapon_container weapon_container
-pubg_bonus_ammo_grenades_2	TRUE	supply	purge_brigade_department	FALSE	4 3	purge_brigade_department	PUBGBonusAmmoGrenades + 1	worker_clothing_container worker_clothing_container worker_clothing_container weapon_container weapon_container weapon_container
-stcon_disassembly_items_speed	TRUE	supply	store_constructor_department	FALSE	0 4	store_constructor_department	STCONDisassemblyItemsSpeed - 1	scientist_clothing_container scientist_clothing_container scientist_clothing_container
-stcon_more_comps_on_disasm	TRUE	supply	store_constructor_department	FALSE	2 4	store_constructor_department	STCONMoreCompsOnDisassembly + 1	hydraulic_pump hydraulic_pump hydraulic_pump hydraulic_pump
-stcon_disassembly_items_speed_2	TRUE	supply	store_constructor_department	FALSE	3 4	stcon_more_comps_on_disasm	STCONDisassemblyItemsSpeed - 1	scientist_clothing_container scientist_clothing_container scientist_clothing_container scientist_clothing_container
-stcon_more_comps_on_disasm_2	TRUE	supply	store_constructor_department	FALSE	4 4	stcon_disassembly_items_speed_2	STCONMoreCompsOnDisassembly + 1	hydraulic_pump hydraulic_pump hydraulic_pump hydraulic_pump hydraulic_pump hydraulic_pump
-stcon_addit_rnd_comp_on_disasm	TRUE	supply	store_constructor_department	FALSE	5 4	stcon_more_comps_on_disasm_2	STCONAdditMDCompOnDisassembly + 1	construction_equipment construction_equipment construction_equipment construction_equipment construction_equipment construction_equipment construction_equipment
-memdefrag_department	TRUE	research		TRUE	3 0		MemdefragDepartment + 1	scientific_equipment scientific_equipment scientific_equipment scientific_equipment
-morphanal_department	FALSE	research		TRUE	1 2	memdf_perks_count_to_switch	MorphanalDepartment + 1	
-bramengine_department	FALSE	research		TRUE	4 4	memdf_classes_to_modify_3	BramengineDepartment + 1	
-memdf_classes_to_modify	TRUE	research	memdefrag_department	FALSE	2 0	memdefrag_department	MEMDFfClassesToModify + 3	research_disk research_disk research_disk
-memdf_class_upgrade_speed	TRUE	research	memdefrag_department	FALSE	1 0	memdf_classes_to_modify	MEMDFClassUpgradeSpeed - 1	scientist_clothing_container scientist_clothing_container scientist_clothing_container
-memdf_class_upgrade_speed_2	TRUE	research	memdefrag_department	FALSE	2 1	memdf_classes_to_modify	MEMDFClassUpgradeSpeed - 4	scientist_clothing_container scientist_clothing_container scientist_clothing_container scientist_clothing_container scientist_clothing_container
-memdf_perks_count_to_switch	TRUE	research	memdefrag_department	FALSE	1 1	memdf_class_upgrade_speed	MEMDFPerkCountToSwitch + 1	scientific_equipment scientific_equipment chemical_analyzer chemical_analyzer chemical_analyzer
-memdf_perks_count_to_switch_2	TRUE	research	memdefrag_department	FALSE	3 1	memdf_class_upgrade_speed_2	MEMDFPerkCountToSwitch + 2	scientific_equipment scientific_equipment scientific_equipment chemical_analyzer chemical_analyzer chemical_analyzer
-memdf_classes_to_modify_2	TRUE	research	memdefrag_department	FALSE	3 2	memdf_perks_count_to_switch_2	MEMDFfClassesToModify + 6	research_disk research_disk research_disk research_disk
-memdf_perks_count_to_switch_3	TRUE	research	memdefrag_department	FALSE	3 3	memdf_classes_to_modify_2	MEMDFPerkCountToSwitch + 2	scientific_equipment scientific_equipment scientific_equipment scientific_equipment chemical_analyzer chemical_analyzer chemical_analyzer chemical_analyzer
-memdf_classes_to_modify_3	TRUE	research	memdefrag_department	FALSE	4 3	memdf_perks_count_to_switch_3	MEMDFfClassesToModify + 1	research_disk research_disk research_disk research_disk research_disk research_disk
-moranl_pacts_to_modify	FALSE	research	morphanal_department	FALSE	0 2	morphanal_department	MORANIPactsToModify + 1	
-moranl_pact_upgrade_speed	FALSE	research	morphanal_department	FALSE	2 2	morphanal_department	MORANIPactUpgradeSpeed + 1	
-moranl_pact_upgrade_speed_2	FALSE	research	morphanal_department	FALSE	0 3	moranl_pacts_to_modify moranl_pacts_to_modify_2	MORANIPactUpgradeSpeed + 1	
-moranl_pacts_to_modify_2	FALSE	research	morphanal_department	FALSE	1 3	moranl_pacts_to_modify_3	MORANIPactsToModify + 1	
-moranl_pacts_to_modify_3	FALSE	research	morphanal_department	FALSE	2 3	moranl_pact_upgrade_speed	MORANIPactsToModify + 1	
-moranl_pact_addit_props	FALSE	research	morphanal_department	FALSE	0 4	moranl_pact_upgrade_speed_2	MORANIPactAdditProp + 1	
-breng_reduce_reload_duration	FALSE	research	bramengine_department	FALSE	5 4	bramengine_department	BRENGReduceReload + 1	
-breng_reduce_reload_duration_2	FALSE	research	bramengine_department	FALSE	3 4	bramengine_department	BRENGReduceReload + 1	
-breng_reduce_reload_duration_3	FALSE	research	bramengine_department	FALSE	2 4	breng_reduce_reload_duration_2	BRENGReduceReload + 1	
-breng_reduce_reload_duration_4	FALSE	research	bramengine_department	FALSE	1 4	breng_reduce_reload_duration_3	BRENGReduceReload + 1	
-autonomcapsule_department	TRUE	hangar		TRUE	1 0		AutonomCapsuleDepartment + 1	management_unit management_unit
-cargoshuttle_department	TRUE	hangar		TRUE	4 1	aucap_capsule_inventory_size_2 aucap_capsule_charges_count	CargoShuttleDepartment + 1	armor_repair_kit
-tradeshuttle_department	TRUE	hangar		TRUE	3 3	cgsht_shuttle_inventory_size_2	TradeShuttleDepartment + 1	memory_software memory_software memory_software
-aucap_capsule_inventory_size	TRUE	hangar	autonomcapsule_department	FALSE	2 0	autonomcapsule_department	AUCAPCapsuleInventorySize + 2	engineering_repair_kit
-aucap_capsule_restore_speed	TRUE	hangar	autonomcapsule_department	FALSE	3 0	aucap_capsule_inventory_size	AUCAPCapsuleRestoreSpeed - 1	firearm_repair_kit
-aucap_capsule_inventory_size_2	TRUE	hangar	autonomcapsule_department	FALSE	4 0	aucap_capsule_restore_speed	AUCAPCapsuleInventorySize + 2	tech_repair_kit
-aucap_capsule_inventory_size_3	TRUE	hangar	autonomcapsule_department	FALSE	1 1	autonomcapsule_department	AUCAPCapsuleInventorySize + 2	firearm_repair_kit
-aucap_capsule_restore_speed_2	TRUE	hangar	autonomcapsule_department	FALSE	2 1	aucap_capsule_inventory_size_3	AUCAPCapsuleRestoreSpeed - 1	tech_repair_kit
-aucap_capsule_charges_count	TRUE	hangar	autonomcapsule_department	FALSE	3 1	aucap_capsule_restore_speed_2	AUCAPChargesCount + 1	nanorobot_grenade nanorobot_grenade management_unit management_unit
-cgsht_shuttle_inventory_size	TRUE	hangar	cargoshuttle_department	FALSE	4 2	cargoshuttle_department	CGSHSTShuttleInventorySize + 1	engineering_repair_kit tech_repair_kit
-cgsht_shuttle_inventory_size_2	TRUE	hangar	cargoshuttle_department	FALSE	3 2	cgsht_shuttle_inventory_size	CGSHSTShuttleInventorySize + 2	firearm_repair_kit armor_repair_kit
-trdsh_shuttle_move_speed	TRUE	hangar	tradeshuttle_department	FALSE	4 3	tradeshuttle_department	TRDSHShuttleMoveSpeed - 1	darknet_unit darknet_unit precious_metals precious_metals
-trdsh_value_of_shuttle_items	TRUE	hangar	tradeshuttle_department	FALSE	4 4	trdsh_shuttle_move_speed	TRDSHValueOfShuttleItems + 1	ledgerBook ledgerBook darknet_unit darknet_unit
-trdsh_shuttle_restore_speed	TRUE	hangar	tradeshuttle_department	FALSE	2 3	tradeshuttle_department	TRDSHShuttleRestoreSpeed - 1	memory_software memory_software memory_software memory_software
-trdsh_shuttle_move_speed_2	TRUE	hangar	tradeshuttle_department	FALSE	1 3	trdsh_shuttle_restore_speed	TRDSHShuttleMoveSpeed - 1	darknet_unit darknet_unit darknet_unit precious_metals precious_metals
-trdsh_shuttle_restore_speed_2	TRUE	hangar	tradeshuttle_department	FALSE	1 4	trdsh_shuttle_move_speed_2	TRDSHShuttleRestoreSpeed - 1	memory_software memory_software memory_software memory_software
-trdsh_value_of_shuttle_items_2	TRUE	hangar	tradeshuttle_department	FALSE	0 4	trdsh_shuttle_restore_speed_2	TRDSHValueOfShuttleItems + 1	ledgerBook darknet_unit ledgerBook darknet_unit ledgerBook darknet_unit ledgerBook darknet_unit
-trdsh_shuttle_move_speed_3	TRUE	hangar	tradeshuttle_department	FALSE	2 4	trdsh_shuttle_restore_speed_2	TRDSHShuttleMoveSpeed - 1	darknet_unit darknet_unit darknet_unit precious_metals precious_metals precious_metals precious_metals precious_metals
-genomeeditor_department	TRUE	cloning		TRUE	3 0		GenomeEditorDepartment + 1	medical_equipment medical_equipment
-trainingcenter_department	TRUE	cloning		TRUE	0 1	gned_operator_upgrade_speed_2	TrainingCenterDepartment + 1	stationary_turret fire_turret energy_turret
-battleexpcond_department	TRUE	cloning		TRUE	3 4	gned_operators_to_upgrade_4	BattleExpCondDepartment + 1	military_unit military_unit military_unit
-gned_operator_upgrade_speed	TRUE	cloning	genomeeditor_department	FALSE	2 0	genomeeditor_department	GNEDOperatorUpgradeSpeed - 1	organsBox organsBox organsBox organsBox
-gned_operators_to_upgrade	TRUE	cloning	genomeeditor_department	FALSE	1 0	gned_operator_upgrade_speed	GNEDOperatorsToUpgrade + 1	medical_equipment medical_equipment medical_equipment
-gned_operator_upgrade_speed_2	TRUE	cloning	genomeeditor_department	FALSE	1 1	gned_operators_to_upgrade	GNEDOperatorUpgradeSpeed - 3	organsBox organsBox organsBox organsBox organsBox organsBox
-gned_operators_to_upgrade_2	TRUE	cloning	genomeeditor_department	FALSE	3 1	genomeeditor_department	GNEDOperatorsToUpgrade + 3	medical_equipment medical_equipment medical_equipment medical_equipment
-gned_operator_upgrade_speed_3	TRUE	cloning	genomeeditor_department	FALSE	4 1	gned_operators_to_upgrade_2	GNEDOperatorUpgradeSpeed - 4	organsBox organsBox organsBox
-gned_operators_to_upgrade_3	TRUE	cloning	genomeeditor_department	FALSE	4 2	gned_operator_upgrade_speed_3	GNEDOperatorsToUpgrade + 4	medical_equipment medical_equipment medical_equipment biomass_tank biomass_tank biomass_tank biomass_tank
-gned_operator_upgrade_speed_4	TRUE	cloning	genomeeditor_department	FALSE	4 3	gned_operators_to_upgrade_3	GNEDOperatorUpgradeSpeed - 4	organsBox organsBox organsBox
-gned_operators_to_upgrade_4	TRUE	cloning	genomeeditor_department	FALSE	3 3	gned_operator_upgrade_speed_4	GNEDOperatorsToUpgrade + 6	medical_equipment medical_equipment medical_equipment biomass_tank biomass_tank biomass_tank biomass_tank
-trcn_operators_count_limit	TRUE	cloning	trainingcenter_department	FALSE	0 2	trainingcenter_department	TRCNOperatorsCountLimit + 1	gunbang_magazine gunbang_magazine gunbang_magazine gunbang_magazine gunbang_magazine
-trcn_operators_count_limit_2	TRUE	cloning	trainingcenter_department	FALSE	0 3	trcn_operators_count_limit	TRCNOperatorsCountLimit + 3	gunbang_magazine gunbang_magazine gunbang_magazine gunbang_magazine gunbang_magazine surgicalKit
-trcn_perk_upgrade_level_limit	TRUE	cloning	trainingcenter_department	FALSE	1 2	trcn_operators_count_limit	TRCNPerkUpgradeLevel + 1	drug_cargo drug_cargo drug_cargo drug_cargo drug_cargo
-trcn_perk_upgrade_level_limit_2	TRUE	cloning	trainingcenter_department	FALSE	1 3	trcn_perk_upgrade_level_limit	TRCNPerkUpgradeLevel + 1	drug_cargo drug_cargo drug_cargo drug_cargo drug_cargo entertainment_software entertainment_software
-btexc_rank_uprade_limit	TRUE	cloning	battleexpcond_department	FALSE	2 4	battleexpcond_department	BTEXCRankUpgradeLimit + 1	military_unit military_unit military_unit military_unit
-btexc_rank_uprade_limit_2	TRUE	cloning	battleexpcond_department	FALSE	1 4	btexc_rank_uprade_limit	BTEXCRankUpgradeLimit + 1	military_unit military_unit military_unit military_unit military_unit
-btexc_rank_uprade_limit_3	TRUE	cloning	battleexpcond_department	FALSE	0 4	btexc_rank_uprade_limit_2	BTEXCRankUpgradeLimit + 2	military_unit military_unit military_unit military_unit military_unit military_unit
-btexc_kill_count_to_ugprade	TRUE	cloning	battleexpcond_department	FALSE	4 4	battleexpcond_department	BTEXCKillCountToUpgrade - 10	automap automap automap automap personalKey personalKey personalKey personalKey
-btexc_kill_count_to_ugprade_2	TRUE	cloning	battleexpcond_department	FALSE	5 4	btexc_kill_count_to_ugprade	BTEXCKillCountToUpgrade - 30	automap automap automap automap personalKey personalKey personalKey personalKey management_unit management_unit management_unit management_unit
+news_department	TRUE	navigation		TRUE	3 0		NewsAnalyticsDepartment + 1	communication_relay military_unit
+nd_charge_bonus	TRUE	navigation	news_department	FALSE	4 0	news_department	NDSkillChargeBonus + 1	darknet_unit
+nd_cooldown_time_reduce	TRUE	navigation	news_department	FALSE	2 1	nd_reward_points_per_floor nd_reputation_bonus	NDCooldownTimeReduce - 48	expert_disk electrical_parts_container
+nd_reward_points_per_floor	TRUE	navigation	news_department	FALSE	3 1	news_department	NDRewardPointPerFloor + 200	management_unit luxury_food_container
+nd_reputation_bonus	TRUE	navigation	news_department	FALSE	2 0	news_department	NDReputationBonus + 3	alcogol_container quasi_sensor_device
+nd_reputation_bonus_2	TRUE	navigation	news_department	FALSE	1 0	nd_reputation_bonus	NDReputationBonus + 5	alcogol_container luxury_food_container precious_metals
+nd_cooldown_time_reduce_2	TRUE	navigation	news_department	FALSE	1 1	nd_cooldown_time_reduce	NDCooldownTimeReduce - 72	expert_disk automap
+nd_charge_bonus_2	TRUE	navigation	news_department	FALSE	5 0	nd_charge_bonus	NDSkillChargeBonus + 2	darknet_unit electrical_parts_container
+nd_reward_points_per_floor_2	TRUE	navigation	news_department	FALSE	4 1	nd_reward_points_per_floor	NDRewardPointPerFloor + 400	communication_relay ai_module
+hyperwave_scanner_department	TRUE	navigation		TRUE	2 2	nd_cooldown_time_reduce	HyperWaveScannerDepartment + 1	communication_relay geoscanner_device automap
+hwsc_scan_floor_bonus	TRUE	navigation	hyperwave_scanner_department	FALSE	0 3	hwsc_itemdrop_scanfloor_bonus	HWSCScanFloorBonus + 1	expert_disk geoscanner_device
+hwsc_enemy_floor_bonus	TRUE	navigation	hyperwave_scanner_department	FALSE	1 2	hyperwave_scanner_department	HWSCEnemyFloorBonus - 150	entertainment_software military_unit
+hwsc_itemdrop_scanfloor_bonus	TRUE	navigation	hyperwave_scanner_department	FALSE	0 2	hwsc_enemy_floor_bonus	HWSCItemDropScanFloorBonus + 150	personalKey management_unit
+hwsc_enemy_floor_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	2 3	hwsc_scan_floor_bonus_2	HWSCEnemyFloorBonus - 200	entertainment_software drug_cargo
+hwsc_itemdrop_scanfloor_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	3 2	hyperwave_scanner_department	HWSCItemDropScanFloorBonus + 250	personalKey ai_module
+hwsc_scan_floor_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	3 3	hwsc_itemdrop_scanfloor_bonus_2	HWSCScanFloorBonus + 1	expert_disk geoscanner_device automap
+hwsc_item_tlevel_drop_bonus	TRUE	navigation	hyperwave_scanner_department	FALSE	4 2	hwsc_itemdrop_scanfloor_bonus_2	HWSCItemLevelDropBonus + 1	darknet_unit quasi_sensor_device
+hwsc_item_tlevel_drop_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	4 3	hwsc_item_tlevel_drop_bonus	HWSCItemLevelDropBonus + 1	darknet_unit ai_module
+proxycorp_department	TRUE	navigation		TRUE	2 4	hwsc_enemy_floor_bonus_2	ProxyCorpDepartment + 1	military_unit personalKey precious_metals security_clothing_container weapon_container armor_container
+prco_corp_inventory	TRUE	navigation	proxycorp_department	FALSE	1 4	proxycorp_department	PRCOAllySquad + 1	security_clothing_container weapon_container armor_container management_unit
+prco_corp_strategy	TRUE	navigation	proxycorp_department	FALSE	4 4	prco_gain_techlevel_bonus	PRCOChangeFactionType + 1	management_unit darknet_unit entertainment_software quasi_sensor_device
+prco_gain_techlevel_bonus	TRUE	navigation	proxycorp_department	FALSE	3 4	proxycorp_department	PRCOPostMissionBonusMult + 0.5	entertainment_software communication_relay ai_module drug_cargo
+prco_item_prodspeed_bonus	TRUE	navigation	proxycorp_department	FALSE	5 4	prco_corp_strategy	PRCOStationProduceSpeedPercent + 0.5	management_unit expert_disk precious_metals entertainment_software drug_cargo defibrillator_device
+weaponstation_department	TRUE	engineer		TRUE	4 0		WeaponStationDepartment + 1	weapon_container prototype_schematics
+armorstation_department	TRUE	engineer		TRUE	0 0		ArmorStationDepartment + 1	armor_container prototype_schematics
+augmentstation_department	TRUE	engineer		TRUE	2 3	armst_armor_upgrade_speed_2 wpst_weapon_upgrade_speed_2	AugmentStationDepartment + 1	expert_disk welding_machine_device robot_parts_container
+wpst_weapon_upgrade_speed	TRUE	engineer	weaponstation_department	FALSE	3 0	weaponstation_department	WPSTWeaponUpgradeSpeed - 3	gunbang_magazine worker_clothing_container tool_container
+wpst_upg_weapon_cost_reduce	TRUE	engineer	weaponstation_department	FALSE	3 2	wpst_upg_more_weapons	WPSTUpgradeWeaponCostReduce - 1	weapon_container engineering_parts_container
+wpst_upg_more_weapons	TRUE	engineer	weaponstation_department	FALSE	3 1	wpst_weapon_upgrade_speed	WPSTUpgradeMoreWeapon + 2	ledgerBook military_parts_container
+wpst_upg_weapon_cost_reduce_2	TRUE	engineer	weaponstation_department	FALSE	4 2	wpst_upg_weapon_cost_reduce	WPSTUpgradeWeaponCostReduce - 2	weapon_container welding_machine_device prototype_schematics
+wpst_upg_more_weapons_2	TRUE	engineer	weaponstation_department	FALSE	4 1	wpst_upg_more_weapons	WPSTUpgradeMoreWeapon + 4	ledgerBook expert_disk military_parts_container
+wpst_weapon_upgrade_speed_2	TRUE	engineer	weaponstation_department	FALSE	3 3	wpst_upg_weapon_cost_reduce	WPSTWeaponUpgradeSpeed - 5	gunbang_magazine engineering_parts_container construction_equipment
+wpst_weapon_upgrade_speed_3	TRUE	engineer	weaponstation_department	FALSE	4 3	wpst_weapon_upgrade_speed_2	WPSTWeaponUpgradeSpeed - 7	gunbang_magazine welding_machine_device robot_parts_container
+wpst_addit_grade_upgrade	TRUE	engineer	weaponstation_department	FALSE	4 4	wpst_weapon_upgrade_speed_3	WPSTMaxLevelLimit + 1	weapon_container military_parts_container research_disk scientific_equipment
+armst_upg_more_armors	TRUE	engineer	armorstation_department	FALSE	1 1	armst_armor_upgrade_speed	ARMSTUpgradeMoreArmors + 4	ledgerBook military_parts_container
+armst_armor_upgrade_speed	TRUE	engineer	armorstation_department	FALSE	1 0	armorstation_department	ARMSTUpgradeSpeed - 4	ore_cargo worker_clothing_container tool_container
+armst_armor_upgrade_speed_2	TRUE	engineer	armorstation_department	FALSE	1 3	armst_upg_armor_cost_reduce	ARMSTUpgradeSpeed - 5	ore_cargo engineering_parts_container construction_equipment
+armst_armor_upgrade_speed_3	TRUE	engineer	armorstation_department	FALSE	0 3	armst_armor_upgrade_speed_2	ARMSTUpgradeSpeed - 8	ore_cargo welding_machine_device robot_parts_container
+armst_upg_armor_cost_reduce	TRUE	engineer	armorstation_department	FALSE	1 2	armst_upg_more_armors	ARMSTUpgradeArmorCostReduce - 1	armor_container engineering_parts_container
+armst_upg_more_armors_2	TRUE	engineer	armorstation_department	FALSE	0 1	armst_upg_more_armors	ARMSTUpgradeMoreArmors + 8	ledgerBook expert_disk military_parts_container
+armst_upg_armor_cost_reduce_2	TRUE	engineer	armorstation_department	FALSE	0 2	armst_upg_armor_cost_reduce	ARMSTUpgradeArmorCostReduce - 2	armor_container welding_machine_device prototype_schematics
+armst_addit_grade_upgrade	TRUE	engineer	armorstation_department	FALSE	0 4	armst_armor_upgrade_speed_3	ARMSTMaxLevelLimit + 1	armor_container military_parts_container research_disk scientific_equipment
+augst_augmenic_upgrade_speed	TRUE	engineer	augmentstation_department	FALSE	3 4	augst_addit_grade_upgrade	AGSTImplantGainChanceOnAmp + 0.15	expert_disk engineering_parts_container mining_equipment medical_equipment
+augst_upg_augmenic_cost_reduce	TRUE	engineer	augmentstation_department	FALSE	1 4	augst_addit_grade_upgrade	AGSTNoHealthDebuff + 1	precious_metals tool_container construction_equipment
+augst_addit_grade_upgrade	TRUE	engineer	augmentstation_department	FALSE	2 4	augmentstation_department	AGSTDropAugsOnAmp + 1	expert_disk research_disk defibrillator_device
+augst_upg_more_augmentics	TRUE	engineer	augmentstation_department	FALSE	2 2	augmentstation_department	AGSTQuasiAugs + 1	quasisamples quasiresearch_disk scientific_equipment
+prodline_department	TRUE	supply		TRUE	1 0		ProdlineDepartment + 1	welding_machine_device
+purge_brigade_department	TRUE	supply		TRUE	2 2	prln_produce_queue_slot_count	PurgeBrigadeDepartment + 1	ledgerBook miner_clothing_container tool_container
+store_constructor_department	TRUE	supply		TRUE	3 3	pubg_bonus_armors_weapons	StoreConstructorDepartment + 1	welding_machine_device mining_equipment
+pubg_fridge_store	TRUE	supply	purge_brigade_department	FALSE	5 2	pubg_bonus_food_meds	PUBGFridge + 1	prototype_schematics construction_equipment water_container
+prln_magnum_produce_speed	TRUE	supply	prodline_department	FALSE	1 1	prodline_department	PRLNProduceSpeed - 2	regular_clothing_container hydraulic_pump
+prln_magnum_produce_speed_2	TRUE	supply	prodline_department	FALSE	0 1	prln_magnum_produce_speed	PRLNProduceSpeed - 4	worker_clothing_container tool_container
+prln_produce_item_slot_count	TRUE	supply	prodline_department	FALSE	2 0	prodline_department	PRLNItemSlotCount + 1	gunbang_magazine ore_cargo
+prln_produce_queue_slot_count	TRUE	supply	prodline_department	FALSE	2 1	prln_magnum_produce_speed prln_produce_item_slot_count	PRLNQueueSlotCount + 2	ledgerBook welding_machine_device robot_parts_container
+prln_produce_item_slot_count_2	TRUE	supply	prodline_department	FALSE	3 0	prln_produce_item_slot_count	PRLNItemSlotCount + 1	gunbang_magazine hydraulic_pump
+prln_magnum_produce_speed_3	TRUE	supply	prodline_department	FALSE	0 2	prln_magnum_produce_speed_2	PRLNProduceSpeed - 8	engineering_parts_container military_parts_container construction_equipment
+prln_produce_item_slot_count_3	TRUE	supply	prodline_department	FALSE	4 0	prln_produce_item_slot_count_2	PRLNItemSlotCount + 1	military_unit ore_cargo robot_parts_container prototype_schematics
+prln_magnum_produce_speed_4	TRUE	supply	prodline_department	FALSE	0 3	prln_magnum_produce_speed_3	PRLNProduceSpeed - 8	engineering_parts_container military_parts_container robot_parts_container prototype_schematics
+pubg_bonus_resources	TRUE	supply	purge_brigade_department	FALSE	4 4	pubg_bonus_armors_weapons	PUBGBonusResources + 1	ledgerBook robot_resurrect_device welding_machine_device
+pubg_bonus_food_meds	TRUE	supply	purge_brigade_department	FALSE	4 2	pubg_bonus_ammo_grenades	PUBGBonusFoodMeds + 2	regular_clothing_container chemical_analyzer
+pubg_bonus_ammo_grenades	TRUE	supply	purge_brigade_department	FALSE	3 2	purge_brigade_department	PUBGBonusAmmoGrenades + 2	security_clothing_container automap
+pubg_bonus_armors_weapons	TRUE	supply	purge_brigade_department	FALSE	4 3	pubg_bonus_food_meds	PUBGBonusArmorWeapons + 1	security_clothing_container military_unit
+pubg_bonus_food_meds_2	TRUE	supply	purge_brigade_department	FALSE	4 1	pubg_bonus_food_meds	PUBGBonusFoodMeds + 4	miner_clothing_container tool_container chemical_analyzer
+pubg_bonus_resources_2	TRUE	supply	purge_brigade_department	FALSE	5 4	pubg_bonus_resources	PUBGBonusResources + 2	ledgerBook robot_resurrect_device mining_equipment
+pubg_bonus_armors_weapons_2	TRUE	supply	purge_brigade_department	FALSE	5 3	pubg_bonus_armors_weapons	PUBGBonusArmorWeapons + 2	security_clothing_container military_unit automap
+pubg_bonus_ammo_grenades_2	TRUE	supply	purge_brigade_department	FALSE	3 1	pubg_bonus_ammo_grenades	PUBGBonusAmmoGrenades + 4	gunbang_magazine security_clothing_container automap
+stcon_disassembly_items_speed	TRUE	supply	store_constructor_department	FALSE	2 3	store_constructor_department	STCONDisassemblyItemsSpeed - 12	engineering_parts_container worker_clothing_container
+stcon_more_comps_on_disasm	TRUE	supply	store_constructor_department	FALSE	2 4	stcon_disassembly_items_speed	STCONMoreCompsOnDisassembly + 1	gunbang_magazine robot_resurrect_device robot_parts_container chemical_analyzer
+stcon_disassembly_items_speed_2	TRUE	supply	store_constructor_department	FALSE	1 3	stcon_disassembly_items_speed	STCONDisassemblyItemsSpeed - 36	engineering_parts_container welding_machine_device hydraulic_pump chemical_analyzer
+stcon_more_comps_on_disasm_2	TRUE	supply	store_constructor_department	FALSE	0 4	stcon_addit_rnd_comp_on_disasm	STCONMoreCompsOnDisassembly + 1	gunbang_magazine hydraulic_pump robot_parts_container chemical_analyzer
+stcon_addit_rnd_comp_on_disasm	TRUE	supply	store_constructor_department	FALSE	1 4	stcon_disassembly_items_speed_2 stcon_more_comps_on_disasm	STCONAdditMDCompOnDisassembly + 1	ledgerBook prototype_schematics mining_equipment chemical_analyzer
+memdefrag_department	TRUE	research		TRUE	3 0		MemdefragDepartment + 1	scientific_equipment expert_disk
+morphanal_department	FALSE	research		TRUE	1 1	memdf_classes_to_modify	MorphanalDepartment + 1	
+bramengine_department	TRUE	research		TRUE	4 2	memdf_classes_to_modify_2	BramengineDepartment + 1	phase_bomb scientific_equipment construction_equipment quasiresearch_disk research_disk darknet_unit
+memdf_classes_to_modify	TRUE	research	memdefrag_department	FALSE	2 1	memdf_perks_count_to_switch	MEMDFfClassesToModify + 2	personalKey memory_software
+memdf_class_upgrade_speed	TRUE	research	memdefrag_department	FALSE	3 1	memdf_classes_to_modify	MEMDFClassUpgradeSpeed - 4	chemical_analyzer entertainment_software
+memdf_class_upgrade_speed_2	TRUE	research	memdefrag_department	FALSE	4 1	memdf_class_upgrade_speed	MEMDFClassUpgradeSpeed - 12	medical_equipment military_unit
+memdf_perks_count_to_switch	TRUE	research	memdefrag_department	FALSE	2 0	memdefrag_department	MEMDFPerkCountToSwitch + 1	research_disk memory_software
+memdf_perks_count_to_switch_2	TRUE	research	memdefrag_department	FALSE	1 0	memdf_perks_count_to_switch	MEMDFPerkCountToSwitch + 1	ai_module military_unit
+memdf_classes_to_modify_2	TRUE	research	memdefrag_department	FALSE	3 2	memdf_class_upgrade_speed	MEMDFfClassesToModify + 3	electrical_parts_container military_unit
+memdf_perks_count_to_switch_3	TRUE	research	memdefrag_department	FALSE	0 0	memdf_perks_count_to_switch_2	MEMDFPerkCountToSwitch + 2	scientific_equipment darknet_unit
+memdf_classes_to_modify_3	TRUE	research	memdefrag_department	FALSE	3 3	memdf_classes_to_modify_2	MEMDFfClassesToModify + 7	scientific_equipment military_unit
+moranl_pacts_to_modify	FALSE	research	morphanal_department	FALSE	1 2	morphanal_department	MORANIPactsToModify + 1	
+moranl_pact_upgrade_speed	FALSE	research	morphanal_department	FALSE	2 2	moranl_pacts_to_modify	MORANIPactUpgradeSpeed + 1	
+moranl_pact_upgrade_speed_2	FALSE	research	morphanal_department	FALSE	2 3	moranl_pact_upgrade_speed	MORANIPactUpgradeSpeed + 1	
+moranl_pacts_to_modify_2	FALSE	research	morphanal_department	FALSE	0 2	moranl_pacts_to_modify	MORANIPactsToModify + 1	
+moranl_pacts_to_modify_3	FALSE	research	morphanal_department	FALSE	0 3	moranl_pacts_to_modify_2	MORANIPactsToModify + 1	
+moranl_pact_addit_props	FALSE	research	morphanal_department	FALSE	1 3	moranl_pacts_to_modify_3 moranl_pact_upgrade_speed_2	MORANIPactAdditProp + 1	
+breng_reduce_cooldown_duration	TRUE	research	bramengine_department	FALSE	5 2	bramengine_department	BRENGCooldownDuration - 168	construction_equipment tool_container scientist_clothing_container precious_metals expert_disk darknet_unit
+breng_time_limit_bonus	TRUE	research	bramengine_department	FALSE	4 3	bramengine_department	BRENGTimeLimit + 400	drug_cargo medical_equipment prototype_schematics electrical_parts_container quasisamples entertainment_software
+breng_portal_precision	TRUE	research	bramengine_department	FALSE	4 4	breng_time_limit_bonus	BRENGPortalRadius - 12	geoscanner_device quasi_sensor_device quasiresearch_disk prototype_schematics ai_module expert_disk
+breng_start_stage	TRUE	research	bramengine_department	FALSE	5 3	breng_time_limit_bonus	BRENGStartStage + 3	scientific_equipment quasi_sensor_device prototype_schematics electrical_parts_container quasisamples memory_software
+autonomcapsule_department	TRUE	hangar		TRUE	0 0		AutonomCapsuleDepartment + 1	ai_module memory_software
+cargoshuttle_department	TRUE	hangar		TRUE	3 4	trdsh_value_of_shuttle_items	CargoShuttleDepartment + 1	geoscanner_device automap quasi_sensor_device personalKey management_unit
+tradeshuttle_department	TRUE	hangar		TRUE	2 2	aucap_capsule_inventory_size_2	TradeShuttleDepartment + 1	ledgerBook ai_module precious_metals
+aucap_capsule_inventory_size	TRUE	hangar	autonomcapsule_department	FALSE	1 1	aucap_capsule_restore_speed	AUCAPCapsuleInventorySize + 1	engineering_parts_container robot_parts_container robot_resurrect_device
+aucap_capsule_restore_speed	TRUE	hangar	autonomcapsule_department	FALSE	1 0	autonomcapsule_department	AUCAPCapsuleRestoreSpeed - 24	ledgerBook mining_equipment
+aucap_capsule_inventory_size_2	TRUE	hangar	autonomcapsule_department	FALSE	2 1	aucap_capsule_inventory_size	AUCAPCapsuleInventorySize + 1	engineering_parts_container robot_parts_container robot_resurrect_device
+aucap_capsule_inventory_size_3	TRUE	hangar	autonomcapsule_department	FALSE	3 1	aucap_capsule_inventory_size_2	AUCAPCapsuleInventorySize + 2	electrical_parts_container robot_parts_container geoscanner_device
+aucap_capsule_restore_speed_2	TRUE	hangar	autonomcapsule_department	FALSE	1 2	aucap_capsule_inventory_size	AUCAPCapsuleRestoreSpeed - 48	management_unit mining_equipment automap
+aucap_capsule_charges_count	TRUE	hangar	autonomcapsule_department	FALSE	0 1	autonomcapsule_department	AUCAPChargesCount + 3	electrical_parts_container communication_relay
+cgsht_shuttle_inventory_size	TRUE	hangar	cargoshuttle_department	FALSE	2 4	cargoshuttle_department	CGSHSTShuttleInventorySize + 1	welding_machine_device engineering_parts_container mining_equipment ore_cargo ledgerBook
+cgsht_shuttle_inventory_size_2	TRUE	hangar	cargoshuttle_department	FALSE	1 4	cgsht_shuttle_inventory_size	CGSHSTShuttleInventorySize + 2	welding_machine_device engineering_parts_container electrical_parts_container hydraulic_pump ledgerBook
+trdsh_shuttle_move_speed	TRUE	hangar	tradeshuttle_department	FALSE	3 2	tradeshuttle_department	TRDSHShuttleMoveSpeed - 12	engineering_parts_container automap
+trdsh_value_of_shuttle_items	TRUE	hangar	tradeshuttle_department	FALSE	3 3	trdsh_shuttle_move_speed	TRDSHValueOfShuttleItems + 50	ledgerBook management_unit quasi_sensor_device
+trdsh_shuttle_restore_speed	TRUE	hangar	tradeshuttle_department	FALSE	4 2	trdsh_shuttle_move_speed	TRDSHShuttleRestoreSpeed - 48	ai_module communication_relay
+trdsh_shuttle_move_speed_2	TRUE	hangar	tradeshuttle_department	FALSE	5 2	trdsh_shuttle_restore_speed	TRDSHShuttleMoveSpeed - 24	hydraulic_pump robot_parts_container robot_resurrect_device
+trdsh_shuttle_restore_speed_2	TRUE	hangar	tradeshuttle_department	FALSE	5 4	trdsh_value_of_shuttle_items_2	TRDSHShuttleRestoreSpeed - 72	ai_module communication_relay management_unit
+trdsh_value_of_shuttle_items_2	TRUE	hangar	tradeshuttle_department	FALSE	5 3	trdsh_shuttle_move_speed_2	TRDSHValueOfShuttleItems + 100	personalKey management_unit geoscanner_device
+trdsh_shuttle_move_speed_3	TRUE	hangar	tradeshuttle_department	FALSE	4 3	trdsh_value_of_shuttle_items_2	TRDSHShuttleMoveSpeed - 36	welding_machine_device mining_equipment electrical_parts_container
+genomeeditor_department	TRUE	cloning		TRUE	2 0		GenomeEditorDepartment + 1	medical_equipment biomass_tank
+trainingcenter_department	TRUE	cloning		TRUE	1 1	gned_operator_upgrade_speed	TrainingCenterDepartment + 1	management_unit gunbang_magazine security_clothing_container
+battleexpcond_department	TRUE	cloning		TRUE	3 1	gned_operator_upgrade_speed	BattleExpCondDepartment + 1	management_unit security_clothing_container
+gned_operator_upgrade_speed	TRUE	cloning	genomeeditor_department	FALSE	2 1	genomeeditor_department	GNEDOperatorUpgradeSpeed - 4	chemical_analyzer medical_components biomass_tank
+gned_operators_to_upgrade	TRUE	cloning	genomeeditor_department	FALSE	2 2	gned_operator_upgrade_speed	GNEDOperatorsToUpgrade + 2	medical_equipment defibrillator_device biomass_tank
+gned_operator_upgrade_speed_2	TRUE	cloning	genomeeditor_department	FALSE	3 2	gned_operators_to_upgrade	GNEDOperatorUpgradeSpeed - 6	scientific_equipment research_disk organsBox
+gned_operators_to_upgrade_2	TRUE	cloning	genomeeditor_department	FALSE	2 3	gned_operators_to_upgrade	GNEDOperatorsToUpgrade + 3	medical_equipment hydraulic_pump research_disk
+gned_operator_upgrade_speed_3	TRUE	cloning	genomeeditor_department	FALSE	2 4	gned_operators_to_upgrade_2	GNEDOperatorUpgradeSpeed - 6	scientific_equipment hydraulic_pump organsBox memory_software
+gned_operators_to_upgrade_3	TRUE	cloning	genomeeditor_department	FALSE	3 3	gned_operators_to_upgrade_2	GNEDOperatorsToUpgrade + 4	medical_equipment hydraulic_pump organsBox pills_steroids
+gned_operator_upgrade_speed_4	TRUE	cloning	genomeeditor_department	FALSE	3 4	gned_operator_upgrade_speed_3	GNEDOperatorUpgradeSpeed - 8	scientific_equipment medical_equipment drug_cargo darknet_unit
+gned_operators_to_upgrade_4	TRUE	cloning	genomeeditor_department	FALSE	1 4	gned_operator_upgrade_speed_3	GNEDOperatorsToUpgrade + 7	medical_equipment drug_cargo chemical_analyzer darknet_unit
+trcn_operators_count_limit	TRUE	cloning	trainingcenter_department	FALSE	0 1	trainingcenter_department	TRCNOperatorsCountLimit + 2	memory_software military_parts_container security_clothing_container
+trcn_operators_count_limit_2	TRUE	cloning	trainingcenter_department	FALSE	0 2	trcn_operators_count_limit	TRCNOperatorsCountLimit + 3	memory_software darknet_unit weapon_container armor_container
+trcn_perk_upgrade_level_limit	TRUE	cloning	trainingcenter_department	FALSE	1 2	trainingcenter_department	TRCNPerkUpgradeLevel + 1	entertainment_software gunbang_magazine chemical_analyzer
+trcn_perk_upgrade_level_limit_2	TRUE	cloning	trainingcenter_department	FALSE	1 3	trcn_perk_upgrade_level_limit	TRCNPerkUpgradeLevel + 1	entertainment_software gunbang_magazine pills_steroids defibrillator_device
+btexc_rank_uprade_limit	TRUE	cloning	battleexpcond_department	FALSE	4 1	battleexpcond_department	BTEXCRankUpgradeLimit + 1	defibrillator_device gunbang_magazine memory_software
+btexc_rank_uprade_limit_2	TRUE	cloning	battleexpcond_department	FALSE	4 2	btexc_rank_uprade_limit	BTEXCRankUpgradeLimit + 2	defibrillator_device gunbang_magazine entertainment_software communication_relay
+btexc_rank_uprade_limit_3	TRUE	cloning	battleexpcond_department	FALSE	4 3	btexc_rank_uprade_limit_2	BTEXCRankUpgradeLimit + 1	defibrillator_device darknet_unit memory_software quasisamples
+btexc_kill_count_to_ugprade	TRUE	cloning	battleexpcond_department	FALSE	5 1	btexc_rank_uprade_limit	BTEXCKillCountToUpgrade - 10	entertainment_software medical_components
+btexc_kill_count_to_ugprade_2	TRUE	cloning	battleexpcond_department	FALSE	5 2	btexc_kill_count_to_ugprade	BTEXCKillCountToUpgrade - 20	darknet_unit security_clothing_container drug_cargo
 #end								
 								
 #magnum_projects_params								
@@ -240,14 +244,14 @@ boots_resist_cold	ResistSheet	ResistCold	Boots	Integer	0	999	2	ui.resist.cold.to
 boots_max_durability	MaxDurability	Integer	Boots	Integer	1	999	10	tooltip.Condition
 boots_weight	Weight	Float	Boots	Float0_0	0.1	999	-0.2	tooltip.ItemWeight
 mercenary_health	Health	Integer	Mercenary	Integer		999	10	tooltip.Health
-mercenary_pain_threshold	PainThresholdLimit	Integer	Mercenary	Integer	1	999	1	ui.property.MaxPainThreshold
+mercenary_pain_threshold	PainThresholdLimit	Integer	Mercenary	Integer	1	999	2	ui.property.MaxPainThreshold
 mercenary_starvation	StarvationLimit	Integer	Mercenary	Integer	1	9999	400	ui.property.StarvationLimit
 mercenary_talent	TalentPerkId	Talent	Mercenary	None				
 mercenary_dodge	Dodge	Float	Mercenary	Percent	0	1	0.03	ui.property.DodgeChance
 mercenary_los	Los	Integer	Mercenary	Integer	1	10	1	tooltip.SightRange
 mercenary_range_accuracy	RangeAccuracy	Float	Mercenary	Percent	0	1	0.03	tooltip.RangeAccuracy
-mercenary_melee_accuracy	MeleeAccuracy	Float	Mercenary	Percent	0	1	0.03	tooltip.MeleeAccuracy
-mercenary_melee_damage	MeleeDamage	Damage	Mercenary	Damage		999	2	tooltip.MeleeDamage
+mercenary_melee_accuracy	MeleeAccuracy	Float	Mercenary	Percent	0	1	0.05	tooltip.MeleeAccuracy
+mercenary_melee_damage	MeleeDamage	Damage	Mercenary	Damage		999	3	tooltip.MeleeDamage
 mercenary_melee_critdamage	MeleeDamage	CritDamage	Mercenary	Percent		999	0.1	tooltip.CritDamage
 mercenaryclass_perk0	PerkIds	Perk0	MercenaryClass	None				
 mercenaryclass_perk1	PerkIds	Perk1	MercenaryClass	None				
@@ -261,10 +265,21 @@ mercenaryclass_perk5	PerkIds	Perk5	MercenaryClass	None
 ProjectType	ItemsGrades	ModifyLevelLimit						
 RangeWeapon	weapon_parts 1 spring 3 itemChip 7	10						
 MeleeWeapon	blunt_parts 1 pierce_parts 3 itemChip 7	10						
-Helmet	rubber 1 armor_plates 3 itemChip 7	10						
-Armor	rubber 1 armor_plates 3 itemChip 7	10						
-Leggings	rubber 1 armor_plates 3 itemChip 7	10						
-Boots	rubber 1 armor_plates 3 itemChip 7	10						
+Helmet	plastic 1 armor_plates 3 itemChip 7	10						
+Armor	plastic 1 armor_plates 3 itemChip 7	10						
+Leggings	plastic 1 armor_plates 3 itemChip 7	10						
+Boots	plastic 1 armor_plates 3 itemChip 7	10						
 Mercenary	merkUSB 1 organsBox 3 biomass_tank 6 medical_components 21	-1						
 MercenaryClass	classUSB 1 memory_software 3 research_disk 6 ai_module 21	-1						
+#end								
+								
+#cargotabs								
+Id	ExcludeFilter	IncludeMeleeWeapon	IncludeRangeWeapon	IncludeToSort				
+0	Weapon ThrowableWeapon Helmet Armor Leggings Boots Backpack Vest Ammo Food Drink Alcohol Pills Syringe Medpack Dressing RepairKit Mine Grenade QuasiArtefact Data Blueprint QuestItem	FALSE	FALSE	TRUE				
+1	Helmet Armor Leggings Boots Backpack Vest Food Drink Alcohol Pills Syringe Medpack Dressing Parts RepairKit MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Turret Cyborg QuasiArtefact QuasiPact QuasiOrgan Data Blueprint Organ QuestItem BioAug CyberneticAug QuasiAug	TRUE	TRUE	TRUE				
+2	Weapon ThrowableWeapon Ammo Food Drink Alcohol Pills Syringe Medpack Dressing Parts MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Turret Cyborg Mine Grenade QuasiArtefact QuasiPact QuasiOrgan Data Blueprint Organ QuestItem BioAug CyberneticAug QuasiAug	FALSE	FALSE	TRUE				
+3	Weapon ThrowableWeapon Helmet Armor Leggings Boots Backpack Vest Ammo Parts RepairKit MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Turret Cyborg Mine Grenade QuasiPact QuasiOrgan Organ QuestItem BioAug CyberneticAug QuasiAug	FALSE	FALSE	TRUE				
+4	Weapon ThrowableWeapon Helmet Armor Leggings Boots Backpack Vest Ammo Food Drink Alcohol Pills Syringe Medpack Dressing Parts RepairKit MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Turret Cyborg Mine Grenade QuasiArtefact QuasiPact QuasiOrgan Data Blueprint Organ QuestItem BioAug CyberneticAug QuasiAug	FALSE	FALSE	FALSE				
+5	Weapon ThrowableWeapon Helmet Armor Leggings Boots Backpack Vest Ammo Food Drink Alcohol Pills Syringe Medpack Dressing Parts RepairKit MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Turret Cyborg Mine Grenade QuasiArtefact QuasiPact QuasiOrgan Data Blueprint Organ QuestItem BioAug CyberneticAug QuasiAug	FALSE	FALSE	FALSE				
+6	Weapon ThrowableWeapon Helmet Armor Leggings Boots Backpack Vest Ammo Food Drink Alcohol Pills Syringe Medpack Dressing Parts RepairKit MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Turret Cyborg Mine Grenade QuasiArtefact QuasiPact QuasiOrgan Data Blueprint Organ QuestItem BioAug CyberneticAug QuasiAug	FALSE	FALSE	FALSE				
 #end								

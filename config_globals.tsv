@@ -1,7 +1,7 @@
 #global		
 Parameter	Value	
 // Build info		
-BuildVersion	0.9.5.401s.ea6ca38
+BuildVersion	0.9.9.489s.c01fb90
 SaveVersion	46	
 Console	false
 SkipIntro	FALSE	
@@ -28,9 +28,6 @@ DeathGiftId	itemsBox
 TutorialItemsInLocker	military_pistol_2 small_basic_ammo trash_common_vest_1 small_backpack_1 common_shirt_3 common_sneakers_1 splint bandage pills_antibiotics common_pants_4	
 TutorialItemsOnCharacter	common_hybershirt_1 common_hyber_pants_1	
 TutorialAncomRewardItems	itemChip medium_backpack_1 firearm_repair_kit armor_repair_kit stationary_turret weapon_container armor_container	
-TutorialAncomRewardItemsTezctlan	itemChip medium_backpack_1 firearm_repair_kit armor_repair_kit quasi_medical_kit_1 venusTez_heavy_armor_1 venusTez_heavy_helmet_1 venusXsi_pants_1 venus_boots_1 venus_armor_plates	
-TutorialAncomRewardItemsRealWare	itemChip medium_backpack_1 firearm_repair_kit armor_repair_kit rwa_military_smg_1 medium_basic_ammo heavy_armored_vest_1	
-TutorialAncomRewardItemsAnCom	itemChip medium_backpack_1 rifle_armorpierce_ammo pmc_assault_1 firearm_repair_kit armor_repair_kit	
 TutorialMachineBlockWait	15	
 TutorialAncomQuestItemId	quest_AncomData	
 AncomDataReputationReward	20	
@@ -43,23 +40,24 @@ GrabTechLevelHours	2
 FactionTickIntervalHours	1	
 MissionAddTimeHours	8	
 StationVisitAddTimeHours	4	
-TechLevelToPower	100 200 300 400 500 600 700 800 900 1000	
+TechLevelToPower	250 500 750 1000 1250 1500 1750 2000 2250 2500	
 StationChangeOwnerCooldownHours	96	
-StationAttackTargetCooldownMinHours	168	
+StationAttackTargetCooldownMinHours	264	
 StationAttackTargetCooldownMaxHours	504	
-MissionMinLifeTimeHours	432	
-MissionMaxLifeTimeHours	960	
+MissionMinLifeTimeHours	720	
+MissionMaxLifeTimeHours	1200	
 StationProduceTimeInHours	2	
 StationProducePopulationMult	1.6	
 StationReplacingRandomItemIntervalHours	336	
 StationShippingMinHours	340	
 StationShippingMaxHours	408	
-StationStorageLimit	100	
-StationProductionTimeRatio	2	
+StationStorageLimit	200	
+StationProductionTimeRatio	3	
 PowerToRepMult	0.01	
 MinReputation	-100	
 MaxReputation	100	
 ReputationRewardLimit	20	
+TimeScaleInBramfaturaMult	600	
 TimeScaleX1Mult	100	
 TimeScaleX4Mult	400	
 TimeScaleX10Mult	1000	
@@ -73,20 +71,27 @@ StationShippingMaxStack	50
 StationShippingMaxItemsCount	5	
 StationShippingLeftNumber	3	
 StationShippingMonthConsumeThreshold	2	
-StationStartItemsCount	100	
-MaxBarterPrice	5000	
+StationStartItemsCount	20	
+MaxBarterPrice	3000	
 FlightTimeToPlanet	20	
 FlightTimeToSatelite	10	
 MissionRewardMaxConsumables	8	
 MaxTechLevel	10	
 FactionAbsorbTechLevelMult	0.5	
 WorldPriceUpdateIntervalMonths	3	
-WorldPriceOvergrowthPercent	5	
-WorldPriceOvergrowthBonusItems	20	
+WorldPriceOvergrowthPercent	3	
+WorldPriceOvergrowthBonusItems	30	
 WipeRelationsReputationThreshold	0	
+StationAddFactionItemsTimerWeeks	2	
+StationAddFactionItemsStationsPercent	0.25	
+StationAddFactionItemsNumber	5	
+		
+// Procedural missions		
 ControlMissionWavePowerMults	0.5 0.55 0.6	
 CounterattackMissionDurationTurns	80	
 CounterattackMonsterGroupTechLevelBonus	2	
+CounterattackReinforsmentPointsMult	0.2	
+InfiltrationTimeBeforeMigration	30	
 InfiltrationMonsterGroupTechLevelBonus	1	
 RitualMonsterGroupTechLevelBonus	2	
 RitualMissionDefenseDurationTurns	80	
@@ -94,12 +99,14 @@ RitualMissionWavePowerMults	0.2 0.3 0.4
 DefenseMissionDurationTurns	80	
 DefenseMissionsBramfaturaId	Defense	
 DefenseMissionWavePowerMults	0.4 0.55 0.65	
-StationAddFactionItemsTimerWeeks	2	
-StationAddFactionItemsStationsPercent	0.05	
-StationAddFactionItemsNumber	3	
+SabotageExplosionInvestigationRadius	30	
+VipUnitTechLevelBonus	1	
+VipBodyguardRange	2 4	
+SecurityTimeBeforeMigration	30	
+SecurityRobbersEscapeDuration	50	
 		
 // Price Multipliers		
-PriceMultipliersNoStock	1.3	
+PriceMultipliersNoStock	1.2	
 PriceMultipliersLowStock	1	
 PriceMultipliersMeidumStock	0.8	
 PriceMultipliersHighStock	0.5	
@@ -125,13 +132,21 @@ RestoreMercWoundInHours	4
 RestoreMercAmpInHours	6	
 		
 // Dungeon generation		
-ItemDropWeightConst	0.001	
+ItemDropWeightConst	1	
 ItemDropIncrementCoef	120	
-ItemDropScaleCoef	0.02	
-ItemDropPriceLogCoef	2	
-ItemDropContainersPercent	85	
-CorridorWeightInDropMult	0.25	
+ItemDropScaleCoef	0.023	
+ItemDropPriceLogCoef	1.6	
+ItemDropContainersPercent	90	
+CorridorWeightInDropMult	0.2	
 ContainerManualDropPointsConversion	1	
+DefaultEnvironmentPresets	Indoor1 Space1	
+		
+// Bramfatura invasion		
+BramfaturaMonsterPointsBase	500	
+BramfaturaMonsterPointsPerFloor	200	
+BramfaturaItemPoints	920	
+BramfaturaJumpCostRange	100 200	
+BramfaturaInvasionCostRange	200 300	
 		
 // Movement		
 SlowMoveStarvationMult	1	
@@ -151,6 +166,19 @@ SomniaMoveTimerMax	20
 AggroExplosionChance	1	
 AggroExplosionRadius	8	
 AggroGunshotRadius	4	
+NoiseDeathRadius	0	
+NoiseStepRadius	0	
+NoiseDoorRadius	0	
+MoveChanceWhileDesperate	0.15	
+CantMoveAPTime	3	
+EccolapseAPTime	1	
+HealCooldown	3	
+HealthPercentToHeal	0.95	
+HealChance	1	
+HealthPercentToSurvival	0.95	
+EnemiesToOutnumber	3	
+DistanceToOutnumber	3	
+BasePanicCounterRageChance	0.5	
 		
 // Obstacles		
 MapObstacleDamageWhitefadeDuration	0.25	
@@ -175,8 +203,8 @@ BurningDamagePerTurnMax	30
 BurningEffectWoundChance	0.9	
 OilSpawnFireChance	0.8	
 FireDamageToItemPerTurn	2	
-FireItemConvertsFrom	human_meat spider_meat	
-FireItemConvertsTo	roasted_human_meat roasted_spider_meat	
+FireItemConvertsFrom	human_meat spider_meat dog_meat ron_tentacle	
+FireItemConvertsTo	roasted_human_meat roasted_spider_meat roasted_dog_meat roasted_ron_tentacle	
 		
 // Toxic		
 ToxicDamagePerPuddleSize	4 6 10 14 18	
@@ -188,32 +216,32 @@ ToxicPuddleLifeTime	5
 // Damage		
 MinHitChance	0.05	
 CapAccuracy	0.95	
-CapDodge	0.95	
 OvercapCritModifier	0.5	
 CurveSmoothingCoef	0.035	
 ExponentCoef	1.75	
-WoundChanceModifier	0.035	
+WoundChanceModifier	0.025	
 AmputationDmgThresholdMult	0.33	
-AmputationWeaponTraitDmgThresholdMult	0.11	
+AmputationWeaponTraitDmgThresholdMult	0.22	
 		
 // Augmentations		
 MobAugSpawnMinHpPercent	0.25	
-ImplantGainChanceOnAmputation	0.3	
-QuasiAugmentationClasses	Quasimorphic Qbeam	
+ImplantGainChanceOnAmputation	0.2	
+QuasiAugmentationClasses	QuasiBody QuasiMelee QuasiRanged QuasiWeapon QuasiActive QuasiPassive QuasiUtility	
 		
 // Starvation		
 StarvationRegenWeights	0 0.01 50.01 85.01	
-StarvationRegenValues	-2 0 1 2	
+StarvationRegenValues	-3 0 1 2	
 ItemsWeightModCap	0.05	
 WeightSatietyDrainMod	7	
 		
 // Dodge		
 BaseWeightAffectDodgeMult	2	
+BaseWeightAffectThrowbackMult	0.5	
 		
 // Repair		
 RepairAllArmorsSubclasses	Default	
 RepairAllMeleeWeaponsSubclasses	Default	
-RepairAllFirearmsWeaponsSubclasses	Firearm	
+RepairAllFirearmsWeaponsSubclasses	Firearm Launcher	
 RepairAllTechWeaponsSubclasses	Laser Plasma Rail Toxic Coldgun Electric Entropic	
 RepairAllToolsSubclasses	Tool	
 RepairAllQuasiItemsArmorSubClasses	Quasi	
@@ -227,9 +255,10 @@ PainThresholdGlobalDmgMult	0.3
 // Medicine		
 WoundFixedResolutionPeriod	10	
 WoundDefaultResolutionChance	0.05	
+WoundResolutionBadLuckStep	0.05	
 		
 // WoundEffects		
-FrozenStunAfterProgressionLevel	50	
+FrozenStunAfterProgressionLevel	60	
 ShockStunAfterProgressionLevel	0	
 QmorphSummonCountMin	1	
 QmorphSummonCountMax	2	
@@ -238,6 +267,8 @@ QmorphSummonCountMax	2
 FastScrollMult	2	
 ScrollAbsSpeed	200	
 MouseScrollSensitivity	30	
+DamageHintLargeSize	1.35	
+HitHintLargeSize	1.35	
 PlaystationGuids	c3ad3cad-c7cf-4ca8-8c2e-e3df8d9960bb 71dfe6c8-9e81-428f-a58e-c7e664b7fbed cd9718bf-a87a-44bc-8716-60a0def28a9f 5286706d-19b4-4a45-b635-207ce78d8394	
 NintendoGuids	7bf3154b-9db8-4d52-950f-cd0eed8a5819	
 #end		
@@ -248,4 +279,27 @@ none		0
 low	common_knife_1 military_axe_1 common_pistol_1 pmc_shotgun_1 military_pistol_1 pmc_pistol_1 trash_common_vest_1 military_mask_1 military_shirt_2 military_light_armor_1 common_pants_4 common_boots_1 small_backpack_1 small_basic_ammo medium_basic_ammo rifle_basic_ammo shotgun_shrapnel_ammo canned_food_1 canned_food_2 ration_pack_4 ration_pack_4 ration_pack_3 ration_pack_3 water_bottle_1 water_bottle_1 firearm_repair_kit melee_repair_kit armor_repair_kit tape welding_machine_device	300
 normal	stationary_turret common_knife_1 military_axe_1 common_pistol_1 pmc_shotgun_1 military_pistol_1 pmc_pistol_1 pmc_smg_1 police_club_1 trash_common_vest_1 trash_common_vest_1 military_mask_1 military_shirt_2 military_light_armor_1 common_pants_4 common_boots_1 small_backpack_1 small_basic_ammo medium_basic_ammo rifle_basic_ammo battery_basic_ammo shotgun_shrapnel_ammo frag_grenade stun_grenade frag_mine bandage bandage splint splint pills_antibiotics pills_antibiotics medical_kit_1 pills_sorbent syringe_bloodbag pills_painkillers cigarettes_1 canned_food_1 canned_food_1 canned_food_2 mre_pack_1 ration_pack_1 ration_pack_2 ration_pack_4 ration_pack_4 ration_pack_3 ration_pack_3 water_bottle_1 water_bottle_1 firearm_repair_kit melee_repair_kit armor_repair_kit weapon_parts weapon_parts armor_plates armor_plates tape transformer medical_components welding_machine_device	500
 high	stationary_turret common_knife_1 common_knife_1 military_axe_1 common_pistol_1 pmc_shotgun_1 pmc_shotgun_1 military_pistol_1 pmc_pistol_1 pmc_smg_1 pmc_assault_1 police_club_1 trash_common_vest_1 trash_common_vest_1 military_mask_1 military_mask_1 military_shirt_2 military_shirt_2 common_pants_4 common_pants_4 pirates_medium_boots_1 common_boots_1 small_backpack_1 small_backpack_1 small_basic_ammo small_basic_ammo medium_basic_ammo rifle_basic_ammo battery_basic_ammo shotgun_shrapnel_ammo shotgun_shrapnel_ammo frag_grenade frag_grenade stun_grenade frag_mine bandage bandage bandage bandage splint splint splint splint pills_antibiotics pills_antibiotics pills_antibiotics pills_antibiotics medical_kit_1 medical_kit_1 pills_sorbent pills_sorbent syringe_bloodbag syringe_bloodbag pills_painkillers pills_painkillers cigarettes_1 cigarettes_1 canned_food_1 canned_food_1 canned_food_1 canned_food_1 canned_food_2 canned_food_2 mre_pack_1 mre_pack_1 ration_pack_1 ration_pack_1 ration_pack_2 ration_pack_2 ration_pack_4 ration_pack_4 ration_pack_4 ration_pack_4 ration_pack_3 ration_pack_3 ration_pack_3 ration_pack_3 water_bottle_1 water_bottle_1 water_bottle_1 water_bottle_1 firearm_repair_kit firearm_repair_kit melee_repair_kit melee_repair_kit armor_repair_kit armor_repair_kit weapon_parts weapon_parts weapon_parts weapon_parts armor_plates armor_plates armor_plates armor_plates tape transformer medical_components tape welding_machine_device military_light_armor_1	800
+#end		
+		
+#tutorialancomreward		
+Id	Items	
+Tezctlan	skull_bloodstrike venus_axe_1 venus_quasi_pistol_1 quasi_basic_ammo venusTez_heavy_armor_1 venusTez_heavy_helmet_1 venusTez_heavy_pants_1 venusTez_heavy_boots_1 quasi_repair_kit quasi_medical_kit_1	
+RealWare	merkUSB big_backpack_1 military_shotgun_1 military_pistol_2 shotgun_shrapnel_ammo small_basic_ammo rwa_light_armor_1 rwa_light_helmet_2 rwa_light_pants_1 rwa_light_boots_1 armor_repair_kit firearm_repair_kit	
+AnCom	classUSB medium_backpack_1 military_knife_1 pmc_assault_1 pmc_shotgun_1 rifle_basic_ammo shotgun_shrapnel_ammo anc_agent_armor_1 anc_agent_mask_1 anc_agent_pants_1 anc_agent_boots_1 melee_repair_kit firearm_repair_kit	
+SBN	merkUSB medium_backpack_1 pmc_smg_2 sbn_rail_pistol_1 small_basic_ammo sbn_medium_armor_1 sbn_medium_helmet_1 sbn_medium_pants_1 sbn_medium_boots_1 tech_repair_kit	
+Dilthey	itemChip medium_backpack_1 dil_sound_pistol_2 dil_shock_smg_1 dil_battery_ammo science_reinforced_shirt_1 science_gasmask_1 science_reinforced_pants_1 science_reinforced_boots_1 tech_repair_kit packaged_recreational_robot	
+Tianming	merkUSB medium_backpack_1 tian_disc_pistol_1 spec_shotgun_1 sawblade_ammo shotgun_shrapnel_ammo tian_heavy_armor_1 tian_heavy_helmet_1 tian_heavy_pants_1 tian_heavy_boots_1 armor_repair_kit firearm_repair_kit	
+XiomaraMasks	skull_call_of_blood spider_claw venus_blowpipe_1 quasi_darts_ammo venusXsi_light_armor_1 venusXsi_light_helmet_1 venusXsi_pants_1 venusXsi_light_boots_1 quasi_repair_kit quasi_medical_kit_1 spider_cocoon spider_cocoon spider_cocoon	
+SheduThousand	skull_fire_breath medium_backpack_1 she_smg_1 she_gas_shotgun_1 medium_basic_ammo gas_ammo posessed_medium_armor_1 posessed_medium_helmet_1 posessed_medium_pants_1 posessed_medium_boots_1 armor_repair_kit firearm_repair_kit	
+DaydreamChems	merkUSB medium_backpack_1 trucker_pistol_2 ddr_poisonknife_1 rifle_basic_ammo toxic_ammo medical_medium_armor_1 medical_medium_helmet_1 medical_medium_pants_1 medical_medium_boots_1 toxic_grenade toxic_grenade toxic_grenade	
+PlanetBridge	itemChip servo_backpack_1 rail_pistol_2 plb_worker_shockgun_1 battery_basic_ammo laborer_medium_armor_1 laborer_medium_helmet_1 laborer_medium_pants_1 laborer_medium_boots_1 engineering_repair_kit tech_repair_kit	
+Grasshopper	armored_expanded_vest_1 servo_backpack_1 trucker_pistol_2 grh_trucker_marksman_1 rifle_basic_ammo rifle_basic_ammo laborer_warm_shirt_1 laborer_warm_hat_1 laborer_warm_pants_1 laborer_warm_boots_1 firearm_repair_kit	
+Sunlight	classUSB medium_backpack_1 sun_laser_pistol_1 med_lightblade_1 battery_basic_ammo battery_basic_ammo military_medium_armor_1 military_medium_helmet_1 military_medium_pants_1 military_medium_boots_1 tech_repair_kit	
+FrancheComte	itemChip medium_backpack_1 common_shotgun_2 fra_security_smg_1 shotgun_bullet_ammo small_basic_ammo police_reinforced_shirt_1 police_cap_2 police_pants_2 police_boots_2 firearm_repair_kit	
+ChurchRevelation	classUSB medium_backpack_1 trash_sawblade_1 army_pistol_3 gas_ammo shotgun_shrapnel_ammo chu_manager_shirt_1 chu_manager_mask_1 chu_manager_pants_1 chu_manager_boots_1 melee_repair_kit ultravoice	
+CoreWard	itemChip servo_backpack_1 worker_hmg_1 worker_flametrower_1 nail_bolts_ammo gas_ammo miner_reinforced_shirt_1 miner_hard_cap_2 miner_reinforced_pants_1 miner_reinforced_boots_1 armor_repair_kit	
+CResistance	welding_machine_device communication_relay servo_backpack_1 civ_powerfist_1 civ_common_smg_1 battery_crafted_ammo medium_basic_ammo civ_medium_armor_2 civ_medium_helmet_2 civ_medium_pants_2 civ_medium_boots_2 engineering_repair_kit tech_repair_kit	
+GodBuilders	welding_machine_device communication_relay servo_backpack_1 civ_powerfist_1 civ_common_smg_1 battery_crafted_ammo medium_basic_ammo civ_medium_armor_2 civ_medium_helmet_2 civ_medium_pants_2 civ_medium_boots_2 engineering_repair_kit tech_repair_kit	
+CivilUnity	welding_machine_device communication_relay servo_backpack_1 civ_powerfist_1 civ_common_smg_1 battery_crafted_ammo medium_basic_ammo civ_medium_armor_2 civ_medium_helmet_2 civ_medium_pants_2 civ_medium_boots_2 engineering_repair_kit tech_repair_kit	
+UnchainedBelt	itemChip medium_backpack_1 pirates_pistol_1 pirates_pistol_2 trash_smg_1 small_basic_ammo heavy_basic_ammo shotgun_shrapnel_ammo pirates_medium_armor_1 pirates_medium_helmet_1 pirates_medium_pants_1 pirates_medium_boots_1 firearm_repair_kit	
 #end		

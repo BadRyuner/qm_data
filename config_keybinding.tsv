@@ -79,6 +79,8 @@ Confirmation	Hotkeys		Y	None	None	None							KeyboardAndMouse
 Cancel	Hotkeys		N	None	None	None							KeyboardAndMouse	
 Newsline	Hotkeys		H	None	None	None							KeyboardAndMouse	
 Spaceship	Hotkeys		I	None	None	None							KeyboardAndMouse	
+Spaceship_Mercs	Hotkeys		M	None	None	None							KeyboardAndMouse	
+Spaceship_Arsenal	Hotkeys		A	None	None	None							KeyboardAndMouse	
 Starmap	Hotkeys		M	None	None	None							KeyboardAndMouse	
 TradeShuttle	Hotkeys		Z	None	None	None							KeyboardAndMouse	
 Faction_Info	Hotkeys		I	None	None	None							KeyboardAndMouse	
@@ -91,4 +93,22 @@ SkipCutscene	Hotkeys		Space	None	ActionTopRow1	None
 TakeAll	Hotkeys		G	None	None	None							KeyboardAndMouse	
 Evacuate	Hotkeys		E	None	None	None							KeyboardAndMouse	
 CallCapsule	Hotkeys		Z	None	None	None							KeyboardAndMouse	
+Arsenal_GoToTab1	Hotkeys		Alpha1	None	None	None							KeyboardAndMouse	
+Arsenal_GoToTab2	Hotkeys		Alpha2	None	None	None							KeyboardAndMouse	
+Arsenal_GoToTab3	Hotkeys		Alpha3	None	None	None							KeyboardAndMouse	
+Arsenal_GoToTab4	Hotkeys		Alpha4	None	None	None							KeyboardAndMouse	
+Arsenal_GoToTab5	Hotkeys		Alpha5	None	None	None							KeyboardAndMouse	
+Arsenal_GoToTab6	Hotkeys		Alpha6	None	None	None							KeyboardAndMouse	
+Arsenal_GoToTab7	Hotkeys		Alpha7	None	None	None							KeyboardAndMouse	
+Arsenal_GoToTab8	Hotkeys		Alpha8	None	None	None							KeyboardAndMouse	
+Arsenal_GoToTab9	Hotkeys		Alpha9	None	None	None							KeyboardAndMouse	
+Arsenal_DropToTab1	Hotkeys		LeftShift Alpha1	None	None	None							KeyboardAndMouse	
+Arsenal_DropToTab2	Hotkeys		LeftShift Alpha2	None	None	None							KeyboardAndMouse	
+Arsenal_DropToTab3	Hotkeys		LeftShift Alpha3	None	None	None							KeyboardAndMouse	
+Arsenal_DropToTab4	Hotkeys		LeftShift Alpha4	None	None	None							KeyboardAndMouse	
+Arsenal_DropToTab5	Hotkeys		LeftShift Alpha5	None	None	None							KeyboardAndMouse	
+Arsenal_DropToTab6	Hotkeys		LeftShift Alpha6	None	None	None							KeyboardAndMouse	
+Arsenal_DropToTab7	Hotkeys		LeftShift Alpha7	None	None	None							KeyboardAndMouse	
+Arsenal_DropToTab8	Hotkeys		LeftShift Alpha8	None	None	None							KeyboardAndMouse	
+Arsenal_DropToTab9	Hotkeys		LeftShift Alpha9	None	None	None							KeyboardAndMouse	
 #end														
