@@ -23,7 +23,7 @@ laksha_saminath	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shoc
 #mercenary_classes																									
 Id	ModifyStartCost	ModifyStep	PerkIds																						
 scouts_of_hades	30	0.1	cqc_specialist_basic military_training_basic gear_maintenance_basic blind_fury_basic fire_transfer_basic assault_reflex_basic																						
-ecclipse_blades	30	0.1	berserkgang_basic athletics_basic reaction_training_basic cold_weapon_wielding_basic cannibalism_basic carnage_basic																						
+eclipse_blades	30	0.1	berserk_gang_basic athletics_basic reaction_training_basic cold_weapon_wielding_basic cannibalism_basic carnage_basic																						
 tifton_elite	30	0.1	heavy_weaponary_basic grenadier_basic selfhealing_basic stationary_defense_basic spray_and_pray_basic shock_awe_basic																						
 tunnel_rats	30	0.1	cautious_basic handmade_shotgun_ammo_basic marauder_basic dirty_shot_basic vicious_symbiosis_basic covermaster_basic																						
 phoenix_brigade	30	0.1	shielding_basic battle_physicist_basic reinforced_battery_basic revealing_flame_basic cauterize_basic scholar_basic																						
@@ -31,7 +31,7 @@ spaceborn_ghosts	30	0.1	agent_training_basic muffled_basic lightweight_gear_basi
 angels_of_spades	30	0.1	sniper_training_basic enemy_anatomy_basic precise_shot_basic blind_shot_basic ghost_killer_basic enhanced_heavy_ammo_basic																						
 doppelganger_pack	30	0.1	possession_basic ritualism_basic masochism_basic fear_and_hunger_basic insanity_basic axe_rage_basic																						
 valkyrie_squad	30	0.1	selfhealing_basic first_aid_basic medicus_basic duty_shift_basic therapist_basic pressure_points_basic																						
-marsian_mech	30	0.1	steel_without_basic steel_within_basic reactivation_basic devastation_tactic_basic terminator_basic heavy_weaponary_basic																						
+martian_mech	30	0.1	steel_without_basic steel_within_basic reactivation_basic devastation_tactic_basic terminator_basic heavy_weaponary_basic																						
 tongkong	30	0.1	piersing_burst_basic pyromaniac_basic lizard_basic battle_concentration_basic last_bullet_basic death_over_chains_basic																						
 cobra	30	0.1	bodybuilding_basic axe_rage_basic tomahawk_basic hidden_potential_basic cobra_throw_basic surgeon_basic																						
 unit_317	30	0.1	cyber_compatibility_basic sandman_basic unconventional_munitions_basic tactical_camouflage_basic blurred_silhouette_basic cyberpsychosis_basic																						
@@ -40,18 +40,6 @@ golem_group	30	0.1	stationary_defense_basic central_command_basic krav_maga_basi
 																									
 #perks																									
 Id	PerkType	LevelUpActionType	ActiveWeaponClassLimit	ActiveWeaponSubClassLimit	ExpPointsPerAction	ExpToLevelUp	NextPerkId	AIUsage	Parameters																
-talent_weapon_durability	Talent	None			0	0		None	FWeaponDurability 1.2																
-talent_weapon_distance	Talent	None			0	0		None	IWeaponDistance 2																
-talent_pistol_acc	Talent	None	Pistol		0	0		None	FPistolAccuracy 0.4																
-talent_all_resists	Talent	None			0	0		None	IResists 12																
-talent_ignore_infection	Talent	None			0	0		None	BIgnoreInfection true																
-talent_ignore_pain	Talent	None			0	0		None	FPainMult -1																
-talent_all_consumables_stack	Talent	None			0	0		None	IAllConsumablesStack 4																
-talent_reload_time	Talent	None			0	0		None	IReloadTime -2																
-talent_starving_slower	Talent	None			0	0		None	FStarvDelta -0.6																
-talent_weight_dodge_affect	Talent	None			0	0		None	FWeightAffectDodge -0.50																
-talent_belt_slots	Talent	None			0	0		None	IVestSlots 2																
-talent_weapon_slot	Talent	None			0	0		None	BThirdWeaponSlot true																
 talent_gunsmith	Talent	None			0	0		None	FWeaponDurability 1.2 FEquipWeaponWeight -0.5																
 talent_sniper	Talent	None			0	0		None	IWeaponDistance 2 IEnemyHuntBonus -2																
 talent_invincible	Talent	None			0	0		None	IResists 12 FWeightMeleeDmgIncrease 0.12 IKiloDmgThreshold 10																
@@ -96,14 +84,6 @@ bodybuilding_basic	Passive	PlayerHitted			1	100	bodybuilding_advanced	None	IMaxH
 bodybuilding_advanced	Passive	PlayerHitted			1	250	bodybuilding_master	None	IMaxHealth 40																
 bodybuilding_master	Passive	PlayerHitted			1	400	bodybuilding_legend	None	IMaxHealth 60																
 bodybuilding_legend	Passive	PlayerHitted						None	IMaxHealth 80																
-hardening_basic	Passive	DmgAbsorbedByResist			20	100	hardening_advanced	None	FResists 0.1																
-hardening_advanced	Passive	DmgAbsorbedByResist			20	200	hardening_master	None	FResists 0.2																
-hardening_master	Passive	DmgAbsorbedByResist			20	300	hardening_legend	None	FResists 0.3																
-hardening_legend	Passive	DmgAbsorbedByResist						None	FResists 0.4																
-insensitivity_basic	Trigger	ReceiveWound			20	100	insensitivity_advanced	None	IDuration 16 ICooldown 4 IActivation 50 BFixAllWounds true																
-insensitivity_advanced	Trigger	ReceiveWound			20	200	insensitivity_master	None	IDuration 12 ICooldown 4 IActivation 45 BFixAllWounds true																
-insensitivity_master	Trigger	ReceiveWound			20	300	insensitivity_legend	None	IDuration 8 ICooldown 4 IActivation 40 BFixAllWounds true																
-insensitivity_legend	Trigger	ReceiveWound						None	IDuration 6 ICooldown 2 IActivation 35 BFixAllWounds true																
 hidden_potential_basic	Trigger	HealthBelow20Percent			50	100	hidden_potential_advanced	None	IDuration 3 ICooldown 15 IActivation 200 IAddedAP 2																
 hidden_potential_advanced	Trigger	HealthBelow30Percent			25	250	hidden_potential_master	None	IDuration 3 ICooldown 15 IActivation 150 IAddedAP 3																
 hidden_potential_master	Trigger	HealthBelow40Percent			25	400	hidden_potential_legend	None	IDuration 4 ICooldown 15 IActivation 100 IAddedAP 3																
@@ -128,10 +108,6 @@ carnage_basic	Trigger	OnMeleeWoundInflict	Blade Knife Fist		10	100	carnage_advan
 carnage_advanced	Trigger	OnMeleeWoundInflict	Blade Knife Fist		10	250	carnage_master	None	IDuration 2 ICooldown 20 IActivation 120 FRestoreAP 0.85																
 carnage_master	Trigger	OnMeleeWoundInflict	Blade Knife Fist		10	400	carnage_legend	None	IDuration 3 ICooldown 20 IActivation 120 FRestoreAP 0.85																
 carnage_legend	Trigger	OnMeleeWoundInflict	Blade Knife Fist					None	IDuration 3 ICooldown 20 IActivation 120 FRestoreAP 1																
-taste_of_blood_basic	Trigger	ReceiveBleedingWound			25	100	taste_of_blood_advanced	None	IDuration 7 ICooldown 25 IActivation 120 IHealthRegen 3																
-taste_of_blood_advanced	Trigger	ReceiveBleedingWound			25	250	taste_of_blood_master	None	IDuration 8 ICooldown 25 IActivation 120 IHealthRegen 4																
-taste_of_blood_master	Trigger	ReceiveBleedingWound			25	400	taste_of_blood_legend	None	IDuration 9 ICooldown 25 IActivation 120 IHealthRegen 5																
-taste_of_blood_legend	Trigger	ReceiveBleedingWound						None	IDuration 10 ICooldown 25 IActivation 120 IHealthRegen 6																
 last_bullet_basic	Trigger	ShotLastBullet			10	100	last_bullet_advanced	None	IDuration 2 ICooldown 8 IActivation 40 FDamage 0.5																
 last_bullet_advanced	Trigger	ShotLastBullet			10	250	last_bullet_master	None	IDuration 3 ICooldown 8 IActivation 40 FDamage 0.55																
 last_bullet_master	Trigger	ShotLastBullet			10	400	last_bullet_legend	None	IDuration 4 ICooldown 8 IActivation 40 FDamage 0.6																
@@ -148,10 +124,6 @@ grenadier_basic	Passive	ThrowGrenade			25	100	grenadier_advanced	None	FGrenadeDa
 grenadier_advanced	Passive	ThrowGrenade			25	250	grenadier_master	None	FGrenadeDamage 0.35																
 grenadier_master	Passive	ThrowGrenade			25	400	grenadier_legend	None	FGrenadeDamage 0.45																
 grenadier_legend	Passive	ThrowGrenade						None	FGrenadeDamage 0.55																
-addict_basic	Trigger	EatingMouthMeds			10	100	addict_advanced	None	IDuration 4 ICooldown 35 IActivation 50 FIncomeDamage -0.05																
-addict_advanced	Trigger	EatingMouthMeds			10	200	addict_master	None	IDuration 6 ICooldown 35 IActivation 50 FIncomeDamage -0.10																
-addict_master	Trigger	EatingMouthMeds			10	300	addict_legend	None	IDuration 8 ICooldown 35 IActivation 50 FIncomeDamage -0.15																
-addict_legend	Trigger	EatingMouthMeds						None	IDuration 10 ICooldown 35 IActivation 50 FIncomeDamage -0.20																
 tomahawk_basic	Passive	ThrowMeleeWeapon			10	100	tomahawk_advanced	None	FThrowCritChance 0.3																
 tomahawk_advanced	Passive	ThrowMeleeWeapon			10	250	tomahawk_master	None	FThrowCritChance 0.4 IThrowRangeBonus 1																
 tomahawk_master	Passive	ThrowMeleeWeapon			10	400	tomahawk_legend	None	FThrowCritChance 0.5 IThrowRangeBonus 2																
@@ -164,26 +136,10 @@ lizard_basic	Passive	PlayerHitted			5	100	lizard_advanced	None	FMaxPainThreshold
 lizard_advanced	Passive	PlayerHitted			5	250	lizard_master	None	FMaxPainThreshold 0.4 IPainRegen 1																
 lizard_master	Passive	PlayerHitted			5	400	lizard_legend	None	FMaxPainThreshold 0.4 IPainRegen 2																
 lizard_legend	Passive	PlayerHitted						None	FMaxPainThreshold 0.5 IPainRegen 2																
-hitech_spec_basic	Trigger	ShotRangedWeapon		Laser Plasma	10	100	hitech_spec_advanced	None	IDuration 20 ICooldown 30 IActivation 50 IReloadTime -1																
-hitech_spec_advanced	Trigger	ShotRangedWeapon		Laser Plasma	10	200	hitech_spec_master	None	IDuration 24 ICooldown 30 IActivation 50 IReloadTime -2																
-hitech_spec_master	Trigger	ShotRangedWeapon		Laser Plasma	10	300	hitech_spec_legend	None	IDuration 28 ICooldown 30 IActivation 50 IReloadTime -3																
-hitech_spec_legend	Trigger	ShotRangedWeapon		Laser Plasma				None	IDuration 28 ICooldown 30 IActivation 50 IReloadTime -4																
-immune_response_basic	Passive	ReceiveInfection			10	100	immune_response_advanced	None	FWoundChance -0.05																
-immune_response_advanced	Passive	ReceiveInfection			10	200	immune_response_master	None	FWoundChance -0.1																
-immune_response_master	Passive	ReceiveInfection			10	300	immune_response_legend	None	FWoundChance -0.15																
-immune_response_legend	Passive	ReceiveInfection						None	FWoundChance -0.2																
-gambit_basic	Trigger	ExplodeBarrel			20	100	gambit_advanced	None	IDuration 6 ICooldown 35 IActivation 50 FRangeCritChance 0.1																
-gambit_advanced	Trigger	ExplodeBarrel			20	200	gambit_master	None	IDuration 8 ICooldown 35 IActivation 50 FRangeCritChance 0.15																
-gambit_master	Trigger	ExplodeBarrel			20	300	gambit_legend	None	IDuration 10 ICooldown 35 IActivation 50 FRangeCritChance 0.2																
-gambit_legend	Trigger	ExplodeBarrel						None	IDuration 10 ICooldown 35 IActivation 50 FRangeCritChance 0.3																
 pyromaniac_basic	Passive	PutFireOnEnemy			5	100	pyromaniac_advanced	None	IFireDuration 2 FBurnChanceBonus 0.15																
 pyromaniac_advanced	Passive	PutFireOnEnemy			5	250	pyromaniac_master	None	IFireDuration 2 FBurnChanceBonus 0.25																
 pyromaniac_master	Passive	PutFireOnEnemy			5	400	pyromaniac_legend	None	IFireDuration 4 FBurnChanceBonus 0.25																
 pyromaniac_legend	Passive	PutFireOnEnemy						None	IFireDuration 4 FBurnChanceBonus 0.35																
-demolisher_basic	Passive	BrokeObstacles			10	100	demolisher_advanced	None	FShardDamage 0.2																
-demolisher_advanced	Passive	BrokeObstacles			10	200	demolisher_master	None	FShardDamage 0.3																
-demolisher_master	Passive	BrokeObstacles			10	300	demolisher_legend	None	FShardDamage 0.4																
-demolisher_legend	Passive	BrokeObstacles						None	FShardDamage 0.5																
 cautious_basic	Trigger	NoticeHiddenEnemy			10	100	cautious_advanced	None	IDuration 5 ICooldown 22 IActivation 120 FCritChance 0.3 FCritDamage 0.5																
 cautious_advanced	Trigger	NoticeHiddenEnemy			10	250	cautious_master	None	IDuration 6 ICooldown 20 IActivation 120 FCritChance 0.35 FCritDamage 0.6																
 cautious_master	Trigger	NoticeHiddenEnemy			10	400	cautious_legend	None	IDuration 7 ICooldown 18 IActivation 120 FCritChance 0.45 FCritDamage 0.7																
@@ -196,18 +152,10 @@ marauder_basic	Passive	LootUniqCorpse			1	100	marauder_advanced	None	FLootCorpse
 marauder_advanced	Passive	LootUniqCorpse			1	250	marauder_master	None	FLootCorpseItem 0.6 FLootStorageItem 0.6																
 marauder_master	Passive	LootUniqCorpse			1	400	marauder_legend	None	FLootCorpseItem 0.9 FLootStorageItem 0.9																
 marauder_legend	Passive	LootUniqCorpse						None	FLootCorpseItem 1.2 FLootStorageItem 1.2																
-mechanic_basic	Passive	RepairItem			25	100	mechanic_advanced	None	ITurretHealth 10																
-mechanic_advanced	Passive	RepairItem			25	200	mechanic_master	None	ITurretHealth 15																
-mechanic_master	Passive	RepairItem			25	300	mechanic_legend	None	ITurretHealth 20																
-mechanic_legend	Passive	RepairItem						None	ITurretHealth 30																
 handmade_shotgun_ammo_basic	Passive	ShotShellsAmmo			2	100	handmade_shotgun_ammo_advanced	None	FShellAmmoDamage 0.25																
 handmade_shotgun_ammo_advanced	Passive	ShotShellsAmmo			2	250	handmade_shotgun_ammo_master	None	FShellAmmoDamage 0.3																
 handmade_shotgun_ammo_master	Passive	ShotShellsAmmo			2	400	handmade_shotgun_ammo_legend	None	FShellAmmoDamage 0.35																
 handmade_shotgun_ammo_legend	Passive	ShotShellsAmmo						None	FShellAmmoDamage 0.4																
-emergency_revival_basic	Passive	HitWithStatusEffect		Electric	2	100	emergency_revival_advanced	None	FShockMult 0.2																
-emergency_revival_advanced	Passive	HitWithStatusEffect		Electric	2	200	emergency_revival_master	None	FShockMult 0.4																
-emergency_revival_master	Passive	HitWithStatusEffect		Electric	2	300	emergency_revival_legend	None	FShockMult 0.6																
-emergency_revival_legend	Passive	HitWithStatusEffect		Electric				None	FShockMult 0.8																
 first_aid_basic	Passive	OnWoundFixate			5	100	first_aid_advanced	None	FFixateAddedChance 0.25																
 first_aid_advanced	Passive	OnWoundFixate			5	250	first_aid_master	None	FFixateAddedChance 0.3																
 first_aid_master	Passive	OnWoundFixate			5	400	first_aid_legend	None	FFixateAddedChance 0.35																
@@ -224,10 +172,6 @@ precise_shot_basic	Trigger	SkipTurnStealth			10	100	precise_shot_advanced	None	I
 precise_shot_advanced	Trigger	SkipTurnStealth			10	250	precise_shot_master	None	IDuration 2 ICooldown 4 IActivation 10 FRangeCritChance 0.45																
 precise_shot_master	Trigger	SkipTurnStealth			10	400	precise_shot_legend	None	IDuration 2 ICooldown 3 IActivation 10 FRangeCritChance 0.5																
 precise_shot_legend	Trigger	SkipTurnStealth						None	IDuration 2 ICooldown 2 IActivation 0 FRangeCritChance 0.55																
-tactical_reloading_basic	Trigger	OnWeaponReload			5	100	tactical_reloading_advanced	None	IDuration 1 ICooldown 20 IActivation 50 FDodge 0.05																
-tactical_reloading_advanced	Trigger	OnWeaponReload			5	200	tactical_reloading_master	None	IDuration 2 ICooldown 20 IActivation 50 FDodge 0.10																
-tactical_reloading_master	Trigger	OnWeaponReload			5	300	tactical_reloading_legend	None	IDuration 4 ICooldown 20 IActivation 50 FDodge 0.15																
-tactical_reloading_legend	Trigger	OnWeaponReload						None	IDuration 6 ICooldown 20 IActivation 50 FDodge 0.20																
 possession_basic	Passive	UltimateActivation			25	100	possession_advanced	None	FPactCooldown 0.2 FPactDebuff 0.3																
 possession_advanced	Passive	UltimateActivation			25	250	possession_master	None	FPactCooldown 0.4 FPactDebuff 0.4																
 possession_master	Passive	UltimateActivation			25	400	possession_legend	None	FPactCooldown 0.6 FPactDebuff 0.5																
@@ -248,14 +192,6 @@ axe_rage_basic	Trigger	OnMeleeWoundInflict	Axe Club Knife		5	100	axe_rage_advanc
 axe_rage_advanced	Trigger	OnMeleeWoundInflict	Axe Club Knife		5	250	axe_rage_master	None	IDuration 4 ICooldown 6 IActivation 25 IMultiHit 3 BActionPointDuration true																
 axe_rage_master	Trigger	OnMeleeWoundInflict	Axe Club Knife		5	400	axe_rage_legend	None	IDuration 5 ICooldown 5 IActivation 25 IMultiHit 3 BActionPointDuration true																
 axe_rage_legend	Trigger	OnMeleeWoundInflict	Axe Club Knife					None	IDuration 6 ICooldown 4 IActivation 25 IMultiHit 3 BActionPointDuration true																
-perfect_opener_basic	Trigger	ShotFirstBullet			5	100	perfect_opener_advanced	None	IDuration 1 ICooldown 5 IActivation 25 FRangeAccuracy 0.5 FRangeCritChance 0.2 BActionPointDuration true																
-perfect_opener_advanced	Trigger	ShotFirstBullet			5	250	perfect_opener_master	None	IDuration 1 ICooldown 4 IActivation 25 FRangeAccuracy 0.5 FRangeCritChance 0.3 BActionPointDuration true																
-perfect_opener_master	Trigger	ShotFirstBullet			5	400	perfect_opener_legend	None	IDuration 1 ICooldown 3 IActivation 25 FRangeAccuracy 0.5 FRangeCritChance 0.4 BActionPointDuration true																
-perfect_opener_legend	Trigger	ShotFirstBullet						None	IDuration 1 ICooldown 2 IActivation 25 FRangeAccuracy 0.5 FRangeCritChance 0.5 BActionPointDuration true																
-weak_point_basic	Passive	ShotRangedWeapon	AssaultRifle Machinegun MarksmanRifle Minigun		2	100	weak_point_advanced	None	FArmorPenetration 0.10																
-weak_point_advanced	Passive	ShotRangedWeapon	AssaultRifle Machinegun MarksmanRifle Minigun		2	200	weak_point_master	None	FArmorPenetration 0.15																
-weak_point_master	Passive	ShotRangedWeapon	AssaultRifle Machinegun MarksmanRifle Minigun		2	300	weak_point_legend	None	FArmorPenetration 0.20																
-weak_point_legend	Passive	ShotRangedWeapon	AssaultRifle Machinegun MarksmanRifle Minigun					None	FArmorPenetration 0.25																
 enhanced_heavy_ammo_basic	Passive	ShotHeavyAmmo			2	100	enhanced_heavy_ammo_advanced	None	FHeavyAmmoDamage 0.2																
 enhanced_heavy_ammo_advanced	Passive	ShotHeavyAmmo			2	250	enhanced_heavy_ammo_master	None	FHeavyAmmoDamage 0.25																
 enhanced_heavy_ammo_master	Passive	ShotHeavyAmmo			2	400	enhanced_heavy_ammo_legend	None	FHeavyAmmoDamage 0.3																
@@ -264,18 +200,10 @@ reinforced_battery_basic	Passive	OnAttackWithBatteryAmmo			2	100	reinforced_batt
 reinforced_battery_advanced	Passive	OnAttackWithBatteryAmmo			2	250	reinforced_battery_master	None	FBatteryAmmoDamage 0.25																
 reinforced_battery_master	Passive	OnAttackWithBatteryAmmo			2	400	reinforced_battery_legend	None	FBatteryAmmoDamage 0.3																
 reinforced_battery_legend	Passive	OnAttackWithBatteryAmmo						None	FBatteryAmmoDamage 0.35																
-elemental_resist_basic	Trigger	PlayerHitted			10	100	elemental_resist_advanced	None	IDuration 20 ICooldown 20 IActivation 50 FElementalResists 0.20																
-elemental_resist_advanced	Trigger	PlayerHitted			10	200	elemental_resist_master	None	IDuration 20 ICooldown 20 IActivation 50 FElementalResists 0.30																
-elemental_resist_master	Trigger	PlayerHitted			10	300	elemental_resist_legend	None	IDuration 20 ICooldown 20 IActivation 50 FElementalResists 0.40																
-elemental_resist_legend	Trigger	PlayerHitted						None	IDuration 20 ICooldown 20 IActivation 50 FElementalResists 0.50																
 cheap_shot_basic	Trigger	OnStealthAttack			10	100	cheap_shot_advanced	None	IDuration 6 ICooldown 18 IActivation 80 FCritChance 0.25																
 cheap_shot_advanced	Trigger	OnStealthAttack			10	250	cheap_shot_master	None	IDuration 8 ICooldown 16 IActivation 80 FCritChance 0.3																
 cheap_shot_master	Trigger	OnStealthAttack			10	400	cheap_shot_legend	None	IDuration 10 ICooldown 14 IActivation 80 FCritChance 0.35																
 cheap_shot_legend	Trigger	OnStealthAttack						None	IDuration 12 ICooldown 12 IActivation 80 FCritChance 0.4																
-proper_nutrition_basic	Passive	EatingFood			1	100	proper_nutrition_advanced	None	IFoodRegen 1																
-proper_nutrition_advanced	Passive	EatingFood			1	200	proper_nutrition_master	None	IFoodRegen 2																
-proper_nutrition_master	Passive	EatingFood			1	300	proper_nutrition_legend	None	IFoodRegen 3																
-proper_nutrition_legend	Passive	EatingFood						None	IFoodRegen 4																
 war_crime_basic	Trigger	AnyKill			5	100	war_crime_advanced	None	IDuration 1 ICooldown 10 IActivation 80 IEnemyStunDuration 1 IEnemyCount 3																
 war_crime_advanced	Trigger	AnyKill			5	250	war_crime_master	None	IDuration 1 ICooldown 10 IActivation 80 IEnemyStunDuration 1 IEnemyCount 4																
 war_crime_master	Trigger	AnyKill			5	400	war_crime_legend	None	IDuration 1 ICooldown 10 IActivation 80 IEnemyStunDuration 1 IEnemyCount 5																
@@ -292,10 +220,10 @@ gear_maintenance_basic	Passive	PhysicalDmgAbsorbedByResist			2	100	gear_maintena
 gear_maintenance_advanced	Passive	PhysicalDmgAbsorbedByResist			2	250	gear_maintenance_master	None	FPhysicalResists 0.2 FArmorDurability 0.3																
 gear_maintenance_master	Passive	PhysicalDmgAbsorbedByResist			2	400	gear_maintenance_legend	None	FPhysicalResists 0.25 FArmorDurability 0.45																
 gear_maintenance_legend	Passive	PhysicalDmgAbsorbedByResist						None	FPhysicalResists 0.3 FArmorDurability 0.6																
-berserkgang_basic	Trigger	ReceiveDamagingWound			10	100	berserkgang_advanced	None	IDuration 6 ICooldown 14 IActivation 80 IHealthRegen 4 IPainRegen 3																
-berserkgang_advanced	Trigger	ReceiveDamagingWound			10	250	berserkgang_master	None	IDuration 6 ICooldown 12 IActivation 80 IHealthRegen 6 IPainRegen 4																
-berserkgang_master	Trigger	ReceiveDamagingWound			10	400	berserkgang_legend	None	IDuration 6 ICooldown 10 IActivation 80 IHealthRegen 8 IPainRegen 5																
-berserkgang_legend	Trigger	ReceiveDamagingWound						None	IDuration 6 ICooldown 8 IActivation 80 IHealthRegen 10 IPainRegen 6																
+berserk_gang_basic	Trigger	ReceiveDamagingWound			10	100	berserk_gang_advanced	None	IDuration 6 ICooldown 14 IActivation 80 IHealthRegen 4 IPainRegen 3																
+berserk_gang_advanced	Trigger	ReceiveDamagingWound			10	250	berserk_gang_master	None	IDuration 6 ICooldown 12 IActivation 80 IHealthRegen 6 IPainRegen 4																
+berserk_gang_master	Trigger	ReceiveDamagingWound			10	400	berserk_gang_legend	None	IDuration 6 ICooldown 10 IActivation 80 IHealthRegen 8 IPainRegen 5																
+berserk_gang_legend	Trigger	ReceiveDamagingWound						None	IDuration 6 ICooldown 8 IActivation 80 IHealthRegen 10 IPainRegen 6																
 selfhealing_basic	Trigger	ReceiveHumanWound			15	100	selfhealing_advanced	None	IDuration 6 ICooldown 25 IActivation 120 BFixAllHumanWounds true FFixateHumanAddedChance 0.25																
 selfhealing_advanced	Trigger	ReceiveHumanWound			15	250	selfhealing_master	None	IDuration 6 ICooldown 20 IActivation 120 BFixAllHumanWounds true FFixateHumanAddedChance 0.3																
 selfhealing_master	Trigger	ReceiveHumanWound			15	400	selfhealing_legend	None	IDuration 6 ICooldown 15 IActivation 120 BFixAllHumanWounds true FFixateHumanAddedChance 0.35																
@@ -304,10 +232,10 @@ shock_awe_basic	Trigger	ExplosionHitOnEnemy			10	100	shock_awe_advanced	None	IDu
 shock_awe_advanced	Trigger	ExplosionHitOnEnemy			10	250	shock_awe_master	None	IDuration 2 ICooldown 15 IActivation 80 FExplStunChance 0.6 IExplStunDuration 1																
 shock_awe_master	Trigger	ExplosionHitOnEnemy			10	400	shock_awe_legend	None	IDuration 2 ICooldown 15 IActivation 80 FExplStunChance 0.6 IExplStunDuration 2																
 shock_awe_legend	Trigger	ExplosionHitOnEnemy						None	IDuration 2 ICooldown 15 IActivation 80 FExplStunChance 0.7 IExplStunDuration 2																
-spray_and_pray_basic	Trigger	AmmoBelow20Percent	Machinegun Minigun		10	100	spray_and_pray_advanced	None	IDuration 3 ICooldown 12 IActivation 40 FMachineGunDamage 0.75																
-spray_and_pray_advanced	Trigger	AmmoBelow30Percent	Machinegun Minigun		10	250	spray_and_pray_master	None	IDuration 3 ICooldown 10 IActivation 40 FMachineGunDamage 0.75																
-spray_and_pray_master	Trigger	AmmoBelow40Percent	Machinegun Minigun		10	400	spray_and_pray_legend	None	IDuration 3 ICooldown 8 IActivation 40 FMachineGunDamage 0.75																
-spray_and_pray_legend	Trigger	AmmoBelow50Percent	Machinegun Minigun					None	IDuration 3 ICooldown 6 IActivation 40 FMachineGunDamage 0.75																
+spray_and_pray_basic	Trigger	AmmoBelow20Percent	Machinegun Minigun		25	100	spray_and_pray_advanced	None	IDuration 6 ICooldown 10 IActivation 40 FMachineGunDamage 0.6																
+spray_and_pray_advanced	Trigger	AmmoBelow30Percent	Machinegun Minigun		25	250	spray_and_pray_master	None	IDuration 6 ICooldown 8 IActivation 40 FMachineGunDamage 0.6																
+spray_and_pray_master	Trigger	AmmoBelow40Percent	Machinegun Minigun		20	400	spray_and_pray_legend	None	IDuration 6 ICooldown 6 IActivation 40 FMachineGunDamage 0.6																
+spray_and_pray_legend	Trigger	AmmoBelow50Percent	Machinegun Minigun					None	IDuration 6 ICooldown 4 IActivation 40 FMachineGunDamage 0.6																
 agent_training_basic	Passive	ShotRangedWeapon	Pistol		2	100	agent_training_advanced	None	FPistolAccuracy 0.15 IAddedPistolRange 1																
 agent_training_advanced	Passive	ShotRangedWeapon	Pistol		2	250	agent_training_master	None	FPistolAccuracy 0.2 IAddedPistolRange 1																
 agent_training_master	Passive	ShotRangedWeapon	Pistol		2	400	agent_training_legend	None	FPistolAccuracy 0.25 IAddedPistolRange 2																
@@ -452,10 +380,6 @@ vicious_symbiosis_basic	Passive	ReceiveAddiction			5	100	vicious_symbiosis_advan
 vicious_symbiosis_advanced	Passive	ReceiveAddiction			5	250	vicious_symbiosis_master	None	FSymbiosisDamage 0.12 FSymbiosisResists 0.12																
 vicious_symbiosis_master	Passive	ReceiveAddiction			5	400	vicious_symbiosis_legend	None	FSymbiosisDamage 0.15 FSymbiosisResists 0.15																
 vicious_symbiosis_legend	Passive	ReceiveAddiction						None	FSymbiosisDamage 0.18 FSymbiosisResists 0.18																
-arsonist_basic	Passive	OnFireBeamAttack			2	100	arsonist_advanced	None	FBurnChanceBonus 0.10																
-arsonist_advanced	Passive	OnFireBeamAttack			2	250	arsonist_master	None	FBurnChanceBonus 0.20																
-arsonist_master	Passive	OnFireBeamAttack			2	400	arsonist_legend	None	FBurnChanceBonus 0.30																
-arsonist_legend	Passive	OnFireBeamAttack						None	FBurnChanceBonus 0.40																
 ultravoice	ActiveImplant	None			0	0		AoE	ICooldown 3 IDuration 3 SExplosionId ultravoice_explosion IRadius 5																
 neural_sonar	ActiveImplant	None			0	0		None	ICooldown 3 IDuration 3 IRadius 16																
 blood_filtration	ActiveImplant	None			0	0		Survival	ICooldown 3																
@@ -477,7 +401,7 @@ magnetic_generator	ActiveImplant	None			0	0		AoE	ICooldown 3 SExplosionId magnet
 neuro_relaxant	ActiveImplant	None			0	0		Survival	ICooldown 4 IDuration 6 IPainRegen 18																
 holographic_projector	ActiveImplant	None			0	0		None	ICooldown 4 IDuration 4 BSelectTarget true																
 ethereal_barrier	ActiveImplant	None			0	0		Survival	ICooldown 40 IShieldCapacity 250 IShieldDecay 10																
-energy_shield	ActiveImplant	None			0	0		Survival	ICooldown 4 IShieldCapacity 200 IShieldDecay 10																
+energy_shield	ActiveImplant	None			0	0		Advantage	ICooldown 4 IShieldCapacity 200 IShieldDecay 10																
 acid_gland	ActiveImplant	None			0	0		TargetCell	ICooldown 6 BSelectTarget true SProjectileId toxic SDamageType poison IMinDamage 28 IMaxDamage 46																
 web_gland	ActiveImplant	None			0	0		TargetCell	ICooldown 12 BSelectTarget true SProjectileId web_bolt IDuration 2 FRootChance 1																
 rocket_injector	ActiveImplant	None			0	0		TargetCell	ICooldown 4 BSelectTarget true SProjectileId small_rocket IMinCount 3 SExplosionId frag_explosion IMinDamage 80 SDamageType explosion IRadius 2 FSalvoInterval 0.3																
@@ -486,4 +410,7 @@ chaos_orb	ActiveImplant	None			0	0		TargetCell	ICooldown 20 BSelectTarget true S
 ice_crystal	ActiveImplant	None			0	0		TargetCell	ICooldown 12 BSelectTarget true IMinDamage 45 IMaxDamage 60 SDamageType cold BTargetEnemy true																
 discharge_gland	ActiveImplant	None			0	0		AoE	ICooldown 16 IUsageRadius 3 SExplosionId ron_explosion IRadius 3 IMinDamage 35 SDamageType shock																
 impaler	ActiveImplant	None			0	0		TargetCell	ICooldown 8 BSelectTarget true SExplosionId impaler_explosion IDuration 3 BTargetEnemy true																
+matrix_interference_generator	ActiveImplant	None			0	0		TargetCell	ICooldown 20 BSelectTarget true SExplosionId matrix_explosion IRadius 3 IMinDamage 85 SDamageType shock BExplosion true IExplosionRadius 3																
+matrix_hologram	ActiveImplant	None			0	0		None	ICooldown 4 IDuration 4 BSelectTarget true																
+matrix_shield	ActiveImplant	None			0	0		Advantage	ICooldown 4 IShieldCapacity 200 IShieldDecay 10																
 #end																									

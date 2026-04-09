@@ -1,38 +1,38 @@
 #factions																							
 Id	Enabled	InitialPower	InitialTechLevel	InitialPlayerReputation	FactionType	AllianceType	SpawnMissionChance	GuardCreatureId	AgentCreatureId	CeoMobClassId	MinQmorphosWhenVictims	UseGeneralRewards	PortraitsByStrategy	ItemDropCategories	CanBeCaptured								
 AnCom	TRUE	0	1	20	Corp	Hexarchy	0.08	sniper	professor		0	TRUE	FALSE	AnCom	FALSE								
-Tezctlan	TRUE	1000	2	20	Tezctlan	TezctlanAliance	0.45	venus_jaguar_knight	venus_acolyte		100	FALSE	FALSE	Tezctlan	FALSE								
-XiomaraMasks	FALSE	0	3	0	Xiomara	XiomaraAliance	0.08	venus_eagle_knight	venus_acolyte		100	FALSE	FALSE	XiomaraMasks	FALSE								
-SBN	TRUE	0	1	10	Corp	Hexarchy	0.08	recreationrobot	manager		0	TRUE	FALSE	SBN	FALSE								
+Tezctlan	TRUE	1000	2	20	Tezctlan	Empire	0.45	venus_jaguar_knight	venus_acolyte		100	FALSE	FALSE	Tezctlan	FALSE								
+XiomaraMasks	FALSE	0	3	0	Xiomara	Rebels	0.08	venus_eagle_knight	venus_acolyte		100	FALSE	FALSE	XiomaraMasks	FALSE								
+SBN	TRUE	0	1	10	Corp	Hexarchy	0.08	cyborg_recreation	manager		0	TRUE	FALSE	SBN	FALSE								
 RealWare	TRUE	0	1	10	Corp	Hexarchy	0.08	soldier	warden		0	TRUE	FALSE	RealWare	FALSE								
 Tianming	TRUE	0	1	10	Corp	Hexarchy	0.08	clonewarrior	perfect		0	TRUE	FALSE	Tianming	FALSE								
-DaydreamChems	TRUE	0	1	0	Corp	Corporation	0.2	combatnerd	professor	ceo_ddr	0	TRUE	FALSE	DaydreamChems	TRUE								
-PlanetBridge	TRUE	0	1	0	Corp	Corporation	0.2	heavypmc	manager	ceo_pla	0	TRUE	FALSE	PlanetBridge	TRUE								
-Grasshopper	TRUE	0	1	0	Corp	Corporation	0.2	sniper	agent	ceo_gra	0	TRUE	FALSE	Grasshopper	TRUE								
-Sunlight	TRUE	0	1	0	Corp	Corporation	0.2	berserk	manager	ceo_sun	0	TRUE	FALSE	Sunlight	TRUE								
-Emeraldlight	FALSE	0	6	0	Corp	TezctlanAliance	0.45	berserk	manager	ceo_sun	0	TRUE	FALSE	Sunlight	FALSE								
-FrancheComte	TRUE	0	1	0	Corp	Corporation	0.2	heavypmc	combatmedic	ceo_fra	0	TRUE	FALSE	FrancheComte	TRUE								
-ChurchRevelation	TRUE	0	1	0	Corp	Corporation	0.2	soldier	manager	ceo_chu	0	TRUE	FALSE	ChurchRevelation	TRUE								
-ChurchGannix	FALSE	0	6	0	Corp	TezctlanAliance	0.45	soldier	manager	ceo_chu	0	TRUE	FALSE	ChurchRevelation	FALSE								
-CoreWard	TRUE	0	1	0	Corp	Corporation	0.2	enforcer	manager	ceo_cor	0	TRUE	FALSE	CoreWard	TRUE								
-CResistance	TRUE	0	1	-10	CivilRes	Resistance	0.45	soldier_civ	combatmedic_civ		0	TRUE	FALSE	CResistance	FALSE								
-GodBuilders	FALSE	0	6	0	CivilRes	Resistance	0.45	enforcer_civ	combatmedic_civ		0	TRUE	FALSE	CResistance	FALSE								
-CivilUnity	FALSE	0	6	0	CivilRes	Resistance	0.45	soldier_civ	combatmedic_civ		0	TRUE	FALSE	CResistance	FALSE								
-Dilthey	TRUE	0	1	20	Corp	Hexarchy	0.08	warrobot	manager		0	TRUE	FALSE	Dilthey	FALSE								
-UnchainedBelt	TRUE	0	1	-10	Pirates	Pirates	0.45	enforcer_pirates	soldier		0	TRUE	TRUE	UnchainedBelt	FALSE								
-SheduThousand	FALSE	0	5	0	Shedu	SheduThousand	0.45	mars_battle_gun	quest_mars_knight		100	FALSE	FALSE	SheduThousand	FALSE								
-EipschwitzHead	FALSE	0	1	0	Xiomara	XiomaraAliance	0	heavypmc	professor		0	TRUE	FALSE	Common	FALSE								
-Unknown	FALSE	0	1	0	Corp	Corporation	0	heavypmc	venus_acolyte		0	TRUE	FALSE	Common	FALSE								
-Magnum	FALSE	0	0	100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	TRUE	FALSE	Common	FALSE								
-Ferals_Mercury	FALSE	5000	0	-100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	FALSE	FALSE	MercuryFeral	FALSE								
-Ferals_Venus	FALSE	5000	0	-100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	FALSE	FALSE	VenusFeral	FALSE								
-Ferals_Moon	FALSE	5000	0	-100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	FALSE	FALSE	MoonFeral	FALSE								
-Ferals_Mars_Awakened	FALSE	5000	0	-100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	FALSE	FALSE	MarsFeral	FALSE								
-Ferals_Cattaram	FALSE	5000	0	-100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	FALSE	FALSE	CattaramFeral	FALSE								
-Ferals_Ron	FALSE	5000	0	-100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	FALSE	FALSE	RonFeral	FALSE								
-Ferals_Scrivnus	FALSE	5000	0	-100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	FALSE	FALSE	ScrivnusFeral	FALSE								
-Ferals_Flauros	FALSE	5000	0	-100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	FALSE	FALSE	FlaurosFeral	FALSE								
-Ferals_Olirna_Awakened	FALSE	5000	0	-100	Xiomara	XiomaraAliance	0	heavypmc	venus_acolyte		0	FALSE	FALSE	FlaurosFeral	FALSE								
+DaydreamChems	TRUE	0	1	0	Corp	Corporation	0.2	professor_combat	professor	ddr_ceo	0	TRUE	FALSE	DaydreamChems	TRUE								
+PlanetBridge	TRUE	0	1	0	Corp	Corporation	0.2	pmc_heavy	manager	plb_ceo	0	TRUE	FALSE	PlanetBridge	TRUE								
+Grasshopper	TRUE	0	1	0	Corp	Corporation	0.2	sniper	agent	gra_ceo	0	TRUE	FALSE	Grasshopper	TRUE								
+Sunlight	TRUE	0	1	0	Corp	Corporation	0.2	berserk	manager	sun_ceo	0	TRUE	FALSE	Sunlight	TRUE								
+Emeraldlight	FALSE	0	6	0	Corp	Empire	0.45	berserk	manager	sun_ceo	0	TRUE	FALSE	Emeraldlight	FALSE								
+FrancheComte	TRUE	0	1	0	Corp	Corporation	0.2	pmc_heavy	medic_combat	fra_ceo	0	TRUE	FALSE	FrancheComte	TRUE								
+ChurchRevelation	TRUE	0	1	0	Corp	Corporation	0.2	soldier	manager	chu_ceo	0	TRUE	FALSE	ChurchRevelation	TRUE								
+ChurchGannix	FALSE	0	6	0	Corp	Empire	0.45	soldier	manager	chu_ceo	0	TRUE	FALSE	ChurchGannix	FALSE								
+CoreWard	TRUE	0	1	0	Corp	Corporation	0.2	enforcer	manager	cor_ceo	0	TRUE	FALSE	CoreWard	TRUE								
+CResistance	TRUE	0	1	-10	CivilRes	Resistance	0.45	civ_soldier	civ_medic_combat		0	TRUE	FALSE	CResistance	FALSE								
+GodBuilders	FALSE	0	6	0	CivilRes	Resistance	0.45	civ_enforcer	civ_medic_combat		0	TRUE	FALSE	CResistance	FALSE								
+CivilUnity	FALSE	0	6	0	CivilRes	Resistance	0.45	civ_soldier	civ_medic_combat		0	TRUE	FALSE	CResistance	FALSE								
+Dilthey	TRUE	0	1	20	Corp	Hexarchy	0.08	cyborg_battle	manager		0	TRUE	FALSE	Dilthey	FALSE								
+UnchainedBelt	TRUE	0	1	-10	Pirates	Pirates	0.45	unc_enforcer	soldier		0	TRUE	TRUE	UnchainedBelt	FALSE								
+SheduThousand	FALSE	0	5	0	Shedu	Legion	0.45	mars_battle_gun	quest_mars_knight		100	FALSE	FALSE	SheduThousand	FALSE								
+EipschwitzHead	FALSE	0	1	0	Xiomara	Rebels	0	pmc_heavy	professor		0	TRUE	FALSE	Common	FALSE								
+Unknown	FALSE	0	1	0	Corp	Corporation	0	pmc_heavy	venus_acolyte		0	TRUE	FALSE	Common	FALSE								
+Magnum	FALSE	0	0	100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	TRUE	FALSE	Common	FALSE								
+ShartamakhumFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Mercury	FALSE								
+GannixFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Venus	FALSE								
+DuggurFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Moon	FALSE								
+UrFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Mars	FALSE								
+CattaramFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Cattaram	FALSE								
+RonFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Ron	FALSE								
+ScrivnusFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Scrivnus	FALSE								
+FlaurosFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Flauros	FALSE								
+OlirnaFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Flauros	FALSE								
 #end																							
 																							
 #alliances																							
@@ -40,37 +40,37 @@ Id	AllowStrife	DefaultFactionType	TradeFactionLists
 Hexarchy	FALSE	Corp	AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey Tianming UnchainedBelt																				
 Corporation	TRUE	Corp	AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey Tianming UnchainedBelt																				
 Resistance	TRUE	CivilRes	CResistance GodBuilders CivilUnity																				
-TezctlanAliance	FALSE	Tezctlan	Tezctlan Emeraldlight ChurchGannix																				
-XiomaraAliance	FALSE	Xiomara	XiomaraMasks																				
+Empire	FALSE	Tezctlan	Tezctlan Emeraldlight ChurchGannix																				
+Rebels	FALSE	Xiomara	XiomaraMasks																				
 Pirates	FALSE	Pirates	UnchainedBelt AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey Tianming																				
-SheduThousand	FALSE	Shedu	SheduThousand																				
+Legion	FALSE	Shedu	SheduThousand																				
 #end																							
 																							
 #spaceobjects																							
 Id	Available	SpaceObjectType	ParentId	RootNeighbourIndex	ExistInBramfatura	BramfaturaId	ItemDropCategories	ForbiddenItemClasses															
-mercury	TRUE	Planet		1	TRUE	Mercury	Mercury Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
+mercury	TRUE	Planet		1	TRUE	Shartamakhum	Mercury Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 volcano	TRUE	Satelite	mercury		FALSE		Mercury Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 citadel	TRUE	Satelite	mercury		FALSE		Mercury Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-venus	TRUE	Planet		2	TRUE	Venus	Venus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
+venus	TRUE	Planet		2	TRUE	Gannix	Venus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 havoc	TRUE	Satelite	venus		FALSE		Venus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 mechta	TRUE	Satelite	venus		FALSE		Venus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-earth	TRUE	Planet		3	TRUE	Moon		Weapon Helmet Armor Leggings Boots QuasiPact															
+earth	TRUE	Planet		3	TRUE	Duggur		Weapon Helmet Armor Leggings Boots QuasiPact															
 tsiolkovsky	TRUE	Satelite	earth		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
 moon	TRUE	Satelite	earth		FALSE		Moon Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 fuller	TRUE	Satelite	moon		FALSE		Moon Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-mars	TRUE	Planet		4	TRUE	Mars_Awakened	Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
+mars	TRUE	Planet		4	TRUE	Ur_Awakened	Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 phobos	TRUE	Satelite	mars		FALSE		Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 deimos	TRUE	Satelite	mars		FALSE		Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 ceres	TRUE	Planet		5	TRUE	Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
+hungary	TRUE	Planet		5	TRUE	Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 wernher	TRUE	Planet		5	TRUE	Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
+annaherman	TRUE	Planet		5	TRUE	Ron	Ron Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 vesta	TRUE	Planet		5	TRUE	Ron	Ron Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 pallas	TRUE	Planet		5	TRUE	Ron	Ron Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 geist	TRUE	Planet		5	TRUE	Scrivnus	Scrivnus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 interamnia	TRUE	Planet		5	TRUE	Scrivnus	Scrivnus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-hungary	TRUE	Planet		5	TRUE	Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-annaherman	TRUE	Planet		5	TRUE	Ron	Ron Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-hygeia	TRUE	Planet		5	TRUE	Scrivnus	Scrivnus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 hekate	FALSE	Planet		5	TRUE	Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
+hygeia	TRUE	Planet		5	TRUE	Scrivnus	Scrivnus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 jupiter	TRUE	Planet		6	TRUE	Flauros	Flauros Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 io	TRUE	Satelite	jupiter		FALSE		Flauros Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 europa	TRUE	Satelite	jupiter		FALSE		Flauros Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
@@ -81,103 +81,89 @@ enceladus	TRUE	Satelite	saturn		FALSE		Olirna Possessed Quasi	Weapon Helmet Armo
 titan	TRUE	Satelite	saturn		FALSE		Olirna Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 phoebe	TRUE	Satelite	saturn		FALSE		Olirna Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
 hyperion	TRUE	Satelite	saturn		FALSE		Olirna Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-tethys	FALSE	Satelite	saturn		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-dione	FALSE	Satelite	saturn		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-rhea	FALSE	Satelite	saturn		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-iapetus	FALSE	Satelite	saturn		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-mimas	FALSE	Satelite	saturn		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-uranus	FALSE	Planet		8	FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-miranda	FALSE	Satelite	uranus		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-ariel	FALSE	Satelite	uranus		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-umbriel	FALSE	Satelite	uranus		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-titania	FALSE	Satelite	uranus		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-oberon	FALSE	Satelite	uranus		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-neptune	FALSE	Planet		9	FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-triton	FALSE	Satelite	neptune		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-pluto	FALSE	Planet		10	FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
 #end																							
 																							
 #stations																							
 Id	SpaceObjectId	InitialOwnerFactionId	StationType	SpaceObjectItemDropPercent	Power	PowerGain	TechLevelGain	UncapturableByDefault	CaptureChance	MissionTemplateId	MissionNameTemplateId	BramfaturaId	InitialPopulation	MaxPopulation									
-FlatObsidian	mercury	CResistance	Military	0.12	0	1	1	FALSE	1	mercury_Military_mercury	mercurySurfaceLevels	Mercury	30485	45500									
-Rachmaninoff	mercury	CoreWard	Industrial	0.16	0	1	1	TRUE	1	orbit_Industrial	mercurySurfaceLevels	Mercury	29040	44000									
-Discovery	mercury	AnCom	Lab	0.08	0	1	1	FALSE	1	mercury_Lab_mercury	mercurySurfaceLevels	Mercury	26240	41000									
-CalorisPlanitia	mercury	FrancheComte	Mine	0.16	0	1	1	FALSE	1	mercury_mercuryMine_mercury	mercurySurfaceLevels	Mercury	36565	51500									
-Goethe	mercury	RealWare	Military	0.12	0	1	1	FALSE	1	orbit_Military	mercurySurfaceLevels	Mercury	30485	45500									
-Boethius	mercury	SBN	SpaceStation	0.16	0	1	1	FALSE	1	orbit_Router	mercurySurfaceLevels	Mercury	35000	50000									
-Mammoth	mercury	PlanetBridge	Industrial	0.16	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Mercury	35000	50000									
-Rhino	volcano	ChurchRevelation	Civilian	0.12	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Mercury	36565	51500									
-Kizzuwatna	volcano	CResistance	SpaceStation	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Mercury	27625	42500									
-Lomonosov	volcano	PlanetBridge	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Mercury	35000	50000									
-GammaHydra	citadel	PlanetBridge	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Mercury	30485	45500									
-EnergyOne	citadel	Dilthey	Industrial	0.16	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Mercury	57685	69500									
-Photosphere	citadel	AnCom	ColonyFarm	0.12	0	1	1	FALSE	1	orbit_Farm	mercurySurfaceLevels	Mercury	61625	72500									
-JourneyOfFire	citadel	FrancheComte	SpaceStation	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Mercury	57685	69500									
-Campbell	citadel	PlanetBridge	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Mercury	33465	48500									
-IbsaPrison	venus	Tezctlan	Prison	0.24	0	1	1	FALSE	1	orbit_Prison	mercurySurfaceLevels	Venus	57685	69500									
-Jinxing	venus	Grasshopper	Industrial	0.12	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Venus	33465	48500									
-HISUnveiled	venus	AnCom	Military	0.12	0	1	1	TRUE	1	orbit_Spaceport	mercurySurfaceLevels	Venus	57685	69500									
-FrescoPlatforms	venus	Tezctlan	Mine	0.16	0	1	1	FALSE	1	venus_Spaceport_venus	mercurySurfaceLevels	Venus	46765	57000									
-LouhiCity	venus	FrancheComte	Civilian	0.12	0	1	1	FALSE	0.5	venusCity_Colony_venus	mercurySurfaceLevels	Venus	42000	65000									
-Fortuna	venus	Dilthey	Lab	0.12	0	1	1	FALSE	1	venus_Lab_venus	mercurySurfaceLevels	Venus	52000	65000									
-Oddibjord	venus	Tezctlan	ColonyFarm	0.12	0	1	1	TRUE	1	venusFarm_Industrial_venus	mercurySurfaceLevels	Venus	38000	52500									
-Clotho	venus	RealWare	Industrial	0.16	0	1	1	FALSE	1	venusCity_Spaceport_venus	mercurySurfaceLevels	Venus	36565	51500									
-FeatheredTemple	venus	Tezctlan	QuasimorphicTemple	0.36	0	1	1	TRUE	0.5	venusTemple_Gannix_venus	mercurySurfaceLevels	Venus	67760	77000									
-SubRosa	mechta	AnCom	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Venus	43125	57500									
-February	mechta	FrancheComte	Prison	0.20	0	1	1	TRUE	1	orbit_Prison	mercurySurfaceLevels	Venus	44840	59000									
-Kyoko	mechta	Grasshopper	Civilian	0.12	0	1	1	FALSE	1	orbit_Business	mercurySurfaceLevels	Venus	39785	54500									
-MechtaShooting	mechta	DaydreamChems	Military	0.12	0	1	1	FALSE	1	orbit_Military	mercurySurfaceLevels	Venus	57685	69500									
-Kitchen	mechta	CoreWard	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Venus	35000	50000									
-EStation	mechta	DaydreamChems	Lab	0.12	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Venus	43125	57500									
-Purgatory	mechta	CResistance	Industrial	0.16	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Venus	35000	50000									
-Edge	havoc	FrancheComte	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Venus	35000	50000									
-Blade	havoc	Sunlight	Military	0.12	0	1	1	FALSE	1	orbit_Military	mercurySurfaceLevels	Venus	30485	45500									
-SampoQuern	havoc	CoreWard	Industrial	0.16	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Venus	33465	48500									
-VenusTwo	havoc	Dilthey	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Venus	33465	48500									
-PromisedLand	havoc	ChurchRevelation	ColonyFarm	0.12	0	1	1	FALSE	1	orbit_Farm	mercurySurfaceLevels	Venus	72000	80000									
-HeritageStation	earth	ChurchRevelation	SpaceStation	0.12	0	1	1	TRUE	1	orbit_Router	mercurySurfaceLevels	Earth	35000	50000									
-ArcadisTerminal	earth	RealWare	Industrial	0.16	0	1	1	TRUE	1	orbit_Spaceport	mercurySurfaceLevels	Earth	23560	38000									
-PineGapTraining	earth	ChurchRevelation	Lab	0.08	0	1	1	TRUE	1	orbit_Military	mercurySurfaceLevels	Earth	57685	69500									
-Skylab	earth	SBN	Lab	0.08	0	1	1	TRUE	1	orbit_Lab	mercurySurfaceLevels	Earth	50165	63500									
-ISSStation	earth	SBN	Civilian	0.12	0	1	1	TRUE	1	orbit_Station	mercurySurfaceLevels	Earth	24885	39500									
-Akatsuki	earth	AnCom	Industrial	0.12	0	1	1	TRUE	1	orbit_Industrial	mercurySurfaceLevels	Earth	35000	50000									
-Paragon	earth	DaydreamChems	Industrial	0.12	0	1	1	TRUE	1	orbit_Industrial	mercurySurfaceLevels	Earth	35000	50000									
-Phenomenon	earth	FrancheComte	Civilian	0.12	0	1	1	TRUE	1	orbit_Station	mercurySurfaceLevels	Earth	33465	48500									
-SterlingsFarm	fuller	ChurchRevelation	ColonyFarm	0.12	0	1	1	FALSE	1	orbit_Farm	mercurySurfaceLevels	Moon	72000	80000									
-HartsWarehouse	fuller	Grasshopper	Industrial	0.12	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Moon	48360	62000									
-FullersCore	fuller	FrancheComte	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Moon	39785	54500									
-PlatosAcademy	fuller	ChurchRevelation	Civilian	0.12	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Moon	63640	74000									
-AvicennasClinic	fuller	DaydreamChems	Lab	0.08	0	1	1	TRUE	1	orbit_Lab	mercurySurfaceLevels	Moon	33465	48500									
-VanDeGraaff	tsiolkovsky	SBN	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Earth	24885	39500									
-ChickMoo	tsiolkovsky	FrancheComte	Industrial	0.16	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Earth	30485	45500									
-LandscronaCenter	tsiolkovsky	Dilthey	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Earth	35000	50000									
-CenterDefense	tsiolkovsky	RealWare	Military	0.12	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Earth	24885	39500									
-ZeroGravity	tsiolkovsky	Dilthey	Military	0.12	0	1	1	FALSE	1	orbit_Military	mercurySurfaceLevels	Earth	74165	81500									
-MTZ	moon	Sunlight	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Moon	61625	72500									
-QiHelium	moon	FrancheComte	Industrial	0.16	0	1	1	FALSE	1	moon_Industrial_moon	mercurySurfaceLevels	Moon	35000	50000									
-AnCapDogma	moon	Dilthey	Industrial	0.16	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Moon	22265	36500									
-MoonTradeCenter	moon	DaydreamChems	Civilian	0.12	0	1	1	FALSE	1	moonCity_Business_moon	mercurySurfaceLevels	Moon	30485	45500									
-Candle	moon	AnCom	Civilian	0.12	0	1	1	FALSE	1	moonCity_Business_moon	mercurySurfaceLevels	Moon	33465	48500									
-AllianceArcology	moon	PlanetBridge	SpaceStation	0.12	0	1	1	FALSE	1	moonCity_Colony_moon	mercurySurfaceLevels	Moon	33465	48500									
-Tycho	moon	ChurchRevelation	Industrial	0.16	0	1	1	FALSE	1	moonCity_Spaceport_moon	mercurySurfaceLevels	Moon	27625	42500									
-ShuCenter	mars	FrancheComte	SpaceStation	0.03	0	1	1	FALSE	1	orbit_Router	mercurySurfaceLevels	Mars_Sleeping	35000	50000									
-RedTiangong	mars	Tianming	Industrial	0.03	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Mars_Sleeping	35000	50000									
-RebusSkyCity	mars	AnCom	Civilian	0.03	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Mars_Sleeping	30485	45500									
-HISAres	mars	RealWare	Military	0.03	0	1	1	TRUE	1	orbit_Military	mercurySurfaceLevels	Mars_Sleeping	30485	45500									
-Argyre	mars	DaydreamChems	Mine	0.05	0	1	1	FALSE	1	mars_marsMine_mars	mercurySurfaceLevels	Mars_Sleeping	36565	51500									
-SinkholeOasis	mars	RealWare	Military	0.03	0	1	1	TRUE	0.5	mars_Military_mars	mercurySurfaceLevels	Mars_Sleeping	45485	65500									
-Gloria	mars	ChurchRevelation	Industrial	0.03	0	1	1	FALSE	1	mars_Spaceport_mars	mercurySurfaceLevels	Mars_Sleeping	35000	50000									
-IntercityTradeCenter	mars	SBN	Civilian	0.03	0	1	1	FALSE	1	marsCity_Business_mars	mercurySurfaceLevels	Mars_Sleeping	36565	51500									
-Charon	phobos	PlanetBridge	SpaceStation	0.03	0	1	1	TRUE	1	orbit_Spaceport	mercurySurfaceLevels	Mars_Sleeping	23560	38000									
-Canaan	phobos	Grasshopper	Industrial	0.05	0	1	1	FALSE	1	moon_Spaceport_phobos	mercurySurfaceLevels	Mars_Sleeping	22265	36500									
-Hypnos	phobos	RealWare	Civilian	0.03	0	1	1	FALSE	1	moon_Colony_phobos	mercurySurfaceLevels	Mars_Sleeping	33465	48500									
-Orphan	phobos	CResistance	Mine	0.05	0	1	1	FALSE	1	moon_moonMine_phobos	mercurySurfaceLevels	Mars_Sleeping	36565	51500									
-RogueCity	phobos	CResistance	Civilian	0.03	0	1	1	FALSE	1	moon_Colony_phobos	mercurySurfaceLevels	Mars_Sleeping	24885	39500									
-SwiftAndVoltaire	deimos	Dilthey	Lab	0.08	0	1	1	FALSE	1	moonCity_Lab_deimos	mercurySurfaceLevels	Mars_Sleeping	24885	39500									
-AresPost	deimos	SBN	Industrial	0.16	0	1	1	FALSE	1	moon_Spaceport_deimos	mercurySurfaceLevels	Mars_Sleeping	35000	50000									
-Warden	deimos	CResistance	Civilian	0.12	0	1	1	FALSE	1	moon_Colony_deimos	mercurySurfaceLevels	Mars_Sleeping	24885	39500									
-DarkFlora	deimos	Sunlight	Lab	0.12	0	1	1	FALSE	1	moon_Lab_deimos	mercurySurfaceLevels	Mars_Sleeping	24885	39500									
-Sundog	deimos	DaydreamChems	Industrial	0.16	0	1	1	FALSE	1	moon_Industrial_deimos	mercurySurfaceLevels	Mars_Sleeping	24885	39500									
+FlatObsidian	mercury	CResistance	Military	0.12	0	1	1	FALSE	1	mercury_Military_mercury	mercurySurfaceLevels	Shartamakhum	30485	45500									
+Rachmaninoff	mercury	CoreWard	Industrial	0.16	0	1	1	TRUE	1	orbit_Industrial	mercurySurfaceLevels	Shartamakhum	29040	44000									
+Discovery	mercury	AnCom	Lab	0.08	0	1	1	FALSE	1	mercury_Lab_mercury	mercurySurfaceLevels	Shartamakhum	26240	41000									
+CalorisPlanitia	mercury	FrancheComte	Mine	0.16	0	1	1	FALSE	1	mercury_mercuryMine_mercury	mercurySurfaceLevels	Shartamakhum	36565	51500									
+Goethe	mercury	RealWare	Military	0.12	0	1	1	FALSE	1	orbit_Military	mercurySurfaceLevels	Shartamakhum	30485	45500									
+Boethius	mercury	SBN	SpaceStation	0.16	0	1	1	FALSE	1	orbit_Router	mercurySurfaceLevels	Shartamakhum	35000	50000									
+Mammoth	mercury	PlanetBridge	Industrial	0.16	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Shartamakhum	35000	50000									
+Rhino	volcano	ChurchRevelation	Civilian	0.12	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Shartamakhum	36565	51500									
+Kizzuwatna	volcano	CResistance	SpaceStation	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Shartamakhum	27625	42500									
+Lomonosov	volcano	PlanetBridge	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Shartamakhum	35000	50000									
+GammaHydra	citadel	PlanetBridge	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Shartamakhum	30485	45500									
+EnergyOne	citadel	Dilthey	Industrial	0.16	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Shartamakhum	57685	69500									
+Photosphere	citadel	AnCom	ColonyFarm	0.12	0	1	1	FALSE	1	orbit_Farm	mercurySurfaceLevels	Shartamakhum	61625	72500									
+JourneyOfFire	citadel	FrancheComte	SpaceStation	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Shartamakhum	57685	69500									
+Campbell	citadel	PlanetBridge	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Shartamakhum	33465	48500									
+IbsaPrison	venus	Tezctlan	Prison	0.24	0	1	1	FALSE	1	orbit_Prison	mercurySurfaceLevels	Gannix	57685	69500									
+Jinxing	venus	Grasshopper	Industrial	0.12	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Gannix	33465	48500									
+HISUnveiled	venus	AnCom	Military	0.12	0	1	1	TRUE	1	orbit_Spaceport	mercurySurfaceLevels	Gannix	57685	69500									
+FrescoPlatforms	venus	Tezctlan	Mine	0.16	0	1	1	FALSE	1	venus_Spaceport_venus	mercurySurfaceLevels	Gannix	46765	57000									
+LouhiCity	venus	FrancheComte	Civilian	0.12	0	1	1	FALSE	0.5	venusCity_Colony_venus	mercurySurfaceLevels	Gannix	42000	65000									
+Fortuna	venus	Dilthey	Lab	0.12	0	1	1	FALSE	1	venus_Lab_venus	mercurySurfaceLevels	Gannix	52000	65000									
+Oddibjord	venus	Tezctlan	ColonyFarm	0.12	0	1	1	TRUE	1	venusFarm_Industrial_venus	mercurySurfaceLevels	Gannix	38000	52500									
+Clotho	venus	RealWare	Industrial	0.16	0	1	1	FALSE	1	venusCity_Spaceport_venus	mercurySurfaceLevels	Gannix	36565	51500									
+FeatheredTemple	venus	Tezctlan	QuasimorphicTemple	0.36	0	1	1	TRUE	0.5	venusTemple_Gannix_venus	mercurySurfaceLevels	Gannix	67760	77000									
+SubRosa	mechta	AnCom	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Gannix	43125	57500									
+February	mechta	FrancheComte	Prison	0.20	0	1	1	TRUE	1	orbit_Prison	mercurySurfaceLevels	Gannix	44840	59000									
+Kyoko	mechta	Grasshopper	Civilian	0.12	0	1	1	FALSE	1	orbit_Business	mercurySurfaceLevels	Gannix	39785	54500									
+MechtaShooting	mechta	DaydreamChems	Military	0.12	0	1	1	FALSE	1	orbit_Military	mercurySurfaceLevels	Gannix	57685	69500									
+Kitchen	mechta	CoreWard	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Gannix	35000	50000									
+EStation	mechta	DaydreamChems	Lab	0.12	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Gannix	43125	57500									
+Purgatory	mechta	CResistance	Industrial	0.16	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Gannix	35000	50000									
+Edge	havoc	FrancheComte	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Gannix	35000	50000									
+Blade	havoc	Sunlight	Military	0.12	0	1	1	FALSE	1	orbit_Military	mercurySurfaceLevels	Gannix	30485	45500									
+SampoQuern	havoc	CoreWard	Industrial	0.16	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Gannix	33465	48500									
+VenusTwo	havoc	Dilthey	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Gannix	33465	48500									
+PromisedLand	havoc	ChurchRevelation	ColonyFarm	0.12	0	1	1	FALSE	1	orbit_Farm	mercurySurfaceLevels	Gannix	72000	80000									
+HeritageStation	earth	ChurchRevelation	SpaceStation	0.12	0	1	1	TRUE	1	orbit_Router	mercurySurfaceLevels	No_Bramfatura	35000	50000									
+ArcadisTerminal	earth	RealWare	Industrial	0.16	0	1	1	TRUE	1	orbit_Spaceport	mercurySurfaceLevels	No_Bramfatura	23560	38000									
+PineGapTraining	earth	ChurchRevelation	Lab	0.08	0	1	1	TRUE	1	orbit_Military	mercurySurfaceLevels	No_Bramfatura	57685	69500									
+Skylab	earth	SBN	Lab	0.08	0	1	1	TRUE	1	orbit_Lab	mercurySurfaceLevels	No_Bramfatura	50165	63500									
+ISSStation	earth	SBN	Civilian	0.12	0	1	1	TRUE	1	orbit_Station	mercurySurfaceLevels	No_Bramfatura	24885	39500									
+Akatsuki	earth	AnCom	Industrial	0.12	0	1	1	TRUE	1	orbit_Industrial	mercurySurfaceLevels	No_Bramfatura	35000	50000									
+Paragon	earth	DaydreamChems	Industrial	0.12	0	1	1	TRUE	1	orbit_Industrial	mercurySurfaceLevels	No_Bramfatura	35000	50000									
+Phenomenon	earth	FrancheComte	Civilian	0.12	0	1	1	TRUE	1	orbit_Station	mercurySurfaceLevels	No_Bramfatura	33465	48500									
+SterlingsFarm	fuller	ChurchRevelation	ColonyFarm	0.12	0	1	1	FALSE	1	orbit_Farm	mercurySurfaceLevels	Duggur	72000	80000									
+HartsWarehouse	fuller	Grasshopper	Industrial	0.12	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Duggur	48360	62000									
+FullersCore	fuller	FrancheComte	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Duggur	39785	54500									
+PlatosAcademy	fuller	ChurchRevelation	Civilian	0.12	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	Duggur	63640	74000									
+AvicennasClinic	fuller	DaydreamChems	Lab	0.08	0	1	1	TRUE	1	orbit_Lab	mercurySurfaceLevels	Duggur	33465	48500									
+VanDeGraaff	tsiolkovsky	SBN	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	No_Bramfatura	24885	39500									
+ChickMoo	tsiolkovsky	FrancheComte	Industrial	0.16	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	No_Bramfatura	30485	45500									
+LandscronaCenter	tsiolkovsky	Dilthey	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	No_Bramfatura	35000	50000									
+CenterDefense	tsiolkovsky	RealWare	Military	0.12	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	No_Bramfatura	24885	39500									
+ZeroGravity	tsiolkovsky	Dilthey	Military	0.12	0	1	1	FALSE	1	orbit_Military	mercurySurfaceLevels	No_Bramfatura	74165	81500									
+MTZ	moon	Sunlight	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Duggur	61625	72500									
+QiHelium	moon	FrancheComte	Industrial	0.16	0	1	1	FALSE	1	moon_Industrial_moon	mercurySurfaceLevels	Duggur	35000	50000									
+AnCapDogma	moon	Dilthey	Industrial	0.16	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Duggur	22265	36500									
+MoonTradeCenter	moon	DaydreamChems	Civilian	0.12	0	1	1	FALSE	1	moonCity_Business_moon	mercurySurfaceLevels	Duggur	30485	45500									
+Candle	moon	AnCom	Civilian	0.12	0	1	1	FALSE	1	moonCity_Business_moon	mercurySurfaceLevels	Duggur	33465	48500									
+AllianceArcology	moon	PlanetBridge	SpaceStation	0.12	0	1	1	FALSE	1	moonCity_Colony_moon	mercurySurfaceLevels	Duggur	33465	48500									
+Tycho	moon	ChurchRevelation	Industrial	0.16	0	1	1	FALSE	1	moonCity_Spaceport_moon	mercurySurfaceLevels	Duggur	27625	42500									
+ShuCenter	mars	FrancheComte	SpaceStation	0.03	0	1	1	FALSE	1	orbit_Router	mercurySurfaceLevels	Ur_Sleeping	35000	50000									
+RedTiangong	mars	Tianming	Industrial	0.03	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Ur_Sleeping	35000	50000									
+RebusSkyCity	mars	AnCom	Civilian	0.03	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Ur_Sleeping	30485	45500									
+HISAres	mars	RealWare	Military	0.03	0	1	1	TRUE	1	orbit_Military	mercurySurfaceLevels	Ur_Sleeping	30485	45500									
+Argyre	mars	DaydreamChems	Mine	0.05	0	1	1	FALSE	1	mars_marsMine_mars	mercurySurfaceLevels	Ur_Sleeping	36565	51500									
+SinkholeOasis	mars	RealWare	Military	0.03	0	1	1	TRUE	0.5	mars_Military_mars	mercurySurfaceLevels	Ur_Sleeping	45485	65500									
+Gloria	mars	ChurchRevelation	Industrial	0.03	0	1	1	FALSE	1	mars_Spaceport_mars	mercurySurfaceLevels	Ur_Sleeping	35000	50000									
+IntercityTradeCenter	mars	SBN	Civilian	0.03	0	1	1	FALSE	1	marsCity_Business_mars	mercurySurfaceLevels	Ur_Sleeping	36565	51500									
+Charon	phobos	PlanetBridge	SpaceStation	0.03	0	1	1	TRUE	1	orbit_Spaceport	mercurySurfaceLevels	Ur_Sleeping	23560	38000									
+Canaan	phobos	Grasshopper	Industrial	0.05	0	1	1	FALSE	1	moon_Spaceport_phobos	mercurySurfaceLevels	Ur_Sleeping	22265	36500									
+Hypnos	phobos	RealWare	Civilian	0.03	0	1	1	FALSE	1	moon_Colony_phobos	mercurySurfaceLevels	Ur_Sleeping	33465	48500									
+Orphan	phobos	CResistance	Mine	0.05	0	1	1	FALSE	1	moon_moonMine_phobos	mercurySurfaceLevels	Ur_Sleeping	36565	51500									
+RogueCity	phobos	CResistance	Civilian	0.03	0	1	1	FALSE	1	moon_Colony_phobos	mercurySurfaceLevels	Ur_Sleeping	24885	39500									
+SwiftAndVoltaire	deimos	Dilthey	Lab	0.08	0	1	1	FALSE	1	moonCity_Lab_deimos	mercurySurfaceLevels	Ur_Sleeping	24885	39500									
+AresPost	deimos	SBN	Industrial	0.16	0	1	1	FALSE	1	moon_Spaceport_deimos	mercurySurfaceLevels	Ur_Sleeping	35000	50000									
+Warden	deimos	CResistance	Civilian	0.12	0	1	1	FALSE	1	moon_Colony_deimos	mercurySurfaceLevels	Ur_Sleeping	24885	39500									
+DarkFlora	deimos	Sunlight	Lab	0.12	0	1	1	FALSE	1	moon_Lab_deimos	mercurySurfaceLevels	Ur_Sleeping	24885	39500									
+Sundog	deimos	DaydreamChems	Industrial	0.16	0	1	1	FALSE	1	moon_Industrial_deimos	mercurySurfaceLevels	Ur_Sleeping	24885	39500									
 Epitome	ceres	PlanetBridge	Industrial	0.16	0	1	1	FALSE	1	cerera_Colony_ceres	mercurySurfaceLevels	Cattaram	19765	33500									
 Angel	ceres	Grasshopper	Industrial	0.16	0	1	1	TRUE	1	cerera_Spaceport_ceres	mercurySurfaceLevels	Cattaram	23560	38000									
 Eos	ceres	CoreWard	Civilian	0.12	0	1	1	FALSE	1	cerera_Colony_ceres	mercurySurfaceLevels	Cattaram	29040	44000									
@@ -213,7 +199,7 @@ Montgomery	annaherman	FrancheComte	Prison	0.16	0	1	1	FALSE	1	cerera_Prison_annah
 Connelly	hygeia	UnchainedBelt	Civilian	0.12	0	1	1	FALSE	1	marsCity_Colony_hygeia	mercurySurfaceLevels	Scrivnus	24885	39500									
 Sewell	hygeia	ChurchRevelation	ColonyFarm	0.12	0	1	1	FALSE	1	mars_Colony_hygeia	mercurySurfaceLevels	Scrivnus	33465	48500									
 Proyas	hygeia	CResistance	Lab	0.08	0	1	1	FALSE	1	mars_Colony_hygeia	mercurySurfaceLevels	Scrivnus	35000	50000									
-RedThrone	hekate	CResistance	Military	0.12	0	1	1	TRUE	1	mercury_Military_hekate	mercurySurfaceLevels	Earth	36565	51500									
+RedThrone	hekate	CResistance	Military	0.12	0	1	1	TRUE	1	mercury_Military_hekate	mercurySurfaceLevels	No_Bramfatura	36565	51500									
 Galileo	jupiter	AnCom	SpaceStation	0.08	0	1	1	FALSE	1	orbit_Router	mercurySurfaceLevels	Flauros	22265	36500									
 CathodeRampart	jupiter	SBN	Industrial	0.16	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Flauros	35000	50000									
 Zephyr	jupiter	RealWare	Industrial	0.12	0	1	1	FALSE	1	orbit_Spaceport	mercurySurfaceLevels	Flauros	33465	48500									
@@ -261,15 +247,15 @@ Cronus	hyperion	RealWare	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLevels	O
 Labyrinth13	hyperion	SBN	Lab	0.08	0	1	1	FALSE	1	moon_moonMine_ganymede	mercurySurfaceLevels	Olirna_Sleeping	23560	38000									
 PointShadow	hyperion	CResistance	SpaceStation	0.12	0	1	1	FALSE	1	moon_Lab_wernher	mercurySurfaceLevels	Olirna_Sleeping	30485	45500									
 PilgrimsRift	hyperion	Sunlight	Lab	0.08	0	1	1	TRUE	1	moon_Colony_phobos	mercurySurfaceLevels	Olirna_Sleeping	27625	42500									
-bramfaturian_Mercury		Ferals_Mercury	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Mercury	BramfaturaInvasion	Mercury	0	0									
-bramfaturian_Venus		Ferals_Venus	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Venus	BramfaturaInvasion	Venus	0	0									
-bramfaturian_Moon		Ferals_Moon	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Moon	BramfaturaInvasion	Moon	0	0									
-bramfaturian_Mars_Awakened		Ferals_Mars_Awakened	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Mars_Awakened	BramfaturaInvasion	Mars_Awakened	0	0									
-bramfaturian_Cattaram		Ferals_Cattaram	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Cattaram	BramfaturaInvasion	Cattaram	0	0									
-bramfaturian_Ron		Ferals_Ron	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Ron	BramfaturaInvasion	Ron	0	0									
-bramfaturian_Scrivnus		Ferals_Scrivnus	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Scrivnus	BramfaturaInvasion	Scrivnus	0	0									
-bramfaturian_Flauros		Ferals_Flauros	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Flauros	BramfaturaInvasion	Flauros	0	0									
-bramfaturian_Olirna		Ferals_Olirna_Awakened	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Olirna	BramfaturaInvasion	Olirna_Awakened	0	0									
+bramfaturian_Mercury		ShartamakhumFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Mercury	BramfaturaInvasion	Shartamakhum	0	0									
+bramfaturian_Venus		GannixFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Venus	BramfaturaInvasion	Venus	0	0									
+bramfaturian_Moon		DuggurFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Moon	BramfaturaInvasion	Gannix	0	0									
+bramfaturian_Mars_Awakened		UrFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Mars_Awakened	BramfaturaInvasion	Ur_Awakened	0	0									
+bramfaturian_Cattaram		CattaramFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Cattaram	BramfaturaInvasion	Cattaram	0	0									
+bramfaturian_Ron		RonFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Ron	BramfaturaInvasion	Ron	0	0									
+bramfaturian_Scrivnus		ScrivnusFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Scrivnus	BramfaturaInvasion	Scrivnus	0	0									
+bramfaturian_Flauros		FlaurosFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Flauros	BramfaturaInvasion	Flauros	0	0									
+bramfaturian_Olirna		OlirnaFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Olirna	BramfaturaInvasion	Olirna_Awakened	0	0									
 #end																							
 																							
 #stationtypes																							
@@ -284,24 +270,6 @@ Civilian	Common Civilian Worker Managment Medical Security	Blueprint 6 Armor 3 H
 QuasimorphicTemple	Possessed Venus	Blueprint 8 Armor 5 Helmet 3 Leggings 3 Boots 2 Weapon 6 Ammo 6 Backpack 4 Vest 3 Medpack 6 Pills 1 Syringe 2 Dressing 1 Parts 2 RepairKit 4 Food 1 Drink 1 Alcohol 1 Turret 4 Cyborg 3 QuasiOrgan 2 Mine 2 Grenade 4 ThrowableWeapon 1 CyberneticAug 2	Cloth 1 LightArmor 2 MediumArmor 3 HeavyArmor 2 PowerArmor 1	Knife 1 Blade 2 Fist 1 Club 1 Axe 1 Pistol 2 Shotgun 3 Smg 3 AssaultRifle 4 MarksmanRifle 4 Machinegun 3 Minigun 3 RocketLauncher 3 GrenadeLauncher 3 Flamethrower 3																			
 SpaceStation	Common Civilian Reserve Managment Security Military	Blueprint 8 Armor 5 Helmet 3 Leggings 3 Boots 2 Weapon 6 Ammo 6 Backpack 4 Vest 3 Medpack 6 Pills 1 Syringe 2 Dressing 1 Parts 2 RepairKit 4 Food 1 Drink 1 Alcohol 1 Turret 4 Cyborg 3 QuasiOrgan 2 Mine 2 Grenade 4 ThrowableWeapon 1 CyberneticAug 2	Cloth 1 LightArmor 2 MediumArmor 3 HeavyArmor 2 PowerArmor 1	Knife 1 Blade 2 Fist 1 Club 1 Axe 1 Pistol 2 Shotgun 3 Smg 3 AssaultRifle 4 MarksmanRifle 4 Machinegun 3 Minigun 3 RocketLauncher 3 GrenadeLauncher 3 Flamethrower 3																			
 Bramfaturian	Quasi	Armor 4 Helmet 2 Leggings 2 Boots 1 Weapon 3 Ammo 2 Food 2 QuasiArtefact 4 Syringe 3 Dressing 3 Parts 2 RepairKit 4 Grenade 2 Organ 1 QuasiOrgan 3	Cloth 1 LightArmor 2 MediumArmor 3 HeavyArmor 2 PowerArmor 1	Knife 1 Blade 2 Fist 1 Club 1 Axe 1 Pistol 2 Shotgun 3 Smg 3 AssaultRifle 4 MarksmanRifle 4 Machinegun 3 Minigun 3 RocketLauncher 3 GrenadeLauncher 3 Flamethrower 3																			
-#end																							
-																							
-#procmissions																							
-ProcMissionType	ReverseMissionType	ItemsDropPointsMult	AlliesPointsMult	AlliesTechLevel	PowerCost	MinObjectivesCount	MaxObjectivesCount	CapturesStationOnWin	LosesStationOnLose	StationPopulationDebuffRange	StationPowerDebuff	PowerBuff	PowerDebuff	StationTechLevelDebuff	TechLevelBuff	TechLevelDebuff	NewsTypeStart	NewsTypeEndGood	NewsTypeEndFail				
-RaiderCapture	Defense	1.2	0	0	180	0	0	TRUE	FALSE	1500 2500	0.5	180	0	0	0	0	ConquestStart	ConquestEndGood	ConquestEndFail				
-Elimination	Escort	1	0	0	90	1	1	FALSE	FALSE	500 1500	0.8	90	0.04	0.6	0	0	EliminationStart	EliminationEndGood	EliminationEndFail				
-CEOElimination		1.4	0	0	90	1	1	FALSE	FALSE	500 1500	0	0	0.5	0	0	0.5	EliminationStart	EliminationEndGood	EliminationEndFail				
-BramfaturaInvasion		1	0	0	0	0	0	FALSE	FALSE	0 0	0	0	0	0	0	0							
-Sabotage	Control	1	0	0	90	1	3	FALSE	FALSE	500 1500	0.4	90	0.08	0	0	0.05	SabotageStart	SabotageEndGood	SabotageEndFail				
-Espionage	Infiltration	1	0	0	0	1	1	FALSE	FALSE	250 500	0.4	200	0	0.3	100	0	EspionageStart	EspionageEndGood	EspionageEndFail				
-Ritual	Counterattack	1	0	0	90	0	0	FALSE	FALSE	1500 2500	0.8	300	0.04	0.6	200	0	RitualStart	RitualEndGood	RitualEndFail				
-Robbery	Security	1.1	0	0	60	2	6	FALSE	FALSE	500 1500	0.4	150	0.08	0	100	0.05	RobberyStart	RobberyEndGood	RobberyEndFail				
-Defense	RaiderCapture	0.2	0.2	-1	0	0	0	FALSE	TRUE	0 750	0	0	0	0	0	0	DefenseStart	DefenseEndGood	DefenseEndFail				
-Infiltration	Espionage	1	0.2	1	0	2	5	FALSE	FALSE	0 125	0	0	0	0	0	0	InfiltrationStart	InfiltrationEndGood	InfiltrationEndFail				
-Control	Sabotage	1	0.2	1	0	2	3	FALSE	FALSE	0 250	0	0	0	0	0	0	ControlStart	ControlEndGood	ControlEndFail				
-Escort	Elimination	1.1	0.2	1	0	0	0	FALSE	FALSE	0 250	0	0	0	0	0	0	EscortStart	EscortEndGood	EscortEndFail				
-Counterattack	Ritual	1	0.2	1	0	0	0	FALSE	FALSE	0 750	0	0	0	0	60	0	CounterattackStart	CounterattackEndGood	CounterattackEndFail				
-Security	Robbery	0.2	0.2	1	0	2	5	FALSE	FALSE	0 250	0	0	0	0	0	0	SecurityStart	SecurityEndGood	SecurityEndFail				
 #end																							
 																							
 #procmissiontemplates																							
@@ -389,37 +357,6 @@ bramfaturian_Flauros	FALSE	130	110	BramFlauros	#b68080	0.5	flauros_destroyed_flo
 bramfaturian_Olirna	FALSE	130	110	BramOlirna	#b68080	0.7	olirna_floor_normal olirna_floor_normal olirna_floor_normal olirna_floor_normal olirna_floor_normal olirna_deep	olirna_floor_normal olirna_floor_normal olirna_floor_normal olirna_floor_normal olirna_floor_normal olirna_deep	olirna_cornerwall_normal olirna_cornerwall_normal olirna_cornerwall_normal olirna_cornerwall_normal olirna_cornerwall_normal olirna_cornerwall_normal	olirna_cornerwall_normal olirna_cornerwall_normal olirna_cornerwall_normal olirna_cornerwall_normal olirna_cornerwall_normal olirna_cornerwall_normal	0.1 0.01	0.1 0.01	true true	FillBordersSpace	FillBordersSpace	TRUE	TRUE	door_temple_vert	door_temple_hor	door_temple_vert	door_temple_hor	Indoor1 BramOutdoor	Indoor1 BramOutdoor
 #end																							
 																							
-#storymissions																							
-Id	StationId	BeneficiaryFactionId	VictimFactionId	PrizeItems	WinCondition	WinConditionParameters	MinTechLevel	UseBiomeDropLists	ItemsPointsByStages	MonsterPointsByStages	FactionIdsByStages	ItemsRequirement	ItemsRequirementAny	OverrideBramfaturaId	LockedSpaceScenarioId								
-Tutorial	Orphan	Magnum	CResistance		KillAllPercent	1	1	FALSE	stage1 39 stage2 76 stage3 215 stage4 136														
-SecondTutorial	RogueCity	Magnum	CResistance	quest_AncomData small_basic_ammo medical_kit_1 rags rags small_backpack_1 frag_grenade frag_grenade armor_plates armor_plates weapon_parts weapon_parts	KillObstacle	serverStation 1	3	FALSE	stage1 367 stage2 367 stage3 367	stage1 1200 stage2 1200 stage3 1200													
-SinkholePeaceVisit	SinkholeOasis	XiomaraMasks	RealWare		Custom		5	TRUE	stage1 425	stage1 1200													
-UseYourHead	FlatObsidian	Magnum	CResistance	phase_bomb	Custom		5	TRUE	stage1 500 stage2 500 stage3 600 stage4 600	stage1 1600 stage2 1600 stage3 1600 stage4 2000													
-RuinsOfAncientBramfaturas	SinkholeOasis	XiomaraMasks	RealWare	venus_spear_hmg_1 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_medical_kit_1 quasi_medical_kit_1 quasi_repair_kit quasi_repair_kit demonic_aye spider_cocoon spider_cocoon spider_cocoon skull_venus_arterial_pulse	ItemInInventoryById	venus_spear_hmg_1 1	5	TRUE	stage1 200 stage2 800 stage3 1000 stage4 -666	stage1 1600 stage2 1600 stage3 2400 stage4 0		phase_bomb											
-CommunityAndAnarchy	Oddibjord	AnCom	Unknown	quest_goldenSkull	ItemInInventoryById	quest_goldenSkull 1	6	FALSE	stage1 800 stage2 800 stage3 800 stage4 1000 stage5 1000	stage1 2400 stage2 3200 stage3 3200 stage4 1600 stage5 4800	stage1 RealWare stage2 RealWare stage3 RealWare stage4 Tezctlan stage5 RealWare												
-Manifesto	HeritageStation	CResistance	SBN	civ_marksman_1 rifle_basic_ammo servo_backpack_1 civ_medium_armor_2 civ_medium_helmet_2 firearm_repair_kit automap thermal_grenade tool_container engineering_parts_container welding_machine_device	Custom	1	6	FALSE	stage1 300 stage2 300 stage3 300	stage1 1200 stage2 1600 stage3 2000													
-PoisonTrial	FeatheredTemple	Magnum	Tezctlan	skull_blood_revival	Custom	1	6	FALSE	stage1 100	stage1 400													
-CovertOps	HumankindsHope	RealWare	AnCom	military_heavy_helmet_1 rwa_heavy_helmet_1 big_backpack_1 medical_kit_2 medical_kit_2 medical_kit_2 medium_basic_ammo medium_basic_ammo	Custom	1	6	TRUE	stage1 500 stage2 500 stage3 600 stage4 600	stage1 1600 stage2 1600 stage3 1600 stage4 2000		quest_emiBurner											
-GhoulShip	HISWoodpecker	UnchainedBelt	CoreWard	pirates_assault_1 trash_armored_vest_1 rifle_basic_ammo rifle_basic_ammo alcogol_container alcogol_container	Custom	1	6	TRUE	stage1 500 stage2 500 stage3 600 stage4 600 stage5 600	stage1 1600 stage2 1600 stage3 1600 stage4 2000 stage5 2400													
-MenInBlack	Jamame	AnCom	CResistance	anc_quasi_assault_1 anc_medium_armor_2 anc_medium_mask_1 anc_medium_pants_2 anc_medium_boots_2 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo	Custom		6	FALSE	stage1 600 stage2 800 stage3 800	stage1 2200 stage2 2600 stage3 3200				Earth									
-FromSparkToFlame	HISUnveiled	CResistance	AnCom	civ_plasma_assault_1 battery_basic_ammo battery_basic_ammo battery_basic_ammo civ_medium_armor_2 civ_medium_helmet_2 civ_medium_pants_2 civ_medium_boots_2 cyborg_drill	Custom		6	FALSE	stage1 180 stage2 600 stage3 600 stage4 800	stage1 1200 stage2 1600 stage3 1600 stage4 2000		quest_redChip			Locked_FromSparkToFlame								
-IronBroom	Hargeysa	CResistance	UnchainedBelt	civ_heavy_helmet_1 civ_heavy_armor_1 civ_heavy_pants_1 civ_heavy_boots_1 civ_plasma_assault_1 civ_plasma_assault_1 nanorobot_grenade nanorobot_grenade battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo	Custom		8	FALSE	stage1 180 stage2 600 stage3 600	stage1 2600 stage2 3040 stage3 3200													
-IcePick	RedThrone	CivilUnity	GodBuilders		Custom		10	FALSE	stage1 500 stage2 600 stage3 800 stage4 800	stage1 2400 stage2 2600 stage3 2800 stage4 3200				Earth									
-Beacon	Sundog	GodBuilders	CivilUnity	civ_heavy_helmet_1 civ_heavy_armor_1 civ_heavy_pants_1 civ_heavy_boots_1 plasma_hmg_1 tech_hfg_1 nanorobot_grenade nanorobot_grenade battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo	Custom		9	FALSE	stage1 500 stage2 600 stage3 800 stage4 -666	stage1 2400 stage2 3200 stage3 3200 stage4 2400				Earth									
-SacredFlame	IntercityTradeCenter	GodBuilders	RealWare		Custom		10	FALSE	stage1 720 stage2 720 stage3 810	stage1 2400 stage2 3000 stage3 2400													
-FlowerWar	HISUnveiled	Tezctlan	AnCom	venus_knife_1 venus_quasi_pistol_1 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo venusTez_heavy_armor_1 venusTez_heavy_helmet_1 venusTez_heavy_pants_1 venusTez_heavy_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts	Custom		7	FALSE	stage1 450 stage2 600 stage3 800 stage4 600 stage5 600	stage1 1800 stage2 2200 stage3 2400 stage4 2200 stage5 1800				Earth									
-InterplanLove	ISSStation	Tezctlan	SBN	venus_battlefist_1 venus_quasi_shotgun_1 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo venusTez_heavy_armor_2 venusTez_heavy_helmet_2 venusTez_heavy_pants_2 venusTez_heavy_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venuswarrior_hand	Custom		8	FALSE	stage1 1200 stage2 -666	stage1 3600 stage2 2000				Earth									
-WhatIsMine	Oddibjord	Tezctlan	XiomaraMasks	quest_goldenSkull venus_axe_1 venus_rocketlauncher_1 venus_blowpipe_1 quasi_darts_ammo quasi_darts_ammo quasi_darts_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_medical_kit_1 quasi_medical_kit_1 quasi_medical_kit_1 venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts spider_cocoon spider_cocoon spider_cocoon spider_cocoon spider_cocoon	ItemInInventoryById	quest_goldenSkull 1	9	FALSE	stage1 1000 stage2 800	stage1 6400 stage2 9600				Earth									
-EmeraldTemple	Carcosa	Tezctlan	ChurchRevelation	venus_poleaxe_1 venus_marksman_1 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo venusTez_heavy_armor_3 venusTez_heavy_helmet_3 venusTez_heavy_pants_2 venusTez_heavy_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venusrange_hand skull_of_the_damned	Custom		9	FALSE	stage1 1200 stage2 1200 stage3 1100	stage1 5600 stage2 4800 stage3 4000		quest_goldenSkull											
-StandStones	PilgrimsRift	Tezctlan	Sunlight	venus_poleaxe_1 venus_marksman_1 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo venusTez_heavy_armor_3 venusTez_heavy_helmet_3 venusTez_heavy_pants_2 venusTez_heavy_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venusrange_hand skull_of_the_damned	Custom		9	FALSE	stage1 850 stage2 900 stage3 900	stage1 2400 stage2 3200 stage3 5600													
-Eradication	SinkholeOasis	Tezctlan	SheduThousand		Custom		10	FALSE	stage1 1600 stage2 1500	stage1 4800 stage2 4400		venus_spear_hmg_1											
-Nanauatzin	Oddibjord	XiomaraMasks	Tezctlan	skull_venus_blood_mirror venus_battlefist_1 venus_marksman_1 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo venusXsi_light_armor_2 venusXsi_light_helmet_2 venusXsi_pants_1 venusXsi_light_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 quasi_repair_kit spider_cocoon spider_cocoon spider_cocoon	Custom		6	FALSE	stage1 1200 stage2 700	stage1 2700 stage2 1300													
-Topiltzin	Clotho	XiomaraMasks	Tezctlan	skull_venus_run_cold venusrange_hand quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo venusXsi_light_armor_2 venusXsi_light_helmet_2 venusXsi_pants_1 venusXsi_light_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 quasi_repair_kit spider_cocoon spider_cocoon spider_cocoon	Custom		6	FALSE	stage1 1100	stage1 2200													
-Tonatiuh	FrescoPlatforms	XiomaraMasks	Tezctlan	skull_venus_reapers_harvest venuswarrior_hand quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo venusXsi_light_armor_2 venusXsi_light_helmet_2 venusXsi_pants_1 venusXsi_light_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 quasi_repair_kit spider_cocoon spider_cocoon spider_cocoon	Custom		6	FALSE	stage1 450 stage2 600	stage1 2500 stage2 2100													
-ShatteredEmer	FeatheredTemple	XiomaraMasks	Tezctlan	skull_venus_hemostatic_shock	Custom		8	FALSE	stage1 900 stage2 1300 stage3 1200	stage1 3200 stage2 6000 stage3 2600			venus_spear_hmg_1 quest_goldenSkull	ShatterEmer									
-TreasureIsland	Hargeysa	RealWare	UnchainedBelt		Custom		4	FALSE	stage1 450 stage2 6000 stage3 800 stage4 600 stage5 600	stage1 1800 stage2 2200 stage3 2400 stage4 2200 stage5 180													
-#end																							
-																							
 #tilesettransformation																							
 Id	Health	Armor	TilesetToMutateName																				
 gray_metal_cornerwall_normal	100	10	gray_metal_cornerwall_destroyed																				
@@ -501,44 +438,8 @@ lab_cornerwall_normal	150	10	lab_floor_destroyed_more
 cerera_nature_cornerwall	300	10	cerera_damaged_floor																				
 #end																							
 																							
-#missionobjectives																							
-	BeneficiaryFactionType	VictimFactionType	ValidProcMissionTypes	MonsterVariants	ItemVariants	ObstacleVariants																	
-	Corp	Corp	RaiderCapture Elimination Sabotage Espionage	quest_professor quest_manager	quest_fresco_data quest_device	spaceScaner cargoBlock																	
-	Corp	CivilRes	RaiderCapture Elimination Sabotage Espionage	quest_cresist_elite	quest_fresco_data	cargoBlock																	
-	Corp	Pirates	RaiderCapture Elimination Sabotage Espionage	quest_pirates_elite	quest_fresco_data	cargoBlock																	
-	Corp	Tezctlan	RaiderCapture Elimination Sabotage Espionage	quest_venus_demon_warrior	quest_igvalit	relicvarium																	
-	Corp	Xiomara	RaiderCapture Elimination Sabotage Espionage	quest_venus_demon_warrior	quest_igvalit	relicvarium																	
-	Corp	Shedu	RaiderCapture Elimination Sabotage Espionage	quest_mars_knight	quest_igvalit	relicvarium																	
-	Tezctlan	Corp	RaiderCapture Elimination Sabotage Ritual	quest_mercury_force	quest_igvalit	spaceScaner																	
-	Tezctlan	CivilRes	RaiderCapture Elimination Sabotage Ritual	quest_cresist_elite	quest_fresco_data	serverStation																	
-	Tezctlan	Pirates	RaiderCapture Elimination Sabotage Ritual	quest_pirates_elite	quest_fresco_data	serverStation																	
-	Tezctlan	Xiomara	RaiderCapture Elimination Sabotage Espionage	quest_venus_demon_warrior	quest_igvalit	relicvarium																	
-	Tezctlan	Shedu	RaiderCapture Elimination Sabotage Espionage	quest_mars_knight	quest_igvalit	relicvarium																	
-	CivilRes	CivilRes	RaiderCapture Elimination Sabotage Espionage	quest_cresist_elite	quest_fresco_data	cargoBlock																	
-	CivilRes	Corp	RaiderCapture Elimination Sabotage Espionage Robbery	quest_manager	quest_device	spaceScaner																	
-	CivilRes	Pirates	RaiderCapture Elimination Sabotage Espionage Robbery	quest_pirates_elite	quest_fresco_data	cargoBlock																	
-	CivilRes	Tezctlan	RaiderCapture Elimination Espionage Robbery	quest_venus_demon_warrior	quest_igvalit	relicvarium																	
-	CivilRes	Xiomara	RaiderCapture Elimination Espionage Robbery	quest_venus_demon_warrior	quest_igvalit	relicvarium																	
-	CivilRes	Shedu	RaiderCapture Elimination Espionage Robbery	quest_mars_knight	quest_igvalit	relicvarium																	
-	Xiomara	Corp	RaiderCapture Elimination Sabotage Ritual	quest_mercury_force	quest_igvalit	spaceScaner																	
-	Xiomara	CivilRes	RaiderCapture Elimination Sabotage Ritual	quest_cresist_elite	quest_fresco_data	serverStation																	
-	Xiomara	Pirates	RaiderCapture Elimination Sabotage Ritual	quest_pirates_elite	quest_fresco_data	serverStation																	
-	Xiomara	Tezctlan	RaiderCapture Elimination Sabotage Espionage	quest_venus_demon_warrior	quest_igvalit	relicvarium																	
-	Xiomara	Shedu	RaiderCapture Elimination Sabotage Espionage	quest_mars_knight	quest_igvalit	relicvarium																	
-	Shedu	Corp	RaiderCapture Elimination Sabotage Ritual	quest_mercury_force	quest_igvalit	spaceScaner																	
-	Shedu	CivilRes	RaiderCapture Elimination Sabotage Ritual	quest_cresist_elite	quest_fresco_data	serverStation																	
-	Shedu	Pirates	RaiderCapture Elimination Sabotage Ritual	quest_pirates_elite	quest_fresco_data	serverStation																	
-	Shedu	Tezctlan	RaiderCapture Elimination Sabotage Espionage	quest_venus_demon_warrior	quest_artefact	relicvarium																	
-	Shedu	Xiomara	RaiderCapture Elimination Sabotage Espionage	quest_venus_demon_warrior	quest_artefact	relicvarium																	
-	Pirates	Corp	RaiderCapture Elimination Sabotage Espionage Robbery	quest_manager	quest_device	spaceScaner																	
-	Pirates	CivilRes	RaiderCapture Elimination Sabotage Espionage Robbery	quest_cresist_elite	quest_fresco_data	cargoBlock																	
-	Pirates	Tezctlan	RaiderCapture Elimination Espionage Robbery	quest_venus_demon_warrior	quest_igvalit	relicvarium																	
-	Pirates	Xiomara	RaiderCapture Elimination Espionage Robbery	quest_venus_demon_warrior	quest_igvalit	relicvarium																	
-	Pirates	Shedu	RaiderCapture Elimination Espionage Robbery	quest_mars_knight	quest_igvalit	relicvarium																	
-#end																							
-																							
 #techlevels																							
-TechLevel	ExperienceToLevelUp	MaxMissionsСount																					
+TechLevel	ExperienceToLevelUp	MaxMissionsCount																					
 1	600	3																					
 2	900	3																					
 3	1250	4																					
@@ -549,78 +450,4 @@ TechLevel	ExperienceToLevelUp	MaxMissionsСount
 8	4100	5																					
 9	5100	6																					
 10	0	6																					
-#end																							
-																							
-#prizes_by_rating																							
-ProcMissionType	DifficultyRating	MinPrizePoints	MaxPrizePoints	PowerToPrizePointsMult	PowerToMonsterPointsMult																		
-RaiderCapture	1	600	950	0.07	0.1																		
-RaiderCapture	2	900	1300	0.08	0.12																		
-RaiderCapture	3	1300	1750	0.09	0.14																		
-RaiderCapture	4	1900	2450	0.11	0.16																		
-RaiderCapture	5	2500	3100	0.12	0.18																		
-Elimination	1	400	750	0.07	0.08																		
-Elimination	2	600	1000	0.08	0.09																		
-Elimination	3	900	1350	0.09	0.1																		
-Elimination	4	1350	1900	0.11	0.11																		
-Elimination	5	1800	2400	0.12	0.12																		
-Sabotage	1	400	750	0.07	0.09																		
-Sabotage	2	600	1000	0.08	0.1																		
-Sabotage	3	900	1350	0.09	0.11																		
-Sabotage	4	1350	1900	0.11	0.12																		
-Sabotage	5	1800	2400	0.12	0.13																		
-Espionage	1	400	750	0.07	0.08																		
-Espionage	2	600	1000	0.08	0.09																		
-Espionage	3	900	1350	0.09	0.1																		
-Espionage	4	1350	1900	0.11	0.11																		
-Espionage	5	1800	2400	0.12	0.12																		
-Defense	1	650	1000	0.07	0.08																		
-Defense	2	950	1300	0.08	0.1																		
-Defense	3	1400	1850	0.09	0.13																		
-Defense	4	2000	2550	0.11	0.15																		
-Defense	5	2650	3250	0.12	0.17																		
-Ritual	1	550	900	0.07	0.08																		
-Ritual	2	850	1250	0.08	0.09																		
-Ritual	3	1250	1700	0.09	0.1																		
-Ritual	4	1800	2350	0.11	0.11																		
-Ritual	5	2400	3000	0.12	0.12																		
-Robbery	1	400	750	0.07	0.08																		
-Robbery	2	600	1000	0.08	0.09																		
-Robbery	3	900	1350	0.09	0.1																		
-Robbery	4	1350	1900	0.11	0.11																		
-Robbery	5	1800	2400	0.12	0.12																		
-Infiltration	1	425	775	0.07	0.08																		
-Infiltration	2	650	1050	0.08	0.09																		
-Infiltration	3	950	1400	0.09	0.1																		
-Infiltration	4	1450	2000	0.11	0.11																		
-Infiltration	5	1900	2500	0.12	0.12																		
-Control	1	550	900	0.07	0.08																		
-Control	2	850	1250	0.08	0.09																		
-Control	3	1250	1700	0.09	0.1																		
-Control	4	1800	2350	0.11	0.11																		
-Control	5	2400	3000	0.12	0.12																		
-Escort	1	700	1050	0.07	0.06																		
-Escort	2	1000	1400	0.08	0.07																		
-Escort	3	1450	1900	0.09	0.08																		
-Escort	4	2100	2650	0.11	0.09																		
-Escort	5	2700	3300	0.12	0.1																		
-Counterattack	1	550	900	0.07	0.08																		
-Counterattack	2	850	1250	0.08	0.09																		
-Counterattack	3	1250	1700	0.09	0.1																		
-Counterattack	4	1800	2350	0.11	0.11																		
-Counterattack	5	2400	3000	0.12	0.12																		
-Security	1	550	900	0.07	0.06																		
-Security	2	850	1250	0.08	0.07																		
-Security	3	1250	1700	0.09	0.08																		
-Security	4	1800	2350	0.11	0.09																		
-Security	5	2400	3000	0.12	0.1																		
-CEOElimination	1	0	0	0	0.16																		
-CEOElimination	2	0	0	0	0.18																		
-CEOElimination	3	0	0	0	0.2																		
-CEOElimination	4	0	0	0	0.22																		
-CEOElimination	5	0	0	0	0.24																		
-BramfaturaInvasion	1	700	700	0	0.2																		
-BramfaturaInvasion	2	700	700	0	0.2																		
-BramfaturaInvasion	3	700	700	0	0.2																		
-BramfaturaInvasion	4	700	700	0	0.2																		
-BramfaturaInvasion	5	700	700	0	0.2																		
 #end																							

@@ -25,6 +25,7 @@ MoveCameraUp			None	None	RightStickYPos	None					CamMovement	0 1	Controller Keyb
 MoveCameraDown			None	None	RightStickYNeg	None					CamMovement	0 -1	Controller KeyboardOnly	
 MoveCameraLeft			None	None	RightStickXNeg	None					CamMovement	-1 0	Controller KeyboardOnly	
 MoveCameraRight			None	None	RightStickXPos	None					CamMovement	1 0	Controller KeyboardOnly	
+MoveCamera			Mouse2	None	None	None							KeyboardAndMouse	
 Inventory			I	Tab	ActionTopRow2	None								
 SwapWeapon			S	None	DPadDown	None								
 SwapAttackMode			E	None	DPadUp	None								
