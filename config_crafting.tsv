@@ -232,7 +232,7 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		cor_laser_sniper_1	armor_plates 1 plastic 1 circuit_board 1 bulb 1 wire 1	40	1	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 high_chip 20	30
 		anc_marksman_1	ceramite_plates 1 weapon_parts 1 lens 1 microelectronics_parts 1 blunt_parts 1	62	1	1.05	lens 1 firearm_repair_kit 8 medium_chip 10 anc_chip 25	35
 		anc_quasi_assault_1	armor_plates 1 ceramite_plates 1 microelectronics_parts 1 venus_weapon_parts 1 wire 1	50	1	1.05	low_chip 1 quasisamples 8 medium_chip 10 anc_chip 25	35
-		ddr_disraptor_marksman_1	ceramite_plates 2 circuit_board 2 microelectronics_parts 1 glass 2	50	1	1.06	microelectronics_parts 1 low_chip 3 electrical_parts_container 10 medium_chip 15	25
+		ddr_disruptor_marksman_1	ceramite_plates 2 circuit_board 2 microelectronics_parts 1 glass 2	50	1	1.06	microelectronics_parts 1 low_chip 3 electrical_parts_container 10 medium_chip 15	25
 		rail_marksman_1	ceramite_plates 1 microelectronics_parts 1 capacitor_parts 1 metal_tread 2	54	1	1.06	wire 1 circuit_board 3 electrical_parts_container 12 medium_chip 15	25
 		sbn_rail_assault_1	ceramite_plates 1 microelectronics_parts 1 bulb 1 capacitor_parts 1 transformer 1	42	2	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 sbn_chip 25	40
 		grh_trucker_marksman_1	ceramite_plates 1 armor_plates 1 weapon_parts 1 lens 1	42	2	1.05	low_chip 1 weapon_container 8 medium_chip 10 gra_chip 25	40
@@ -275,7 +275,7 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		shotgun_flechette_ammo	powder 1 nail_bolts_ammo 1	1	1	1.05		
 		shotgun_explosion_ammo	powder 1 gas_ammo 1	1.2	1	1.05		
 		shotgun_dragon_ammo	powder 1 gas_ammo 1	1.2	1	1.05		
-		medium_basic_ammo	powder 1	31.12	1	1.05		
+		medium_basic_ammo	powder 1	0.5	1	1.05		
 		medium_police_ammo	powder 2	1.5	1	1.05		
 		medium_cold_ammo	powder 2 acid 1	1.5	1	1.05		
 		rifle_basic_ammo	powder 2	1	1	1.05		

@@ -1,8 +1,8 @@
 #global		
 Parameter	Value	
 // Build info		
-BuildVersion	UNSTABLE BETA.501s.4f3016a
-SaveVersion	48	
+BuildVersion	UNSTABLE BETA.520s.531bad5
+SaveVersion	50	
 Console	false
 SkipIntro	FALSE	
 SkipStartTutorialDialog	FALSE	
@@ -22,14 +22,7 @@ AllowEvacuationItems
 DefaultDifficulty	Normal	
 DefaultDifficultyPage	general	
 DeathGiftId	items_box	
-		
-// Tutorial		
-TutorialItemsInLocker	military_pistol_2 small_basic_ammo trash_common_vest_1 small_backpack_1 common_shirt_3 common_sneakers_1 splint bandage pills_antibiotics common_pants_4	
-TutorialItemsOnCharacter	common_hybershirt_1 common_hyber_pants_1	
-TutorialAncomRewardItems	low_chip medium_backpack_1 firearm_repair_kit armor_repair_kit stationary_turret weapon_container armor_container	
-TutorialMachineBlockWait	15	
-TutorialAncomQuestItemId	quest_ancom_data	
-AncomDataReputationReward	20	
+SkullRitualUpgradeChanceCap	0.7	
 		
 // Sandbox		
 ResetIncomeDeltaDay	Monday	
@@ -37,7 +30,7 @@ ResetIncomeDeltaHours	0
 GrabTechLevelDay	Monday	
 GrabTechLevelHours	2	
 FactionTickIntervalHours	1	
-MissionAddTimeHours	8	
+MissionAddTimeHours	24	
 StationVisitAddTimeHours	4	
 TechLevelToPower	250 500 750 1000 1250 1500 1750 2000 2250 2500	
 StationChangeOwnerCooldownHours	96	
@@ -120,16 +113,19 @@ TradeBuyItemRepThreshold	75
 TradeSellItemRepThreshold	100	
 TradeSellItemMult1	0.70	
 TradeSellItemMult2	0.20	
+TradeShuttleReputationSellCoef	0.5	
+TradeShuttleBarterPriorityPercent	0.5	
+TradeShuttleDignitasToReputationCoef	0.02	
 		
 // Proxy company		
 ProxyCompanyStrategiesList	Expansion Scouting Defense	
 		
 // Mercenary		
-TrainingPerkInHours	36	
-CloneMercDurationInHours	10	
-RestoreMercHealthHours	2	
-RestoreMercWoundInHours	4	
-RestoreMercAmpInHours	6	
+TrainingPerkInHours	120	
+CloneMercDurationInHours	72	
+RestoreMercHealthHours	8	
+RestoreMercWoundInHours	12	
+RestoreMercAmpInHours	24	
 		
 // Creature		
 CreatureDefaultArmStumpItemId	nature_human_stump	
@@ -142,7 +138,7 @@ ItemDropPriceLogCoef	1.6
 ItemDropContainersPercent	90	
 CorridorWeightInDropMult	0.2	
 ContainerManualDropPointsConversion	1	
-DefaultEnvironmentPresets	Indoor1 Space1	
+DefaultEnvironmentPresets	Indoor1 OrbitOutdoor	
 		
 // Bramfatura invasion		
 BramfaturaMonsterPointsBase	500	
@@ -215,6 +211,26 @@ ToxicDamageToItemPerTurn	4
 ToxicDamageType	poison	
 ToxicDamageMulti	0.5	
 ToxicPuddleLifeTime	5	
+		
+// Gas damage		
+GasToxicDamageType	poison	
+GasToxicDamagePerTurn	50	
+GasShockDamageType	shock	
+GasShockDamagePerTurn	50	
+GasColdDamageType	cold	
+GasColdDamagePerTurn	50	
+GasNanoDamageType	lacer	
+GasNanoDamagePerTurn	80	
+NanoSpreadChance	0.8	
+StrongNanoDuration	5	
+WeakNanoDuration	3	
+		
+// Vines		
+VinesDamageType	pierce	
+VinesDamagePerTurn	50	
+VinesSpreadChance	0.25	
+VinesSpreadChanceOnBlood	0.5	
+VinesSpreadFireChance	0.9	
 		
 // Damage		
 MinHitChance	0.05	

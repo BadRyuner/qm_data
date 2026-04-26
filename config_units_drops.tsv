@@ -1,3 +1,65 @@
+#units_OlirnaEccolapse0						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+1	0 0	possessed_bigarm_eccolapse 1			100	50
+#end						
+						
+#units_OlirnaEccolapse1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+1	0 0	possessed_bigarm_eccolapse 1			100	50
+1	0 0	olirna_monk 1			67	50
+2	0 0	olirna_imp 1			71	50
+#end						
+						
+#units_OlirnaEccolapse2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+1	0 0	possessed_bigarm_eccolapse 1			70	50
+1	0 0	possessed_blob 1			30	50
+1	0 0	olirna_monk 1			82	50
+2	0 0	olirna_imp 1			61	50
+3	0 0	olirna_vizier 1			104	50
+#end						
+						
+#units_OlirnaEccolapse3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+1	0 0	possessed_bigarm_eccolapse 1			40	50
+1	0 0	possessed_blob 1			60	50
+1	0 0	olirna_monk 1			100	50
+2	0 0	olirna_imp 1			67	50
+3	0 0	olirna_vizier 1			115	50
+6	0 0	olirna_mastiff 1			180	50
+#end						
+						
+#units_OlirnaEccolapse4						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+1	0 0	possessed_bigarm_eccolapse 1			25	50
+1	0 0	possessed_blob 1			30	50
+1	0 0	possessed_centaur 1			45	50
+1	0 0	olirna_monk 1			100	50
+2	0 0	olirna_imp 1			67	50
+3	0 0	olirna_vizier 1			115	50
+6	0 0	olirna_mastiff 1			180	50
+#end						
+						
+#units_OlirnaEccolapse5						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+1	0 0	possessed_blob 1			40	50
+1	0 0	possessed_centaur 1			60	50
+1	0 0	olirna_monk 1			100	50
+2	0 0	olirna_imp 1			67	50
+3	0 0	olirna_vizier 1			135	50
+6	0 0	olirna_mastiff 1			237	50
+#end						
+						
+#units_OlirnaEccolapse6						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+1	0 0	possessed_blob 1			25	50
+1	0 0	possessed_centaur 1			75	50
+1	0 0	olirna_monk 1			100	50
+2	0 0	olirna_imp 1			67	50
+3	0 0	olirna_vizier 1			150	50
+6	0 0	olirna_mastiff 1			291	50
+#end						
+						
 #units_MercuryEccolapse0						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	0 0	possessed_bigarm_eccolapse 1			100	50
@@ -22,7 +84,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 #units_MercuryEccolapse3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	0 0	possessed_bigarm_eccolapse 1			40	50
-1	0 0	possessed_blob 1			600	50
+1	0 0	possessed_blob 1			60	50
 1	0 0	mercury_slave 1			100	50
 2	0 0	mercury_head 1			67	50
 3	0 0	mercury_knight 1			114	50
@@ -625,7 +687,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	2 3	cyborg_battle 1	cyborg_battle 0.7 drone_security 0.3		60	75
 #end						
 						
-#units_crtutorial2						
+#units_tutorial_2_revenge_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	2 3		civ_worker 1		60	300
 1	2 3		civ_worker 0.75 civ_miner 0.25		60	300
@@ -640,7 +702,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	2 3	civ_drone 1	civ_drone 1		10	600
 #end						
 						
-#units_ComAndAnarchy1						
+#units_anc_1_comm_anarchy_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	2 3	warden 1	warden 0.5 soldier 0.5		60	180
 6	2 3	medic_combat 1	warden 1		60	180
@@ -652,7 +714,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	2 2	rwa_elite 1	warden 1		10	360
 #end						
 						
-#units_ComAndAnarchy2						
+#units_anc_1_comm_anarchy_floor_4						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	possessed 1	possessed 1		60	180
 3	1 2	venus_eagle_knight 1	possessed_centaur 1		60	180
@@ -666,14 +728,14 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	venus_demon_warrior 1	venus_demon_warrior 1		10	300
 #end						
 						
-#units_ManifestoElites						
+#units_civ_1_manifesto_extra_elites						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	3 4	sbn_elite 1	pmc_heavy 0.5 pmc 0.5		60	180
 6	3 4	sbn_elite 1	agent 0.8 medic 0.2		60	180
 6	3 4	sbn_elite 1	sbn_elite 0.5 pmc 0.5 sniper 0.25		60	180
 #end						
 						
-#units_ManifestoPmc						
+#units_civ_1_manifesto_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	3 4	soldier 1	soldier 1		60	180
 6	3 4	security 1	security 0.5 soldier 0.5		60	180
@@ -681,14 +743,14 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	3 4	security 1	medic_combat 0.25 soldier 0.75		60	180
 #end						
 						
-#units_ManifestoDefence						
+#units_civ_1_manifesto_extra_defence						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	4 4	security 1	cyborg_recreation 0.5 sbn_elite 0.25 pmc_heavy 0.25		60	180
 6	3 4	agent 1	manager 0.25 pmc 0.25 pmc_heavy 0.25		60	180
 6	3 4	sbn_elite 1	pmc_heavy 0.6 agent 0.25 medic 0.15		60	180
 #end						
 						
-#units_GhoulshipRegular						
+#units_unc_1_ghoul_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	2 3	swat 1	cyborg_worker 0.25 swat 0.75		60	180
 4	2 3	soldier 1	miner 0.25 swat 0.25 pyromancer 0.5		60	180
@@ -702,7 +764,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	2 3	soldier 1	medic 0.25 manager 0.25 swat 0.5		60	180
 #end						
 						
-#units_GhoulShipPirates						
+#units_unc_1_ghoul_extra_allies						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	2 3	bruiser 0.5 medic_combat 0.5	medic_combat 0.25 berserk 0.25		60	180
 4	1 3	bruiser 1	berserk 1		60	180
@@ -711,14 +773,14 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	2 3	medic_combat 0.75 unc_elite 0.3	security 0.5 berserk 0.25 psycho 0.25		60	180
 #end						
 						
-#units_GhoulShipDilthey						
+#units_unc_1_ghoul_extra_dil_reinforce						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 3	security 1	medic_combat 0.25 security 0.55		60	180
 5	2 3	dil_elite 1	enforcer 0.5 cyborg_recreation 0.2 medic_combat 0.3		60	180
 5	2 3	security 1	security 0.3 cyborg_battle 0.1 agent 0.6		70	180
 #end						
 						
-#units_PoisonTrial						
+#units_tez_side_1_poison_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	venus_jaguar_knight 1	venus_jaguar_knight 1		60	180
 	2 3	venus_taskmaster 1	venus_taskmaster 0.25 venus_custodian 0.75		60	180
@@ -728,7 +790,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	possessed_centaur 1	possessed_blob 1		60	180
 #end						
 						
-#units_CoverOps						
+#units_rwa_1_covert_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	anc_elite 1	anc_elite 1		60	180
 	2 3	anc_elite 1	agent 0.5 cyborg_worker 0.5		60	180
@@ -742,7 +804,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	soldier 1	cyborg_worker 0.5 soldier 0.75		60	180
 #end						
 						
-#units_MenInBlack1						
+#units_anc_2_mib_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	civ_drone 1	civ_worker 1 civ_drone 1	CResistance	30	480
 	2 4	civ_medic 1	civ_worker 1	CResistance	30	480
@@ -753,7 +815,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3		civ_bruiser 1	CResistance	40	360
 #end						
 						
-#units_MenInBlack2						
+#units_anc_2_mib_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2		turret_ballistic 1	CResistance	60	360
 	1 2	cyborg_battle 1	turret_ballistic 1	CResistance	30	360
@@ -763,7 +825,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 3		cyborg_worker 1 turret_ballistic 1	CResistance	30	360
 #end						
 						
-#units_MenInBlack3						
+#units_anc_2_mib_floor_3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	civ_enforcer 1	civ_soldier 1	CResistance	30	400
 	3 3	quest_civ_elite_colnode 1	civ_soldier 1	CResistance	30	480
@@ -772,7 +834,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3		civ_elite 1	CResistance	45	480
 #end						
 						
-#units_FromSparkToFlame1						
+#units_civ_2_spark_flame_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	anc_elite 1	anc_elite 1	AnCom	60	360
 	4 4	anc_elite 1	swat 1 sniper 1 pmc_heavy 2	AnCom	60	360
@@ -781,7 +843,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	anc_elite 1	turret_ballistic 1	AnCom	60	360
 #end						
 						
-#units_FromSparkToFlame2						
+#units_civ_2_spark_flame_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	anc_elite 1	swat 1	AnCom	60	360
 	2 3	anc_elite 1	swat 1 sniper 1 pmc_heavy 2	AnCom	60	360
@@ -789,7 +851,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 3	sniper 1	agent 1 pmc_heavy 2	AnCom	60	360
 #end						
 						
-#units_IronBroom_UB						
+#units_civ_3_iron_broom_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	bruiser 0.5 medic_combat 0.5	medic_combat 0.25 berserk 0.25	UnchainedBelt	30	400
 	1 3	bruiser 1	berserk 1	UnchainedBelt	30	400
@@ -798,7 +860,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	medic_combat 0.75 unc_elite 0.3	security 0.5 berserk 0.25 psycho 0.25	UnchainedBelt	30	400
 #end						
 						
-#units_IronBroom_CR						
+#units_civ_3_iron_broom_floor_3_civ						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 4	civ_medic_combat 0.7 civ_bruiser 0.3	civ_bruiser 0.5 civ_soldier 0.5	CResistance	30	400
 	2 3	civ_enforcer 1	civ_soldier 0.7 civ_security 0.3	CResistance	30	400
@@ -807,7 +869,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	civ_elite 1	civ_agent 1 civ_soldier 0.5	CResistance	30	640
 #end						
 						
-#units_IcePick_CR1						
+#units_civ_4a_icepick_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	1 2		turret_energy 1	GodBuilders	30	400
 	1 3		turret_energy 0.3 civ_security 0.7	GodBuilders	30	400
@@ -818,7 +880,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	civ_elite 1	civ_agent 1 civ_soldier 0.5	GodBuilders	30	640
 #end						
 						
-#units_IcePick_CR2						
+#units_civ_4a_icepick_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2		cyborg_battle 0.7 civ_worker 0.3	GodBuilders	30	480
 	2 2	civ_enforcer 1	cyborg_battle 1	GodBuilders	30	400
@@ -827,7 +889,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	4 5		cyborg_worker 0.8 civ_worker 0.2	GodBuilders	40	560
 #end						
 						
-#units_IcePick_CR3						
+#units_civ_4a_icepick_floor_3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 5	civ_medic_combat 0.7 civ_bruiser 0.3	quest_GodBuilders_clones 1	GodBuilders	40	480
 	2 3	civ_enforcer 1	quest_GodBuilders_clones 0.7 civ_soldier 0.2 civ_medic_combat 0.1	GodBuilders	30	480
@@ -836,7 +898,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 5		quest_GodBuilders_clones 1	GodBuilders	40	480
 #end						
 						
-#units_IcePick_CR4						
+#units_civ_4a_icepick_floor_4						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2		quest_civ_elite_colnode 1	GodBuilders	50	400
 	2 4		quest_civ_elite_colnode 3 turret_ballistic 2	GodBuilders	40	400
@@ -846,7 +908,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	civ_agent 1	civ_soldier 2 civ_security 1	GodBuilders	30	400
 #end						
 						
-#units_Beacon1						
+#units_civ_4b_beacon_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 4	civ_medic_combat 0.7 civ_bruiser 0.3	civ_bruiser 0.5 civ_soldier 0.5		30	400
 	2 3	civ_enforcer 1	civ_soldier 0.7 civ_security 0.3		30	400
@@ -855,7 +917,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	civ_elite 1	civ_agent 1 civ_soldier 0.5		30	400
 #end						
 						
-#units_Beacon2						
+#units_civ_4b_beacon_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	civ_enforcer 1	civ_worker 1 civ_drone 1		30	400
 	2 4	civ_medic_combat 1	civ_worker 1		30	400
@@ -867,7 +929,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3		civ_bruiser 1		30	400
 #end						
 						
-#units_Beacon3						
+#units_civ_4b_beacon_floor_3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	quest_civ_elite_colnode 1	quest_civ_elite_colnode 1		50	400
 	2 4		quest_civ_elite_colnode 3 turret_ballistic 2		40	400
@@ -878,13 +940,13 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	civ_agent 1	civ_soldier 2 civ_security 1		30	400
 #end						
 						
-#units_Beacon4						
+#units_civ_4b_beacon_floor_4_matrix						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	quest_CivilUnity_issachar_copy 1	quest_CivilUnity_issachar_copy 1		20	400
 	2 4		quest_CivilUnity_issachar_copy 1		30	400
 #end						
 						
-#units_SacredFlame1						
+#units_civ_5b_sacred_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 10	2 3	warden 1	warden 0.5 soldier 0.5	RealWare	60	180
 10	2 3	medic_combat 1	warden 1	RealWare	60	180
@@ -896,7 +958,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 10	2 2	rwa_elite 1	warden 1	RealWare	30	360
 #end						
 						
-#units_SacredFlame2						
+#units_civ_5b_sacred_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 10	2 3		soldier 3 grenadier 1	RealWare	50	180
 10	2 3	medic_combat 1	warden 1	RealWare	50	180
@@ -908,7 +970,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 10	2 2	quest_rwa_supersoldier 1	quest_rwa_supersoldier 1	RealWare	30	360
 #end						
 						
-#units_SacredFlame3						
+#units_civ_5b_sacred_floor_3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 10	2 3	warden 1	warden 0.5 soldier 0.5	RealWare	60	180
 10	2 3	medic_combat 1	warden 1	RealWare	60	180
@@ -920,7 +982,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 10	2 2	rwa_elite 1	warden 1	RealWare	30	360
 #end						
 						
-#units_FlowerWar_basic						
+#units_tez_1_flower_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	swat 1	swat 2	AnCom	100	200
 	1 1	pmc_heavy 1	swat 1	AnCom	80	200
@@ -931,7 +993,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	sniper 1	corporation_dog 2	AnCom	65	200
 #end						
 						
-#units_FlowerWar_elite						
+#units_tez_1_flower_floor_5_elite						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	assassin 1	swat 2	AnCom	100	200
 	1 1	pmc_heavy 1	pmc_heavy 1	AnCom	80	200
@@ -942,7 +1004,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	sniper 1	assassin 2	AnCom	65	400
 #end						
 						
-#units_InterplanLove_SBN						
+#units_tez_2_interplan_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	0 0	professor 1		SBN	50	100
 	2 2		professor 2	SBN	40	100
@@ -953,12 +1015,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4		sbn_elite 2 pmc_heavy 1 cyborg_recreation 1	SBN	140	400
 #end						
 						
-#units_InterplanLove_Moon						
+#units_tez_2_interplan_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 3	quest_possessed_moon 1	quest_possessed_moon 3		100	400
 #end						
 						
-#units_WhatIsMine1						
+#units_tez_3_mine_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 5	venus_eagle_knight 1	venus_eagle_knight 1 venus_acolyte 1 jungle_spider 3	XiomaraMasks	100	600
 	1 2	venus_demon_warrior 1	venus_demon_warrior 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	150	400
@@ -968,7 +1030,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	quest_venus_guardian 1	quest_venus_guardian 1 venus_eagle_knight 1 venus_acolyte 1	XiomaraMasks	80	600
 #end						
 						
-#units_WhatIsMine2						
+#units_tez_3_mine_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	quest_venus_guardian 1	quest_venus_guardian 2	XiomaraMasks	150	400
 	3 4	quest_venus_guardian 1	quest_venus_guardian 1 venus_eagle_knight 1 venus_acolyte 1	XiomaraMasks	100	600
@@ -977,7 +1039,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 5	venus_demon_warrior 1	venus_taskmaster 2 venus_demon_cat 1 jungle_spider 1	XiomaraMasks	60	400
 #end						
 						
-#units_WhatIsMine_Reinforce						
+#units_tez_3_mine_extra_reinforce						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 5	venus_demon_warrior 1	venus_taskmaster 2 venus_demon_warrior 1 venus_acolyte 1	XiomaraMasks	100	800
 	2 3	venus_demon_warrior 1	venus_eagle_knight 1 venus_demon_warrior 1	XiomaraMasks	75	600
@@ -985,7 +1047,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	4 5	venus_eagle_knight 1	venus_eagle_knight 2 venus_acolyte 1 venus_demon_cat 2	XiomaraMasks	100	400
 #end						
 						
-#units_EmeraldTemple1						
+#units_tez_4_emerald_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	5 5	preacher 1	mindcontrolled 2 mindcontrolled_worker 1 mindcontrolled_miner 1 mindcontrolled_prisoner 1	ChurchRevelation	80	400
 	4 4	preacher 1	sniper 2 soldier 1 medic 1	ChurchRevelation	120	400
@@ -995,7 +1057,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	1 1	chu_elite 1	chu_elite 1	ChurchRevelation	80	400
 #end						
 						
-#units_EmeraldTemple3						
+#units_tez_4_emerald_floor_3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	5 5	chu_elite 1	mindcontrolled 2 mindcontrolled_worker 1 mindcontrolled_miner 1 mindcontrolled_prisoner 1	ChurchRevelation	80	400
 	4 4	chu_elite 1	sniper 1 preacher 2 medic 1	ChurchRevelation	120	400
@@ -1005,7 +1067,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	chu_elite 1	chu_elite 1	ChurchRevelation	80	400
 #end						
 						
-#units_EmeraldTemple_Allies						
+#units_tez_4_emerald_extra_allies						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	venus_demon_warrior 1	venus_custodian 2 venus_acolyte 1	Tezctlan	100	400
 	2 2	venus_demon_warrior 1	venus_jaguar_knight 1 possessed_centaur 1	Tezctlan	100	400
@@ -1013,7 +1075,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	venus_jaguar_knight 1	venus_jaguar_knight 2	Tezctlan	100	400
 #end						
 						
-#units_StandStones1						
+#units_tez_5_stones_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 5		soldier 2 turret_energy 2	Sunlight	120	400
 	2 3	knight 1	soldier 1 berserk 1	Sunlight	100	240
@@ -1023,7 +1085,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	4 4	soldier 1	soldier 2 berserk 1 knight 1	Sunlight	100	300
 #end						
 						
-#units_StandStones2						
+#units_tez_5_stones_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	4 5	sun_elite 1	knight 1 berserk 2 swat 1	Sunlight	100	400
 	3 4	sun_elite 1	knight 1 soldier 2	Sunlight	100	400
@@ -1032,7 +1094,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 3	knight 1	knight 3	Sunlight	120	400
 #end						
 						
-#units_StandStones_Reinforce						
+#units_tez_5_stones_extra_reinforce						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	1 1	sun_elite 1	sun_elite 1	Sunlight	100	400
 	3 4	sun_elite 1	sun_elite 1 knight 2	Sunlight	120	400
@@ -1040,7 +1102,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	knight 1	berserk 2	Sunlight	80	400
 #end						
 						
-#units_StandStones3						
+#units_tez_5_stones_floor_3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	4 5	sun_elite 1	knight 1 berserk 2 swat 1	Sunlight	100	400
 	3 4	sun_elite 1	knight 1 soldier 2	Sunlight	100	400
@@ -1049,7 +1111,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 3	knight 1	knight 3	Sunlight	120	400
 #end						
 						
-#units_Eradication						
+#units_tez_6_erad_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	4 4	she_elite 1	she_elite 1 she_enforcer 1 mars_support 1 mars_battle_gun 1	SheduThousand	100	400
 	4 4	she_elite 1	mars_battle_flame 2 berserk 2	SheduThousand	100	400
@@ -1060,7 +1122,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	she_elite 1	she_elite 2	SheduThousand	75	400
 #end						
 						
-#units_Tonatiuh1						
+#units_xio_4_tonatiuh_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	venus_custodian 1	venus_jaguar_knight 1 venus_custodian 2 venus_acolyte 1	Tezctlan	100	325
 	4 5	venus_custodian 1	possessed_bigarm 1 venus_custodian 1 venus_slave 2	Tezctlan	75	240
@@ -1072,7 +1134,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	1 1	venus_demon_warrior 1	venus_demon_cat 1	Tezctlan	40	300
 #end						
 						
-#units_Tonatiuh2						
+#units_xio_4_tonatiuh_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	venus_custodian 1	venus_jaguar_knight 1 venus_custodian 2 venus_acolyte 1	Tezctlan	100	325
 	4 5	venus_custodian 1	possessed_bigarm 1 venus_custodian 1 venus_slave 2	Tezctlan	75	240
@@ -1082,13 +1144,13 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	1 1	venus_demon_warrior 1	venus_demon_cat 1	Tezctlan	40	300
 #end						
 						
-#units_Tonatiuh_Reinforce						
+#units_xio_4_tonatiuh_extra_reinforce						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	venus_jaguar_knight 1	venus_demon_cat 1 venus_jaguar_knight 2 jungle_spider 1	Tezctlan	90	415
 	1 2	venus_demon_warrior 1	venus_acolyte 1 venus_custodian 2	Tezctlan	100	415
 #end						
 						
-#units_Topiltzin						
+#units_xio_4_topil_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	venus_custodian 1	venus_jaguar_knight 1 venus_custodian 2 venus_acolyte 1	Tezctlan	100	325
 	4 5	venus_custodian 1	possessed_bigarm 1 venus_custodian 1 venus_slave 2	Tezctlan	75	240
@@ -1100,7 +1162,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	1 1	venus_demon_warrior 1	venus_demon_cat 1	Tezctlan	40	300
 #end						
 						
-#units_Nanauatzin1						
+#units_xio_4_nanau_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	venus_custodian 1	venus_jaguar_knight 1 venus_custodian 2 venus_acolyte 1	Tezctlan	100	325
 	4 5	venus_custodian 1	possessed_bigarm 1 venus_custodian 1 venus_slave 2	Tezctlan	75	240
@@ -1112,7 +1174,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	1 1	venus_demon_warrior 1	venus_demon_cat 1	Tezctlan	40	300
 #end						
 						
-#units_Nanauatzin2						
+#units_xio_4_nanau_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	venus_custodian 1	venus_jaguar_knight 1 venus_custodian 2 venus_acolyte 1	Tezctlan	100	325
 	4 5	venus_custodian 1	possessed_bigarm 1 venus_custodian 1 venus_slave 2	Tezctlan	75	240
@@ -1122,7 +1184,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	1 1	venus_demon_warrior 1	venus_demon_cat 1	Tezctlan	40	300
 #end						
 						
-#units_Nanauatzin_Reinforce						
+#units_xio_4_nanau_extra_reinforce						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	0 0	venus_acolyte 1		Tezctlan	30	100
 	1 1	venus_custodian 1	venus_acolyte 1	Tezctlan	25	100
@@ -1130,7 +1192,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	0 0	venus_demon_warrior 1		Tezctlan	20	100
 #end						
 						
-#units_ShatteredEmer1						
+#units_xio_5_shattered_floor_1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	venus_custodian 1	venus_jaguar_knight 2 venus_custodian 2	Tezctlan	100	395
 	4 5	venus_custodian 1	possessed_centaur 1 venus_custodian 1 venus_slave 2	Tezctlan	75	294
@@ -1142,7 +1204,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	venus_demon_warrior 1	venus_demon_cat 2	Tezctlan	40	380
 #end						
 						
-#units_ShatteredEmer2						
+#units_xio_5_shattered_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	venus_custodian 1	venus_jaguar_knight 2 venus_custodian 2	Tezctlan	100	395
 	4 5	venus_custodian 1	possessed_centaur 1 venus_custodian 1 venus_slave 2	Tezctlan	75	294
@@ -1153,7 +1215,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	venus_demon_warrior 1	venus_demon_cat 2	Tezctlan	40	380
 #end						
 						
-#units_ShatteredEmer_Allies						
+#units_xio_5_shattered_extra_allies						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 3	venus_eagle_knight 1	venus_demon_cat 3	XiomaraMasks	100	340
 	3 3	venus_taskmaster 1	venus_eagle_knight 3	XiomaraMasks	100	380
@@ -1161,7 +1223,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	venus_demon_warrior 1	venus_taskmaster 2	XiomaraMasks	100	380
 #end						
 						
-#units_ShatteredEmer3						
+#units_xio_5_shattered_floor_3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 4	venus_custodian 1	venus_jaguar_knight 2 venus_custodian 2	Tezctlan	100	395
 	4 5	venus_custodian 1	possessed_centaur 1 venus_custodian 1 venus_slave 2	Tezctlan	75	294
@@ -1171,44 +1233,477 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 2	venus_demon_warrior 1	venus_demon_cat 2	Tezctlan	40	380
 #end						
 						
-#units_TreasureIsland_Vault						
+#units_rwa_2_treasure_floor_5						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
-	3 3	psycho 1	bruiser 1 civilian 1 prisoner_free 1	UnchainedBelt	55	175
-	2 2	soldier 1	turret_ballistic 2	UnchainedBelt	55	190
-	3 3	medic_combat 1	bruiser 2 psycho 1	UnchainedBelt	110	220
-	1 1		unc_elite 1	UnchainedBelt	43	200
-	3 3	medic_combat 1	berserk 1 soldier 1 unc_enforcer 1	UnchainedBelt	170	250
-	4 4	psycho 1	bruiser 2 soldier 1 unc_enforcer 1	UnchainedBelt	85	310
+	2 2	looter 1	medic_combat 1 looter 1	UnchainedBelt	140	230
+	2 2	psycho 1	psycho 1 prisoner_free 1	UnchainedBelt	80	205
+	2 3	unc_enforcer 1	soldier 1 unc_enforcer 2	UnchainedBelt	100	245
+	3 4	medic_combat 1	bruiser 1 soldier 2 unc_enforcer 1 prisoner_free 1	UnchainedBelt	120	243
+	2 3	berserk 1	bruiser 3 berserk 1	UnchainedBelt	80	173
+	4 4	soldier 1	bruiser 1 prisoner_free 2 prisoner_miner 1	UnchainedBelt	80	185
+6	3 4	unc_elite 1	soldier 2 unc_enforcer 1 medic_combat 1	UnchainedBelt	360	428
+8	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		UnchainedBelt	720	500
+10	4 4	unc_elite 1	unc_enforcer 2 medic_combat 1 looter 1	UnchainedBelt	1080	480
 #end						
 						
-#units_TreasureIsland						
+#units_rwa_2_treasure_floor_2_vault						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
-	3 3	psycho 1	bruiser 1 civilian 1 prisoner_free 1	UnchainedBelt	55	175
-	2 2	soldier 1	turret_ballistic 2	UnchainedBelt	55	190
-	3 3	medic_combat 1	bruiser 2 psycho 1	UnchainedBelt	110	220
-	1 1		unc_elite 1	UnchainedBelt	43	200
-	3 3	medic_combat 1	berserk 1 soldier 1 unc_enforcer 1	UnchainedBelt	170	250
-	4 4	psycho 1	bruiser 2 soldier 1 unc_enforcer 1	UnchainedBelt	85	310
+	2 2	looter 1	medic_combat 1 looter 1	UnchainedBelt	180	230
+	2 2	looter 1	psycho 1 prisoner_free 1	UnchainedBelt	80	205
+	2 3	looter 1	soldier 1 unc_enforcer 2	UnchainedBelt	100	265
+	3 4	looter 1	bruiser 1 soldier 2 unc_enforcer 1 prisoner_free 1	UnchainedBelt	120	283
+	2 3	looter 1	bruiser 3 berserk 1	UnchainedBelt	80	203
+	4 4	looter 1	bruiser 1 prisoner_free 2 prisoner_miner 1	UnchainedBelt	80	205
+6	3 4	unc_elite 1	soldier 2 medic_combat 1 looter 1	UnchainedBelt	360	445
+8	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		UnchainedBelt	720	500
+10	4 4	unc_elite 1	unc_enforcer 1 medic_combat 1 looter 2	UnchainedBelt	1080	500
 #end						
 						
-#units_Maleficarum						
+#units_rwa_2_treasure_floor_3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
-	2 2	civ_elite 1	civ_bruiser 1 civ_drone 1	CResistance GodBuilders CivilUnity	55	175
-	2 2	civ_medic 1	turret_fire 2	CResistance GodBuilders CivilUnity	55	155
-	4 4	civ_medic_combat 1	civ_bruiser 3 civ_elite 1	CResistance GodBuilders CivilUnity	110	290
+	2 2	looter 1	medic_combat 1 looter 1	UnchainedBelt	140	230
+	2 2	psycho 1	psycho 1 prisoner_free 1	UnchainedBelt	80	205
+	2 3	unc_enforcer 1	soldier 1 unc_enforcer 2	UnchainedBelt	100	245
+	3 4	medic_combat 1	bruiser 1 soldier 2 unc_enforcer 1 prisoner_free 1	UnchainedBelt	120	243
+	2 3	berserk 1	bruiser 3 berserk 1	UnchainedBelt	80	173
+	4 4	soldier 1	bruiser 1 prisoner_free 2 prisoner_miner 1	UnchainedBelt	80	185
+6	3 4	unc_elite 1	soldier 2 unc_enforcer 1 medic_combat 1	UnchainedBelt	360	428
+8	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		UnchainedBelt	720	500
+10	4 4	unc_elite 1	unc_enforcer 2 medic_combat 1 looter 1	UnchainedBelt	1080	480
+#end						
+						
+#units_rwa_2_treasure_floor_4						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 2	looter 1	medic_combat 1 looter 1	UnchainedBelt	140	230
+	2 2	psycho 1	psycho 1 prisoner_free 1	UnchainedBelt	80	205
+	2 3	unc_enforcer 1	soldier 1 unc_enforcer 2	UnchainedBelt	100	245
+	3 4	medic_combat 1	bruiser 1 soldier 2 unc_enforcer 1 prisoner_free 1	UnchainedBelt	120	243
+	2 3	berserk 1	bruiser 3 berserk 1	UnchainedBelt	80	173
+	4 4	soldier 1	bruiser 1 prisoner_free 2 prisoner_miner 1	UnchainedBelt	80	185
+6	3 4	unc_elite 1	soldier 2 unc_enforcer 1 medic_combat 1	UnchainedBelt	360	428
+8	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		UnchainedBelt	720	500
+10	4 4	unc_elite 1	unc_enforcer 2 medic_combat 1 looter 1	UnchainedBelt	1080	480
+#end						
+						
+#units_rwa_2_malefic_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	5 5	civ_worker 1	civ_bruiser 1 civ_drone 2 civ_worker 2	CResistance	140	165
+	4 5	civ_elite 1	civ_agent 2 civ_enforcer 1	CResistance	120	335
+	5 5	civ_elite 1	civ_soldier 3 civ_medic_combat 1 civ_medic 1	CResistance	120	415
+	4 4	civ_elite 1	civ_bruiser 1 civ_soldier 1 civ_enforcer 2	CResistance	120	360
+	4 4	civ_elite 1	turret_fire 1 civ_drone 2 civ_medic 1	CResistance	100	255
+	5 5	civ_elite 1	civ_bruiser 1 civ_soldier 2 civ_enforcer 1 civ_elite 1	CResistance	140	470
+6	3 3	civ_elite 1	civ_elite 3	CResistance	360	440
+8	0 0	merc_martian_mech 1		CResistance	720	500
+10	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		CResistance	1080	500
+#end						
+						
+#units_rwa_2_malefic_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 5	civ_elite 1	civ_agent 2 civ_enforcer 1	CResistance	120	335
+	5 5	civ_elite 1	civ_soldier 3 civ_medic_combat 1 civ_medic 1	CResistance	120	415
+	4 4	civ_elite 1	civ_bruiser 1 civ_soldier 1 civ_enforcer 2	CResistance	120	360
+	4 4	civ_elite 1	turret_fire 1 civ_drone 2 civ_medic 1	CResistance	100	255
+	5 5	civ_elite 1	civ_bruiser 1 civ_soldier 2 civ_enforcer 1 civ_elite 1	CResistance	140	470
+6	3 3	civ_elite 1	civ_elite 3	CResistance	360	440
+8	0 0	merc_martian_mech 1		CResistance	720	500
+10	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		CResistance	1080	500
+#end						
+						
+#units_rwa_2_malefic_floor_3_magnum						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 5	civ_elite 1	civ_agent 2 civ_enforcer 1	CResistance	120	335
+	5 5	civ_elite 1	civ_soldier 3 civ_medic_combat 1 civ_medic 1	CResistance	120	415
+	4 4	civ_elite 1	civ_bruiser 1 civ_soldier 1 civ_enforcer 2	CResistance	120	360
+	4 4	civ_elite 1	turret_fire 1 civ_drone 2 civ_medic 1	CResistance	100	255
+	5 5	civ_elite 1	civ_bruiser 1 civ_soldier 2 civ_enforcer 1 civ_elite 1	CResistance	140	470
+6	3 3	civ_elite 1	civ_elite 3	CResistance	360	440
+8	0 0	merc_martian_mech 1		CResistance	720	500
+10	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		CResistance	1080	500
+#end						
+						
+#units_rwa_2_malefic_floor_4_matrix						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 3	quest_CivilUnity_issachar_copy 1	quest_CivilUnity_issachar_copy 1		20	400
+	2 4		quest_CivilUnity_issachar_copy 1		30	400
+#end						
+						
+#units_rwa_3_light_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	merc_doppelganger_pack 1	possessed_worker 1 possessed_miner 1 possessed_prisoner 1	Tezctlan	100	575
+	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 2 jungle_spider 1 possessed_bigarm 1	Tezctlan	120	390
+	2 2	venus_demon_warrior 1	venus_jaguar_knight 1 venus_demon_warrior 2	Tezctlan	80	580
+	3 3	venus_demon_warrior 1	venus_acolyte 1 venus_custodian 2	Tezctlan	80	415
+	4 4	venus_jaguar_knight 1	venus_jaguar_knight 3 jungle_spider 1	Tezctlan	120	435
+10	3 3	venus_demon_warrior 1	venus_demon_warrior 2 merc_doppelganger_pack 1	Tezctlan	360	1160
+#end						
+						
+#units_rwa_3_light_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	merc_doppelganger_pack 1	possessed_worker 1 possessed_miner 1 possessed_prisoner 1	Tezctlan	100	575
+	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 2 jungle_spider 1 possessed_bigarm 1	Tezctlan	100	390
+	2 2	venus_demon_warrior 1	venus_jaguar_knight 1 venus_demon_warrior 2	Tezctlan	80	580
+	3 3	venus_demon_warrior 1	venus_acolyte 1 venus_custodian 2	Tezctlan	80	415
+	4 4	venus_jaguar_knight 1	venus_jaguar_knight 3 jungle_spider 1	Tezctlan	100	435
+	4 4	venus_custodian 1	venus_slave 1 venus_acolyte 2 venus_custodian 1	Tezctlan	80	255
+10	3 3	venus_demon_warrior 1	venus_demon_warrior 2 merc_doppelganger_pack 1	Tezctlan	360	1160
+#end						
+						
+#units_rwa_3_light_extra_ancom_reinforce						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 5	anc_elite 1	swat 2 pmc_heavy 1 anc_elite 1	AnCom	120	594
+	3 4	anc_elite 1	sniper 2 pmc_heavy 2 anc_elite 1	AnCom	100	536
+	4 4	assassin 1	sniper 2 assassin 1 corporation_dog 1	AnCom	80	415
+	2 2	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1	assassin 2	AnCom	60	760
+10	2 2	anc_elite 1	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	240	1200
+#end						
+						
+#units_rwa_4a_whirl_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	she_enforcer 1	mars_crab 2 berserk 2	SheduThousand	100	310
+	2 3	she_enforcer 1	mars_battle_gun 1 she_enforcer 3 mars_pact_golem 1	SheduThousand	100	315
+	3 5	she_enforcer 1	berserk 2 she_enforcer 1 she_security 2	SheduThousand	100	286
+	3 5	she_elite 1	mars_crab 1 berserk 2 she_enforcer 2	SheduThousand	80	456
+	2 2	she_elite 1	mars_pact_golem 2	SheduThousand	80	560
+	3 4	she_elite 1	mars_battle_gun 2 she_enforcer 2 she_security 1	SheduThousand	80	466
+	2 2	merc_doppelganger_pack 1	berserk 2	SheduThousand	60	620
+10	3 3	merc_doppelganger_pack 1	mars_battle_gun 1 she_enforcer 1 she_elite 1	SheduThousand	420	870
+#end						
+						
+#units_rwa_4a_whirl_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	she_enforcer 1	mars_crab 2 berserk 2	SheduThousand	100	310
+	2 3	she_enforcer 1	mars_battle_gun 1 she_enforcer 3 mars_pact_golem 1	SheduThousand	100	315
+	2 2	she_elite 1	mars_pact_golem 2	SheduThousand	80	560
+	2 2	merc_doppelganger_pack 1	berserk 2	SheduThousand	60	620
+10	3 3	merc_doppelganger_pack 1	mars_battle_gun 1 she_enforcer 1 she_elite 1	SheduThousand	420	870
+#end						
+						
+#units_rwa_4a_whirl_floor_4						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	she_enforcer 1	mars_crab 2 berserk 2	SheduThousand	100	310
+	3 5	she_elite 1	mars_crab 1 berserk 2 she_enforcer 2	SheduThousand	80	456
+	2 2	she_elite 1	mars_pact_golem 2	SheduThousand	80	560
+	3 4	she_elite 1	mars_battle_gun 2 she_enforcer 2 she_security 1	SheduThousand	80	466
+	2 2	merc_doppelganger_pack 1	berserk 2	SheduThousand	60	620
+10	3 3	merc_doppelganger_pack 1	mars_battle_gun 1 she_enforcer 1 she_elite 1	SheduThousand	420	870
+#end						
+						
+#units_rwa_4b_odoacer_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	warden 1 soldier 1 grenadier 1	RealWare	400	280
+	4 4	rwa_elite 1	warden 1 recruit 1 soldier 2	RealWare	200	420
+9	2 2	rwa_elite 1	grenadier 2	RealWare	400	440
+10	3 3	grenadier 1	cyborg_battle 2 soldier 1	RealWare	600	330
+10	5 5	rwa_elite 1	recruit 1 cyborg_battle 1 soldier 3	RealWare	1200	520
+#end						
+						
+#units_rwa_4b_odoacer_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 2	merc_scouts_of_hades 1	soldier 2	RealWare	80	640
+	4 5	rwa_elite 1	soldier 2 grenadier 1 medic_combat 2	RealWare	120	524
+	3 3	rwa_elite 1	cyborg_battle 1 grenadier 1 rwa_elite 1	RealWare	80	590
+	3 4	grenadier 1	recruit 1 soldier 2	RealWare	100	330
+	4 4	soldier 1	soldier 3 medic_combat 1	RealWare	120	330
+	3 3	soldier 1	warden 2 cyborg_battle 1	RealWare	100	220
+	3 4	warden 1	cyborg_battle 1 turret_ballistic 1	RealWare	80	268
+10	1 2	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1	rwa_elite 8 merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	RealWare	420	850
+#end						
+						
+#units_rwa_4b_odoacer_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	warden 1 soldier 1 grenadier 1	RealWare	400	280
+	4 4	rwa_elite 1	warden 1 recruit 1 soldier 2	RealWare	200	420
+9	2 2	rwa_elite 1	grenadier 2	RealWare	400	440
+10	3 3	grenadier 1	cyborg_battle 2 soldier 1	RealWare	600	330
+10	5 5	rwa_elite 1	recruit 1 cyborg_battle 1 soldier 3	RealWare	1200	520
+#end						
+						
+#units_rwa_4b_odoacer_floor_4						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 2	merc_scouts_of_hades 1	soldier 2	RealWare	80	640
+	4 5	rwa_elite 1	soldier 2 grenadier 1 medic_combat 2	RealWare	120	524
+	3 3	rwa_elite 1	cyborg_battle 1 grenadier 1 rwa_elite 1	RealWare	80	590
+	3 4	grenadier 1	recruit 1 soldier 2	RealWare	100	330
+	4 4	soldier 1	soldier 3 medic_combat 1	RealWare	120	330
+	3 4	warden 1	cyborg_battle 1 turret_ballistic 1	RealWare	80	268
+10	1 2	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1	rwa_elite 8 merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	RealWare	420	850
+#end						
+						
+#units_rwa_5a_glass_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 5	assassin 1	agent 1 swat 1 sniper 2 pmc_heavy 1 assassin 1	AnCom	140	410
+	4 4	anc_elite 1	agent 1 assassin 2 corporation_dog 1	AnCom	120	515
+	4 4	anc_elite 1	swat 3 medic 1	AnCom	140	355
+	3 3	anc_elite 1	sniper 1 pmc_heavy 2	AnCom	140	410
+	2 2	merc_spaceborn_ghosts 1	medic 1 professor 1	AnCom	100	570
+	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		AnCom	100	500
+	2 3	merc_spaceborn_ghosts 1	anc_elite 12 merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	100	1000
+	2 2	merc_spaceborn_ghosts 1	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	80	500
+#end						
+						
+#units_rwa_5a_glass_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	anc_elite 1	agent 1 assassin 2 corporation_dog 1	AnCom	120	515
+	4 4	anc_elite 1	swat 3 medic 1	AnCom	140	355
+	3 3	anc_elite 1	sniper 1 pmc_heavy 2	AnCom	140	410
+	2 2	merc_spaceborn_ghosts 1	medic 1 professor 1	AnCom	100	570
+	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		AnCom	100	500
+	2 3	merc_spaceborn_ghosts 1	anc_elite 12 merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	100	1000
+	2 2	merc_spaceborn_ghosts 1	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	80	500
+#end						
+						
+#units_rwa_5b_carnage_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 5	assassin 1	agent 1 swat 1 sniper 2 pmc_heavy 1 assassin 1	AnCom	140	410
+	4 4	anc_elite 1	agent 1 assassin 2 corporation_dog 1	AnCom	120	515
+	4 4	anc_elite 1	swat 3 medic 1	AnCom	140	355
+	3 3	anc_elite 1	sniper 1 pmc_heavy 2	AnCom	140	410
+	2 2	merc_spaceborn_ghosts 1	medic 1 professor 1	AnCom	100	570
+	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		AnCom	100	500
+	2 3	merc_spaceborn_ghosts 1	anc_elite 12 merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	100	1000
+	2 2	merc_spaceborn_ghosts 1	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	80	500
+#end						
+						
+#units_rwa_5b_carnage_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	anc_elite 1	agent 1 assassin 2 corporation_dog 1	AnCom	120	515
+	4 4	anc_elite 1	swat 3 medic 1	AnCom	140	355
+	3 3	anc_elite 1	sniper 1 pmc_heavy 2	AnCom	140	410
+	2 2	merc_spaceborn_ghosts 1	medic 1 professor 1	AnCom	100	570
+	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		AnCom	100	500
+	2 3	merc_spaceborn_ghosts 1	anc_elite 12 merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	100	1000
+	2 2	merc_spaceborn_ghosts 1	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	80	500
+#end						
+						
+#units_rwa_5b_carnage_extra_reinforce						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 2	merc_spaceborn_ghosts 1	medic 1 professor 1	AnCom	100	570
+	0 0	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group 1		AnCom	100	500
+	2 3	merc_spaceborn_ghosts 1	anc_elite 12 merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	100	1000
+	2 2	merc_spaceborn_ghosts 1	merc_scouts_of_hades 1 merc_eclipse_blades 1 merc_tifton_elite 1 merc_tunnel_rats 1 merc_phoenix_brigade 1 merc_spaceborn_ghosts 1 merc_angels_of_spades 1 merc_doppelganger_pack 1 merc_valkyrie_squad 1 merc_martian_mech 1 merc_tongkong 1 merc_cobra 1 merc_unit_317 1 merc_golem_group	AnCom	80	500
+#end						
+						
+#units_anc_3_reload_floor_1_sbn						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	1 1		sbn_elite 1	SBN	43	200
+	4 4	medic 1	pmc 1 cyborg_recreation 1 pmc_heavy 1 corporation_dog 1	SBN	170	230
+	4 4	bountyhunter 1	agent 2 cyborg_recreation 1 pmc_heavy 1	SBN	85	340
+7	1 1	bountyhunter 1	cyborg_recreation 1	SBN	120	190
+7	3 3	pmc 1	cyborg_recreation 1 bountyhunter 2	SBN	120	350
+7	5 5	cyborg_recreation 1	pmc 2 pmc_heavy 2 corporation_dog 1	SBN	120	305
+8	3 3	medic 1	pmc 1 pmc_heavy 1 bountyhunter 1	SBN	400	265
+8	4 4	sbn_elite 1	agent 1 pmc 1 pmc_heavy 2	SBN	200	420
+#end						
+						
+#units_anc_3_reload_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	1 1		sbn_elite 1	SBN	43	200
+	4 4	medic 1	pmc 1 cyborg_recreation 1 pmc_heavy 1 corporation_dog 1	SBN	170	230
+	4 4	bountyhunter 1	agent 2 cyborg_recreation 1 pmc_heavy 1	SBN	85	340
+7	1 1	bountyhunter 1	cyborg_recreation 1	SBN	120	190
+7	3 3	pmc 1	cyborg_recreation 1 bountyhunter 2	SBN	120	350
+7	5 5	cyborg_recreation 1	pmc 2 pmc_heavy 2 corporation_dog 1	SBN	120	305
+8	3 3	medic 1	pmc 1 pmc_heavy 1 bountyhunter 1	SBN	400	265
+8	4 4	sbn_elite 1	agent 1 pmc 1 pmc_heavy 2	SBN	200	420
+#end						
+						
+#units_anc_3_reload_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	1 1		sbn_elite 1	SBN	43	200
+	4 4	medic 1	pmc 1 cyborg_recreation 1 pmc_heavy 1 corporation_dog 1	SBN	170	230
+	4 4	bountyhunter 1	agent 2 cyborg_recreation 1 pmc_heavy 1	SBN	85	340
+7	1 1	bountyhunter 1	cyborg_recreation 1	SBN	120	190
+7	3 3	pmc 1	cyborg_recreation 1 bountyhunter 2	SBN	120	350
+7	5 5	cyborg_recreation 1	pmc 2 pmc_heavy 2 corporation_dog 1	SBN	120	305
+8	3 3	medic 1	pmc 1 pmc_heavy 1 bountyhunter 1	SBN	400	265
+8	4 4	sbn_elite 1	agent 1 pmc 1 pmc_heavy 2	SBN	200	420
+#end						
+						
+#units_anc_3_reload_extra_duggur						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 3	moon_knight 1 moon_baron 1	moon_cage 1 moon_servitor 3 moon_knight 2 moon_pact_blade 2		32	100
+#end						
+						
+#units_anc_4_deadman_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	warden 1 soldier 1 grenadier 1	RealWare	400	280
+	4 4	rwa_elite 1	warden 1 recruit 1 soldier 2	RealWare	200	420
+9	2 2	rwa_elite 1	grenadier 2	RealWare	400	440
+10	3 3	grenadier 1	cyborg_battle 2 soldier 1	RealWare	600	330
+10	5 5	rwa_elite 1	recruit 1 cyborg_battle 1 soldier 3	RealWare	1200	520
+#end						
+						
+#units_anc_4_deadman_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	warden 1 soldier 1 grenadier 1	RealWare	400	280
+	4 4	rwa_elite 1	warden 1 recruit 1 soldier 2	RealWare	200	420
+9	2 2	rwa_elite 1	grenadier 2	RealWare	400	440
+10	3 3	grenadier 1	cyborg_battle 2 soldier 1	RealWare	600	330
+10	5 5	rwa_elite 1	recruit 1 cyborg_battle 1 soldier 3	RealWare	1200	520
+#end						
+						
+#units_anc_4_deadman_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	warden 1 soldier 1 grenadier 1	RealWare	400	280
+	4 4	rwa_elite 1	warden 1 recruit 1 soldier 2	RealWare	200	420
+9	2 2	rwa_elite 1	grenadier 2	RealWare	400	440
+10	3 3	grenadier 1	cyborg_battle 2 soldier 1	RealWare	600	330
+10	5 5	rwa_elite 1	recruit 1 cyborg_battle 1 soldier 3	RealWare	1200	520
+#end						
+						
+#units_anc_4_screamers_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	she_security 1	berserk 1 she_enforcer 1 mars_support 1	SheduThousand	400	320
+	4 4	she_elite 1	mars_crab 1 berserk 1 she_enforcer 2	SheduThousand	200	460
+9	2 2	she_elite 1	mars_support 2	SheduThousand	400	500
+10	3 3	mars_support 1	mars_battle_gun 2 she_enforcer 1	SheduThousand	600	420
+10	4 4	she_elite 1	berserk 1 mars_battle_gun 1 she_enforcer 2	SheduThousand	1200	500
+#end						
+						
+#units_anc_4_screamers_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	she_security 1	berserk 1 she_enforcer 1 mars_support 1	SheduThousand	400	320
+	4 4	she_elite 1	mars_crab 1 berserk 1 she_enforcer 2	SheduThousand	200	460
+9	2 2	she_elite 1	mars_support 2	SheduThousand	400	500
+10	3 3	mars_support 1	mars_battle_gun 2 she_enforcer 1	SheduThousand	600	420
+10	4 4	she_elite 1	berserk 1 mars_battle_gun 1 she_enforcer 2	SheduThousand	1200	500
+#end						
+						
+#units_anc_4_screamers_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	she_security 1	berserk 1 she_enforcer 1 mars_support 1	SheduThousand	400	320
+	4 4	she_elite 1	mars_crab 1 berserk 1 she_enforcer 2	SheduThousand	200	460
+9	2 2	she_elite 1	mars_support 2	SheduThousand	400	500
+10	3 3	mars_support 1	mars_battle_gun 2 she_enforcer 1	SheduThousand	600	420
+10	4 4	she_elite 1	berserk 1 mars_battle_gun 1 she_enforcer 2	SheduThousand	1200	500
+#end						
+						
+#units_anc_5_sonnen_extra_ritual						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 5	mercury_baron 1	mercury_knight 1 mercury_sorceror 1 mercury_pact_head 1 mercury_spellsword 2 mercury_baron 3		600	100
+#end						
+						
+#units_anc_5_sonnen_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 5	mercury_baron 1	mercury_knight 1 mercury_sorceror 1 mercury_pact_head 1 mercury_spellsword 2 mercury_baron 3		600	100
+#end						
+						
+#units_anc_5_sonnen_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 5	mercury_baron 1	mercury_knight 1 mercury_sorceror 1 mercury_pact_head 1 mercury_spellsword 2 mercury_baron 3		600	100
+#end						
+						
+#units_hiv_1_cold_war_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	1 1		civ_elite 1	CResistance GodBuilders CivilUnity	43	110
 	5 5	civ_medic_combat 1	civ_bruiser 1 civ_agent 1 civ_soldier 1 civ_enforcer 1 civ_drone 1	CResistance GodBuilders CivilUnity	170	305
 	5 5	civ_elite 1	civ_bruiser 3 civ_soldier 1 civ_enforcer 1	CResistance GodBuilders CivilUnity	85	370
 #end						
 						
-#units_Maleficarum_Magnum						
+#units_hiv_1_cold_war_floor_2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
-	2 2	civ_elite 1	civ_bruiser 1 civ_drone 1	CResistance GodBuilders CivilUnity	55	175
-	2 2	civ_medic 1	turret_fire 2	CResistance GodBuilders CivilUnity	55	155
-	4 4	civ_medic_combat 1	civ_bruiser 3 civ_elite 1	CResistance GodBuilders CivilUnity	110	290
 	1 1		civ_elite 1	CResistance GodBuilders CivilUnity	43	110
 	5 5	civ_medic_combat 1	civ_bruiser 1 civ_agent 1 civ_soldier 1 civ_enforcer 1 civ_drone 1	CResistance GodBuilders CivilUnity	170	305
 	5 5	civ_elite 1	civ_bruiser 3 civ_soldier 1 civ_enforcer 1	CResistance GodBuilders CivilUnity	85	370
+#end						
+						
+#units_hiv_1_cold_war_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	1 1		civ_elite 1	CResistance GodBuilders CivilUnity	43	110
+	5 5	civ_medic_combat 1	civ_bruiser 1 civ_agent 1 civ_soldier 1 civ_enforcer 1 civ_drone 1	CResistance GodBuilders CivilUnity	170	305
+	5 5	civ_elite 1	civ_bruiser 3 civ_soldier 1 civ_enforcer 1	CResistance GodBuilders CivilUnity	85	370
+#end						
+						
+#units_hiv_1_cold_war_floor_4						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	1 1		civ_elite 1	CResistance GodBuilders CivilUnity	43	110
+	5 5	civ_medic_combat 1	civ_bruiser 1 civ_agent 1 civ_soldier 1 civ_enforcer 1 civ_drone 1	CResistance GodBuilders CivilUnity	170	305
+	5 5	civ_elite 1	civ_bruiser 3 civ_soldier 1 civ_enforcer 1	CResistance GodBuilders CivilUnity	85	370
+#end						
+						
+#units_hiv_2_bifrost_floor_1_pirates						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	berserk 1 unc_enforcer 1 psycho 1	UnchainedBelt	400	270
+	4 4	unc_elite 1	bruiser 1 berserk 1 unc_enforcer 2	UnchainedBelt	200	440
+#end						
+						
+#units_hiv_2_bifrost_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	medic_combat 1	security 1 cyborg_battle 1 dil_cyborg_battle 1 drone_security 1	Dilthey	400	350
+	5 5	dil_elite 1	cyborg_worker 1 security 1 cyborg_recreation 1 cyborg_battle 1 drone_security 1	Dilthey	200	455
+#end						
+						
+#units_hiv_2_bifrost_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	medic_combat 1	security 1 cyborg_battle 1 dil_cyborg_battle 1 drone_security 1	Dilthey	400	350
+	5 5	dil_elite 1	cyborg_worker 1 security 1 cyborg_recreation 1 cyborg_battle 1 drone_security 1	Dilthey	200	455
+#end						
+						
+#units_hiv_2_bifrost_floor_4						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	medic_combat 1	security 1 cyborg_battle 1 dil_cyborg_battle 1 drone_security 1	Dilthey	400	350
+	5 5	dil_elite 1	cyborg_worker 1 security 1 cyborg_recreation 1 cyborg_battle 1 drone_security 1	Dilthey	200	455
+#end						
+						
+#units_hiv_2_telegraph_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic 1	pmc 1 pmc_heavy 1 bountyhunter 1	SBN	400	265
+	4 4	sbn_elite 1	agent 1 pmc 1 pmc_heavy 2	SBN	200	420
+#end						
+						
+#units_hiv_2_telegraph_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic 1	pmc 1 pmc_heavy 1 bountyhunter 1	SBN	400	265
+	4 4	sbn_elite 1	agent 1 pmc 1 pmc_heavy 2	SBN	200	420
+#end						
+						
+#units_hiv_2_telegraph_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic 1	pmc 1 pmc_heavy 1 bountyhunter 1	SBN	400	265
+	4 4	sbn_elite 1	agent 1 pmc 1 pmc_heavy 2	SBN	200	420
+#end						
+						
+#units_hiv_2_rokosz_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	warden 1 soldier 1 grenadier 1	RealWare	400	280
+	4 4	rwa_elite 1	warden 1 recruit 1 soldier 2	RealWare	200	420
+#end						
+						
+#units_hiv_2_rokosz_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	warden 1 soldier 1 grenadier 1	RealWare	400	280
+	4 4	rwa_elite 1	warden 1 recruit 1 soldier 2	RealWare	200	420
+#end						
+						
+#units_hiv_2_rokosz_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	warden 1 soldier 1 grenadier 1	RealWare	400	280
+	4 4	rwa_elite 1	warden 1 recruit 1 soldier 2	RealWare	200	420
+#end						
+						
+#units_hiv_3_awakened_floor_1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	medic_combat 1	security 1 cyborg_battle 1 dil_cyborg_battle 1 drone_security 1		400	350
+	5 5	dil_elite 1	cyborg_worker 1 security 1 cyborg_recreation 1 cyborg_battle 1 drone_security 1		200	455
+#end						
+						
+#units_hiv_3_awakened_floor_2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	medic_combat 1	security 1 cyborg_battle 1 dil_cyborg_battle 1 drone_security 1		400	350
+	5 5	dil_elite 1	cyborg_worker 1 security 1 cyborg_recreation 1 cyborg_battle 1 drone_security 1		200	455
+#end						
+						
+#units_hiv_3_awakened_floor_3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	4 4	medic_combat 1	security 1 cyborg_battle 1 dil_cyborg_battle 1 drone_security 1		400	350
+	5 5	dil_elite 1	cyborg_worker 1 security 1 cyborg_recreation 1 cyborg_battle 1 drone_security 1		200	455
+#end						
+						
+#units_hiv_3_awakened_floor_4_pirates						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 3	medic_combat 1	berserk 1 unc_enforcer 1 psycho 1	UnchainedBelt	400	270
+	4 4	unc_elite 1	bruiser 1 berserk 1 unc_enforcer 2	UnchainedBelt	200	440
 #end						
 						
 #units_Bramfaturian						
@@ -1317,16 +1812,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 8	2 4	flauros_baron 1	flauros_servitor 1 flauros_knight 2 flauros_pact_turret 2 flauros_pact_falcon 2	FlaurosFeral	200	100
 9	2 5	flauros_baron 1	flauros_servitor 1 flauros_knight 2 flauros_pact_turret 2 flauros_pact_falcon 2 flauros_baron 1	FlaurosFeral	400	100
 10	3 5	flauros_baron 1	flauros_servitor 1 flauros_knight 2 flauros_pact_turret 2 flauros_pact_falcon 2 flauros_baron 3	FlaurosFeral	600	100
-1	2 3	flauros_knight 1	flauros_servitor 1 flauros_knight 1	OlirnaFeral	10	100
-2	2 4	flauros_knight 1	flauros_servitor 1 flauros_knight 1	OlirnaFeral	15	100
-3	2 5	flauros_knight 1	flauros_servitor 1 flauros_knight 1	OlirnaFeral	21	100
-4	2 3	flauros_knight 1 flauros_baron 1	flauros_servitor 1 flauros_knight 2	OlirnaFeral	32	100
-5	2 4	flauros_knight 1 flauros_baron 1	flauros_servitor 1 flauros_knight 2	OlirnaFeral	55	100
-6	2 5	flauros_knight 1 flauros_baron 1	flauros_servitor 1 flauros_knight 2	OlirnaFeral	85	100
-7	2 5	flauros_baron 1	flauros_servitor 1 flauros_knight 2 flauros_baron 1	OlirnaFeral	120	100
-8	2 4	flauros_baron 1	flauros_servitor 1 flauros_knight 2 flauros_baron 1	OlirnaFeral	200	100
-9	2 5	flauros_baron 1	flauros_servitor 1 flauros_knight 2 flauros_baron 1	OlirnaFeral	400	100
-10	3 5	flauros_baron 1	flauros_servitor 1 flauros_knight 1 flauros_baron 2	OlirnaFeral	600	100
+1	2 3	olirna_vizier 1	olirna_monk 3 olirna_imp 1	OlirnaFeral	10	100
+2	2 4	olirna_vizier 1	olirna_monk 2 olirna_imp 1	OlirnaFeral	15	100
+3	2 5	olirna_vizier 1	olirna_monk 1 olirna_imp 1	OlirnaFeral	21	100
+4	2 3	olirna_vizier 1 olirna_baron 1	olirna_monk 2 olirna_imp 2 olirna_vizier 1	OlirnaFeral	32	100
+5	2 4	olirna_vizier 1 olirna_baron 1	olirna_monk 2 olirna_imp 2 olirna_vizier 2	OlirnaFeral	55	100
+6	2 5	olirna_vizier 1 olirna_baron 1	olirna_monk 2 olirna_imp 2 olirna_vizier 3	OlirnaFeral	85	100
+7	2 5	olirna_baron 1	olirna_monk 2 olirna_imp 2 olirna_vizier 3 olirna_mastiff 1	OlirnaFeral	120	100
+8	2 4	olirna_baron 1	olirna_monk 1 olirna_imp 2 olirna_vizier 3 olirna_mastiff 1 olirna_baron 1	OlirnaFeral	200	100
+9	2 5	olirna_baron 1	olirna_monk 1 olirna_imp 3 olirna_vizier 3 olirna_mastiff 2 olirna_baron 1	OlirnaFeral	400	100
+10	3 5	olirna_baron 1	olirna_monk 1 olirna_imp 3 olirna_vizier 3 olirna_mastiff 3 olirna_baron 3	OlirnaFeral	600	100
 #end						
 						
 #units_SpaceStation						

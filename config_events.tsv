@@ -1,48 +1,48 @@
 #events_mobspawn													
 Id	Weight	Chance	DialogCaptionTag	PortraitId	StationTypes	SkipIfVictims	PointsRange	Bramfaturas	AllianceType	FactionId	QmorphosLevel	CustomUnitDropId	BlockAllDoors
-pirate_raid_1	15	0.05	ui.triggerdialog.jane	char_jane		UnchainedBelt	500 500		Traitors	UnchainedBelt	0		FALSE
-quarantine_raid_1	15	0.05	ui.triggerdialog.jane	char_jane	Industrial Mine Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity DaydreamChems	500 500		Traitors	DaydreamChems	0	eventlist_quarantine_raid_1	FALSE
-police_raid_1	15	0.05	ui.triggerdialog.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks FrancheComte CResistance GodBuilders CivilUnity	500 500		Traitors	FrancheComte	0	eventlist_police_raid_1	FALSE
-civ_raid_1	15	0.05	ui.triggerdialog.jane	char_jane	Industrial Lab Military ColonyFarm	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity	500 500		Traitors	CResistance	0		FALSE
-failed_experiment_1	5	0.02	ui.triggerdialog.jane	char_jane	Lab		0 0	Mercury Venus Moon Mars_Awakened Cattaram Ron Scrivnus Flauros			250		FALSE
-temple_ritual_1	5	0.01	ui.triggerdialog.jane	char_jane	QuasimorphicTemple		0 0	Mercury Venus Moon Mars_Awakened Cattaram Ron Scrivnus Flauros			500		FALSE
-ai_malfunction_1	15	0.04	ui.triggerdialog.jane	char_jane	Lab Mine Military Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks SheduThousand UnchainedBelt	400 600		Traitors	VICTIM	0	eventlist_ai_malfunction_1	TRUE
-spider_infestation_1	15	0.05	ui.triggerdialog.jane	char_jane	Lab Mine ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks	200 300		Traitors	VICTIM	0	eventlist_spider_infestation_1	FALSE
-dogs_1	15	0.05	ui.triggerdialog.jane	char_jane		Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity	150 300		VictimFaction	VICTIM	0	eventlist_dogs_1	FALSE
-reinforcement_1	15	0.05	ui.triggerdialog.jane	char_jane			500 500		VictimFaction	VICTIM	0		FALSE
-revolt_1	15	0.05	ui.triggerdialog.jane	char_jane	Mine Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity	500 500		Traitors	VICTIM	0		TRUE
-tez_raid_1	15	0.05	ui.triggerdialog.jane	char_jane		Tezctlan AnCom SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt	500 500	Mercury Venus Moon Mars_Awakened Cattaram Ron Scrivnus Flauros	Traitors	Tezctlan	0		FALSE
-xio_raid_1	15	0.05	ui.triggerdialog.jane	char_jane		XiomaraMasks AnCom SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt	500 500	Mercury Venus Moon Mars_Awakened Cattaram Ron Scrivnus Flauros	Traitors	XiomaraMasks	0		FALSE
-she_raid_1	15	0.05	ui.triggerdialog.jane	char_jane		SheduThousand  AnCom SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt	500 500	Mercury Venus Moon Cattaram Ron Scrivnus Flauros	Traitors	SheduThousand	0		FALSE
-tez_raid_2	15	0.05	ui.triggerdialog.jane	char_jane		Tezctlan XiomaraMasks SheduThousand	500 500	Mercury Venus Moon Mars_Awakened Cattaram Ron Scrivnus Flauros	Traitors	Tezctlan	100		FALSE
-xio_raid_2	15	0.05	ui.triggerdialog.jane	char_jane		Tezctlan XiomaraMasks SheduThousand	500 500	Mercury Venus Moon Mars_Awakened Cattaram Ron Scrivnus Flauros	Traitors	XiomaraMasks	100		FALSE
-she_raid_2	15	0.05	ui.triggerdialog.jane	char_jane		Tezctlan XiomaraMasks SheduThousand	500 500	Mercury Venus Moon Cattaram Ron Scrivnus Flauros	Traitors	SheduThousand	100		FALSE
+pirate_raid_1	15	0.05	name.jane	char_jane		UnchainedBelt	500 500		Traitors	UnchainedBelt	0		FALSE
+quarantine_raid_1	15	0.05	name.jane	char_jane	Industrial Mine Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity DaydreamChems	500 500		Traitors	DaydreamChems	0	eventlist_quarantine_raid_1	FALSE
+police_raid_1	15	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks FrancheComte CResistance GodBuilders CivilUnity	500 500		Traitors	FrancheComte	0	eventlist_police_raid_1	FALSE
+civ_raid_1	15	0.05	name.jane	char_jane	Industrial Lab Military ColonyFarm	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity	500 500		Traitors	CResistance	0		FALSE
+failed_experiment_1	5	0.02	name.jane	char_jane	Lab		0 0	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros			250		FALSE
+temple_ritual_1	5	0.01	name.jane	char_jane	QuasimorphicTemple		0 0	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros			500		FALSE
+ai_malfunction_1	15	0.04	name.jane	char_jane	Lab Mine Military Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks SheduThousand UnchainedBelt	400 600		Traitors	VICTIM	0	eventlist_ai_malfunction_1	TRUE
+spider_infestation_1	15	0.05	name.jane	char_jane	Lab Mine ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks	200 300		Traitors	VICTIM	0	eventlist_spider_infestation_1	FALSE
+dogs_1	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity	150 300		VictimFaction	VICTIM	0	eventlist_dogs_1	FALSE
+reinforcement_1	15	0.05	name.jane	char_jane			500 500		VictimFaction	VICTIM	0		FALSE
+revolt_1	15	0.05	name.jane	char_jane	Mine Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity	500 500		Traitors	VICTIM	0		TRUE
+tez_raid_1	15	0.05	name.jane	char_jane		Tezctlan AnCom SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros	Traitors	Tezctlan	0		FALSE
+xio_raid_1	15	0.05	name.jane	char_jane		XiomaraMasks AnCom SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros	Traitors	XiomaraMasks	0		FALSE
+she_raid_1	15	0.05	name.jane	char_jane		SheduThousand  AnCom SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt	500 500	Shartamakhum Gannix Duggur Cattaram Ron Scrivnus Flauros	Traitors	SheduThousand	0		FALSE
+tez_raid_2	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks SheduThousand	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros	Traitors	Tezctlan	100		FALSE
+xio_raid_2	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks SheduThousand	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros	Traitors	XiomaraMasks	100		FALSE
+she_raid_2	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks SheduThousand	500 500	Shartamakhum Gannix Duggur Cattaram Ron Scrivnus Flauros	Traitors	SheduThousand	100		FALSE
 #end													
 													
 #events_itemspawn													
 Id	Weight	Chance	DialogCaptionTag	PortraitId	StationTypes	SkipIfVictims	PointsRange	ItemsIds					
-food_excess_1	15	0.05	ui.triggerdialog.jane	char_jane	Civilian ColonyFarm SpaceStation		500 500	canned_food_1 canned_food_2 canned_food_3 ration_pack_1 ration_pack_2 burger_pack_1 burger_pack_2 ration_pack_3 ration_pack_4					
-mining_1	15	0.03	ui.triggerdialog.jane	char_jane	Mine Military Prison	Tezctlan XiomaraMasks	480 640	frag_mine					
-ammo_excess_1	10	0.05	ui.triggerdialog.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation		20 50	small_basic_ammo small_burst_ammo small_expansive_ammo					
-ammo_excess_2	10	0.05	ui.triggerdialog.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation		40 70	medium_basic_ammo medium_police_ammo rifle_basic_ammo					
-ammo_excess_3	10	0.05	ui.triggerdialog.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation		40 70	shotgun_bullet_ammo shotgun_shrapnel_ammo shotgun_flechette_ammo shotgun_explosion_ammo					
-ammo_excess_4	15	0.05	ui.triggerdialog.jane	char_jane	Military Prison		100 150	rifle_basic_ammo rifle_armorpierce_ammo heavy_basic_ammo heavy_flak_ammo shotgun_explosion_ammo shotgun_flechette_ammo battery_basic_ammo					
-ammo_excess_5	15	0.05	ui.triggerdialog.jane	char_jane	Military Prison		300 500	rocket_basic_ammo rocket_fire_ammo					
-tool_excess_1	15	0.05	ui.triggerdialog.jane	char_jane	Industrial Mine		300 600	trash_sawblade_1 miner_breaker_1 worker_discthrower_1 worker_hmg_1 worker_crowbar_1 worker_wrench_1 military_shovel_1 worker_pistol_1					
-robot_excess_1	15	0.05	ui.triggerdialog.jane	char_jane	Industrial Mine	Tezctlan XiomaraMasks	700 1000	packaged_industrial_robot packaged_recreational_robot robot_resurrect_device					
-robot_excess_2	15	0.05	ui.triggerdialog.jane	char_jane	Military Prison	Tezctlan XiomaraMasks	800 1200	packaged_security_robot packaged_drone robot_resurrect_device					
-goods_excess_1	10	0.05	ui.triggerdialog.jane	char_jane	Industrial Mine		500 1000	tool_container robot_parts_container electrical_parts_container engineering_parts_container communication_relay welding_machine_device mining_equipment construction_equipment hydraulic_pump management_unit memory_software					
-goods_excess_2	10	0.05	ui.triggerdialog.jane	char_jane	Lab ColonyFarm		500 1000	organs_box scientist_clothing_container quasi_sensor_device geoscanner_device medical_equipment scientific_equipment chemical_analyzer quasiresearch_disk quasisamples biomass_tank medical_components pills_steroids					
-goods_excess_3	10	0.05	ui.triggerdialog.jane	char_jane	Civilian SpaceStation		500 1000	luxury_food_container water_container alcohol_container regular_clothing_container defibrillator_device precious_metals drug_cargo gunbang_magazine entertainment_software					
-goods_excess_4	10	0.05	ui.triggerdialog.jane	char_jane	Military Prison		500 1000	security_clothing_container weapon_container armor_container military_parts_container ai_module automap darknet_unit military_unit					
+food_excess_1	15	0.05	name.jane	char_jane	Civilian ColonyFarm SpaceStation		500 500	canned_food_1 canned_food_2 canned_food_3 ration_pack_1 ration_pack_2 burger_pack_1 burger_pack_2 ration_pack_3 ration_pack_4					
+mining_1	15	0.03	name.jane	char_jane	Mine Military Prison	Tezctlan XiomaraMasks	480 640	frag_mine					
+ammo_excess_1	10	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation		20 50	small_basic_ammo small_burst_ammo small_expansive_ammo					
+ammo_excess_2	10	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation		40 70	medium_basic_ammo medium_police_ammo rifle_basic_ammo					
+ammo_excess_3	10	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation		40 70	shotgun_bullet_ammo shotgun_shrapnel_ammo shotgun_flechette_ammo shotgun_explosion_ammo					
+ammo_excess_4	15	0.05	name.jane	char_jane	Military Prison		100 150	rifle_basic_ammo rifle_armorpierce_ammo heavy_basic_ammo heavy_flak_ammo shotgun_explosion_ammo shotgun_flechette_ammo battery_basic_ammo					
+ammo_excess_5	15	0.05	name.jane	char_jane	Military Prison		300 500	rocket_basic_ammo rocket_fire_ammo					
+tool_excess_1	15	0.05	name.jane	char_jane	Industrial Mine		300 600	trash_sawblade_1 miner_breaker_1 worker_discthrower_1 worker_hmg_1 worker_crowbar_1 worker_wrench_1 military_shovel_1 worker_pistol_1					
+robot_excess_1	15	0.05	name.jane	char_jane	Industrial Mine	Tezctlan XiomaraMasks	700 1000	packaged_industrial_robot packaged_recreational_robot robot_resurrect_device					
+robot_excess_2	15	0.05	name.jane	char_jane	Military Prison	Tezctlan XiomaraMasks	800 1200	packaged_security_robot packaged_drone robot_resurrect_device					
+goods_excess_1	10	0.05	name.jane	char_jane	Industrial Mine		500 1000	tool_container robot_parts_container electrical_parts_container engineering_parts_container communication_relay welding_machine_device mining_equipment construction_equipment hydraulic_pump management_unit memory_software					
+goods_excess_2	10	0.05	name.jane	char_jane	Lab ColonyFarm		500 1000	organs_box scientist_clothing_container quasi_sensor_device geoscanner_device medical_equipment scientific_equipment chemical_analyzer quasiresearch_disk quasisamples biomass_tank medical_components pills_steroids					
+goods_excess_3	10	0.05	name.jane	char_jane	Civilian SpaceStation		500 1000	luxury_food_container water_container alcohol_container regular_clothing_container defibrillator_device precious_metals drug_cargo gunbang_magazine entertainment_software					
+goods_excess_4	10	0.05	name.jane	char_jane	Military Prison		500 1000	security_clothing_container weapon_container armor_container military_parts_container ai_module automap darknet_unit military_unit					
 #end													
 													
 #events_itemdespawn													
 Id	Weight	Chance	DialogCaptionTag	PortraitId	StationTypes	SkipIfVictims	PointsRange	ItemsClasses					
-food_shortage_1	15	0.05	ui.triggerdialog.jane	char_jane	Civilian ColonyFarm SpaceStation		500 500	Food Drink Alcohol					
-ammo_shortage_1	15	0.05	ui.triggerdialog.jane	char_jane	Military Prison		5000 5000	Weapon Ammo Grenade					
-goods_shortage_1	15	0.05	ui.triggerdialog.jane	char_jane	Industrial Lab ColonyFarm Civilian SpaceStation		1000 1000	MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Data Blueprint					
-meds_shortage_1	15	0.05	ui.triggerdialog.jane	char_jane	Industrial Mine Prison ColonyFarm Civilian SpaceStation		600 600	Pills Syringe Medpack Dressing					
+food_shortage_1	15	0.05	name.jane	char_jane	Civilian ColonyFarm SpaceStation		500 500	Food Drink Alcohol					
+ammo_shortage_1	15	0.05	name.jane	char_jane	Military Prison		5000 5000	Weapon Ammo Grenade					
+goods_shortage_1	15	0.05	name.jane	char_jane	Industrial Lab ColonyFarm Civilian SpaceStation		1000 1000	MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Data Blueprint					
+meds_shortage_1	15	0.05	name.jane	char_jane	Industrial Mine Prison ColonyFarm Civilian SpaceStation		600 600	Pills Syringe Medpack Dressing					
 #end													
 													
 #events_gift													

@@ -35,8 +35,12 @@ MEMDFPerkCountToSwitch	1
 BTEXCRankUpgradeLimit	1							
 TRCNOperatorsCountLimit	1							
 TRCNPerkUpgradeLevel	2							
-TRDSHShuttleMoveSpeed	96							
-TRDSHShuttleRestoreSpeed	168							
+TRDSHShuttleMoveSpeed	264							
+TRDSHCargoRows	4							
+TRDSHValueOfShuttleItems	0							
+TRDSHReputationCoefBonus	0.01							
+TRDSHUnsupportedSellValuePercent	0.3							
+TRDSHContraband	0							
 CGSHSTShuttleInventorySize	1							
 AUCAPChargesCount	2							
 AUCAPCapsuleInventorySize	4							
@@ -45,7 +49,7 @@ PRCOStationProduceSpeedPercent	1
 PRCOPostMissionBonusMult	1							
 AGSTImplantGainChanceOnAmp	0.05							
 BRENGCooldownDuration	336							
-BRENGTimeLimit	600							
+BRENGTimeLimit	400							
 BRENGPortalRadius	32							
 BRENGStartStage	1							
 #end								
@@ -124,7 +128,7 @@ stcon_disassembly_items_speed_2	TRUE	supply	store_constructor_department	FALSE	1
 stcon_more_comps_on_disasm_2	TRUE	supply	store_constructor_department	FALSE	0 4	stcon_addit_rnd_comp_on_disasm	STCONMoreCompsOnDisassembly + 1	gunbang_magazine hydraulic_pump robot_parts_container chemical_analyzer
 stcon_addit_rnd_comp_on_disasm	TRUE	supply	store_constructor_department	FALSE	1 4	stcon_disassembly_items_speed_2 stcon_more_comps_on_disasm	STCONAdditMDCompOnDisassembly + 1	ledger_book prototype_schematics mining_equipment chemical_analyzer
 memdefrag_department	TRUE	research		TRUE	3 0		MemdefragDepartment + 1	scientific_equipment expert_disk
-morphanal_department	FALSE	research		TRUE	1 1	memdf_classes_to_modify	MorphanalDepartment + 1	
+morphanal_department	TRUE	research		TRUE	1 1	memdf_classes_to_modify	MorphanalDepartment + 1	scientific_equipment construction_equipment quasiresearch_disk
 bramengine_department	TRUE	research		TRUE	4 2	memdf_classes_to_modify_2	BramengineDepartment + 1	phase_bomb scientific_equipment construction_equipment quasiresearch_disk research_disk darknet_unit
 memdf_classes_to_modify	TRUE	research	memdefrag_department	FALSE	2 1	memdf_perks_count_to_switch	MEMDFfClassesToModify + 2	personal_key memory_software
 memdf_class_upgrade_speed	TRUE	research	memdefrag_department	FALSE	3 1	memdf_classes_to_modify	MEMDFClassUpgradeSpeed - 4	chemical_analyzer entertainment_software
@@ -134,14 +138,15 @@ memdf_perks_count_to_switch_2	TRUE	research	memdefrag_department	FALSE	1 0	memdf
 memdf_classes_to_modify_2	TRUE	research	memdefrag_department	FALSE	3 2	memdf_class_upgrade_speed	MEMDFfClassesToModify + 3	electrical_parts_container military_unit
 memdf_perks_count_to_switch_3	TRUE	research	memdefrag_department	FALSE	0 0	memdf_perks_count_to_switch_2	MEMDFPerkCountToSwitch + 2	scientific_equipment darknet_unit
 memdf_classes_to_modify_3	TRUE	research	memdefrag_department	FALSE	3 3	memdf_classes_to_modify_2	MEMDFfClassesToModify + 7	scientific_equipment military_unit
-moranl_pacts_to_modify	FALSE	research	morphanal_department	FALSE	1 2	morphanal_department	MORANIPactsToModify + 1	
-moranl_pact_upgrade_speed	FALSE	research	morphanal_department	FALSE	2 2	moranl_pacts_to_modify	MORANIPactUpgradeSpeed + 1	
-moranl_pact_upgrade_speed_2	FALSE	research	morphanal_department	FALSE	2 3	moranl_pact_upgrade_speed	MORANIPactUpgradeSpeed + 1	
-moranl_pacts_to_modify_2	FALSE	research	morphanal_department	FALSE	0 2	moranl_pacts_to_modify	MORANIPactsToModify + 1	
-moranl_pacts_to_modify_3	FALSE	research	morphanal_department	FALSE	0 3	moranl_pacts_to_modify_2	MORANIPactsToModify + 1	
-moranl_pact_addit_props	FALSE	research	morphanal_department	FALSE	1 3	moranl_pacts_to_modify_3 moranl_pact_upgrade_speed_2	MORANIPactAdditProp + 1	
+moranl_upgrade_view	TRUE	research	morphanal_department	FALSE	0 1	morphanal_department	MORANLUpgradeView + 1	quasi_sensor_device memory_software
+moranl_upgrade_power	TRUE	research	morphanal_department	FALSE	1 2	morphanal_department	MORANLUpgradePower + 100	ai_module chemical_analyzer quasisamples
+moranl_quasi_drop	TRUE	research	morphanal_department	FALSE	2 2	moranl_upgrade_power	MORANLQuasiDrop + 0.5	darknet_unit chemical_analyzer tool_container
+moranl_upgrade_power_2	TRUE	research	morphanal_department	FALSE	2 3	moranl_quasi_drop	MORANLUpgradePower + 100	ai_module research_disk quasiresearch_disk
+moranl_pact_discount	TRUE	research	morphanal_department	FALSE	0 2	moranl_upgrade_power	MORANLPactDiscount + 0.2	memory_software anulator
+moranl_upgrade_stability	TRUE	research	morphanal_department	FALSE	0 3	moranl_pact_discount	MORANLUpgradeStability + 40	scientist_clothing_container expert_disk personal_key
+moranl_pact_recovery	TRUE	research	morphanal_department	FALSE	0 4	moranl_upgrade_stability	MORANLPactRecovery + 100	darknet_unit precious_metals anulator
 breng_reduce_cooldown_duration	TRUE	research	bramengine_department	FALSE	5 2	bramengine_department	BRENGCooldownDuration - 168	construction_equipment tool_container scientist_clothing_container precious_metals expert_disk darknet_unit
-breng_time_limit_bonus	TRUE	research	bramengine_department	FALSE	4 3	bramengine_department	BRENGTimeLimit + 400	drug_cargo medical_equipment prototype_schematics electrical_parts_container quasisamples entertainment_software
+breng_time_limit_bonus	TRUE	research	bramengine_department	FALSE	4 3	bramengine_department	BRENGTimeLimit + 600	drug_cargo medical_equipment prototype_schematics electrical_parts_container quasisamples entertainment_software
 breng_portal_precision	TRUE	research	bramengine_department	FALSE	4 4	breng_time_limit_bonus	BRENGPortalRadius - 12	geoscanner_device quasi_sensor_device quasiresearch_disk prototype_schematics ai_module expert_disk
 breng_start_stage	TRUE	research	bramengine_department	FALSE	5 3	breng_time_limit_bonus	BRENGStartStage + 3	scientific_equipment quasi_sensor_device prototype_schematics electrical_parts_container quasisamples memory_software
 autonomcapsule_department	TRUE	hangar		TRUE	0 0		AutonomCapsuleDepartment + 1	ai_module memory_software
@@ -155,13 +160,14 @@ aucap_capsule_restore_speed_2	TRUE	hangar	autonomcapsule_department	FALSE	1 2	au
 aucap_capsule_charges_count	TRUE	hangar	autonomcapsule_department	FALSE	0 1	autonomcapsule_department	AUCAPChargesCount + 3	electrical_parts_container communication_relay
 cgsht_shuttle_inventory_size	TRUE	hangar	cargoshuttle_department	FALSE	2 4	cargoshuttle_department	CGSHSTShuttleInventorySize + 1	welding_machine_device engineering_parts_container mining_equipment ore_cargo ledger_book
 cgsht_shuttle_inventory_size_2	TRUE	hangar	cargoshuttle_department	FALSE	1 4	cgsht_shuttle_inventory_size	CGSHSTShuttleInventorySize + 2	welding_machine_device engineering_parts_container electrical_parts_container hydraulic_pump ledger_book
-trdsh_shuttle_move_speed	TRUE	hangar	tradeshuttle_department	FALSE	3 2	tradeshuttle_department	TRDSHShuttleMoveSpeed - 12	engineering_parts_container automap
-trdsh_value_of_shuttle_items	TRUE	hangar	tradeshuttle_department	FALSE	3 3	trdsh_shuttle_move_speed	TRDSHValueOfShuttleItems + 50	ledger_book management_unit quasi_sensor_device
-trdsh_shuttle_restore_speed	TRUE	hangar	tradeshuttle_department	FALSE	4 2	trdsh_shuttle_move_speed	TRDSHShuttleRestoreSpeed - 48	ai_module communication_relay
-trdsh_shuttle_move_speed_2	TRUE	hangar	tradeshuttle_department	FALSE	5 2	trdsh_shuttle_restore_speed	TRDSHShuttleMoveSpeed - 24	hydraulic_pump robot_parts_container robot_resurrect_device
-trdsh_shuttle_restore_speed_2	TRUE	hangar	tradeshuttle_department	FALSE	5 4	trdsh_value_of_shuttle_items_2	TRDSHShuttleRestoreSpeed - 72	ai_module communication_relay management_unit
-trdsh_value_of_shuttle_items_2	TRUE	hangar	tradeshuttle_department	FALSE	5 3	trdsh_shuttle_move_speed_2	TRDSHValueOfShuttleItems + 100	personal_key management_unit geoscanner_device
-trdsh_shuttle_move_speed_3	TRUE	hangar	tradeshuttle_department	FALSE	4 3	trdsh_value_of_shuttle_items_2	TRDSHShuttleMoveSpeed - 36	welding_machine_device mining_equipment electrical_parts_container
+trdsh_shuttle_cargo_rows	TRUE	hangar	tradeshuttle_department	FALSE	2 3	tradeshuttle_department	TRDSHCargoRows + 2	construction_equipment welding_machine_device electrical_parts_container robot_parts_container robot_resurrect_device
+trdsh_shuttle_move_speed	TRUE	hangar	tradeshuttle_department	FALSE	3 2	tradeshuttle_department	TRDSHShuttleMoveSpeed - 24	engineering_parts_container automap
+trdsh_reputation_value	TRUE	hangar	tradeshuttle_department	FALSE	4 2	trdsh_shuttle_move_speed	TRDSHReputationCoefBonus + 0.01	ai_module communication_relay
+trdsh_unsupported_items_value	TRUE	hangar	tradeshuttle_department	FALSE	5 2	trdsh_reputation_value	TRDSHUnsupportedSellValuePercent + 0.2	expert_disk communication_relay precious_metals
+trdsh_shuttle_move_speed_2	TRUE	hangar	tradeshuttle_department	FALSE	5 3	trdsh_unsupported_items_value	TRDSHShuttleMoveSpeed - 72	welding_machine_device hydraulic_pump mining_equipment
+trdsh_value_of_shuttle_items	TRUE	hangar	tradeshuttle_department	FALSE	3 3	trdsh_shuttle_move_speed	TRDSHValueOfShuttleItems + 0.1	ledger_book management_unit quasi_sensor_device
+trdsh_value_of_shuttle_items_2	TRUE	hangar	tradeshuttle_department	FALSE	5 4	trdsh_shuttle_move_speed_2	TRDSHValueOfShuttleItems + 0.2	personal_key management_unit geoscanner_device
+trdsh_contraband	TRUE	hangar	tradeshuttle_department	FALSE	4 3	trdsh_shuttle_move_speed_2	TRDSHContraband + 1	ai_module communication_relay management_unit
 genomeeditor_department	TRUE	cloning		TRUE	2 0		GenomeEditorDepartment + 1	medical_equipment biomass_tank
 trainingcenter_department	TRUE	cloning		TRUE	1 1	gned_operator_upgrade_speed	TrainingCenterDepartment + 1	management_unit gunbang_magazine security_clothing_container
 battleexpcond_department	TRUE	cloning		TRUE	3 1	gned_operator_upgrade_speed	BattleExpCondDepartment + 1	management_unit security_clothing_container

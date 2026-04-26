@@ -44,6 +44,7 @@ ISSStation	growth_basic device_key use_entertaiment data_expert use_automap use_
 Akatsuki	growth_industrial factory_wield data_management use_chem use_tool use_construction		growth_industrial factory_CR data_military	low_chip medium_chip high_chip	quasi_medium	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_industrial factory_wield data_management use_chem use_tool use_construction	
 Paragon	growth_industrial factory_pump data_management use_chem use_tool use_construction		growth_industrial factory_CR data_military	low_chip medium_chip high_chip	quasi_medium	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_industrial factory_pump data_management use_chem use_tool use_construction	
 Phenomenon	growth_basic mining_organs food_basic data_expert use_medical use_defib use_drugs		growth_basic food_CR data_gunbang		quasi_medium	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_basic mining_organs food_basic data_expert use_medical use_defib use_drugs	
+OrkneyIslands	growth_basic mining_organs food_basic data_expert use_medical use_defib use_drugs		growth_basic food_CR data_gunbang		quasi_medium	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_basic mining_organs food_basic data_expert use_medical use_defib use_drugs	
 SterlingsFarm	growth_basic food_basic food_alcohol cloth_mine data_memory		growth_basic food_CR cloth_CR data_steroids		quasi_large	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_basic food_basic food_alcohol cloth_mine data_memory	
 HartsWarehouse	growth_industrial cloth_lab data_ledger use_personal_key use_robot		growth_industrial cloth_CR data_steroids		quasi_large	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_industrial cloth_lab data_ledger use_personal_key use_robot	
 FullersCore	growth_basic data_management use_science use_robot use_personal_key		growth_basic use_CR data_military		quasi_medium	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_basic data_management use_science use_robot use_personal_key	
@@ -162,15 +163,19 @@ Cronus	growth_lab device_automap data_management use_geoscanner use_comm use_sci
 Labyrinth13	growth_lab lab_med data_steroids use_medical use_armor use_weapon use_science		growth_military factory_CR data_steroids	low_chip medium_chip high_chip	quasi_small	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_lab lab_med data_steroids use_medical use_armor use_weapon use_science	
 PointShadow	growth_basic use_analysis data_darknet use_science use_comm use_reanimate		growth_basic use_CR use_training data_military		quasi_medium	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_basic use_analysis data_darknet use_science use_comm use_reanimate	
 PilgrimsRift	growth_lab mining_quasi mining_organs device_sensor data_memory use_medical use_armor use_weapon	quasi_venus_feather quasi_venus_rags venus_armor_plates venus_melee_parts venus_weapon_parts mercury_rags mercury_glass moon_armor_plates moon_weapon_parts cattaram_mine quasi_ron_medicine_1 quasi_repair_kit quasi_medical_kit_1	growth_military device_CR data_steroids		quasi_medium	human_meat throwable_heart human_skin human_rib human_skull human_ear human_eye quasi_medical_kit_1	growth_lab mining_quasi mining_organs device_sensor data_memory use_medical use_armor use_weapon	quasi_venus_feather quasi_venus_rags venus_armor_plates venus_melee_parts venus_weapon_parts mercury_rags mercury_glass moon_armor_plates moon_weapon_parts cattaram_mine quasi_ron_medicine_1 quasi_repair_kit quasi_medical_kit_1
-bramfaturian_Mercury								
-bramfaturian_Venus								
-bramfaturian_Moon								
-bramfaturian_Mars_Awakened								
+bramfaturian_Shartamakhum								
+bramfaturian_Gannix								
+bramfaturian_Gannix_Sleeping								
+bramfaturian_Duggur								
+bramfaturian_Duggur_Sleeping								
+bramfaturian_Ur_Awakened								
+bramfaturian_Ur_Sleeping								
 bramfaturian_Cattaram								
 bramfaturian_Ron								
 bramfaturian_Scrivnus								
 bramfaturian_Flauros								
 bramfaturian_Olirna								
+bramfaturian_Olirna_Sleeping								
 #end								
 								
 #barter_receipts								
@@ -294,4 +299,13 @@ she_1	Shedu	0	growth_base_1	672	0.08	0.01
 she_2	Shedu	0.25	growth_base_1	672	0.08	0.01		
 she_3	Shedu	0.5	growth_base_2	672	0.08	0.02		
 she_4	Shedu	0.75	growth_base_2	672	0.08	0.02		
+#end								
+								
+#tradeshuttlebartercategories								
+Id	ItemClasses							
+weaponry	Weapon ThrowableWeapon Grenade Mine Ammo Turret Cyborg							
+gear	Armor Helmet Leggings Boots Backpack Vest CyberneticAug QuasiAug BioAug QuasiPact							
+consumables	Drink Alcohol Food Medpack QuasiArtefact Pills Syringe Dressing RepairKit Parts QuasiOrgan							
+barter	ValuableBarter IndustrialBarter ScienceBarter MilitaryBarter Data							
+chips	Blueprint							
 #end								

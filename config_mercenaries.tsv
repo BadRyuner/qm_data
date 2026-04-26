@@ -176,10 +176,10 @@ possession_basic	Passive	UltimateActivation			25	100	possession_advanced	None	FP
 possession_advanced	Passive	UltimateActivation			25	250	possession_master	None	FPactCooldown 0.4 FPactDebuff 0.4																
 possession_master	Passive	UltimateActivation			25	400	possession_legend	None	FPactCooldown 0.6 FPactDebuff 0.5																
 possession_legend	Passive	UltimateActivation						None	FPactCooldown 0.8 FPactDebuff 0.6																
-ritualism_basic	Trigger	EatingGavvakh			20	100	ritualism_advanced	None	IDuration 2 ICooldown 18 IActivation 80 ICDRecovery 3																
-ritualism_advanced	Trigger	EatingGavvakh			20	250	ritualism_master	None	IDuration 3 ICooldown 16 IActivation 80 ICDRecovery 3																
-ritualism_master	Trigger	EatingGavvakh			20	400	ritualism_legend	None	IDuration 3 ICooldown 14 IActivation 80 ICDRecovery 4																
-ritualism_legend	Trigger	EatingGavvakh						None	IDuration 4 ICooldown 12 IActivation 80 ICDRecovery 4																
+ritualism_basic	Trigger	UseRitualItem			20	100	ritualism_advanced	None	IDuration 2 ICooldown 18 IActivation 40 ICDRecovery 3																
+ritualism_advanced	Trigger	UseRitualItem			20	250	ritualism_master	None	IDuration 3 ICooldown 16 IActivation 40 ICDRecovery 3																
+ritualism_master	Trigger	UseRitualItem			20	400	ritualism_legend	None	IDuration 3 ICooldown 14 IActivation 40 ICDRecovery 4																
+ritualism_legend	Trigger	UseRitualItem						None	IDuration 4 ICooldown 12 IActivation 40 ICDRecovery 4																
 masochism_basic	Trigger	OnPainLimitBreak			25	100	masochism_advanced	None	IDuration 3 ICooldown 20 IActivation 80 IAddedAP 2																
 masochism_advanced	Trigger	OnPainLimitBreak			25	250	masochism_master	None	IDuration 4 ICooldown 16 IActivation 80 IAddedAP 2																
 masochism_master	Trigger	OnPainLimitBreak			25	400	masochism_legend	None	IDuration 4 ICooldown 12 IActivation 80 IAddedAP 2																

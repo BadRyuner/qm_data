@@ -1,14 +1,14 @@
 #pacts							
 Id	BramfaturaId	AIUsage	Parameters	AIParameters	CurseValue	RechargeValue	PactTier
 cattaram_pillar	Cattaram	Close	SExplosionId crystal_explosion SObstacleId cattaram_crystal IExpire 5	ICooldown 3 IUsageRadius 3	14	25	1
-cattaram_wall_that_walks	Cattaram	Between	IRadius 2 ICount 5 SMobClass cattaram_pact_elemental SFaction FeralCattaram	ICooldown 8 IUsageRadius 8 IPrecisionRadius 2	35	65	2
+cattaram_wall_that_walks	Cattaram	Between	IRadius 2 ICount 5 SMobClass cattaram_pact_elemental SFaction FeralCattaram BIsFollower true	ICooldown 8 IUsageRadius 8 IPrecisionRadius 2	35	65	2
 cattaram_arena	Cattaram	Between	IRadius 3 SObstacleId cattaram_wall IExpire 5	ICooldown 8 IUsageRadius 5 IPrecisionRadius 1	42	75	3
 cattaram_upheaval	Cattaram	TargetCell	IRadius 3 ICount 5 SExplosionId crystal_explosion SObstacleId cattaram_crystal IExpire 5	ICooldown 8	56	100	4
-cattaram_earthquake	Cattaram	Always	IRadius 6 IInnerWalls 8 IOuterWalls 30 IOuterWallsMobCount 15 SMobClass cattaram_pact_elemental SFaction FeralCattaram SDamageType blunt IMinDamage 10 IMaxDamage 50 IEnemyStunDuration 5	ICooldown 12	140	250	5
+cattaram_earthquake	Cattaram	Always	IRadius 6 IInnerWalls 8 IOuterWalls 30 IOuterWallsMobCount 15 SMobClass cattaram_pact_elemental SFaction CattaramFeral SDamageType blunt IMinDamage 10 IMaxDamage 50 IEnemyStunDuration 5	ICooldown 12	140	250	5
 cattaram_stonewalk	Cattaram	None	IMaxDistance 6	ICooldown 12	12	25	1
 cattaram_wall	Cattaram	None	ICount 5 SObstacleId cattaram_wall IExpire 5	ICooldown 12	28	50	2
 cattaram_entomb	Cattaram	None	SObstacleId cattaram_wall IExpire 5	ICooldown 12	42	75	3
-cattaram_aftermath	Cattaram	None	IRadius 4 ICount 8 SExplosionId shards_explosion SMobClass cattaram_pact_elemental SFaction FeralCattaram	ICooldown 12	77	140	4
+cattaram_aftermath	Cattaram	None	IRadius 4 ICount 8 SExplosionId shards_explosion SMobClass cattaram_pact_elemental SFaction CattaramFeral BIsFollower true	ICooldown 12	77	140	4
 cattaram_baron_form	Cattaram	None	SMobClass cattaram_pact_baron IDuration 20 SPactId cattaram_earthquake BWeaponBlocked false	ICooldown 12	123	220	5
 ron_blindness	Ron	TargetCell	IDuration 8	ICooldown 12	11	20	1
 ron_dark_zone	Ron	TargetCell		ICooldown 8	21	40	2
@@ -22,12 +22,12 @@ ron_static_field	Ron	None		ICooldown 12	63	115	4
 ron_baron_form	Ron	None	SMobClass ron_pact_baron IDuration 20 SPactId ron_eye_of_the_storm BWeaponBlocked true	ICooldown 12	112	200	5
 scrivnus_torment	Scrivnus	TargetCell	FPercent 0.5 SDamageType pierce	ICooldown 8	11	20	1
 scrivnus_sadism	Scrivnus	Advantage	IDuration 8 IPainRegen 10	ICooldown 12	21	40	2
-scrivnus_impale	Scrivnus	None		ICooldown 8	42	75	3
+scrivnus_impale	Scrivnus	TargetCell	ICount 3 IMinDamage 10 IMaxDamage 30 SDamageType pierce FRootChance 0.2 IRootDuration 2 FSalvoInterval 0.3 SProjectileId quasi_bolt	ICooldown 8	42	75	3
 scrivnus_decimation	Scrivnus	Advantage	IDuration 8 FHealthThreshold 0.33 SExplosionId bone_explosion	ICooldown 12	56	100	4
 scrivnus_slaughter	Scrivnus	AoE	IRadius 4 IDuration 8 IDebuffDuration 2 SDamageType pierce IMinDamage 30 IMaxDamage 50 SExplosionId spike_explosion	ICooldown 12 IUsageRadius 4	112	200	5
 scrivnus_dominate	Scrivnus	None		ICooldown 12	11	20	1
 scrivnus_terrorize	Scrivnus	None		ICooldown 12	28	50	2
-scrivnus_impaling_ring	Scrivnus	None		ICooldown 12	42	75	3
+scrivnus_impaling_ring	Scrivnus	None	ICount 3 IMinDamage 10 IMaxDamage 30 SDamageType pierce FRootChance 0.2 IRootDuration 2 FSalvoInterval 0.3 SProjectileId quasi_bolt	ICooldown 12	42	75	3
 scrivnus_execution	Scrivnus	None	IRadius 1	ICooldown 12	77	140	4
 scrivnus_baron_form	Scrivnus	None	SMobClass scrivnus_pact_baron IDuration 20 SPactId scrivnus_slaughter BWeaponBlocked false	ICooldown 12	102	185	5
 venus_drain_life	Gannix	TargetCell	IDuration 10 SDamageType chaos IMinDamage 30 IMaxDamage 50 IHealthRegen 12	ICooldown 8	18	35	1
@@ -35,7 +35,7 @@ venus_bloodbath	Gannix	AoE	IDuration 10 SDamageType lacer IMinDamage 33 IMaxDama
 venus_blood_boil	Gannix	TargetCell	SDamageType lacer IMinDamage 33 IMaxDamage 66 IRadius 3 SExplosionId blood_blast_explosion	ICooldown 3	53	95	3
 venus_blood_barrier	Gannix	CountBlood	IShieldCapacity 30 IShieldDecay 10	ICooldown 8 IUsageCount 8	70	125	4
 venus_barotrauma	Gannix	None	IMinDamage 33 IMaxDamage 66 SDamageType lacer SMobClass venus_demon_cat SFaction GannixFeral IAddedDamage 10 SAddedDamageType chaos	ICooldown 12	119	215	5
-venus_eccolapse	Gannix	None	SMobClass venus_demon_cat SFaction GannixFeral	ICooldown 12	21	40	1
+venus_eccolapse	Gannix	None	SMobClass venus_demon_cat SFaction GannixFeral BIsFollower true	ICooldown 12	21	40	1
 venus_dismember	Gannix	TargetCell	IMinDamage 33 IMaxDamage 66 IWoundCount 3 SDamageType lacer	ICooldown 12	28	50	2
 venus_baptism	Gannix	None	IDuration 3 IHealthRegen 50	ICooldown 12	56	100	3
 venus_sanguine_echo	Gannix	None	IDuration 5 FDamage 0.3	ICooldown 12	70	125	4
@@ -50,11 +50,11 @@ venus_spike	Gannix	None	SExplosionId blood_spike_explosion	ICooldown 12	14	25	2
 venus_coagulation_trap	Gannix	None	IRadius 5 SItemId blood_mine	ICooldown 12	42	75	3
 venus_run_cold	Gannix	TargetCell	IRadius 4 IMinDamage 33 IMaxDamage 99 SDamageType cold	ICooldown 8	63	115	4
 venus_baron_form	Gannix	None	SMobClass venus_pact_baron IDuration 20 SPactId venus_hemostatic_shock BWeaponBlocked false	ICooldown 12	140	250	5
-mars_enforced_order	Ur_Awakened	Close	SMobClass mars_pact_golem SFaction MarsFeral BIsFollower true	ICooldown 5 IUsageRadius 3	21	40	1
-mars_bulls_horns	Ur_Awakened	None	IRadius 3 ICount 2 SMobClass mars_knight SFaction MarsFeral	ICooldown 12	35	65	2
-mars_brazen_armor	Ur_Awakened	TargetCell	IRadius 3 ICount 3 SMobClass mars_pact_golem SFaction MarsFeral	ICooldown 8	63	115	3
+mars_enforced_order	Ur_Awakened	Close	SMobClass mars_pact_golem SFaction UrFeral BIsFollower true	ICooldown 5 IUsageRadius 3	21	40	1
+mars_bulls_horns	Ur_Awakened	None	IRadius 3 ICount 2 SMobClass mars_knight SFaction UrFeral BIsFollower true	ICooldown 12	35	65	2
+mars_brazen_armor	Ur_Awakened	TargetCell	IRadius 3 ICount 3 SMobClass mars_pact_golem SFaction UrFeral BIsFollower true	ICooldown 8	58	110	3
 mars_idol_of_ur	Ur_Awakened	None	SObstacleId mars_idol IExpire 6	ICooldown 12	84	150	4
-mars_great_awakening	Ur_Awakened	Always	ICount 4 SMobClass mars_knight SFaction MarsFeral SLeaderMobClass mars_baron IUnitSize 3	ICooldown 25	175	315	5
+mars_great_awakening	Ur_Awakened	Always	ICount 4 SMobClass mars_knight SFaction UrFeral SLeaderMobClass mars_baron IUnitSize 3	ICooldown 25	175	315	5
 mars_molten_jet	Ur_Awakened	None		ICooldown 12	14	25	1
 mars_brass_conversion	Ur_Awakened	CountItems	SItemId frag_mine	ICooldown 5 IUsageCount 3 IUsageRadius 3	42	75	2
 mars_incendiary_rain	Ur_Awakened	None	IRadius 4 ICount 8 SExplosionId mars_explosion	ICooldown 12	53	95	3
@@ -66,14 +66,14 @@ mars_scorched_armory	Ur_Awakened	TargetCell	IRadius 4 SDamageType fire IMinDamag
 mars_riot	Ur_Awakened	None	IRadius 9	ICooldown 12	84	150	4
 mars_avatar_of_flame	Ur_Awakened	None	SMobClass mars_pact_baron IDuration 20 SPactId mars_orbital_incineration BWeaponBlocked false	ICooldown 12	112	200	5
 mars_shatter_grenade	Ur_Awakened	TargetCell	SItemId shatter_grenade	ICooldown 3	11	20	1
-mars_brass_feed	Ur_Awakened	None	IDuration 8 SMobClass mars_pact_turret SFaction MarsFeral	ICooldown 12	18	35	2
+mars_brass_feed	Ur_Awakened	None	IDuration 8 SMobClass mars_pact_turret SFaction UrFeral	ICooldown 12	18	35	2
 mars_siege_breaker	Ur_Awakened	None	IDuration 6 FRangeDamage 0.5	ICooldown 12	35	65	3
 mars_overclock	Ur_Awakened	Advantage	IDuration 8 IAddedProj 3	ICooldown 12	56	100	4
 mars_orbital_incineration	Ur_Awakened	Advantage	IDuration 6 SExplosionId mars_big_explosion	ICooldown 12	126	225	5
 moon_disarm	Duggur	TargetCell	SDamageType pierce IMinDamage 24 IMaxDamage 42	ICooldown 5	11	20	1
 moon_animate_golem	Duggur	Nearby	SMobClass moon_pact_golem SFaction DuggurFeral BIsFollower true	ICooldown 12 IUsageRadius 2	25	45	2
 moon_animate_weapons	Duggur	CountWeapons	IRadius 4 IDuration 4 SMobClass moon_pact_animated SFaction DuggurFeral	ICooldown 8 IUsageRadius 4 IUsageCount 3	35	65	3
-moon_stalwart	Duggur	Advantage	IDuration 6 IResists 50	ICooldown 12	60	110	4
+moon_stalwart	Duggur	Advantage	IDuration 6 IResists 50 IShieldCapacity 30 IShieldDecay 10	ICooldown 12	60	110	4
 moon_mass_disarm	Duggur	TargetCell	IRadius 2 IDuration 8 SMobClass moon_pact_animated SFaction DuggurFeral	ICooldown 8	126	225	5
 moon_decay	Duggur	None		ICooldown 12	11	20	1
 moon_shrink_armor	Duggur	None	IRadius 2 IDuration 5 SDamageType blunt IMinDamage 10 IMaxDamage 40	ICooldown 12	18	35	2
@@ -91,12 +91,12 @@ moon_self_flagellation	Duggur	None	IRadius 4	ICooldown 12	42	75	3
 moon_iron_maiden	Duggur	None	SMobClass moon_cage SFaction DuggurFeral IRadius 4	ICooldown 12	70	125	4
 moon_psychic_resonance	Duggur	None	IDuration 6 SDamageType blunt IMinDamage 10 IMaxDamage 70	ICooldown 12	112	200	5
 mercury_entropy_link	Shartamakhum	TargetCell	IDuration 6 SDamageType chaos IMinDamage 6 IMaxDamage 16	ICooldown 8	7	15	1
-mercury_beam	Shartamakhum	TargetCell		ICooldown 5	18	35	2
+mercury_beam	Shartamakhum	TargetCell	IMinDamage 10 IMaxDamage 30 SDamageType cold SProjectileId quasi_beam IRicochet 5 IMaxDistance 25 FPierce 1	ICooldown 5	18	35	2
 mercury_vortex	Shartamakhum	TargetCell		ICooldown 8	35	65	3
 mercury_reflect_shield	Shartamakhum	Survival	IDuration 3	ICooldown 8	35	80	4
 mercury_astral_form	Shartamakhum	Survival		ICooldown 12	119	215	5
 mercury_azure_shield	Shartamakhum	None	IDuration 3	ICooldown 12	11	20	1
-mercury_prism	Shartamakhum	None		ICooldown 12	18	35	2
+mercury_prism	Shartamakhum	None	IMinDamage 10 IMaxDamage 30 SDamageType cold SProjectileId quasi_beam IRicochet 5 IMaxDistance 25 FPierce 1	ICooldown 12	18	35	2
 mercury_vacuum	Shartamakhum	TargetCell	IRadius 3 IDuration 3 SDamageType chaos IMinDamage 28 IMaxDamage 52	ICooldown 5	49	90	3
 mercury_baron_form	Shartamakhum	None	SMobClass mercury_pact_baron IDuration 20 BWeaponBlocked false	ICooldown 12	70	125	4
 mercury_meteor	Shartamakhum	None	IDuration 6 SExplosionId meteor_explosion	ICooldown 12	123	220	5
@@ -111,15 +111,15 @@ mercury_rewind	Shartamakhum	None	SMobClass mercury_pact_head IDuration 20 IAdded
 mercury_times_marching_on	Shartamakhum	TargetCell		ICooldown 12	63	115	4
 mercury_transportation	Shartamakhum	None		ICooldown 12	140	250	5
 flauros_acid_bloom	Flauros	None	SMobClass flauros_pact_turret SFaction FlaurosFeral	ICooldown 12	14	25	1
-flauros_poison_darts	Flauros	TargetCell		ICooldown 5	28	50	2
+flauros_poison_darts	Flauros	TargetCell	ICount 3 IMinDamage 10 IMaxDamage 30 SDamageType poison FSalvoInterval 0.3 SProjectileId quasi_bolt	ICooldown 5	28	50	2
 flauros_dangerous_spores	Flauros	None	IRadius 4 ICount 15 SItemId spore_mine	ICooldown 12	39	70	3
 flauros_pandemic	Flauros	None	IDuration 12 IRadius 4 SDamageType poison IMinDamage 25 IMaxDamage 40 SExplosionId pandemic_explosion	ICooldown 12	63	115	4
 flauros_plague	Flauros	Always	FPercent 0.5 SDamageType poison	ICooldown 12	161	290	5
 flauros_druid	Flauros	None		ICooldown 12	11	20	1
 flauros_spiked_vines	Flauros	TargetCell		ICooldown 8	18	35	2
-flauros_plant_zombies	Flauros	CountCorpses	IRadius 2 SMobClass flauros_pact_zombie SFaction FlaurosFeral	ICooldown 5 IUsageRadius 2 IUsageCount 3	35	65	3
+flauros_plant_zombies	Flauros	CountCorpses	IRadius 2 SMobClass flauros_pact_zombie SFaction FlaurosFeral BIsFollower true	ICooldown 5 IUsageRadius 2 IUsageCount 3	35	65	3
 flauros_wild_hunt	Flauros	TargetCell	IRadius 3 ICount 7 SMobClass flauros_knight SFaction FlaurosFeral	ICooldown 12	84	150	4
-flauros_titan	Flauros	Nearby	SMobClass flauros_baron SFaction FlaurosFeral	ICooldown 12 IUsageRadius 2	105	190	5
+flauros_titan	Flauros	Nearby	SMobClass flauros_baron SFaction FlaurosFeral BIsFollower true	ICooldown 12 IUsageRadius 2	105	190	5
 flauros_mark_target	Flauros	TargetCell	IDuration 3	ICooldown 8	7	15	1
 flauros_falcon	Flauros	None	SMobClass flauros_pact_falcon SFaction FlaurosFeral	ICooldown 12	25	45	2
 flauros_hunters_instinct	Flauros	Advantage	IDuration 8 FCritChance 0.25 FCritDamage 0.5 FMeleeAccuracy 0.5 FRangeAccuracy 0.5	ICooldown 12	35	65	3

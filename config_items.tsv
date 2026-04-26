@@ -1,13 +1,14 @@
 #throwingweapons																																
 Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	CanPutInVest	MaxStack	Damage	BonusAccuracy	ThrowRange	ConsumeChance	Traits	ProjectileId	Disassembly																
 throwing_knife		Military AnCom RealWare SheduThousand FrancheComte UnchainedBelt	3	50	0.2	1	ThrowableWeapon	TRUE	5	pierce 20 28 crit 2 critchance 0.15	0.7	6	0.25		knife	pierce_parts 1																
-*skrivnus_knife		Scrivnus	1	100	0.5	1	ThrowableWeapon	TRUE	3	lacer 30 47 crit 2.3 critchance 0.15	0.7	6	0.2	heavy_knockback heavy_knockdown	scrivnus_bone																	
+*skrivnus_knife		Scrivnus RitualItem	1	100	0.5	1	ThrowableWeapon	TRUE	3	lacer 30 47 crit 2.3 critchance 0.15	0.7	6	0.2	heavy_knockback heavy_knockdown	scrivnus_bone																	
 sawblade_ammo							ThrowableWeapon	TRUE	20	lacer 6 30 crit 1.5 critchance 0.16	0.4	4	0.4	ricochet	disk	broken_weapon 2																
 sawblade_poison_ammo							ThrowableWeapon	TRUE	20	poison 6 30 crit 1.5 critchance 0.12	0.4	4	0.4	ricochet	disk	sawblade_ammo 1 acid 1																
 nail_bolts_ammo							ThrowableWeapon	TRUE	80	pierce 8 11 crit 1.6 critchance 0.24	0.45	5	1		nail	broken_weapon 2																
 quasi_darts_ammo							ThrowableWeapon	TRUE	40	poison 4 5 crit 1.6 critchance 0.16	0.6	6	1		quasi_dart																	
 quasi_bolts_ammo							ThrowableWeapon	TRUE	40	pierce 6 8 crit 1.6 critchance 0.5	0.45	5	1		nail																	
 glass_bottle							ThrowableWeapon	TRUE	10	blunt 11 23 crit 1.7 critchance 0.10	0.5	6	1	heavy_knockdown	bottle																	
+*quest_bomb_briefcase		none	10	10000	2	1	ThrowableWeapon	TRUE	1	blunt 12 27 crit 1.5 critchance 0.04	0.3	5	0		bomb_briefcase																	
 #end																																
 																																
 #meleeweapons																																
@@ -19,7 +20,7 @@ trash_knife_1		Prison Possessed	1	40	0.1	1	Weapon	FALSE	Knife	Tool	FALSE			impli
 ddr_poisonknife_1		DaydreamChems Merc Looted	3	375	0.5	2	Weapon	FALSE	Knife	Toxic	FALSE	Toxic	implicted_toxicknife	toxic_ammo	26 31 crit 1.8	injection_1	0.65	5	2	5	4	TRUE	60	0	FALSE	pierce_parts rubber plastic	FALSE		pierce_parts 2 glass 1 rubber 1 plastic 1			
 venus_knife_1		Gannix Emeraldlight ChurchGannix	1	250	0.2	2	Weapon	FALSE	Knife	Quasi	FALSE			implicted_knife_backstab	31 40 crit 2.10	stab_1	0.7	0	1	5	4	TRUE	50	0	FALSE	venus_melee_parts venus_weapon_parts	FALSE	perfect_throw backstab	venus_melee_parts 2 venus_weapon_parts 1			
 bone_knife		Possessed	1	100	0.7	2	Weapon	FALSE	Knife	Default	FALSE			implicted_knife	20 26 crit 2.00	stab_1 stab_3	0.65	0	1	10	4	TRUE	15	0	FALSE		FALSE	fragile				
-matrix_knife		Matrix	3	250	0.4	2	Weapon	FALSE	Knife	Default	FALSE			implicted_shockgun	22 29 crit 1.90	stab_1 stab_3	0.65	0	1	5	0	TRUE	100	0	TRUE		FALSE	perfect_throw critical_throw				
+matrix_knife		Matrix	3	150	0.4	2	Weapon	FALSE	Knife	Default	FALSE			implicted_shockgun	22 29 crit 1.90	stab_1 stab_3	0.65	0	1	5	0	TRUE	100	0	TRUE		FALSE	perfect_throw critical_throw				
 *spider_claw		Gannix XiomaraMasks	4	300	0.5	2	Weapon	FALSE	Knife	Default	FALSE			implicted_toxicknife	36 42 crit 1.8	stab_1 stab_3	0.65	0	1	5	4	TRUE	40	0	FALSE		FALSE					
 trash_blade_1		Prison UnchainedBelt SheduThousand Sunlight Emeraldlight	1	75	0.9	2	Weapon	FALSE	Blade	Default	FALSE			implicted_katana_brutal	24 29 crit 1.80	slash_2 slash_1	0.2	0	1	0	0	TRUE	70	0	FALSE	pierce_parts rusty_plates	FALSE	mutiliating unwieldy	pierce_parts 2 rusty_plates 1 plastic 1			
 trash_sawblade_1		Worker ChurchRevelation ChurchGannix Sunlight Emeraldlight SheduThousand Tianming Looted	3	225	1.3	2	Weapon	FALSE	Blade	Tool	FALSE	Gas	implicted_sawblade implicted_sawblade_long	gas_ammo	22 30 crit 1.8	slash_power_2 slash_power_1	0.2	15	2	0	0	TRUE	60	0	FALSE	coarse_parts pierce_parts	FALSE	mutiliating	coarse_parts 2 pierce_parts 1 metal_tread 1 broken_weapon 1			
@@ -76,7 +77,7 @@ nature_cyborg_recreation_blade		none	100	50	0	2	Weapon	FALSE	Blade	Default	TRUE	
 nature_human_stump		none	100	50	0	2	Weapon	FALSE	Unarmed	Default	TRUE			implicted_body_part	5 9 crit 1.50	punch_1	0.3	0	1	1	0	FALSE	600	0	TRUE		FALSE					
 nature_moon_knight_thorn		none	100	50	0	2	Weapon	FALSE	Knife	Default	TRUE		none implicted_combat_knife	implicted_sword_brutal	23 30 crit 1.65	slash_2 stab_2	0.35	0	1	1	0	TRUE	600	0	TRUE		FALSE	mutiliating				
 nature_moon_servitor_fist		none	100	50	0	2	Weapon	FALSE	Unarmed	Default	TRUE			implicted_body_part	13 16 crit 1.50	punch_1	0.4	0	1	1	0	FALSE	600	0	TRUE		FALSE					
-nature_moon_slave_thorn		none	100	50	0	2	Weapon	FALSE	Unarmed	Default	TRUE			implicted_sword_brutal	13 18 crit 1.50	claw_1	0.45	0	1	1	0	FALSE	600	0	TRUE		FALSE					
+nature_moon_slave_thorn		none	100	50	0	2	Weapon	FALSE	Unarmed	Default	TRUE			implicted_knife	13 18 crit 1.50	claw_1	0.45	0	1	1	0	FALSE	600	0	TRUE		FALSE					
 nature_moon_torturer_axe		none	100	50	0	2	Weapon	FALSE	Axe	Default	TRUE			implicted_axe_brutal	23 30 crit 1.65	chop_strong_1	0.35	0	1	1	0	TRUE	600	0	TRUE		FALSE	cleave				
 nature_scrivnus_fist		none	100	50	0	2	Weapon	FALSE	Unarmed	Default	TRUE			implicted_combat_knife	30 36 crit 1.50	claw_1	0.45	0	1	1	0	TRUE	600	0	TRUE		FALSE					
 nature_scrivnus_baron_blade		none	100	50	0	2	Weapon	FALSE	Blade	Default	TRUE			implicted_katana_brutal	24 32 crit 1.50	slash_1	0.25	0	1	1	0	TRUE	600	0	TRUE		FALSE	mutiliating				
@@ -93,8 +94,8 @@ nature_cargo_drone_fork		none	100	50	0	2	Weapon	FALSE	Unarmed	Default	TRUE			imp
 *cyborg_battle_leg		Military Specops	4	180	3.9	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	33 40 crit 1.50	smash_1	0.2	0	1	1	4	FALSE	60	0	FALSE	weapon_parts	FALSE		cyborg_battle_feet 1 metal_tread 1 weapon_parts 1			
 *cyborg_recreation_hand		Management Prison Security	3	150	2	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	32 36 crit 1.50	smash_1	0.2	0	1	1	4	FALSE	60	0	FALSE	weapon_parts	FALSE		cyborg_recreation_wrist 1 rubber 1 weapon_parts 1			
 *cyborg_recreation_leg		Management Prison Security	3	150	2	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	32 38 crit 1.50	smash_1	0.2	0	1	1	4	FALSE	60	0	FALSE	weapon_parts	FALSE		cyborg_recreation_feet 1 rubber 1 weapon_parts 1			
-*mars_cyborg_hand		Mars SheduThousand	7	300	5	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	42 50 crit 1.50	smash_1	0.2	0	1	1	4	FALSE	60	0	FALSE	weapon_parts	FALSE		quasi_repair_kit 1 mars_gear 1			
-*mars_cyborg_leg		Mars SheduThousand	7	300	5.5	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	43 52 crit 1.50	smash_1	0.2	0	1	1	4	FALSE	60	0	FALSE	weapon_parts	FALSE		quasi_repair_kit 1 mars_gear 1			
+*mars_cyborg_hand		Ur SheduThousand	7	300	5	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	42 50 crit 1.50	smash_1	0.2	0	1	1	4	FALSE	60	0	FALSE	weapon_parts	FALSE		quasi_repair_kit 1 mars_gear 1			
+*mars_cyborg_leg		Ur SheduThousand	7	300	5.5	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	43 52 crit 1.50	smash_1	0.2	0	1	1	4	FALSE	60	0	FALSE	weapon_parts	FALSE		quasi_repair_kit 1 mars_gear 1			
 *possessed_hand		Psycho	1	25	2	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	28 36 crit 1.50	smash_1	0.2	0	1	1	4	FALSE	60	0	FALSE		FALSE		human_wrist 1 human_skin 1 human_meat 1			
 *possessed_bigarm_hand		Possessed SheduThousand	2	40	2	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	32 36 crit 1.50	smash_1	0.2	0	1	1	4	FALSE	60	0	FALSE		FALSE		human_wrist 1 human_skin 1 human_meat 2			
 *possessed_centaur_hand		Possessed SheduThousand	3	60	2	2	Weapon	FALSE	Unarmed	Default	FALSE			implicted_body_part	32 36 crit 1.50	smash_1	0.2	0	1	1	4	TRUE	60	0	FALSE		FALSE		bone_knife 1 human_skin 1 human_meat 1			
@@ -112,7 +113,7 @@ nature_cargo_drone_fork		none	100	50	0	2	Weapon	FALSE	Unarmed	Default	TRUE			imp
 																																
 #rangeweapons																																
 Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	CanPutInVest	WeaponClass	WeaponSubClass	IsImplicit	RequiredAmmo	OverrideAmmo	DefaultAmmoId	DefaultGrenadeId	Damage	BonusScatterAngle	Firemodes	BonusAccuracy	Range	Falloff	MagazineCapacity	MinRandomAmmoCount	ReloadDuration	MaxDurability	MinDurabilityAfterRepair	Unbreakable	RepairItemIds	AllowedGrenadeIds	Traits	OverrideProjectileId	Disassembly
-worker_torch_1		Worker	2	100	1	2	Weapon	FALSE	Flamethrower	Tool	FALSE	Gas	implicted_flamethrower	gas_ammo		8 15 crit 1.5	2.8	flamethrower_1	0.2	3	0.2	10	10	3	15	0	FALSE	weapon_parts			flame_thrower	rusty_plates 1 tin 1 rubber 1 plastic 1
+worker_torch_1		Worker	2	100	1	2	Weapon	FALSE	Flamethrower	Tool	FALSE	Gas	implicted_flamethrower	gas_ammo		8 15 crit 1.5	2.8	flamethrower_1	0.2	3	1	10	10	3	15	0	FALSE	weapon_parts			flame_thrower	rusty_plates 1 tin 1 rubber 1 plastic 1
 worker_pistol_1		Worker CoreWard PlanetBridge	1	75	1	2	Weapon	FALSE	Pistol	Tool	FALSE	Bolts		nail_bolts_ammo		9 20 crit 1.3	1.5	rifle_1 rifle_4	0.1	3	0.3	36	18	3	110	0	FALSE	plastic		offhand		rod_parts 1 coarse_parts 1 spring 1
 army_pistol_1		Civilian	1	75	0.9	2	Weapon	FALSE	Pistol	Firearm	FALSE	Shells		shotgun_shrapnel_ammo		25 30 crit 1.75	0.8	shotgun_1 shotgun_2	0.15	4	0.3	6	3	1	45	0	FALSE	plastic weapon_parts		offhand single_load		plastic 1 weapon_parts 1 spring 1
 army_pistol_2		Security Sunlight Emeraldlight	2	100	1.2	2	Weapon	FALSE	Pistol	Firearm	FALSE	Shells		shotgun_shrapnel_ammo		28 36 crit 1.75	0.8	shotgun_1 shotgun_2	0.15	4	0.3	8	4	1	50	0	FALSE	plastic weapon_parts		offhand single_load		plastic 2 weapon_parts 1
@@ -135,8 +136,8 @@ chu_trucker_pistol_2		ChurchRevelation ChurchGannix Merc Looted	5	550	1	2	Weapon
 rail_pistol_1		PlanetBridge	1	75	0.9	2	Weapon	FALSE	Pistol	Rail	FALSE			implicted_em_ammo		18 18 crit 1.8	0.7	pistol_1	0.2	6	0.24	6	3	1	55	0	FALSE	plastic capacitor_parts		offhand suppressor	thermal	plastic 1 weapon_parts 1 circuit_board 1 capacitor_parts 1 metal_tread 1
 rail_pistol_2		PlanetBridge Looted	3	225	1.1	2	Weapon	FALSE	Pistol	Rail	FALSE			implicted_em_ammo		25 25 crit 1.9	-0.2	pistol_1	0.25	6	0.24	7	4	1	60	0	FALSE	plastic capacitor_parts		suppressor piercing	thermal	rubber 1 weapon_parts 1 circuit_board 1 capacitor_parts 1 metal_tread 1
 rail_pistol_3		PlanetBridge Merc Looted	5	350	1.5	2	Weapon	FALSE	Pistol	Rail	FALSE			implicted_em_ammo		31 31 crit 1.9	-0.2	pistol_1	0.25	6	0.24	8	4	1	65	0	FALSE	plastic capacitor_parts		suppressor piercing	thermal	rubber 1 weapon_parts 1 microelectronics_parts 1 capacitor_parts 1 metal_tread 1
-laser_pistol_1		SBN Sunlight Emeraldlight Dlthey	2	150	0.4	2	Weapon	FALSE	Pistol	Laser	FALSE	BatteryCells	implicted_pulse implicted_pulse	battery_basic_ammo		14 29 crit 1.6	-0.2	pulse_1 pulse_2	0.25	4	0.24	12	6	3	70	0	FALSE	microelectronics_parts circuit_board bulb		offhand		plastic 1 microelectronics_parts 1 circuit_board 1 bulb 1 wire 1
-laser_pistol_2		SBN Sunlight Emeraldlight Dlthey Looted	4	275	0.6	2	Weapon	FALSE	Pistol	Laser	FALSE	BatteryCells	implicted_pulse implicted_pulse	battery_basic_ammo		17 37 crit 1.65	-0.2	pulse_1 pulse_2	0.25	4	0.24	16	8	3	90	0	FALSE	microelectronics_parts circuit_board bulb		offhand		plastic 1 microelectronics_parts 1 circuit_board 1 bulb 1 wire 1
+laser_pistol_1		SBN Sunlight Emeraldlight Dilthey	2	150	0.4	2	Weapon	FALSE	Pistol	Laser	FALSE	BatteryCells	implicted_pulse implicted_pulse	battery_basic_ammo		14 29 crit 1.6	-0.2	pulse_1 pulse_2	0.25	4	0.24	12	6	3	70	0	FALSE	microelectronics_parts circuit_board bulb		offhand		plastic 1 microelectronics_parts 1 circuit_board 1 bulb 1 wire 1
+laser_pistol_2		SBN Sunlight Emeraldlight Dilthey Looted	4	275	0.6	2	Weapon	FALSE	Pistol	Laser	FALSE	BatteryCells	implicted_pulse implicted_pulse	battery_basic_ammo		17 37 crit 1.65	-0.2	pulse_1 pulse_2	0.25	4	0.24	16	8	3	90	0	FALSE	microelectronics_parts circuit_board bulb		offhand		plastic 1 microelectronics_parts 1 circuit_board 1 bulb 1 wire 1
 ddr_disruptor_pistol_1		DaydreamChems Merc Energy Looted	6	650	1	2	Weapon	FALSE	Pistol	Toxic	FALSE	BatteryCells	implicted_disruptor_charge implicted_disruptor_charge	battery_basic_ammo		31 52 crit 1.8	-0.1	pulse_1 pulse_2	0.3	5	0.24	8	4	4	55	0	FALSE	microelectronics_parts circuit_board bulb		offhand corrosive	disruptor_small	ceramite_plates 2 circuit_board 1 microelectronics_parts 1 glass 1
 common_pistol_1		Civilian Reserve UnchainedBelt	1	100	0.3	2	Weapon	FALSE	Pistol	Firearm	FALSE	Bullets		small_basic_ammo		14 22 crit 1.6	-0.2	pistol_1 pistol_2	0.25	4	0.3	8	4	2	65	0	FALSE	plastic weapon_parts		offhand		plastic 1 weapon_parts 1 spring 1
 common_pistol_2		Security UnchainedBelt	3	225	0.3	2	Weapon	FALSE	Pistol	Firearm	FALSE	Bullets		small_basic_ammo		16 24 crit 1.7	-0.9	pistol_1 pistol_2	0.35	4	0.3	6	3	2	65	0	FALSE	plastic weapon_parts		offhand suppressor		plastic 1 weapon_parts 1 spring 1
@@ -228,7 +229,7 @@ trash_assault_1		Reserve RealWare UnchainedBelt	1	75	3	2	Weapon	FALSE	AssaultRif
 unc_assault_1		Specops UnchainedBelt Merc	6	550	4.4	2	Weapon	FALSE	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		28 54 crit 1.95	-0.6	rifle_2 rifle_4	0.25	5	0.24	24	12	4	85	0	FALSE	armor_plates weapon_parts spring				armor_plates 1 weapon_parts 2 spring 1 blunt_parts 1
 unc_assault_2		UnchainedBelt Merc	8	725	4.9	2	Weapon	FALSE	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		32 53 crit 1.65	0.3	rifle_3 rifle_6	0.15	5	0.24	45	23	6	175	0	FALSE	armor_plates weapon_parts circuit_board		piercing bipod		ceramite_plates 1 armor_plates 1 weapon_parts 1 circuit_board 1
 common_assault_1		Security CoreWard ChurchRevelation ChurchGannix	2	150	4.2	2	Weapon	FALSE	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		26 38 crit 1.7	0.1	rifle_2 rifle_4	0.2	5	0.24	30	15	4	100	0	FALSE	armor_plates weapon_parts spring				armor_plates 2 weapon_parts 1 spring 1 blunt_parts 1
-civ_common_assault_1		CResistance	4	200	5	2	Weapon	FALSE	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		23 33 crit 1.6	0.8	rifle_3 rifle_6	0.15	5	0.24	60	30	6	175	0	FALSE	armor_plates weapon_parts spring		bipod laser_sight		armor_plates 2 weapon_parts 1 spring 1 blunt_parts 1
+civ_common_assault_1		CResistance	4	200	5	2	Weapon	FALSE	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		23 33 crit 1.6	0.8	rifle_3 rifle_6	0.15	5	0.24	60	30	6	175	0	FALSE	armor_plates weapon_parts spring		laser_sight		armor_plates 2 weapon_parts 1 spring 1 blunt_parts 1
 civ_plasma_assault_1		CResistance Merc Energy	7	725	4.4	2	Weapon	FALSE	AssaultRifle	Plasma	FALSE	BatteryCells	implicted_plasma_charge implicted_plasma_charge	battery_basic_ammo		35 55 crit 1.9	-0.6	plasma_1 plasma_2	0.25	5	0.22	20	10	5	180	0	FALSE	ceramite_plates microelectronics_parts capacitor_parts		overheat overclock	plasma	ceramite_plates 2 circuit_board 1 microelectronics_parts 1 capacitor_parts 1
 laser_marksman_1		Specops SBN Sunlight Emeraldlight Dilthey Merc Energy Looted	6	350	3	2	Weapon	FALSE	MarksmanRifle	Laser	FALSE	BatteryCells	implicted_pulse implicted_pulse	battery_basic_ammo		38 66 crit 2.25	-1.6	pulse_1 pulse_2	0.4	6	0.14	12	6	5	55	0	FALSE	microelectronics_parts lens transformer		collimator		plastic 2 microelectronics_parts 1 lens 1 bulb 1 capacitor_parts 1
 sun_laser_assault_1		Sunlight Emeraldlight Merc Energy Looted	8	850	2.6	2	Weapon	FALSE	AssaultRifle	Laser	FALSE	BatteryCells	implicted_beam implicted_beam	battery_basic_ammo		29 51 crit 1.95	-0.6	beam_2 beam_4	0.4	5	0.18	28	14	5	70	0	FALSE	microelectronics_parts lens transformer		piercing collimator		ceramite_plates 2 microelectronics_parts 1 lens 1 transformer 1 capacitor_parts 1
@@ -238,8 +239,8 @@ dil_sound_assault_1		Dilthey Merc	7	725	4.3	2	Weapon	FALSE	AssaultRifle	Rail	FAL
 she_plasma_assault_1		SheduThousand	8	575	5.8	2	Weapon	FALSE	AssaultRifle	Firearm	FALSE	BatteryCells	implicted_plasma_charge implicted_plasma_charge	battery_basic_ammo		22 47 crit 1.7	0.8	plasma_3 plasma_6	0.05	5	0.24	40	20	7	280	0	FALSE	ceramite_plates capacitor_parts mars_gear		overheat overclock	plasma	ceramite_plates 2 circuit_board 1 microelectronics_parts 1 capacitor_parts 1
 plasma_assault_1		Specops SBN Sunlight Emeraldlight ChurchRevelation ChurchGannix Merc Energy Looted	6	400	5	2	Weapon	FALSE	AssaultRifle	Plasma	FALSE	BatteryCells	implicted_plasma_charge implicted_plasma_charge	battery_basic_ammo		29 57 crit 2.05	-0.6	plasma_1 plasma_2	0.2	5	0.22	20	10	5	160	0	FALSE	ceramite_plates microelectronics_parts capacitor_parts		overheat overclock	plasma	ceramite_plates 2 circuit_board 1 microelectronics_parts 1 transformer 1
 chu_meltathrower_1		ChurchRevelation ChurchGannix Merc Looted	5	550	5.7	2	Weapon	FALSE	AssaultRifle	Plasma	FALSE	Gas	implicted_plasma_beam	gas_ammo		39 84 crit 2	0.1	beam_1	0.25	4	0.18	24	12	4	120	0	FALSE	ceramite_plates microelectronics_parts		overheat overclock	melta_beam	coarse_parts 2 metal_tread 1 rusty_plates 1 rod_parts 1
-mars_meltathrower		Merc	8	900	4.8	2	Weapon	FALSE	AssaultRifle	Plasma	FALSE	Gas	implicted_plasma_beam	mars_gas_ammo		51 87 crit 1.8	-0.2	beam_1	0.3	4	0.15	20	10	4	200	0	FALSE	mars_gear mars_skin		overheat overclock	melta_beam	
-nature_mars_meltathrower		none	8	900	4.8	2	Weapon	FALSE	AssaultRifle	Plasma	TRUE			implicted_plasma_beam		66 113 crit 1.8	-0.2	beam_1	0.3	5	0.15	20	20	4	200	0	TRUE	mars_gear mars_skin		overheat overclock	melta_beam	
+mars_meltathrower		Merc	8	900	4.8	2	Weapon	FALSE	AssaultRifle	Plasma	FALSE	Gas	implicted_plasma_beam	mars_gas_ammo		51 87 crit 1.8	-0.2	beam_1	0.3	4	0.18	20	10	4	200	0	FALSE	mars_gear mars_skin		overheat overclock	melta_beam	
+nature_mars_meltathrower		none	8	900	4.8	2	Weapon	FALSE	AssaultRifle	Plasma	TRUE			implicted_plasma_beam		66 113 crit 1.8	-0.2	beam_1	0.3	5	0.18	20	20	4	200	0	TRUE	mars_gear mars_skin		overheat overclock	melta_beam	
 tia_disc_assault_1		Tianming Merc	7	650	7.1	2	Weapon	FALSE	AssaultRifle	Tool	FALSE	SawBlade		sawblade_poison_ammo		26 49 crit 1.65	1.6	disc_2 disc_4	0.2	6	0.3	18	9	4	100	0	FALSE	coarse_parts spring armor_plates		mutiliating piercing		coarse_parts 1 spring 1 armor_plates 1
 tia_shock_assault_1		Tianming Merc	10	950	5.3	2	Weapon	FALSE	AssaultRifle	Electric	FALSE	BatteryCells	implicted_shockgun implicted_shockgun	battery_basic_ammo		1 83 crit 1.75	0.1	lightning_2 lightning_4	0.15	5	0.2	30	15	5	100	0	FALSE	microelectronics_parts capacitor_parts transformer		optic_sight	lighting_small	microelectronics_parts 1 capacitor_parts 1 transformer 1
 *nature_ron_shock_tentacle		none	6	950	4.6	2	Weapon	FALSE	MarksmanRifle	Electric	TRUE			implicted_shockgun		1 102 crit 1.7	1	lightning_1	0.4	6	0.2	30	15	5	100	0	TRUE			piercing	lighting	
@@ -255,7 +256,7 @@ laser_sniper_1		Specops SBN CoreWard Sunlight Emeraldlight Dilthey Merc Looted	9
 civ_marksman_1		CResistance Merc	6	400	4.9	2	Weapon	FALSE	MarksmanRifle	Firearm	FALSE	Medium		medium_basic_ammo		44 59 crit 1.8	-0.9	pistol_1 pistol_3	0.3	6	0.2	16	8	5	90	0	FALSE	armor_plates weapon_parts lens		bipod optic_sight		armor_plates 2 weapon_parts 1 lens 1 trash_pipe_1 1
 anc_marksman_1		AnCom Merc	5	275	5	2	Weapon	FALSE	MarksmanRifle	Firearm	FALSE	Medium		medium_basic_ammo		41 71 crit 2	-1.3	pistol_1 pistol_3	0.3	6	0.2	10	5	5	70	0	FALSE	armor_plates weapon_parts lens				ceramite_plates 2 weapon_parts 1 lens 1 microelectronics_parts 1 blunt_parts 1
 anc_quasi_assault_1		AnCom Merc Energy	10	850	5.2	2	Weapon	FALSE	MarksmanRifle	Quasi	FALSE	QuasiCells	implicted_quasi_laser implicted_quasi_laser	quasi_basic_ammo		42 83 crit 1.7	-2	lightning_1 lightning_2	0.45	5	0.16	8	4	5	110	0	FALSE	ceramite_plates microelectronics_parts capacitor_parts		bipod piercing optic_sight		armor_plates 1 ceramite_plates 1 microelectronics_parts 1 venus_weapon_parts 1 wire 1
-ddr_disraptor_marksman_1		DaydreamChems Merc Energy Looted	9	950	4.5	2	Weapon	FALSE	MarksmanRifle	Toxic	FALSE	BatteryCells	implicted_disruptor_charge	battery_basic_ammo		64 87 crit 2.15	-1.7	pulse_1	0.45	7	0.14	7	4	6	50	0	FALSE	microelectronics_parts lens transformer		corrosive	disruptor	ceramite_plates 2 circuit_board 2 microelectronics_parts 1 glass 2
+ddr_disruptor_marksman_1		DaydreamChems Merc Energy Looted	9	950	4.5	2	Weapon	FALSE	MarksmanRifle	Toxic	FALSE	BatteryCells	implicted_disruptor_charge	battery_basic_ammo		64 87 crit 2.15	-1.7	pulse_1	0.45	7	0.14	7	4	6	50	0	FALSE	microelectronics_parts lens transformer		corrosive	disruptor	ceramite_plates 2 circuit_board 2 microelectronics_parts 1 glass 2
 rail_marksman_1		PlanetBridge Merc Looted	6	500	7.3	2	Weapon	FALSE	MarksmanRifle	Rail	FALSE			implicted_em_ammo		55 55 crit 2.5	-1.3	pistol_1	0.25	8	0.14	8	4	5	50	0	FALSE	armor_plates microelectronics_parts capacitor_parts		suppressor piercing heavy_weapon	thermal	ceramite_plates 2 microelectronics_parts 1 capacitor_parts 1 metal_tread 1
 grh_trucker_marksman_1		Grasshopper Looted	3	250	4.5	2	Weapon	FALSE	MarksmanRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		42 57 crit 1.95	-1.6	rifle_1 rifle_3	0.4	6	0.2	10	5	5	65	0	FALSE	armor_plates weapon_parts		piercing collimator		ceramite_plates 1 armor_plates 1 weapon_parts 1 lens 1
 grh_trucker_marksman_2		Grasshopper Merc Looted	7	450	4.8	2	Weapon	FALSE	MarksmanRifle	Firearm	FALSE	SuperHeavy		heavy_incendiary_ammo		70 139 crit 2.3	-1.2	rifle_1	0.3	6	0.2	6	3	4	45	0	FALSE	armor_plates weapon_parts lens		full_piercing		armor_plates 2 weapon_parts 1 lens 1 blunt_parts 1
@@ -286,12 +287,12 @@ moon_minigun_1		Duggur Merc	10	800	9.5	2	Weapon	FALSE	Minigun	Quasi	FALSE	Bolts	
 plb_worker_shockgun_1		PlanetBridge Merc Energy Looted	5	550	5.9	2	Weapon	FALSE	Minigun	Electric	FALSE	BatteryCells	implicted_shockgun	battery_basic_ammo		1 74 crit 1.8	0.7	lightning_8	0.2	6	0.18	88	44	7	560	0	FALSE	microelectronics_parts capacitor_parts transformer		ramp_up heavy_weapon	lighting_small	ceramite_plates 2 microelectronics_parts 1 bulb 1 capacitor_parts 1 transformer 1
 tech_hfg_1		SBN CResistance Merc Energy	10	650	5.2	2	Weapon	FALSE	RocketLauncher	Plasma	FALSE	BatteryCells	implicted_plasma_hfg	battery_basic_ammo		47 119 crit 1.9	-1.1	hfg_1	0.35	4	0.2	40	40	7	160	0	FALSE			heavy_weapon fragile		ceramite_plates 2 microelectronics_parts 1 bulb 1 capacitor_parts 1 transformer 1
 cor_laser_sniper_1		CoreWard Looted	4	200	6	2	Weapon	FALSE	MarksmanRifle	Laser	FALSE	BatteryCells	implicted_beam	battery_basic_ammo		28 66 crit 1.7	0.5	beam_1	0.25	4	0.16	2	2	6	80	0	FALSE	microelectronics_parts lens		full_piercing selfcharging	continues_laser	armor_plates 2 plastic 1 circuit_board 1 bulb 1 wire 1
-toxic_thrower_1		DaydreamChems Merc Looted	4	450	4.6	2	Weapon	FALSE	Flamethrower	Toxic	FALSE	Toxic	implicted_toxicthrower	toxic_ammo		10 40 crit 1.7	2	flamethrower_1	0.15	5	0.26	70	35	5	40	0	FALSE	coarse_parts armor_plates			toxic_thrower	armor_plates 2 glass 1 circuit_board 1 capacitor_parts 1
-worker_flamethrower_1		Miner CoreWard CResistance SheduThousand Energy Looted	3	150	3.3	2	Weapon	FALSE	Flamethrower	Tool	FALSE	Gas	implicted_flamethrower	gas_ammo		9 24 crit 1.6	2.5	flamethrower_1	0.2	4	0.2	60	30	5	30	0	FALSE	coarse_parts rusty_plates			flame_thrower	coarse_parts 2 metal_tread 1 rusty_plates 1 rod_parts 1
-cor_worker_flamethrower_1		CoreWard Merc Energy Looted	6	350	5.5	2	Weapon	FALSE	Flamethrower	Tool	FALSE	Gas	implicted_flamethrower	gas_ammo		12 37 crit 1.6	2	flamethrower_1	0.2	6	0.2	100	50	5	45	0	FALSE	coarse_parts armor_plates		heavy_weapon	flame_thrower	coarse_parts 2 metal_tread 1 armor_plates 1 rod_parts 1
-mars_flamehead		none	1	250	2.2	2	Weapon	FALSE	Flamethrower	Quasi	FALSE	Gas	implicted_flamethrower	mars_gas_ammo		9 26 crit 1.6	1.6	flamethrower_1	0.25	4	0.2	50	30	3	60	0	FALSE	mars_gear mars_skin			flame_thrower	
-fire_extinguisher		none	1	30	2	2	Weapon	FALSE	Flamethrower	Tool	FALSE			implicted_extinguisher		1 5 crit 2.0	1.6	flamethrower_1	0.25	4	0.2	50	25	5	10	0	FALSE					rusty_plates 2
-nature_mars_flamehead		none	1	500	2.2	2	Weapon	FALSE	Flamethrower	Quasi	TRUE			implicted_flamethrower		12 34 crit 1.65	1.6	flamethrower_1	0.25	5	0.2	50	50	3	60	0	TRUE	mars_gear mars_skin			flame_thrower	
+toxic_thrower_1		DaydreamChems Merc Looted	4	450	4.6	2	Weapon	FALSE	Flamethrower	Toxic	FALSE	Toxic	implicted_toxicthrower	toxic_ammo		10 40 crit 1.7	2	flamethrower_1	0.15	5	1	70	35	5	40	0	FALSE	coarse_parts armor_plates			toxic_thrower	armor_plates 2 glass 1 circuit_board 1 capacitor_parts 1
+worker_flamethrower_1		Miner CoreWard CResistance SheduThousand Energy Looted	3	150	3.3	2	Weapon	FALSE	Flamethrower	Tool	FALSE	Gas	implicted_flamethrower	gas_ammo		9 24 crit 1.6	2.5	flamethrower_1	0.2	4	1	60	30	5	30	0	FALSE	coarse_parts rusty_plates			flame_thrower	coarse_parts 2 metal_tread 1 rusty_plates 1 rod_parts 1
+cor_worker_flamethrower_1		CoreWard Merc Energy Looted	6	350	5.5	2	Weapon	FALSE	Flamethrower	Tool	FALSE	Gas	implicted_flamethrower	gas_ammo		12 37 crit 1.6	2	flamethrower_1	0.2	6	1	100	50	5	45	0	FALSE	coarse_parts armor_plates		heavy_weapon	flame_thrower	coarse_parts 2 metal_tread 1 armor_plates 1 rod_parts 1
+mars_flamehead		none	1	250	2.2	2	Weapon	FALSE	Flamethrower	Quasi	FALSE	Gas	implicted_flamethrower	mars_gas_ammo		9 26 crit 1.6	1.6	flamethrower_1	0.25	4	1	50	30	3	60	0	FALSE	mars_gear mars_skin			flame_thrower	
+fire_extinguisher		none	1	30	2	2	Weapon	FALSE	Flamethrower	Tool	FALSE			implicted_extinguisher		1 5 crit 2.0	1.6	flamethrower_1	0.25	4	1	50	25	5	10	0	FALSE					rusty_plates 2
+nature_mars_flamehead		none	1	500	2.2	2	Weapon	FALSE	Flamethrower	Quasi	TRUE			implicted_flamethrower		12 34 crit 1.65	1.6	flamethrower_1	0.25	5	1	50	50	3	60	0	TRUE	mars_gear mars_skin			flame_thrower	
 grenade_launcher_1		RealWare SheduThousand Grasshopper UnchainedBelt CResistance Looted	5	550	3.4	2	Weapon	FALSE	GrenadeLauncher	Launcher	FALSE	Heavy		rifle_basic_ammo	frag_grenade	1 1 crit 1	0	launcher_1	0.2	7	0	6	3	1	55	0	FALSE	armor_plates weapon_parts spring	frag_grenade quasi_grenade thermal_grenade stun_grenade hellfire_grenade	single_load		armor_plates 2 weapon_parts 1 spring 1 metal_tread 1 blunt_parts 1
 common_rocketlauncher_1		Military RealWare SheduThousand Grasshopper UnchainedBelt Tianming Merc Looted	6	400	3.5	2	Weapon	FALSE	RocketLauncher	Launcher	FALSE	Rocket		rocket_basic_ammo		30 40 crit 1.5	0	launcher_1	0.1	7	0	1	1	3	20	0	FALSE	rusty_plates weapon_parts spring		single_load		rusty_plates 2 weapon_parts 2 spring 1
 army_rocketlauncher_1		Specops ChurchRevelation ChurchGannix Sunlight Emeraldlight FrancheComte CResistance Merc Looted	9	725	6.8	2	Weapon	FALSE	RocketLauncher	Launcher	FALSE	Rocket		rocket_basic_ammo		25 45 crit 1.5	0	launcher_1	0.15	7	0	5	3	5	50	0	FALSE	ceramite_plates weapon_parts microelectronics_parts		heavy_weapon		ceramite_plates 2 weapon_parts 2 microelectronics_parts 1
@@ -304,7 +305,7 @@ nature_xiomara_hand		none	1	75	4.1	2	Weapon	FALSE	Machinegun	Quasi	TRUE			implic
 nature_venus_warrior_smg		none	3	75	4.1	2	Weapon	FALSE	Machinegun	Quasi	TRUE			implicted_xiomara_range		15 39 crit 1.5	0.3	quasi_3 quasi_6	0.15	5	0.2	36	18	6	145	0	TRUE					
 nature_mars_grenade_launcher		none	1	75	3.7	2	Weapon	FALSE	GrenadeLauncher	Quasi	TRUE	Heavy		rifle_basic_ammo	urparp_grenade	0 0 crit 1	0	launcher_1	0.2	7	0	6	3	1	50	0	TRUE			single_load		
 nature_minigun_turret		none	1	75	4.4	2	Weapon	FALSE	Turret	Firearm	TRUE	Heavy		rifle_basic_ammo		25 33 crit 1.8	1.2	rifle_8	0.25	5	0.22	24	24	2	420	0	TRUE			piercing selfcharging		
-nature_firethrower_turret		none	1	75	4.5	2	Weapon	FALSE	Flamethrower	Tool	TRUE	Gas	implicted_flamethrower	gas_ammo		10 32 crit 1.6	2	flamethrower_1	0.15	5	0.2	10	10	1	175	0	TRUE			selfcharging		
+nature_firethrower_turret		none	1	75	4.5	2	Weapon	FALSE	Flamethrower	Tool	TRUE	Gas	implicted_flamethrower	gas_ammo		10 32 crit 1.6	2	flamethrower_1	0.15	5	1	10	10	1	175	0	TRUE			selfcharging		
 nature_laser_turret		none	1	75	4.6	2	Weapon	FALSE	Turret	Laser	TRUE	BatteryCells	implicted_beam	battery_basic_ammo		31 54 crit 2.15	-1.3	beam_1	0.5	6	0.16	3	3	2	45	0	TRUE			full_piercing selfcharging	continues_laser	
 nature_flauros_turret		none	1	75	2	2	Weapon	FALSE	Turret	Quasi	TRUE			implicted_acid_spit		26 49 crit 1.6	1.4	quasi_1	0.3	6	0.3	5	5	1	300	0	TRUE					
 nature_mars_turret		none	1	75	6	2	Weapon	FALSE	Turret	Firearm	TRUE			implicted_mars_heavy		32 69 crit 2.05	172.8	quasi_8	0.5	6	0.2	16	16	1	600	0	TRUE			suppressive_fire		
@@ -314,8 +315,8 @@ nature_mars_urparp_headgun		none	1	75	2.9	2	Weapon	FALSE	Shotgun	Quasi	TRUE			im
 #ammo																																
 Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	CanPutInVest	MaxStack	MinAmmoAmount	MaxAmmoAmount	AmmoType	DmgType	DmgCritChance	RangeBonus	AccuracyMult	ScatterMult	DamageMult	BulletCastsPerShot	StatusEffectId	ChanceToApply	StatusDamageModifier	StatusResistModifier	Traits	ProjectileId	Disassembly						
 *nail_bolts_ammo		Worker PlanetBridge CoreWard	1	1	0.01	1	Ammo	TRUE	80	7	13	Bolts	pierce	0.24	0	1	1	1.00	1		0	0	0	armor_pen	nail	broken_weapon 2						
-*quasi_darts_ammo		Gannix Emeraldlight ChurchGannix	3	3	0.01	1	Ammo	TRUE	40	3	7	Bolts	poison	0.16	1	1	1	0.70	1		0	0	0		quasi_dart							
-*quasi_bolts_ammo		Duggur	3	4	0.02	1	Ammo	TRUE	40	3	7	Bolts	pierce	0.5	0	1	1	0.90	1		0	0	0	armor_pen painful	quasi_nail							
+*quasi_darts_ammo		Gannix Emeraldlight ChurchGannix RitualItem	3	3	0.01	1	Ammo	TRUE	40	3	7	Bolts	poison	0.16	1	1	1	0.70	1		0	0	0	wounding	quasi_dart							
+*quasi_bolts_ammo		Duggur RitualItem	3	4	0.02	1	Ammo	TRUE	40	3	7	Bolts	pierce	0.5	0	1	1	0.90	1		0	0	0	armor_pen painful	quasi_nail							
 small_basic_ammo		Common Worker Miner Military Security Medical Science	1	3	0.01	1	Ammo	TRUE	80	6	14	Bullets	blunt	0.08	0	1	1	1.00	1		0	0	0	knockback	pistol	powder 2						
 small_burst_ammo		Common Worker Miner Military Security Medical Science AnCom	3	5	0.01	1	Ammo	TRUE	80	6	14	Bullets	explosion	0.12	0	1	1.2	0.30	1		0	0	0	explosive_light_flak	thermal	powder 2						
 small_expansive_ammo		Common Worker Miner Military Security Medical Science	4	7	0.01	1	Ammo	TRUE	80	6	14	Bullets	lacer	0.16	0	1	1.4	1.35	1		0	0	0	wounding	thermal_shrapnel	powder 2						
@@ -326,30 +327,30 @@ rifle_basic_ammo		Common Worker Miner Military Security Medical Science	1	6	0.02
 rifle_armorpierce_ammo		Common Military Security	3	10	0.02	1	Ammo	TRUE	50	5	10	Heavy	pierce	0.08	0	1	1	0.90	1		0	0	0	armor_pen	pistol	powder 2						
 rifle_plasma_ammo		RealWare SheduThousand	6	13	0.02	1	Ammo	TRUE	50	5	10	Heavy	plasma	0.04	-1	1	1.2	1.20	1		0	0	0	heavy_incendiary	thermal	powder 2						
 heavy_basic_ammo		Military Tianming UnchainedBelt SheduThousand	3	14	0.03	1	Ammo	TRUE	30	3	8	SuperHeavy	blunt	0.08	0	1	1	1.00	1		0	0	0		heavy	powder 3						
-heavy_flak_ammo		UnchainedBelt Tianming	6	18	0.03	1	Ammo	TRUE	30	3	8	SuperHeavy	pierce	0.16	0	1	1.05	0.45	1		0	0	0	explosive_flak	heavy	powder 3						
-heavy_incendiary_ammo		Grasshopper Looted	7	20	0.03	1	Ammo	TRUE	30	3	8	SuperHeavy	fire	0.2	0	1	1	1.10	1		0	0	0	heavy_incendiary armor_pen	heavy	powder 3 gas_ammo 1						
+heavy_flak_ammo		UnchainedBelt Tianming	6	18	0.03	1	Ammo	TRUE	30	3	8	SuperHeavy	pierce	0.16	0	1	1.1	0.45	1		0	0	0	explosive_flak	heavy	powder 3						
+heavy_incendiary_ammo		Grasshopper Looted	7	20	0.03	1	Ammo	TRUE	30	3	8	SuperHeavy	fire	0.2	0	1	1	0.80	1		0	0	0	heavy_incendiary armor_pen	heavy	powder 3 gas_ammo 1						
 shotgun_bullet_ammo		Common Worker Miner Military Security Medical Science	2	6	0.02	1	Ammo	TRUE	50	4	8	Shells	blunt	0.06	1	1	1.2	0.90	1		0	0	0	heavy_knockback knockdown	heavy	powder 2						
 shotgun_shrapnel_ammo		Common Worker Miner Military Security Medical Science	1	5	0.02	1	Ammo	TRUE	50	4	8	Shells	lacer	0.12	-1	1.3	2	1.10	5		0	0	0	knockback	shrapnel	powder 2						
 shotgun_flechette_ammo		AnCom ChurchRevelation ChurchGannix Looted	4	12	0.02	1	Ammo	TRUE	50	4	8	Shells	pierce	0.2	-1	1.5	2.2	1.20	4		0	0	0	wounding armor_pen	thermal	powder 2						
 shotgun_explosion_ammo		Tianming ChurchRevelation ChurchGannix Looted	5	14	0.02	1	Ammo	TRUE	50	4	8	Shells	explosion	0.16	1	1	1.3	0.30	1		0	0	0	explosive_shotgun	thermal_shrapnel	powder 2						
 shotgun_dragon_ammo		FrancheComte ChurchRevelation ChurchGannix Looted	7	18	0.02	1	Ammo	TRUE	50	4	8	Shells	fire	0.12	1	1	2.6	1.20	5		0	0	0	heavy_incendiary fires	plasma_shrapnel	powder 2						
-rocket_basic_ammo		Millitary RealWare SheduThousand FrancheComte UnchainedBelt Looted	5	100	0.1	1	Ammo	TRUE	5	1	2	Rocket	explosion	0.12	0	1	1	1.00	1		0	0	0	explosive	rocket	plastic 1 powder 2 gas_ammo 2						
+rocket_basic_ammo		Military RealWare SheduThousand FrancheComte UnchainedBelt Looted	5	100	0.1	1	Ammo	TRUE	5	1	2	Rocket	explosion	0.12	0	1	1	1.00	1		0	0	0	explosive	rocket	plastic 1 powder 2 gas_ammo 2						
 rocket_fire_ammo		RealWare SheduThousand Grasshopper CResistance Looted	7	120	0.12	1	Ammo	TRUE	5	1	2	Rocket	fire	0.06	0	1	1	0.85	1		0	0	0	explosive_fire	rocket	plastic 1 gas_ammo 4						
 rocket_poison_ammo		Tianming	5	120	0.1	1	Ammo	TRUE	5	1	2	Rocket	poison	0.15	0	1	1	0.90	1		0	0	0	explosive_poison	rocket	plastic 1 gas_ammo 2 acid 2						
 rocket_nuke_ammo		Sunlight Emeraldlight Looted	10	200	0.15	1	Ammo	TRUE	5	1	2	Rocket	explosion	0.12	0	1	1	1.20	1	beamEffect	0	0.2	-0.2	explosive	rocket	plastic 1 gas_ammo 4 explosives 1						
 battery_basic_ammo		Common Military Medical Science SBN	2	10	0.02	1	Ammo	TRUE	40	3	7	BatteryCells	beam	0.08	0	1	1	1.00	1		0	0	0		laser	glass 2 acid 1						
-dil_battery_ammo		Dilthey	3	12	0.01	1	Ammo	TRUE	60	5	10	BatteryCells	beam	0.2	0	1.1	0.9	0.90	1		0	0	0		laser	glass 2 acid 1						
+dil_battery_ammo		Dilthey	3	12	0.01	1	Ammo	TRUE	60	5	10	BatteryCells	beam	0.24	0	1.2	0.8	0.80	1		0	0	0		laser	glass 2 acid 1						
 battery_crafted_ammo		Common Worker Medical Science CoreWard	1	3	0.02	1	Ammo	TRUE	30	3	8	BatteryCells	beam	0	0	0.9	1.5	1.15	1		0	0	0		laser	glass 1 acid 1						
 *quasi_energy_ammo		Shartamakhum	1	4	0.03	1	Ammo	TRUE	30	3	8	BatteryCells	plasma	0.35	0	1	1	1.40	1		0	0	0		continues_mercury							
 *gas_ammo		Common Miner CoreWard ChurchRevelation ChurchGannix	1	2	0.05	1	Ammo	TRUE	60	5	10	Gas	fire	0	0	1	1	1.00	1		0	0	0	heavy_incendiary heavy_fires								
-*mars_gas_ammo		Mars	1	5	0.01	1	Ammo	TRUE	60	8	15	Gas	fire	0	1	1	1	1.30	1		0	0	0	heavy_incendiary heavy_fires								
+*mars_gas_ammo		Ur	1	5	0.01	1	Ammo	TRUE	60	8	15	Gas	fire	0	1	1	1	1.30	1		0	0	0	heavy_incendiary heavy_fires								
 toxic_ammo		Common Worker Miner Medical Science	1	4	0.03	1	Ammo	TRUE	60	5	10	Toxic	poison	0.08	0	1	1	1.00	1		0	0	0	toxic corrosive	toxic	acid 2						
 flauros_ammo		none	1	5	0.01	1	Ammo	TRUE	100	5	10	QuasiCells	pierce	0.2	0	1	1	1.00	1	poisonEffect	1	1	-0.2	corrosive	flauros_fly_bullet							
 *sawblade_ammo		Common Worker Miner	2	4	0.05	1	Ammo	TRUE	20	2	6	SawBlade	lacer	0.16	0	1	1	1.00	1		0	0	0	ricochet	disk	broken_weapon 2						
-*sawblade_poison_ammo		Tianming	6	8	0.05	1	Ammo	TRUE	20	2	6	SawBlade	poison	0.12	0	1	1	1.00	1		0	0	0	ricochet wounding	disk	sawblade_ammo 1 acid 1						
+*sawblade_poison_ammo		Tianming	6	8	0.05	1	Ammo	TRUE	20	2	6	SawBlade	poison	0.12	0	1	1	1.00	1		0	0	0	ricochet corrosive	disk	sawblade_ammo 1 acid 1						
 quasi_basic_ammo		Gannix Emeraldlight ChurchGannix	1	10	0.02	1	Ammo	TRUE	40	3	7	QuasiCells	poison	0.07	0	1	1	1.00	1		0	0	0		frost							
 implicted_knife		none	1	100	1	1	Ammo	TRUE	0	0	0		pierce	0.15	0	1	1	1.00	1		0	0	0									
-implicted_toxicknife		none	1	100	1	1	Ammo	TRUE	0	0	0	Toxic	poison	0.15	0	1	1	1.00	1		0	0.2	-0.3	corrosive								
+implicted_toxicknife		none	1	100	1	1	Ammo	TRUE	0	0	0	Toxic	poison	0.15	0	1	1	1.00	1		0	0.2	-0.3	wounding								
 implicted_knife_backstab		none	1	100	1	1	Ammo	TRUE	0	0	0		pierce	0.4	0	1	1	1.00	1		0	0	0									
 implicted_combat_knife		none	1	100	1	1	Ammo	TRUE	0	0	0		pierce	0.22	0	1	1	1.00	1		0	0	0									
 implicted_club		none	1	100	1	1	Ammo	TRUE	0	0	0		blunt	0.16	0	1	1	1.00	1		0	0	0	heavy_knockdown								
@@ -848,8 +849,8 @@ beer_can_1		Common Miner	1	45	0.2	1	Alcohol	TRUE	tin	5	10	10	200	0	0	0	-40	-1	0	
 vodka_bottle_1		Common Miner CResistance	2	100	0.5	1	Alcohol	TRUE	glass_bottle	2	10	10	400	0	0	0	-100	-3	0	0		intoxication 20	alcoholAddiction 0.15	beamEffect -20								
 wiskey_bottle_1		Common Management	3	120	0.5	1	Alcohol	TRUE	glass_bottle	2	10	10	400	0	0	0	-120	-3	0	0		intoxication 15	alcoholAddiction 0.1	beamEffect -20								
 armagnac_bottle_1		Common Management	4	200	0.5	1	Alcohol	TRUE	glass_bottle	2	10	10	400	0	0	0	-140	-3	0	0		intoxication 15	alcoholAddiction 0.1	beamEffect -35								
-ron_moonshine		none	5	250	0.5	1	Alcohol	TRUE	glass_bottle	2	30	10	400	0	0	0	-400	-10	0	0		intoxication 30	alcoholAddiction 0.3	beamEffect -50								
-*ron_blood		Duggur Mars Flauros	1	100	0.2	1	Food	TRUE		5	10	10	300	0	0	0	-600	0	0	0												
+*ron_moonshine		RitualItem	5	250	0.5	1	Alcohol	TRUE	glass_bottle	2	30	10	400	0	0	0	-400	-10	0	0		intoxication 30	alcoholAddiction 0.3	beamEffect -50								
+*ron_blood		Duggur Ur Flauros RitualItem	1	100	0.2	1	Food	TRUE		5	10	10	300	0	0	0	-600	0	0	0												
 *human_meat		Common Possessed	1	6	0.5	1	Food	TRUE	human_rib	5	10	10	300	0	0	0	100	0	0	0		cannibalism 1	infectionEffect 0.2									
 *rotten_human_meat		Common Possessed	1	4	0.5	1	Food	TRUE	human_rib	5	10	10	150	0	0	0	100	0	0	0		cannibalism 1	infectionEffect 0.3									
 *roasted_human_meat		Common Possessed	1	8	0.4	1	Food	TRUE	human_rib	5	10	10	350	0	0	0	100	0	0	0		cannibalism 1										
@@ -874,7 +875,7 @@ burger_pack_2		Common	1	20	0.2	1	Food	TRUE	plastic	5	10	10	400	0	0	0	0	0	0	0
 rotten_burger_pack_2		Common	1	5	0.2	1	Food	TRUE	plastic	5	10	10	200	0	0	0	0	0	0	0			poisonEffect 0.2									
 ration_pack_3		Common	1	5	0.1	1	Food	TRUE	plastic	5	10	10	300	0	0	0	0	0	0	0												
 ration_pack_4		Common	1	5	0.1	1	Food	TRUE	plastic	5	10	10	300	0	0	0	0	0	0	0												
-candy_1		Common	1	50	0.05	1	Food	TRUE	plastic	10	10	10	100	0	0	0	-25	0	0	0												
+*candy_1		Common	1	50	0.05	1	Food	TRUE	plastic	10	10	10	100	0	0	0	-25	0	0	0												
 *human_organ_1		SheduThousand Possessed Quasi	1	10	0.5	1	Food	TRUE		5	10	10	250	0	0	0	100	0	0	0		cannibalism 1	infectionEffect 0.2									
 *roasted_human_skin		Prison Possessed Medical Quasi	1	5	0.15	1	Food	TRUE		5	10	10	300	0	0	0	100	0	0	0		cannibalism 1										
 human_skin							Food	TRUE		5	10	10	150	0	0	0	100	0	0	0		cannibalism 1										
@@ -884,16 +885,16 @@ luxury_ration_pack_1		Management	1	100	0.2	1	Food	TRUE	plastic	5	10	10	400	0	0	0
 luxury_ration_pack_2		Management	1	100	0.2	1	Food	TRUE	plastic	5	10	10	400	0	0	0	-40	0	0	0												
 watermelon_slice		Management	1	25	0.2	1	Food	TRUE		5	10	10	200	0	0	0	-15	0	0	0												
 cabbage		Common	1	40	0.4	1	Food	TRUE		5	30	10	150	0	0	0	0	0	0	0												
-*jupiter_mushrooms		Flauros	1	50	0.1	1	Food	TRUE		5	10	10	300	0	0	0	0	0	0	0												
-*jupiter_goulash		none	1	200	0.3	1	Food	TRUE		2	30	10	500	0	0	0	-60	0	0	0												
-*mars_crab_meat		Mars	1	60	0.3	1	Food	TRUE		5	10	10	500	0	3	0	0	2	0	0				infectionEffect -20								
-*roasted_mars_crab_meat		none	1	300	0.4	1	Food	TRUE		5	10	10	800	0	3	0	-40	1	0	0				infectionEffect -30								
-*ron_tentacle		Ron	1	40	0.1	1	Food	TRUE		10	10	10	400	-5	2	0	0	0	0	0			infectionEffect 0.2									
-*roasted_ron_tentacle		none	1	50	0.1	1	Food	TRUE		10	10	10	450	5	2	0	0	0	0	0												
+*jupiter_mushrooms		Flauros RitualItem	1	50	0.1	1	Food	TRUE		5	10	10	300	0	0	0	0	0	0	0												
+*jupiter_goulash		RitualItem	1	200	0.3	1	Food	TRUE		2	30	10	500	0	0	0	-60	0	0	0												
+*mars_crab_meat		Ur RitualItem	1	60	0.3	1	Food	TRUE		5	10	10	500	0	3	0	0	2	0	0				infectionEffect -20								
+*roasted_mars_crab_meat		RitualItem	1	300	0.4	1	Food	TRUE		5	10	10	800	0	3	0	-40	1	0	0				infectionEffect -30								
+*ron_tentacle		Ron RitualItem	1	40	0.1	1	Food	TRUE		10	10	10	400	-5	2	0	0	0	0	0			infectionEffect 0.2									
+*roasted_ron_tentacle		RitualItem	1	50	0.1	1	Food	TRUE		10	10	10	450	5	2	0	0	0	0	0												
 *dog_skin		none	1	3	0.2	1	Food	TRUE		5	10	10	100	0	0	0	150	0	0	0												
 medical_kit_1		Common Medical	2	100	0.4	1	Medpack	TRUE		5	30	10	0	20	4	0	0	-5	1	0	all 0.45			infectionEffect -20 poisonEffect -20								
 medical_kit_2		Military Medical	4	200	0.6	1	Medpack	TRUE		5	30	10	0	25	4	0	0	-10	1	0	all 0.65			infectionEffect -30 poisonEffect -30 beamEffect -30								
-*quasi_medical_kit_1		Gannix Scrivnus Flauros	1	120	0.5	1	QuasiArtefact	TRUE		5	10	10	0	100	0	0	100	-100	1	1	all 0.95		gavaahAddiction 0.15	infectionEffect -95 poisonEffect -95 beamEffect -95								
+*quasi_medical_kit_1		Gannix Scrivnus Flauros RitualItem	1	120	0.5	1	QuasiArtefact	TRUE		5	10	10	0	100	0	0	100	-100	1	1	all 0.95		gavaahAddiction 0.15	infectionEffect -95 poisonEffect -95 beamEffect -95								
 matrix_medical_kit		Matrix	1	100	0.4	1	Medpack	TRUE		5	30	10	0	20	4	0	0	-5	1	0	all 0.65			infectionEffect -20 poisonEffect -20 shockEffect -80								
 pills_antibiotics		Common Medical	2	80	0.05	1	Pills	TRUE		10	20	4	0	0	10	0	0	0	0	0	blunt 0.10 pierce 0.10 lacer 0.10 fire 0.10 beam 0.10 shock 0.10 cold 0.10 chaos 0.10 explosion 0.10 plasma 0.10	healEfficiency 1		infectionEffect -80 poisonEffect -80								
 pills_sorbent		Common Medical	1	20	0.05	1	Pills	TRUE		10	10	10	-100	0	10	0	0	0	0	0	poison 0.3	healEfficiency 1		alcoholAddiction -40 infectionEffect -40 poisonEffect -40								
@@ -910,7 +911,7 @@ cigarettes_1		Common Miner CResistance	1	50	0.1	1	Syringe	TRUE		5	5	1	0	0	0	0	-5
 syringe_antidote		Medical	1	60	0.1	1	Syringe	TRUE		5	30	10	0	0	10	0	0	0	0	0	poison 0.6	healEfficiency 1		poisonEffect -95 alcoholAddiction -80								
 *syringe_bloodbag		Medical Possessed	1	70	0.3	1	Syringe	TRUE		5	10	10	0	10	12	0	50	0	0	0												
 syringe_nanoinjection		Medical Science Military	3	200	0.1	1	Syringe	TRUE		5	10	10	0	8	6	0	0	-2	1	0	all 0.65			shockEffect -80								
-*quasi_ron_medicine_1		Ron	1	30	0.2	1	Syringe	TRUE		10	10	10	0	10	0	0	0	-10	1	1	all 0.95		gavaahAddiction 0.15									
+*quasi_ron_medicine_1		Ron RitualItem	1	30	0.2	1	Syringe	TRUE		10	10	10	0	10	0	0	0	-10	1	1	all 0.95		gavaahAddiction 0.15									
 #end																																
 																																
 #fixation_medicine																																
@@ -927,8 +928,8 @@ goldenstar_balm		Common Medical	1	35	0.01	1	Dressing	TRUE	cold 0.4 shock 0.4 cha
 tape		Common Worker	1	50	0.1	1	Dressing	TRUE	pierce 0.3 lacer 0.3 blunt 0.2 explosion 0.25 plasma 0.15	10	human quasimorph cyborg	5	10	10	0	0	0															
 surgical_kit		Specops Medical	3	150	2	1	Dressing	TRUE	all 0.95	1	human quasimorph	1	20	5	60	0	-10			medical_kit_1 2 syringe_morphine 1 medical_glue 1 syringe_naloxone 1												
 rags		Common Civilian Worker Miner	1	2	0.1	1	Dressing	TRUE	pierce 0.2 lacer 0.2 cold 0.25 chaos 0.10 explosion 0.10 plasma 0.10	10	human quasimorph	20	10	10	0	0	0	infectionEffect 0.10														
-quasi_venus_rags		Gannix Emeraldlight ChurchGannix	1	15	0.15	1	Dressing	TRUE	all 0.65	10	human quasimorph	5	10	10	4	50	0	poisonEffect 0.10														
-mercury_rags		Shartamakhum	1	20	0.1	1	Dressing	TRUE	all 0.65	10	human quasimorph	10	10	10	4	50	0	beamEffect 1	beamEffect 10													
+quasi_venus_rags							Dressing	TRUE	all 0.65	10	human quasimorph	5	10	10	4	50	0	poisonEffect 0.10														
+mercury_rags							Dressing	TRUE	all 0.65	10	human quasimorph	10	10	10	4	50	0	beamEffect 1	beamEffect 10													
 rubber							Dressing	TRUE	pierce 0.10 fire 0.15 cold 0.25 chaos 0.2 shock 0.25 poison 0.25 explosion 0.05 plasma 0.05	1	cyborg	20	10	10	0	0	0															
 rusty_plates							Dressing	TRUE	pierce 0.15 lacer 0.20 blunt 0.15 explosion 0.15 plasma 0.10	1	cyborg	10	10	10	0	0	0															
 armor_plates							Dressing	TRUE	pierce 0.30 lacer 0.35 blunt 0.30 explosion 0.30 plasma 0.15	1	cyborg	10	10	10	0	0	0															
@@ -950,7 +951,7 @@ Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	CanPutInVest	
 *rusty_plates		Common Miner	1	5	0.3	1	Parts	TRUE	None	10	10	10	30	-10																		
 *armor_plates		Common Miner	1	6	0.25	1	Parts	TRUE	None	10	10	10	30	-10																		
 *ceramite_plates		Miner Science	3	20	0.2	1	Parts	TRUE	None	10	10	10	60	-5																		
-armor_repair_kit		Military SBN Realware SheduThousand CoreWard UnchainedBelt Tianming	3	200	0.6	1	RepairKit	TRUE	AllArmors	3	25	5	40	10	rags 1 rubber 1 armor_plates 1 ceramite_plates 1																	
+armor_repair_kit		Military SBN RealWare SheduThousand CoreWard UnchainedBelt Tianming	3	200	0.6	1	RepairKit	TRUE	AllArmors	3	25	5	40	10	rags 1 rubber 1 armor_plates 1 ceramite_plates 1																	
 *rod_parts		Common Worker	1	2	0.25	1	Parts	TRUE	None	20	10	10	30	-10																		
 coarse_parts		Common Worker	1	2	0.5	1	Parts	TRUE	None	10	10	10	30	-10																		
 *engineering_repair_kit		Worker Science Dilthey PlanetBridge CResistance UnchainedBelt	2	125	1.1	1	RepairKit	TRUE	AllTools	3	25	5	40	10	rod_parts 2 coarse_parts 2																	
@@ -959,7 +960,7 @@ pierce_parts		Common Worker	1	3	0.15	1	Parts	TRUE	None	20	10	10	30	-10
 melee_repair_kit		Common AnCom ChurchRevelation ChurchGannix UnchainedBelt	1	100	0.55	1	RepairKit	TRUE	AllMeleeWeapons	3	25	5	40	10	pierce_parts 2 blunt_parts 1 rod_parts 1																	
 *spring		Common Worker	1	3	0.05	1	Parts	TRUE	None	10	10	10	15	-5																		
 weapon_parts		Common Worker Security	1	3	0.2	1	Parts	TRUE	None	20	10	10	30	-10																		
-firearm_repair_kit		Security AnCom Realware SheduThousand Grasshopper FrancheComte UnchainedBelt Tianming	2	200	0.6	1	RepairKit	TRUE	AllFirearmsWeapons	3	25	5	40	10	plastic 2 weapon_parts 1 spring 1																	
+firearm_repair_kit		Security AnCom RealWare SheduThousand Grasshopper FrancheComte UnchainedBelt Tianming	2	200	0.6	1	RepairKit	TRUE	AllFirearmsWeapons	3	25	5	40	10	plastic 2 weapon_parts 1 spring 1																	
 microelectronics_parts		Worker Science	1	6	0.03	1	Parts	TRUE	None	20	10	10	30	-10																		
 *circuit_board		Worker Science	1	6	0.15	1	Parts	TRUE	None	10	10	10	15	-5																		
 tech_repair_kit		Science SBN Dilthey DaydreamChems Sunlight Emeraldlight CResistance	3	250	0.7	1	RepairKit	TRUE	AllTechWeapons	3	25	5	40	10	microelectronics_parts 2 circuit_board 2																	
@@ -970,30 +971,31 @@ capacitor_parts		Worker Science	1	6	0.25	1	Parts	TRUE	None	20	10	10	30	-10
 *tape		Common Worker	1	50	0.05	1	RepairKit	TRUE	All	10	10	10	20	0																		
 *human_skin		Prison Possessed Medical Quasi	1	2	0.2	1	Parts	TRUE	None	10	10	10	15	-5																		
 *human_rib		Prison Possessed Medical Quasi	1	2	0.1	1	Parts	TRUE	None	20	10	10	15	-5																		
-*spider_chitin		Gannix	1	5	0.25	1	Parts	TRUE	None	20	10	10	15	-5																		
-*quasi_venus_feather		Gannix	1	15	0.03	1	Parts	TRUE	None	10	10	10	30	5																		
-*quasi_venus_rags		Gannix	1	15	0.15	1	Parts	TRUE	None	5	10	10	15	5																		
-*venus_armor_plates		Gannix	1	20	0.25	1	Parts	TRUE	None	20	10	10	40	5																		
-*venus_melee_parts		Gannix	1	20	0.2	1	Parts	TRUE	None	10	10	10	15	5																		
-*venus_weapon_parts		Gannix	1	20	0.25	1	Parts	TRUE	None	20	10	10	40	5																		
-*mercury_rags		Shartamakhum	1	20	0.1	1	Parts	TRUE	None	10	10	10	15	5																		
-*mercury_glass		Shartamakhum	1	25	0.2	1	Parts	TRUE	None	10	10	10	40	5																		
-*moon_armor_plates		Duggur	1	30	0.3	1	Parts	TRUE	None	20	10	10	40	5																		
-*moon_weapon_parts		Duggur	1	30	0.3	1	Parts	TRUE	None	20	10	10	40	5																		
-*mars_gear		Mars	1	40	0.4	1	Parts	TRUE	None	20	10	10	40	5																		
-*mars_skin		Mars	1	40	0.4	1	Parts	TRUE	None	20	10	10	40	5																		
-*cattaram_stone		Cattaram	1	60	1.5	1	RepairKit	TRUE	AllQuasiItems	20	10	10	50	0																		
-*jupiter_grass		Flauros	1	40	0.2	1	Parts	TRUE	None	20	10	10	30	5																		
-*quasi_repair_kit		Gannix Mars	1	100	0.25	1	RepairKit	TRUE	All	3	30	10	50	10																		
+*spider_chitin		Gannix RitualItem	1	5	0.25	1	Parts	TRUE	None	20	10	10	15	-5																		
+*quasi_venus_feather		Gannix RitualItem	1	15	0.03	1	Parts	TRUE	None	10	10	10	30	5																		
+*quasi_venus_rags		Gannix Emeraldlight ChurchGannix RitualItem	1	15	0.15	1	Parts	TRUE	None	5	10	10	15	5																		
+*venus_armor_plates		Gannix RitualItem	1	20	0.25	1	Parts	TRUE	None	20	10	10	40	5																		
+*venus_melee_parts		Gannix RitualItem	1	20	0.2	1	Parts	TRUE	None	10	10	10	15	5																		
+*venus_weapon_parts		Gannix RitualItem	1	20	0.25	1	Parts	TRUE	None	20	10	10	40	5																		
+*mercury_rags		Shartamakhum RitualItem	1	20	0.1	1	Parts	TRUE	None	10	10	10	15	5																		
+*mercury_glass		Shartamakhum RitualItem	1	25	0.2	1	Parts	TRUE	None	10	10	10	40	5																		
+*moon_armor_plates		Duggur RitualItem	1	30	0.3	1	Parts	TRUE	None	20	10	10	40	5																		
+*moon_weapon_parts		Duggur RitualItem	1	30	0.3	1	Parts	TRUE	None	20	10	10	40	5																		
+*mars_gear		Ur RitualItem	1	40	0.4	1	Parts	TRUE	None	20	10	10	40	5																		
+*mars_skin		Ur RitualItem	1	40	0.4	1	Parts	TRUE	None	20	10	10	40	5																		
+*cattaram_stone		Cattaram RitualItem	1	60	1.5	1	RepairKit	TRUE	AllQuasiItems	20	10	10	50	0																		
+*jupiter_grass		Flauros RitualItem	1	40	0.2	1	Parts	TRUE	None	20	10	10	30	5																		
+*quasi_repair_kit		Gannix Ur RitualItem	1	100	0.25	1	RepairKit	TRUE	All	5	30	10	50	10																		
 broken_weapon		Common UnchainedBelt	1	1	0.1	1	Parts	TRUE	None	50	10	10	15	5																		
 #end																																
 																																
 #general_devices																																
 Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	CanPutInVest	ShowConfirmBox	MaxStack	MaxUsage	UsageCost	UseEffect	Duration	Disassembly																	
 automap		Science Military Management AnCom SBN Tianming UnchainedBelt	1	200	0.25	1	MilitaryBarter	TRUE	FALSE	3	30	10	DestroyJammer 1 RevealMap 1		microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																	
-*demonic_eye		Shartamakhum Duggur Ron	1	150	0.2	1	QuasiArtefact	TRUE	FALSE	3	10	10	RevealMap 1																			
+*demonic_eye		Shartamakhum Duggur Ron RitualItem	1	150	0.2	1	QuasiArtefact	TRUE	FALSE	5	10	10	RevealMap 1																			
 quasi_sensor_device		Science Military AnCom ChurchRevelation ChurchGannix	1	130	0.3	1	ScienceBarter	TRUE	FALSE	3	30	10	RevealQuasiCreatures 1	5	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																	
-anulator		Science Quasi	1	400	0.5	1	QuasiArtefact	TRUE	TRUE	3	5	5	BreakPact 1																			
+anulator		Science Quasi RitualItem	1	400	0.5	1	QuasiArtefact	TRUE	TRUE	3	5	5	BreakPact 1																			
+*quasiresearch_disk		Military Science	1	360	0.1	1	ScienceBarter	TRUE	FALSE	5	10	10	DecreaseCurseLevel 300																			
 #end																																
 																																
 #placeable_devices																																
@@ -1009,11 +1011,11 @@ packaged_security_robot		Military Science RealWare SheduThousand Dilthey	4	300	2
 packaged_recreational_robot		Common Management Science SBN Dilthey Grasshopper	3	250	2	2	Cyborg	FALSE	1	10	10	cyborg_recreation		1	TRUE	cyborg_recreation_head 1 cyborg_recreation_wrist 1 cyborg_recreation_feet 1 cyborg_recreation_chest 1 cyborg_recreation_guts 1 cyborg_recreation_knee 1 cyborg_recreation_hand 1 cyborg_recreation_leg 1																
 packaged_drone		PlanetBridge Tianming Dilthey	5	350	2	2	Cyborg	FALSE	1	10	10	drone_security		1	TRUE	cyborg_head 1 cyborg_hand 1 cyborg_feet 1 cyborg_chest 1 cyborg_knee 1 microelectronics_parts 1 circuit_board 2																
 spider_cocoon		Gannix XiomaraMasks Emeraldlight ChurchGannix	1	75	1	1	QuasiOrgan	TRUE	3	10	10	jungle_spider		1	TRUE																	
-flauros_seed		Flauros	5	500	2	1	Turret	TRUE	1	10	10	flauros_pact_turret		1	FALSE																	
+flauros_seed		Flauros RitualItem	5	500	2	1	Turret	TRUE	1	10	10	flauros_pact_turret		1	FALSE																	
 frag_mine		Military  RealWare SheduThousand FrancheComte CResistance UnchainedBelt Dilthey CoreWard	1	80	0.3	1	Mine	TRUE	3	10	10	frag_mine	frag_big_explosion	1	FALSE	explosives 3																
 blood_mine		none	1	50	0.3	1	Mine	TRUE	3	10	10	blood_mine	blood_blast_explosion	0	FALSE																	
-spore_mine		Flauros	1	40	0.3	1	Mine	TRUE	3	10	10	spore_mine	spore_explosion	1	FALSE																	
-*cattaram_mine		Cattaram	3	100	0.2	1	Mine	TRUE	5	10	10	cattaram_mine	cattaram_explosion	2	FALSE																	
+*spore_mine		Flauros RitualItem	1	40	0.3	1	Mine	TRUE	3	10	10	spore_mine	spore_explosion	1	FALSE																	
+*cattaram_mine		Cattaram RitualItem	3	100	0.2	1	Mine	TRUE	5	10	10	cattaram_mine	cattaram_explosion	2	FALSE																	
 placeable_barrier		none	1	100	0.2	1	PlaceableObstacle	FALSE	1	10	10			0	FALSE		Up roadBlock_hor Down roadBlock_hor Left roadblock_vert Right roadblock_vert LeftUp roadBlock_diagRight RightUp roadBlock_diagLeft LeftDown roadBlock_diagLeft RightDown roadBlock_diagRight															
 placeable_barrel		none	1	100	0.2	1	PlaceableObstacle	FALSE	1	10	10			0	FALSE		Center emptyBarrel_1															
 personal_key		Science Management	1	80	0.1	1	ValuableBarter	FALSE	10	10	10			0	FALSE																	
@@ -1073,26 +1075,26 @@ skull_venus_spike		none	4	1200	0.5	1	QuasiPact	FALSE	venus_spike	FALSE	TRUE	siai
 skull_venus_coagulation_trap		none	8	2400	0.5	1	QuasiPact	FALSE	venus_coagulation_trap	FALSE	TRUE	gavvakh	skull_venus_blood_rain	skull_venus_dismember	skull_venus_blood_boil																	
 skull_venus_run_cold		GannixFeral	9	1600	0.5	1	QuasiPact	FALSE	venus_run_cold	TRUE	TRUE	siaira	skull_venus_hemostatic_shock	skull_venus_blood_mirror	skull_venus_sanguine_echo																	
 skull_venus_baron_form		none	10	2400	0.5	1	QuasiPact	FALSE	venus_baron_form	FALSE	TRUE	siaira	skull_venus_baron_form	skull_venus_sanguine_echo	skull_venus_hemostatic_shock																	
-skull_mars_enforced_order		Mars Merc	1	400	0.5	1	QuasiPact	FALSE	mars_enforced_order	TRUE	TRUE	siaira	skull_mars_brass_conversion	skull_mars_enforced_order	skull_mars_molten_jet																	
+skull_mars_enforced_order		Ur Merc	1	400	0.5	1	QuasiPact	FALSE	mars_enforced_order	TRUE	TRUE	siaira	skull_mars_brass_conversion	skull_mars_enforced_order	skull_mars_molten_jet																	
 skull_mars_bulls_horns		none	4	1200	0.5	1	QuasiPact	FALSE	mars_bulls_horns	FALSE	TRUE	siaira	skull_mars_incendiary_rain	skull_mars_molten_jet	skull_mars_brass_conversion																	
-skull_mars_brazen_armor		Mars Merc	8	1200	0.5	1	QuasiPact	FALSE	mars_brazen_armor	TRUE	TRUE	siaira	skull_mars_flame_shield	skull_mars_brass_conversion	skull_mars_incendiary_rain																	
+skull_mars_brazen_armor		Ur Merc	8	1200	0.5	1	QuasiPact	FALSE	mars_brazen_armor	TRUE	TRUE	siaira	skull_mars_flame_shield	skull_mars_brass_conversion	skull_mars_incendiary_rain																	
 skull_mars_idol_of_ur		none	9	2400	0.5	1	QuasiPact	FALSE	mars_idol_of_ur	FALSE	TRUE	siaira	skull_mars_solar_flare	skull_mars_incendiary_rain	skull_mars_flame_shield																	
-skull_mars_great_awakening		MarsFeral	10	1600	0.5	1	QuasiPact	FALSE	mars_great_awakening	TRUE	TRUE	siaira	skull_mars_great_awakening	skull_mars_flame_shield	skull_mars_solar_flare																	
+skull_mars_great_awakening		UrFeral	10	1600	0.5	1	QuasiPact	FALSE	mars_great_awakening	TRUE	TRUE	siaira	skull_mars_great_awakening	skull_mars_flame_shield	skull_mars_solar_flare																	
 skull_mars_molten_jet		none	1	600	0.5	1	QuasiPact	FALSE	mars_molten_jet	FALSE	TRUE	siaira	skull_mars_bulls_horns	skull_mars_molten_jet	skull_mars_enforced_order																	
-skull_mars_brass_conversion		Mars Merc	4	800	0.5	1	QuasiPact	FALSE	mars_brass_conversion	TRUE	TRUE	siaira	skull_mars_brazen_armor	skull_mars_enforced_order	skull_mars_bulls_horns																	
+skull_mars_brass_conversion		Ur Merc	4	800	0.5	1	QuasiPact	FALSE	mars_brass_conversion	TRUE	TRUE	siaira	skull_mars_brazen_armor	skull_mars_enforced_order	skull_mars_bulls_horns																	
 skull_mars_incendiary_rain		none	8	2400	0.5	1	QuasiPact	FALSE	mars_incendiary_rain	FALSE	TRUE	siaira	skull_mars_idol_of_ur	skull_mars_bulls_horns	skull_mars_brazen_armor																	
-skull_mars_flame_shield		MarsFeral	9	1600	0.5	1	QuasiPact	FALSE	mars_flame_shield	TRUE	TRUE	siaira	skull_mars_great_awakening	skull_mars_brazen_armor	skull_mars_idol_of_ur																	
+skull_mars_flame_shield		UrFeral	9	1600	0.5	1	QuasiPact	FALSE	mars_flame_shield	TRUE	TRUE	siaira	skull_mars_great_awakening	skull_mars_brazen_armor	skull_mars_idol_of_ur																	
 skull_mars_solar_flare		none	10	2400	0.5	1	QuasiPact	FALSE	mars_solar_flare	FALSE	TRUE	siaira	skull_mars_solar_flare	skull_mars_idol_of_ur	skull_mars_great_awakening																	
 skull_mars_wrath_of_ur		none	1	600	0.5	1	QuasiPact	FALSE	mars_wrath_of_ur	FALSE	TRUE	shavva	skull_mars_brass_feed	skull_mars_wrath_of_ur	skull_mars_shatter_grenade																	
-skull_mars_reactive_pyre		Mars Merc	4	800	0.5	1	QuasiPact	FALSE	mars_reactive_pyre	TRUE	TRUE	shavva	skull_mars_scorched_armory	skull_mars_shatter_grenade	skull_mars_brass_feed																	
-skull_mars_scorched_armory		Mars Merc	8	1200	0.5	1	QuasiPact	FALSE	mars_scorched_armory	TRUE	TRUE	shavva	skull_mars_overclock	skull_mars_reactive_pyre	skull_mars_siege_breaker																	
+skull_mars_reactive_pyre		Ur Merc	4	800	0.5	1	QuasiPact	FALSE	mars_reactive_pyre	TRUE	TRUE	shavva	skull_mars_scorched_armory	skull_mars_shatter_grenade	skull_mars_brass_feed																	
+skull_mars_scorched_armory		Ur Merc	8	1200	0.5	1	QuasiPact	FALSE	mars_scorched_armory	TRUE	TRUE	shavva	skull_mars_overclock	skull_mars_reactive_pyre	skull_mars_siege_breaker																	
 skull_mars_riot		none	9	2400	0.5	1	QuasiPact	FALSE	mars_riot	FALSE	TRUE	shavva	skull_mars_avatar_of_flame	skull_mars_siege_breaker	skull_mars_overclock																	
 skull_mars_avatar_of_flame		none	10	2400	0.5	1	QuasiPact	FALSE	mars_avatar_of_flame	FALSE	TRUE	shavva	skull_mars_avatar_of_flame	skull_mars_riot	skull_mars_orbital_incineration																	
-skull_mars_shatter_grenade		Mars Merc	1	400	0.5	1	QuasiPact	FALSE	mars_shatter_grenade	TRUE	TRUE	shavva	skull_mars_reactive_pyre	skull_mars_shatter_grenade	skull_mars_wrath_of_ur																	
+skull_mars_shatter_grenade		Ur Merc	1	400	0.5	1	QuasiPact	FALSE	mars_shatter_grenade	TRUE	TRUE	shavva	skull_mars_reactive_pyre	skull_mars_shatter_grenade	skull_mars_wrath_of_ur																	
 skull_mars_brass_feed		none	4	1200	0.5	1	QuasiPact	FALSE	mars_brass_feed	FALSE	TRUE	shavva	skull_mars_siege_breaker	skull_mars_wrath_of_ur	skull_mars_reactive_pyre																	
-skull_mars_siege_breaker		Mars Merc	8	1200	0.5	1	QuasiPact	FALSE	mars_siege_breaker	TRUE	TRUE	shavva	skull_mars_riot	skull_mars_brass_feed	skull_mars_scorched_armory																	
-skull_mars_overclock		MarsFeral	9	1600	0.5	1	QuasiPact	FALSE	mars_overclock	TRUE	TRUE	shavva	skull_mars_orbital_incineration	skull_mars_scorched_armory	skull_mars_riot																	
-skull_mars_orbital_incineration		MarsFeral	10	1600	0.5	1	QuasiPact	FALSE	mars_orbital_incineration	TRUE	TRUE	shavva	skull_mars_orbital_incineration	skull_mars_overclock	skull_mars_avatar_of_flame																	
+skull_mars_siege_breaker		Ur Merc	8	1200	0.5	1	QuasiPact	FALSE	mars_siege_breaker	TRUE	TRUE	shavva	skull_mars_riot	skull_mars_brass_feed	skull_mars_scorched_armory																	
+skull_mars_overclock		UrFeral	9	1600	0.5	1	QuasiPact	FALSE	mars_overclock	TRUE	TRUE	shavva	skull_mars_orbital_incineration	skull_mars_scorched_armory	skull_mars_riot																	
+skull_mars_orbital_incineration		UrFeral	10	1600	0.5	1	QuasiPact	FALSE	mars_orbital_incineration	TRUE	TRUE	shavva	skull_mars_orbital_incineration	skull_mars_overclock	skull_mars_avatar_of_flame																	
 skull_moon_disarm		Duggur Merc	1	400	0.5	1	QuasiPact	FALSE	moon_disarm	TRUE	TRUE	agga	skull_moon_animate_golem	skull_moon_disarm	skull_moon_decay																	
 skull_moon_animate_golem		Duggur Merc	4	800	0.5	1	QuasiPact	FALSE	moon_animate_golem	TRUE	TRUE	agga	skull_moon_animate_weapons	skull_moon_disarm	skull_moon_shrink_armor																	
 skull_moon_animate_weapons		Duggur Merc	8	1200	0.5	1	QuasiPact	FALSE	moon_animate_weapons	TRUE	TRUE	agga	skull_moon_shrapnel	skull_moon_animate_golem	skull_moon_pain_wall																	
@@ -1159,7 +1161,7 @@ skull_flauros_baron_form		none	10	2400	0.5	1	QuasiPact	FALSE	flauros_baron_form	
 Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	CanPutInVest	MaxStack	TurnsToExplode	RicochetTrajectory	Range	MaxUnderthrowDistance	MaxOverthrowDistance	IgnorePenaltyChance	Explosion	Disassembly															
 frag_grenade		Military AnCom RealWare SheduThousand Grasshopper FrancheComte Tianming UnchainedBelt CResistance 	3	100	0.2	1	Grenade	TRUE	3	1	TRUE	7	1	2	0.2	frag_explosion	tin 1 nail_bolts_ammo 1 explosives 1															
 highexplosion_grenade		Military AnCom RealWare SheduThousand Grasshopper FrancheComte Tianming UnchainedBelt CResistance 	3	100	0.2	1	Grenade	TRUE	3	1	TRUE	7	1	2	0.6	he_explosion	tin 1 explosives 1															
-*quasi_grenade		none	5	150	0.1	1	Grenade	TRUE	5	1	FALSE	7	1	2	0.2	quasi_explosion																
+*quasi_grenade		RitualItem	5	150	0.1	1	Grenade	TRUE	5	1	FALSE	7	1	2	0.2	quasi_explosion																
 thermal_grenade		Military RealWare SheduThousand ChurchRevelation ChurchGannix Sunlight Emeraldlight CoreWard CResistance 	4	125	0.2	1	Grenade	TRUE	3	1	TRUE	7	1	2	0.2	thermal_explosion	tin 1 gas_ammo 1 powder 1															
 stun_grenade		Security Specops AnCom SBN Dilthey RealWare Sunlight Emeraldlight FrancheComte SheduThousand	1	50	0.15	1	Grenade	TRUE	3	1	TRUE	7	1	2	0.2	stun_explosion	tin 1 acid 1 human_poop 1															
 *throwable_heart		Medical SheduThousand	1	5	0.15	1	Grenade	TRUE	3	0	TRUE	7	1	2	0.2	heart_explosion																
@@ -1167,7 +1169,7 @@ handmade_frag_grenade		Worker Miner Prison SheduThousand UnchainedBelt CResistan
 handmade_thermal_grenade		Reserve Worker Miner Prison ChurchRevelation ChurchGannix SheduThousand CoreWard Grasshopper PlanetBridge UnchainedBelt CResistance	2	25	0.75	1	Grenade	TRUE	3	0	FALSE	7	1	2	0.2	thermal_low_explosion	glass_bottle 1 rags 1															
 toxic_grenade		AnCom SBN DaydreamChems Tianming	3	150	0.15	1	Grenade	TRUE	3	1	TRUE	7	1	2	0.2	toxic_explosion	glass 1 acid 1 circuit_board 1															
 frost_grenade		AnCom DaydreamChems Grasshopper PlanetBridge	5	225	0.25	1	Grenade	TRUE	3	1	FALSE	7	1	2	0.2	frost_explosion	glass 1 circuit_board 1 water_bottle_1 1															
-*urparp_grenade		SheduThousand	1	100	0.1	1	Grenade	TRUE	5	1	TRUE	7	1	2	0.2	urparp_explosion																
+*urparp_grenade		SheduThousand RitualItem	1	100	0.1	1	Grenade	TRUE	5	1	TRUE	7	1	2	0.2	urparp_explosion																
 shatter_grenade		none	1	200	0.1	1	Grenade	TRUE	5	1	TRUE	7	1	2	0.6	mars_explosion																
 hellfire_grenade		ChurchRevelation ChurchGannix Grasshopper	7	300	0.25	1	Grenade	TRUE	3	1	TRUE	7	1	2	0.2	thermal_big_explosion																
 nanorobot_grenade		Science SBN Dilthey RealWare DaydreamChems Sunlight Emeraldlight CoreWard CResistance	6	175	0.4	1	Grenade	TRUE	3	0	FALSE	7	1	2	0.2	nano_explosion																
@@ -1197,10 +1199,10 @@ cyborg_recreation_feet		Management Prison Security	3	100	0.9	1	CyberneticAug	FAL
 cyborg_recreation_chest		Management Prison Security	3	100	1.1	1	CyberneticAug	FALSE	Body	RecreationCyborgChest	aug_type_chest	rubber 2 rusty_plates 2 plastic 1 circuit_board 1																				
 cyborg_recreation_guts		Management Prison Security	3	100	0.8	1	CyberneticAug	FALSE	Body	RecreationCyborgBody	aug_type_body	rubber 2 rusty_plates 2 plastic 1 circuit_board 1																				
 cyborg_recreation_knee		Management Prison Security	3	100	0.9	1	CyberneticAug	FALSE	Body	RecreationCyborgKnee	aug_type_knee	rubber 1 rusty_plates 1 plastic 1 circuit_board 1																				
-mars_cyborg_head		Mars SheduThousand	7	100	2	1	CyberneticAug	FALSE	QuasiBody	MarsCyborgHead	aug_type_head	quasi_repair_kit 1 mars_gear 2																				
-mars_cyborg_chest		Mars SheduThousand	7	100	2.2	1	CyberneticAug	FALSE	QuasiBody	MarsCyborgChest	aug_type_chest	quasi_repair_kit 1 mars_gear 2																				
-mars_cyborg_knee		Mars SheduThousand	7	100	1.8	1	CyberneticAug	FALSE	QuasiBody	MarsCyborgKnee	aug_type_knee	quasi_repair_kit 1 mars_gear 2																				
-mars_cyborg_stomach		Mars SheduThousand	7	100	1.6	1	CyberneticAug	FALSE	QuasiBody	MarsCyborgStomach	aug_type_stomach																					
+mars_cyborg_head		Ur SheduThousand	7	100	2	1	CyberneticAug	FALSE	QuasiBody	MarsCyborgHead	aug_type_head	quasi_repair_kit 1 mars_gear 2																				
+mars_cyborg_chest		Ur SheduThousand	7	100	2.2	1	CyberneticAug	FALSE	QuasiBody	MarsCyborgChest	aug_type_chest	quasi_repair_kit 1 mars_gear 2																				
+mars_cyborg_knee		Ur SheduThousand	7	100	1.8	1	CyberneticAug	FALSE	QuasiBody	MarsCyborgKnee	aug_type_knee	quasi_repair_kit 1 mars_gear 2																				
+mars_cyborg_stomach		Ur SheduThousand	7	100	1.6	1	CyberneticAug	FALSE	QuasiBody	MarsCyborgStomach	aug_type_stomach																					
 cyborg_drill							CyberneticAug	FALSE	Melee	CyborgDrillArm CyborgDrillShoulder	aug_type_arm	armor_plates 1 metal_tread 1 pierce_parts 1 blunt_parts 1																				
 cyborg_battle_machinegun							CyberneticAug	FALSE	Ranged	BattleCyborgMachinegunArm BattleCyborgMachinegunShoulder	aug_type_arm	ceramite_plates 1 metal_tread 1 weapon_parts 2																				
 cyborg_recreation_blade							CyberneticAug	FALSE	Melee	RecreationCyborgBladeArm RecreationCyborgBladeShoulder	aug_type_arm	armor_plates 1 rubber 1 weapon_parts 1 pierce_parts 1																				
@@ -1263,7 +1265,7 @@ thermal_emitter		Common Miner Science Security	4	400	0.05	1	CyberneticAug	FALSE	
 magnetic_generator		Common Worker Science Security	4	400	0.05	1	CyberneticAug	FALSE	Active	TRUE	Shoulder	human cyborg		reload_duration 1	3		transformer 1 circuit_board 1 microelectronics_parts 1															
 deformed_musculature		Possessed Quasi	1	500	0.05	1	QuasiAug	FALSE	QuasiPassive	FALSE	Shoulder	human quasimorph	multi_hit 1 melee_dmg_reduce 0.2	qmorph 3																		
 pathogenic		Flauros	3	500	0.05	1	QuasiAug	FALSE	QuasiPassive	FALSE	Shoulder	human quasimorph	disease 3	qmorph 2																		
-quasi_generator		Mars	3	500	0.05	1	QuasiAug	FALSE	QuasiActive	TRUE	Shoulder	human quasimorph		qmorph 2																		
+quasi_generator		Ur	3	500	0.05	1	QuasiAug	FALSE	QuasiActive	TRUE	Shoulder	human quasimorph		qmorph 2																		
 radio_jack		Common Science Security PMC	4	400	0.05	1	CyberneticAug	FALSE	Active	TRUE	Arm	human cyborg		resist_shock -12	6		transformer 1 circuit_board 1 microelectronics_parts 1															
 medical_interface		Medical Science	4	400	0.05	1	CyberneticAug	FALSE	Utility	FALSE	Arm	human cyborg	implant_drop_chance 0.15 added_wound_chance_mult 0.2 wound_heal_chance 0.2	wound_chance_mult 0.4			transformer 1 circuit_board 1 microelectronics_parts 1															
 integrated_magazine		Common RealWare SheduThousand	3	300	0.05	1	CyberneticAug	FALSE	Passive	FALSE	Arm	human cyborg	reload_duration -1	scatter_angle 0.2			plastic 1 circuit_board 1 metal_tread 1 weapon_parts 1															
@@ -1289,7 +1291,7 @@ reinforced_epidermis		Common AnCom	4	400	0.5	1	CyberneticAug	FALSE	Passive	FALSE
 induction_frame		Common PlanetBridge	5	500	0.05	1	CyberneticAug	FALSE	Passive	FALSE	Body	human cyborg	resist_shock 25 status_immune_shockEffect 1	resist_fire -12 resist_beam -12			capacitor_parts 2 armor_plates 1 rubber 1															
 thermal_coating		Common CoreWard	4	400	0.5	1	CyberneticAug	FALSE	Passive	FALSE	Body	human cyborg	resist_fire 18 resist_poison 12 resist_beam 18	resist_blunt -20			plastic 2 rubber 2 armor_plates 1															
 superdermal_layer		Common Sunlight Emeraldlight	4	400	0.05	1	CyberneticAug	FALSE	Passive	FALSE	Body	human cyborg	wound_immune_lacer 1 wound_immune_pierce 1	max_health -15			ceramite_plates 2 armor_plates 2 metal_tread 1															
-stealth_skin		Scienece Specops Agent	6	1000	0.05	1	CyberneticAug	FALSE	Active	TRUE	Body	human cyborg		resist_pierce -12 resist_fire -12 resist_beam -12	4		microelectronics_parts 1 electrical_parts_container 1 engineering_parts_container 1															
+stealth_skin		Science Specops Agent	6	1000	0.05	1	CyberneticAug	FALSE	Active	TRUE	Body	human cyborg		resist_pierce -12 resist_fire -12 resist_beam -12	4		microelectronics_parts 1 electrical_parts_container 1 engineering_parts_container 1															
 field_emitter		Common Science Military PMC	3	300	0.05	1	CyberneticAug	FALSE	Active	TRUE	Body	human cyborg		resist_shock -9	3		plastic 1 circuit_board 1 microelectronics_parts 1															
 kinetic_absorber		Common Science Bruiser	5	500	0.05	1	CyberneticAug	FALSE	Utility	FALSE	Body	human cyborg	dmg_to_starvation 10	income_dmg 0.1			circuit_board 1 microelectronics_parts 1															
 metabolic_booster		Common Medical	3	300	0.05	1	CyberneticAug	FALSE	Utility	FALSE	Body	human cyborg	food_calories -0.35	resist_fire -8 resist_poison -8			plastic 1 circuit_board 1 microelectronics_parts 1															
@@ -1328,9 +1330,9 @@ chaos_orb		Shartamakhum	4	500	0.05	1	QuasiAug	FALSE	QuasiActive	TRUE	Body	human 
 ice_crystal		Cattaram	5	500	0.05	1	QuasiAug	FALSE	QuasiActive	TRUE	Shoulder	human quasimorph		qmorph 2																		
 *discharge_gland		Ron	5	500	0.05	1	QuasiAug	FALSE	QuasiActive	TRUE	Head	human quasimorph		qmorph 2																		
 *impaler		Scrivnus	5	500	0.05	1	QuasiAug	FALSE	QuasiActive	TRUE	Arm	human quasimorph		qmorph 2																		
-matrix_interference_generator		None	100	600	0.05	1	CyberneticAug	FALSE	Active	TRUE	Shoulder	human cyborg																				
-matrix_hologram		None	100	500	0.05	1	CyberneticAug	FALSE	Active	TRUE	Arm	human cyborg																				
-matrix_shield		None	100	600	0.05	1	CyberneticAug	FALSE	Active	TRUE	Chest	human cyborg																				
+matrix_interference_generator		none	100	600	0.05	1	CyberneticAug	FALSE	Active	TRUE	Shoulder	human cyborg																				
+matrix_hologram		none	100	500	0.05	1	CyberneticAug	FALSE	Active	TRUE	Arm	human cyborg																				
+matrix_shield		none	100	600	0.05	1	CyberneticAug	FALSE	Active	TRUE	Chest	human cyborg																				
 #end																																
 																																
 #trash																																
@@ -1364,6 +1366,8 @@ quest_mask_guffaws		none	1	0	0.8	1	QuestItem	FALSE	1	QuestItem
 quest_mask_snickers		none	1	0	0.8	1	QuestItem	FALSE	1	QuestItem																						
 quest_mask_screams		none	1	0	0.8	1	QuestItem	FALSE	1	QuestItem																						
 *quest_emp_turret			1	0	0.5	2	QuestItem	FALSE	1	QuestItem																						
+quest_bomb_briefcase		none	1	0	0.5	1	QuestItem	TRUE	1	QuestItem																						
+quest_andreev_emitter		none	1	0	0.5	1	QuestItem	FALSE	1	QuestItem																						
 regular_food_container		Common	1	100	1.1	2	IndustrialBarter	FALSE	1	Container	ration_pack_1 2 ration_pack_2 2 soda_can_1 1 soda_can_2 1 water_bottle_1 2																					
 military_food_container		Military	1	200	1.1	2	MilitaryBarter	FALSE	1	Container	chocolate_pack_1 1 canned_food_1 2 canned_food_2 2 mre_pack_1 2 water_bottle_1 2																					
 luxury_food_container		Management	1	250	0.8	1	ValuableBarter	FALSE	2	Container	candy_1 1 luxury_canned_food_1 1 luxury_ration_pack_1 1 oil_bottle_1 1 luxury_ration_pack_2 1 energy_can_1 1 armagnac_bottle_1 2																					
@@ -1393,7 +1397,7 @@ mining_equipment		Miner	1	175	2.2	2	IndustrialBarter	FALSE	1	BartherResource	arm
 construction_equipment		Worker	1	215	2.2	2	IndustrialBarter	FALSE	1	BartherResource	armor_plates 1 weapon_parts 1 blunt_parts 1 rusty_plates 1 coarse_parts 1 rod_parts 1 ceramite_plates 1 capacitor_parts 1 wire 1 transformer 1																					
 chemical_analyzer		Science Medical	1	120	0.7	1	ScienceBarter	FALSE	1	BartherResource	microelectronics_parts 1 circuit_board 1 lens 1 transformer 1 bulb 1																					
 hydraulic_pump		Worker Miner	1	160	0.8	1	IndustrialBarter	FALSE	1	BartherResource	rusty_plates 1 coarse_parts 1 rod_parts 1 metal_tread 1 wire 1																					
-quasiresearch_disk		Military Science	1	360	0.1	1	ScienceBarter	FALSE	5	BartherResource	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 anulator 1 plastic 1																					
+quasiresearch_disk		Military Science	1	360	0.1	1	ScienceBarter	FALSE	5	BartherResource	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 1																					
 research_disk		Management Science	1	220	0.1	1	ScienceBarter	FALSE	5	BartherResource	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																					
 prototype_schematics		Science Worker Management	1	280	0.1	1	ScienceBarter	FALSE	10	BartherResource																						
 quasisamples		Science Medical	1	200	0.7	1	ScienceBarter	FALSE	5	BartherResource	venus_guts 1 quasi_venus_rags 1 venus_weapon_parts 1 mercury_guts 1 mercury_rags 1 mercury_glass 1 moon_guts 1 moon_weapon_parts 1 moon_armor_plates 1 quasi_ron_medicine_1 1 cattaram_mine 1 skrivnus_knife 1 urparp_grenade 1																					
@@ -1413,7 +1417,7 @@ high_chip		Chip Common Science	7	550	0.1	1	Blueprint	TRUE	ProductionItem	medical
 rwa_chip		RealWare	10	650	0.1	1	Blueprint	TRUE	ProductionItem	military_axe_1 rwa_military_pistol_1 rwa_military_smg_1 rwa_military_assault_1 rwa_heavy_armor_1 rwa_power_armor_1 rwa_light_armor_1 military_shirt_3																						
 sbn_chip		SBN	10	650	0.1	1	Blueprint	TRUE	ProductionItem	sbn_rail_pistol_1 sbn_rail_shotgun_1 sbn_rail_smg_1 sbn_rail_assault_1 sbn_light_armor_1 sbn_medium_armor_1 sbn_heavy_armor_1																						
 anc_chip		AnCom	10	650	0.1	1	Blueprint	TRUE	ProductionItem	anc_quasi_pistol_1 pmc_shotgun_2 anc_shotgun_1 pmc_smg_3 anc_quasi_smg_1 anc_quasi_assault_1 anc_marksman_1 anc_medium_armor_1 anc_medium_armor_2 anc_agent_armor_1 anc_reinforced_shirt_1 medium_cold_ammo																						
-ddr_chip		DaydreamChems	10	650	0.1	1	Blueprint	TRUE	ProductionItem	ddr_disruptor_pistol_1 ddr_disraptor_marksman_1 ddr_frost_shotgun_1 ddr_frost_pistol_1 ddr_toxic_pistol_1 toxic_thrower_1 ddr_toxic_shotgun_1 ddr_poisonknife_1 toxic_grenade frost_grenade ddr_power_armor_1 ddr_chem_coat_1 ddr_reinforced_chem_coat_1																						
+ddr_chip		DaydreamChems	10	650	0.1	1	Blueprint	TRUE	ProductionItem	ddr_disruptor_pistol_1 ddr_disruptor_marksman_1 ddr_frost_shotgun_1 ddr_frost_pistol_1 ddr_toxic_pistol_1 toxic_thrower_1 ddr_toxic_shotgun_1 ddr_poisonknife_1 toxic_grenade frost_grenade ddr_power_armor_1 ddr_chem_coat_1 ddr_reinforced_chem_coat_1																						
 sun_chip		Sunlight Emeraldlight	10	650	0.1	1	Blueprint	TRUE	ProductionItem	sun_laser_pistol_1 sun_laser_shotgun_1 sun_laser_sniper_1 sun_power_armor_1 sun_laser_assault_1 sun_laser_marksman_1 sun_servo_backpack_1 sun_laser_powersword_1 rocket_nuke_ammo sun_medium_armor_1																						
 cor_chip		CoreWard	10	650	0.1	1	Blueprint	TRUE	ProductionItem	military_shovel_1 cor_worker_pistol_1 cor_worker_hmg_1 cor_laser_sniper_1 cor_worker_discthrower_1 cor_worker_flamethrower_1 cor_hmg_1 miner_reinforced_shirt_1 miner_power_armor_1																						
 plb_chip		PlanetBridge	10	650	0.1	1	Blueprint	TRUE	ProductionItem	rail_marksman_1 plb_worker_shockgun_1 miner_shirt_1 miner_medium_armor_1 plb_pistol_1 plb_smg_1 plb_hmg_1 plb_medium_armor_1 plb_power_armor_1																						
@@ -1429,15 +1433,15 @@ augment_chip		Chip Common Science	5	500	0.1	1	Blueprint	TRUE	ProductionItem	cybo
 																																
 #expgainers																																
 Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	CanPutInVest	MaxStack	ExpAmount	ExpPerkCount	AllowedPerkIds	Disassembly																			
-gunbang_magazine		Common Military	1			1	Data	FALSE	10	300	3	fire_transfer cold_weapon_wielding heavy_weaponary grenadier handmade_shotgun_ammo precise_shot enhanced_heavy_ammo last_bullet unconventional_munitions																				
-management_unit		Management	1			1	Data	FALSE	10	300	3	gear_maintenance stationary_defense reinforced_battery lightweight_gear duty_shift reactivation death_over_chains cyber_compatibility central_command	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
-darknet_unit		Prison	1			1	Data	FALSE	10	300	3	cannibalism cautious dirty_shot revealing_flame muffled ghost_killer possession pyromaniac sandman	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
-military_unit		Military	1			1	Data	FALSE	10	300	3	military_training cqc_specialist reaction_training shock_awe sniper_training devastation_tactic piersing_burst tactical_camouflage cheap_shot	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
-memory_software		Common Management Science	1			1	Data	FALSE	10	300	3	battle_concentration assault_reflex battle_physicist agent_training insanity terminator tomahawk blurred_silhouette krav_maga	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
-entertainment_software		Common Management	1			1	Data	FALSE	10	300	3	blind_fury berserkgang carnage spray_and_pray war_crime blind_shot masochism cobra_throw cyberpsychosis	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
+gunbang_magazine		Common Military	1	70	0.1	1	Data	FALSE	10	300	3	fire_transfer cold_weapon_wielding heavy_weaponary grenadier handmade_shotgun_ammo precise_shot enhanced_heavy_ammo last_bullet unconventional_munitions																				
+management_unit		Management	1	130	0.1	1	Data	FALSE	10	300	3	gear_maintenance stationary_defense reinforced_battery lightweight_gear duty_shift reactivation death_over_chains cyber_compatibility central_command	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
+darknet_unit		Prison	1	180	0.1	1	Data	FALSE	10	300	3	cannibalism cautious dirty_shot revealing_flame muffled ghost_killer possession pyromaniac sandman	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
+military_unit		Military	1	160	0.1	1	Data	FALSE	10	300	3	military_training cqc_specialist reaction_training shock_awe sniper_training devastation_tactic piersing_burst tactical_camouflage cheap_shot	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
+memory_software		Common Management Science	1	110	0.1	1	Data	FALSE	10	300	3	battle_concentration assault_reflex battle_physicist agent_training insanity terminator tomahawk blurred_silhouette krav_maga	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
+entertainment_software		Common Management	1	140	0.1	1	Data	FALSE	10	300	3	blind_fury berserk_gang carnage spray_and_pray war_crime blind_shot masochism cobra_throw cyberpsychosis	microelectronics_parts 1 capacitor_parts 1 circuit_board 1 transformer 1 bulb 1 lens 1 wire 1 plastic 2																			
 pills_steroids		Common Medical Military Security	1	150	0.1	1	Data	FALSE	10	300	3	athletics vicious_symbiosis cauterize fear_and_hunger axe_rage pressure_points steel_without lizard bodybuilding																				
-expert_disk		Management Science Worker	1			1	Data	FALSE	10	300	3	selfhealing covermaster shielding enemy_anatomy first_aid therapist steel_within recharge_on_reload																				
-ledger_book		Management	1			1	Data	FALSE	10	300	3	marauder scholar ritualism medicus hidden_potential surgeon backward_compatibility direct_channel																				
+expert_disk		Management Science Worker	1	90	0.1	1	Data	FALSE	10	300	3	selfhealing covermaster shielding enemy_anatomy first_aid therapist steel_within recharge_on_reload																				
+ledger_book		Management	1	100	0.4	1	Data	FALSE	10	300	3	marauder scholar ritualism medicus hidden_potential surgeon backward_compatibility direct_channel																				
 #end																																
 																																
 #pactcomponents																																
@@ -1446,6 +1450,7 @@ quasi_medical_kit_1										gavvakh	100	25
 quasi_repair_kit										siaira	100	25																				
 demonic_eye										agga	100	25																				
 ron_blood										shavva	100	25																				
+ron_moonshine										shavva	120	15																				
 precious_metals										eon	110	25																				
 human_poop		Prison Civilian Possessed Medical	1	1	0.1	1	Organ	FALSE	10	eon	50	25																				
 human_rib										shavva	50	25																				
@@ -1476,6 +1481,7 @@ rotten_dog_meat										siaira	95	10
 roasted_dog_meat										siaira	85	20																				
 dog_skin										siaira	70	25																				
 human_organ_1										siaira	90	12																				
+candy_1										siaira	80	10																				
 venus_guts		Gannix	1	40	0.2	1	QuasiOrgan	FALSE	20	gavvakh	130	20																				
 quasi_venus_rags										siaira	100	20																				
 quasi_venus_feather										siaira	130	15																				
@@ -1513,4 +1519,5 @@ jupiter_goulash										gavvakh	120	40
 jupiter_mushrooms										gavvakh	100	30																				
 jupiter_grass										shavva	130	15																				
 jupiter_guts		Flauros	1	40	0.2	1	QuasiOrgan	FALSE	20	shavva	120	25																				
+spore_mine										gavvakh	120	20																				
 #end																																

@@ -1,306 +1,309 @@
-#itemtraits																									
-Id	ItemTraitType	TraitContext	IsNegative	Parameters	TooltipIconTag																				
-perfect_throw	WeaponTrait	Passive	FALSE	BThrowAutoHit true	traits_perfect_throw																				
-piercing_throw	WeaponTrait	Passive	FALSE	BPiercingThrow true	traits_piercing_throw																				
-mutiliating	WeaponTrait	Passive	FALSE	BMutilate true	traits_mutiliating																				
-cleave	WeaponTrait	Passive	FALSE	BMeleeCleave true	traits_cleave																				
-sweep	WeaponTrait	Passive	FALSE	IMeleeSweep 2	traits_cleave																				
-offhand	WeaponTrait	Passive	FALSE	FOffHandCritBonus 0.08	traits_offhand																				
-single_load	WeaponTrait	Passive	TRUE	BSingleLoad true	traits_single_load																				
-extra_knockback	WeaponTrait	Passive	FALSE	BExtraKnockback true	traits_extra_knockback																				
-painful_crits	WeaponTrait	Passive	FALSE	FPainCritMult 3	traits_painful_crits																				
-suppressor	WeaponTrait	Passive	FALSE	BSuppressor true	traits_suppressor																				
-wounding_pierce	WeaponTrait	Passive	FALSE	FPiercingTrauma 1	traits_wounding_pierce																				
-piercing	WeaponTrait	Passive	FALSE	FPierce 0.7	traits_piercing																				
-full_piercing	WeaponTrait	Passive	FALSE	FPierce 1	traits_piercing																				
-armor_pen	AmmoTrait	Passive	FALSE	FArmorPenetration 0.35	traits_armor_pen																				
-incendiary	AmmoTrait	Passive	FALSE	FIncendiaryChance 0.15	traits_incendiary																				
-heavy_incendiary	AmmoTrait	Passive	FALSE	FIncendiaryChance 0.75	traits_incendiary																				
-fires	AmmoTrait	Passive	FALSE	FFireSpread 0.12 IStartSpreadDistance 2	traits_fires																				
-toxic	AmmoTrait	Passive	FALSE	FToxicSpread 0.2 IStartSpreadDistance 2	traits_toxic																				
-heavy_fires	AmmoTrait	Passive	FALSE	FFireSpread 0.8 IStartSpreadDistance 2	traits_fires																				
-heavy_toxic	AmmoTrait	Passive	FALSE	FToxicSpread 0.8 IStartSpreadDistance 2	traits_toxic																				
-heavy_water	AmmoTrait	Passive	FALSE	FWaterSpread 0.8 IStartSpreadDistance 0	traits_water																				
-painful	AmmoTrait	Passive	FALSE	FPainDamageMult 1.6	traits_painful																				
-knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.26	traits_knockback																				
-heavy_knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.70	traits_knockback																				
-knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.12 IEnemyStunDuration 1	traits_knockdown																				
-heavy_knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.76 IEnemyStunDuration 1	traits_knockdown																				
-ramp_up	WeaponTrait	Passive	FALSE	IRampUpProjectiles 1	traits_ramp_up																				
-unthrowable	WeaponTrait	Passive	TRUE	BUnthrowable true	traits_unthrowable																				
-selfcharging	WeaponTrait	Passive	FALSE	BSelfcharging true	traits_selfcharging																				
-critical_throw	WeaponTrait	Passive	FALSE	BThrowAutoCrit true	traits_critical_throw																				
-wounding	AmmoTrait	Passive	FALSE	FDoWoundChance 0.40	traits_wounding_pierce																				
-fragile	WeaponTrait	Passive	TRUE	IFragile 5	traits_fragile																				
-unwieldy	WeaponTrait	Passive	TRUE	FUnwieldyMult 0.8	traits_unwieldy																				
-heavy_weapon	WeaponTrait	Passive	TRUE	BHeavyWeapon true	traits_heavy_weapon																				
-overheat	WeaponTrait	Passive	TRUE	IOverheatDurability 1	traits_overheat																				
-overclock	WeaponTrait	Passive	FALSE	IOverclockDamage 15	traits_overclock																				
-bipod	WeaponTrait	Passive	FALSE	FBipodScatter -0.5 FBipodAccuracy 0.3	traits_bipod																				
-optic_sight	WeaponTrait	Passive	FALSE	IEffRangeStarts 4	traits_optic_sight																				
-explosive	AmmoTrait	Passive	FALSE	SExplosive rocket_basic_explosion	trait_inherit_damage																				
-explosive_light_flak	AmmoTrait	Passive	FALSE	SExplosive flak_low_explosion	trait_inherit_damage																				
-explosive_flak	AmmoTrait	Passive	FALSE	SExplosive flak_explosion	trait_inherit_damage																				
-explosive_shotgun	AmmoTrait	Passive	FALSE	SExplosive shotgun_explosion	trait_inherit_damage																				
-explosive_fire	AmmoTrait	Passive	FALSE	SExplosive rocket_fire_explosion	traits_incendiary																				
-explosive_poison	AmmoTrait	Passive	FALSE	SExplosive rocket_poison_explosion	traits_toxic																				
-explosive_quasi	AmmoTrait	Passive	FALSE	SExplosive rocket_quasi_explosion	trait_inherit_damage																				
-explosive_hfg	AmmoTrait	Passive	FALSE	SExplosive hfg_explosion	trait_inherit_damage																				
-ricochet	AmmoTrait	Passive	FALSE	IRicochet 5 IMaxDistance 15	traits_ricochet																				
-collimator	WeaponTrait	Passive	FALSE	FFalloffBonus -0.12	traits_collimator																				
-laser_sight	WeaponTrait	Passive	FALSE	BLaserSight true	traits_laser_sight																				
-corrosive	AmmoTrait	Passive	FALSE	FCorrosiveEffect 0.8	traits_corrosive																				
-backstab	WeaponTrait	Passive	FALSE	FBackstabCritChance 0.6 FBackstabCritDmg 1.5	traits_backstab																				
-suppressive_fire	WeaponTrait	Passive	FALSE	FSuppressedAccuracy 0.6	traits_suppressive_fire																				
-mark_target	WeaponTrait	Passive	FALSE	IMarkCritVulnerableDuration 3	traits_suppressive_fire																				
-#end																									
-																									
-#explosions																									
-Id		Parameters.VisualExplosion	Parameters.Radius	Parameters.DistanceDamageFalloff	Parameters.GainDmgToCreature	Parameters.SelfDamaging	Parameters.GainDmgToLocation	Parameters.GainDmgToMonolith	Parameters.Damage	Parameters.DamageType	Parameters.WoundChance	Parameters.Throwback	Parameters.ThrowbackChance	Parameters.ThrowbackDependOnRadius	Parameters.Stun	Parameters.StunChance	Parameters.StunDuration	Parameters.StunDependOnRadius	Parameters.PropagateFire	Parameters.PropagateFireChance	Parameters.LargeFireChance	Parameters.FireDependOnRadius	Parameters.PropagateLiquid	Parameters.LiquidType	Parameters.Disintegrate
-blob_death_explosion		FALSE	2	2	TRUE	FALSE	TRUE	FALSE	50	blunt	0.7	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-mercury_death_explosion		FALSE	2	2	TRUE	FALSE	FALSE	FALSE	40	poison	1.5	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-cattaram_explosion		TRUE	4	2	TRUE	TRUE	TRUE	FALSE	100	explosion	1.1	TRUE	0.4	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE
-frag_big_explosion		TRUE	3	2	TRUE	TRUE	FALSE	FALSE	125	explosion	1.5	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE
-frag_explosion		TRUE	3	1	TRUE	TRUE	FALSE	FALSE	100	explosion	1.2	TRUE	0.8	TRUE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE
-he_explosion		TRUE	1	3	TRUE	TRUE	TRUE	FALSE	120	blunt	1.4	TRUE	1	FALSE	TRUE	0.5	1	FALSE	TRUE	0.1	10	TRUE	FALSE	Red	FALSE
-quasi_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	85	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-thermal_explosion		TRUE	2	2	FALSE	TRUE	FALSE	FALSE	20	fire	0	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.75	70	TRUE	FALSE	Red	FALSE
-stun_explosion		TRUE	3	2	FALSE	TRUE	FALSE	FALSE	0	shock	0	FALSE	0	FALSE	TRUE	1	4	TRUE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-electronic_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	36	shock	0.5	FALSE	0	FALSE	TRUE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-heart_explosion		FALSE	0	1	TRUE	TRUE	FALSE	FALSE	10	blunt	0.1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE
-bloodBarrel_explosion		TRUE	1	1	FALSE	TRUE	FALSE	FALSE	0	blunt	0	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE
-fuel_barrel_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	40	fire	0.2	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.8	30	TRUE	FALSE	Red	FALSE
-toxic_barrel_explosion		TRUE	2	1	TRUE	FALSE	FALSE	FALSE	40	poison	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Toxic	FALSE
-frost_barrel_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	50	cold	0.8	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Water	FALSE
-frag_low_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	90	explosion	0.7	TRUE	0.6	TRUE	FALSE	0	0	FALSE	TRUE	0.03	6	TRUE	FALSE	Red	FALSE
-thermal_low_explosion		TRUE	1	2	FALSE	TRUE	FALSE	FALSE	10	fire	0	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.7	55	FALSE	FALSE	Red	FALSE
-toxic_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	50	poison	0.2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Toxic	FALSE
-frost_explosion		TRUE	1	2	TRUE	TRUE	FALSE	FALSE	95	cold	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Water	FALSE
-urparp_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	75	plasma	0.5	TRUE	0.3	FALSE	FALSE	0	0	FALSE	TRUE	0.6	0	TRUE	FALSE	Red	FALSE
-thermal_big_explosion		FALSE	4	3	TRUE	TRUE	FALSE	FALSE	40	fire	0.2	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.85	70	TRUE	FALSE	Red	FALSE
-nano_explosion		FALSE	2	1	TRUE	TRUE	TRUE	FALSE	140	plasma	0	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0	0	FALSE	FALSE	Red	TRUE
-phase_explosion		TRUE	4	2	TRUE	TRUE	TRUE	TRUE	150	chaos	0.4	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE
-fake_explosion		TRUE	3	1	TRUE	TRUE	TRUE	FALSE	90	explosion	0.7	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE
-orbital_explosion		TRUE	4	1	TRUE	TRUE	TRUE	FALSE	125	explosion	0.5	TRUE	1	TRUE	TRUE	1	1	TRUE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE
-knife_explosion		FALSE	0	1	TRUE	TRUE	FALSE	FALSE	60	pierce	2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-skrivnus_explosion		FALSE	0	1	TRUE	TRUE	FALSE	FALSE	90	lacer	3	FALSE	1	FALSE	TRUE	1	1	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-hfg_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	300	plasma	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	TRUE
-flak_low_explosion		TRUE	1	3	TRUE	TRUE	FALSE	FALSE	18	explosion	1.2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-flak_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	55	pierce	1.4	TRUE	0.2	TRUE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-shotgun_explosion		TRUE	2	1	TRUE	TRUE	FALSE	FALSE	45	explosion	1.2	TRUE	0.3	TRUE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-rocket_basic_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	90	explosion	1.2	TRUE	0.75	TRUE	FALSE	0	0	FALSE	TRUE	0.05	10	TRUE	FALSE	Red	FALSE
-rocket_fire_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	75	fire	0.8	TRUE	0.1	FALSE	FALSE	0	0	FALSE	TRUE	0.65	45	TRUE	FALSE	Red	FALSE
-rocket_poison_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	50	poison	2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Toxic	FALSE
-rocket_quasi_explosion		TRUE	2	3	TRUE	TRUE	FALSE	FALSE	85	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.25	0	FALSE	FALSE	Red	FALSE
-cortex_bomb_explosion		TRUE	5	2	TRUE	TRUE	FALSE	FALSE	150	explosion	1.5	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE
-seismic_explosion		TRUE	4	1	TRUE	FALSE	TRUE	FALSE	80	blunt	1	TRUE	0.9	FALSE	TRUE	0.6	1	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-field_emitter_explosion		TRUE	5	2	TRUE	FALSE	FALSE	FALSE	12	shock	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-ultravoice_explosion		TRUE	5	2	FALSE	FALSE	FALSE	FALSE	0	shock	0	FALSE	0	FALSE	TRUE	1	4	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-magnetic_generator_explosion		TRUE	5	1	FALSE	FALSE	FALSE	FALSE	0	shock	0	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-crystal_explosion		TRUE	1	3	TRUE	TRUE	TRUE	FALSE	80	explosion	1.4	TRUE	1	FALSE	TRUE	0.5	1	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-shards_explosion		TRUE	1	3	TRUE	TRUE	TRUE	FALSE	80	explosion	1.4	TRUE	1	FALSE	TRUE	0.5	1	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-bone_explosion		TRUE	1	3	TRUE	TRUE	FALSE	FALSE	55	pierce	0.7	TRUE	0.2	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE
-spike_explosion		TRUE	0	1	TRUE	TRUE	FALSE	FALSE	55	pierce	0.7	TRUE	0.2	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE
-blood_blast_explosion		TRUE	1	2	TRUE	TRUE	FALSE	FALSE	40	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-blood_spike_explosion		TRUE	0	1	TRUE	TRUE	FALSE	FALSE	65	pierce	2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-mars_explosion		TRUE	2	3	TRUE	TRUE	TRUE	FALSE	75	plasma	1.2	TRUE	0.6	TRUE	FALSE	0.7	2	TRUE	TRUE	0.8	50	TRUE	FALSE	Red	FALSE
-mars_big_explosion		TRUE	4	2	TRUE	TRUE	TRUE	FALSE	120	plasma	1.2	TRUE	0.8	TRUE	FALSE	0.85	2	TRUE	TRUE	0.85	45	TRUE	FALSE	Red	FALSE
-shatter_explosion		TRUE	3	1	TRUE	TRUE	FALSE	FALSE	100	explosion	1.2	TRUE	0.8	TRUE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE
-translocation_explosion		TRUE	2	3	TRUE	TRUE	TRUE	FALSE	65	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-meteor_explosion		TRUE	2	3	TRUE	TRUE	TRUE	FALSE	65	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-spore_explosion		TRUE	3	1	TRUE	TRUE	FALSE	FALSE	35	poison	0.4	FALSE	0	FALSE	TRUE	0.85	1	TRUE	FALSE	0	0	FALSE	FALSE	Toxic	FALSE
-pandemic_explosion		TRUE	3	1	TRUE	TRUE	FALSE	FALSE	35	poison	0.4	FALSE	0	FALSE	TRUE	0.85	1	TRUE	FALSE	0	0	FALSE	FALSE	Toxic	FALSE
-ron_explosion		TRUE	4	3	TRUE	FALSE	FALSE	FALSE	60	shock	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-orb_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	85	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-impaler_explosion		TRUE	0	1	TRUE	TRUE	FALSE	FALSE	55	pierce	0.7	TRUE	0.2	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE
-matrix_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	85	shock	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-#end																									
-																									
-#projectiles																									
-Id	Speed	MakeBloodDecals																							
-continues_laser	50	FALSE																							
-continues_mercury	50	FALSE																							
-continues_quasi_laser	50	FALSE																							
-continues_ultimate_ray	50	FALSE																							
-disk	18	TRUE																							
-matrix	18	TRUE																							
-disruptor	12	FALSE																							
-disruptor_small	12	FALSE																							
-flame_thrower	10	FALSE																							
-frost	12	FALSE																							
-heavy	20	TRUE																							
-heavy_thermal	20	TRUE																							
-hfg	9	FALSE																							
-laser	20	FALSE																							
-lighting	20	FALSE																							
-lighting_small	20	FALSE																							
-melta_beam	20	FALSE																							
-melta_small_beam	20	FALSE																							
-microwave	20	FALSE																							
-nail	20	TRUE																							
-quasi_nail	20	TRUE																							
-pistol	20	TRUE																							
-plasma	14	FALSE																							
-plasma_shrapnel	18	FALSE																							
-plasma_charge	12	FALSE																							
-quasi_beam	50	FALSE																							
-quasi_bolt	20	FALSE																							
-quasi_dart	20	TRUE																							
-quasi_laser	20	FALSE																							
-quasi_charge	12	FALSE																							
-shrapnel	20	TRUE																							
-sound	14	FALSE																							
-tech_frost	12	FALSE																							
-tech_frost_shrapnel	12	FALSE																							
-thermal	20	FALSE																							
-thermal_shrapnel	20	FALSE																							
-toxic	20	TRUE																							
-toxic_thrower	10	FALSE																							
-extinguisher_thrower	10	FALSE																							
-rocket	10	FALSE																							
-small_rocket	10	FALSE																							
-web_bolt	9	FALSE																							
-scrivnus_bone	9	TRUE																							
-flauros_fly_bullet	9	FALSE																							
-knife	14	TRUE																							
-axe	14	TRUE																							
-shuriken	14	TRUE																							
-bottle	10	TRUE																							
-#end																									
-																									
-#firemodes																									
-Id		AmmoPerShot	WeaponCastsCount	RequiredAllAmmoToShot	Accuracy	DamageMult	ScatterAngle	DelayInSecsBetweenShots																	
-stab_power_2		2	2	FALSE	0.2	1.05	0	0.45																	
-shotgun_unload_6		6	6	FALSE	0.2	1	3.2	0.025																	
-pistol_8		8	8	FALSE	-0.2	1	7.2	0.035																	
-launcher_venus_1		5	1	FALSE	0.3	1	4	0																	
-launcher_mars_1		10	1	FALSE	0.3	1	4	0																	
-launcher_mars_2		20	2	FALSE	0.15	1	4.4	0.06																	
-flamethrower_1		10	1	TRUE	1	1	3	0.05																	
-stab_3		0	3	FALSE	-0.2	0.55	0	0.35																	
-stab_1		0	1	FALSE	0	1	0	0																	
-injection_1		1	1	FALSE	0	1.65	0	0																	
-slash_2		0	2	FALSE	0	0.9	0	0.5																	
-stab_2		0	2	FALSE	0.2	0.7	0	0.5																	
-slash_1		0	1	FALSE	0.2	1.6	0	0																	
-slash_power_2		2	2	TRUE	0	1.35	0	0.45																	
-slash_power_1		1	1	FALSE	0.15	1.9	0	0																	
-smash_1		0	1	FALSE	0	1.2	0	0																	
-smash_2		0	2	FALSE	-0.1	0.55	0	0.45																	
-smash_power_1		1	1	FALSE	0	1.6	0	0																	
-breaker		1	1	FALSE	0	1.6	0	0																	
-smash_power_2		1	2	FALSE	-0.1	0.75	0	0.45																	
-chop_strong_1		0	1	FALSE	0	1.1	0	0																	
-chop_2		0	2	FALSE	0.15	0.45	0	0.4																	
-chop_precise_1		0	1	FALSE	0.15	0.85	0	0																	
-punch_1		0	1	FALSE	0	1	0	0																	
-claw_1		0	1	FALSE	0	1	0	0																	
-hfg_1		40	1	TRUE	1	1	2	0																	
-disc_1		1	1	FALSE	0.3	1	3	0																	
-disc_2		2	2	FALSE	0.15	1	3.5	0.06																	
-disc_3		3	3	FALSE	0.05	1	4	0.05																	
-disc_4		4	4	FALSE	0	1	4.4	0.05																	
-shotgun_1		1	1	FALSE	0.3	1	3	0																	
-shotgun_2		2	2	FALSE	0.15	1	3.5	0.06																	
-shotgun_3		3	3	FALSE	0.05	1	4	0.05																	
-shotgun_4		4	4	FALSE	0	1	4.4	0.05																	
-shotgun_5		5	5	FALSE	-0.1	1	4.8	0.045																	
-shotgun_wide_1		1	1	FALSE	0.35	1	17	0																	
-shotgun_narrow_1		1	1	FALSE	0.2	1	1.3	0																	
-shotgun_unload_2		2	2	FALSE	0.2	1	3.2	0.025																	
-rifle_1		1	1	FALSE	0.3	1	3	0																	
-rifle_2		2	2	FALSE	0.15	1	3.5	0.06																	
-rifle_3		3	3	FALSE	0.05	1	4	0.05																	
-rifle_4		4	4	FALSE	0	1	4.4	0.05																	
-rifle_5		5	5	FALSE	-0.1	1	4.8	0.045																	
-rifle_6		6	6	FALSE	-0.15	1	5.6	0.04																	
-rifle_8		8	8	FALSE	-0.2	1	7.2	0.035																	
-pistol_1		1	1	FALSE	0.3	1	3	0																	
-pistol_2		2	2	FALSE	0.15	1	3.5	0.06																	
-pistol_3		3	3	FALSE	0.05	1	4	0.05																	
-pistol_4		4	4	FALSE	0	1	4.4	0.05																	
-pistol_5		5	5	FALSE	-0.1	1	4.8	0.045																	
-pistol_6		6	6	FALSE	-0.15	1	5.6	0.04																	
-quasi_1		1	1	FALSE	0.3	1	3	0																	
-quasi_2		2	2	FALSE	0.15	1	3.5	0.06																	
-quasi_3		3	3	FALSE	0.05	1	4	0.05																	
-quasi_4		4	4	FALSE	0	1	4.4	0.05																	
-quasi_5		5	5	FALSE	-0.1	1	4.8	0.045																	
-quasi_6		6	6	FALSE	-0.15	1	5.6	0.04																	
-quasi_8		8	8	FALSE	-0.2	1	7.2	0.035																	
-pulse_1		1	1	FALSE	0.3	1	3	0																	
-pulse_2		2	2	FALSE	0.15	1	3.5	0.06																	
-pulse_3		3	3	FALSE	0.05	1	4	0.05																	
-pulse_4		4	4	FALSE	0	1	4.4	0.05																	
-pulse_5		5	5	FALSE	-0.1	1	4.8	0.045																	
-beam_1		1	1	FALSE	0.3	1	3	0																	
-beam_2		2	2	FALSE	0.15	1	3.5	0.06																	
-beam_3		3	3	FALSE	0.05	1	4	0.05																	
-beam_4		4	4	FALSE	0	1	4.4	0.05																	
-beam_5		5	5	FALSE	-0.1	1	4.8	0.045																	
-beam_8		8	8	FALSE	-0.2	1	7.2	0.035																	
-beam_unload_3		3	3	FALSE	0.2	1	3.2	0.025																	
-beam_power_1		4	1	FALSE	0.3	1.8	3.3	0																	
-beam_power_2		3	1	FALSE	0.3	1.8	3.3	0																	
-plasma_1		1	1	FALSE	0.3	1	3	0																	
-plasma_2		2	2	FALSE	0.15	1	3.5	0.06																	
-plasma_3		3	3	FALSE	0.05	1	4	0.05																	
-plasma_4		4	4	FALSE	0	1	4.4	0.05																	
-plasma_5		5	5	FALSE	-0.1	1	4.8	0.045																	
-plasma_6		6	6	FALSE	-0.15	1	5.6	0.04																	
-plasma_8		8	8	FALSE	-0.2	1	7.2	0.035																	
-lightning_1		1	1	FALSE	0.3	1	3	0																	
-lightning_2		2	2	FALSE	0.15	1	3.5	0.06																	
-lightning_4		4	4	FALSE	0.05	1	4.4	0.05																	
-lightning_8		8	8	FALSE	-0.2	1	7.2	0.035																	
-launcher_1		1	1	FALSE	0.3	1	4	0																	
-#end																									
-																									
-#armorsets																									
-Id		Items																							
-fa_scale		dil_light_armor_1 dil_light_helmet_1 dil_light_pants_1 dil_light_boots_1																							
-pointsman		police_medium_armor_1 police_medium_helmet_1 police_medium_pants_1 police_medium_boots_1																							
-cerberus		fra_heavy_armor_1 fra_heavy_mask_1 fra_heavy_pants_1 fra_heavy_boots_1																							
-chu_priest		chu_manager_shirt_1 chu_manager_mask_1 chu_manager_pants_1 chu_manager_boots_1																							
-pattern_seraphim		chu_power_armor_1 chu_power_helmet_1 chu_power_pants_1 chu_power_boots_1																							
-miner_foreman		miner_shirt_1 miner_hard_cap_1 miner_pants_1 miner_boots_1																							
-ironclad		miner_medium_armor_1 miner_medium_helmet_1 miner_medium_pants_1 miner_medium_boots_1																							
-gehenna		miner_power_armor_1 miner_power_helmet_1 miner_power_pants_1 miner_power_boots_1																							
-tunneler		miner_reinforced_shirt_1 miner_hard_cap_2 miner_reinforced_pants_1 miner_reinforced_boots_1																							
-pattern_prophet		sun_power_armor_1 sun_power_helmet_1 sun_power_pants_1 sun_power_boots_1																							
-hazmat		ddr_chem_coat_1 ddr_chem_helmet_1 ddr_chem_pants_1 ddr_chem_boots_1																							
-eliminator		ddr_reinforced_chem_coat_1 ddr_reinforced_chem_helmet_1 ddr_reinforced_chem_pants_1																							
-pattern_vivisection		ddr_power_armor_1 ddr_power_helmet_1 ddr_power_pants_1 ddr_power_boots_1																							
-pattern_mystery		anc_medium_armor_1 anc_medium_helmet_1 anc_medium_pants_1 anc_medium_boots_1																							
-arbiter		anc_medium_armor_2 anc_medium_mask_1 anc_medium_pants_2 anc_medium_boots_2																							
-pattern_shadow		anc_agent_armor_1 anc_agent_mask_1 anc_agent_pants_1 anc_agent_boots_1																							
-blue_guard		anc_reinforced_shirt_1 anc_reinforced_pants_1 anc_reinforced_hat_1																							
-pattern_dawn		sbn_light_armor_1 sbn_light_helmet_1 sbn_light_pants_1 sbn_light_boots_1																							
-pattern_aurora		sbn_medium_armor_1 sbn_medium_helmet_1 sbn_medium_pants_1 sbn_medium_boots_1																							
-myrmidon		sbn_heavy_armor_1 sbn_heavy_helmet_1 sbn_heavy_pants_1 sbn_heavy_boots_1																							
-commando		military_shirt_3 military_light_helmet_1 military_pants_2																							
-pattern_bloodbath		rwa_light_armor_1 rwa_light_helmet_2 rwa_light_pants_1 rwa_light_boots_1																							
-pattern_carnage		rwa_heavy_armor_1 rwa_heavy_helmet_1 rwa_heavy_pants_1 rwa_heavy_boots_1																							
-pattern_warlord		rwa_power_armor_1 rwa_power_helmet_1 rwa_power_pants_1 rwa_power_boots_1																							
-frame_power		military_power_armor_1 military_power_helmet_1 military_power_pants_1 military_power_boots_1																							
-legend		military_heavy_armor_1 military_heavy_helmet_1 military_heavy_pants_1 military_heavy_boots_1																							
-cadet		military_medium_armor_1 military_medium_helmet_1 military_medium_pants_1 military_medium_boots_1																							
-ibn_sina		medical_heavy_armor_1 medical_heavy_helmet_1 medical_heavy_pants_1 medical_heavy_boots_1																							
-vimes		police_reinforced_shirt_1 police_cap_2 police_pants_2 police_boots_2																							
-clobber		police_heavy_armor_1 police_heavy_helmet_2 police_heavy_pants_1 police_heavy_boots_1																							
-eva_spacesuit		laborer_medium_armor_1 laborer_medium_helmet_1 laborer_medium_pants_1 laborer_medium_boots_1																							
-glory		military_light_armor_1 military_light_gasmask_1 military_light_pants_1 military_light_boots_1																							
-corpsman		military_doc_armor_1 military_doc_helmet_1 military_doc_pants_1																							
-med_hazmat		medical_chem_shirt_1 medical_chem_helmet_1 medical_chem_pants_1																							
-science_wear		science_reinforced_shirt_1 science_gasmask_1 science_reinforced_pants_1 science_reinforced_boots_1																							
-science_hazmat		science_chem_shirt_1 science_chem_helmet_1 science_chem_pants_1 science_chem_boots_1																							
-frostman		laborer_warm_shirt_1 laborer_warm_hat_1 laborer_warm_pants_1 laborer_warm_boots_1																							
-pirogov		medical_medium_armor_1 medical_medium_helmet_1 medical_medium_pants_1 medical_medium_boots_1																							
-karnonos		sun_medium_armor_1 sun_medium_helmet_1 sun_medium_pants_1 sun_medium_boots_1																							
-dustline		grh_light_armor_1 grh_light_helmet_1 grh_light_pants_1 grh_light_boots_1																							
-stratum		plb_medium_armor_1 plb_medium_helmet_1 plb_medium_pants_1 plb_medium_boots_1																							
-integumentum		plb_power_armor_1 plb_power_helmet_1 plb_power_pants_1 plb_power_boots_1																							
-renli		tia_shirt_1 tia_gasmask_1 tia_pants_1 tia_boots_1																							
-yongli		tia_light_armor_1 tia_light_helmet_1 tia_light_pants_1 tia_light_boots_1																							
-shenli		tia_heavy_armor_1 tia_heavy_helmet_1 tia_heavy_pants_1 tia_heavy_boots_1																							
-#end																									
+#itemtraits																												
+Id	ItemTraitType	TraitContext	IsNegative	Parameters	TooltipIconTag																							
+perfect_throw	WeaponTrait	Passive	FALSE	BThrowAutoHit true	traits_perfect_throw																							
+piercing_throw	WeaponTrait	Passive	FALSE	BPiercingThrow true	traits_piercing_throw																							
+mutiliating	WeaponTrait	Passive	FALSE	BMutilate true	traits_mutiliating																							
+cleave	WeaponTrait	Passive	FALSE	BMeleeCleave true	traits_cleave																							
+sweep	WeaponTrait	Passive	FALSE	IMeleeSweep 2	traits_cleave																							
+offhand	WeaponTrait	Passive	FALSE	FOffHandCritBonus 0.08	traits_offhand																							
+single_load	WeaponTrait	Passive	TRUE	BSingleLoad true	traits_single_load																							
+extra_knockback	WeaponTrait	Passive	FALSE	BExtraKnockback true	traits_extra_knockback																							
+painful_crits	WeaponTrait	Passive	FALSE	FPainCritMult 3	traits_painful_crits																							
+suppressor	WeaponTrait	Passive	FALSE	BSuppressor true	traits_suppressor																							
+wounding_pierce	WeaponTrait	Passive	FALSE	FPiercingTrauma 1	traits_wounding_pierce																							
+piercing	WeaponTrait	Passive	FALSE	FPierce 0.7	traits_piercing																							
+full_piercing	WeaponTrait	Passive	FALSE	FPierce 1	traits_piercing																							
+armor_pen	AmmoTrait	Passive	FALSE	FArmorPenetration 0.35	traits_armor_pen																							
+incendiary	AmmoTrait	Passive	FALSE	FIncendiaryChance 0.15	traits_incendiary																							
+heavy_incendiary	AmmoTrait	Passive	FALSE	FIncendiaryChance 0.75	traits_incendiary																							
+fires	AmmoTrait	Passive	FALSE	FFireSpread 0.12 IStartSpreadDistance 2	traits_fires																							
+toxic	AmmoTrait	Passive	FALSE	FToxicSpread 0.2 IStartSpreadDistance 2	traits_toxic																							
+heavy_fires	AmmoTrait	Passive	FALSE	FFireSpread 0.8 IStartSpreadDistance 2	traits_fires																							
+heavy_toxic	AmmoTrait	Passive	FALSE	FToxicSpread 0.8 IStartSpreadDistance 2	traits_toxic																							
+heavy_water	AmmoTrait	Passive	FALSE	FWaterSpread 0.8 IStartSpreadDistance 0	traits_water																							
+painful	AmmoTrait	Passive	FALSE	FPainDamageMult 1.6	traits_painful																							
+knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.26	traits_knockback																							
+heavy_knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.70	traits_knockback																							
+knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.12 IEnemyStunDuration 1	traits_knockdown																							
+heavy_knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.76 IEnemyStunDuration 1	traits_knockdown																							
+ramp_up	WeaponTrait	Passive	FALSE	IRampUpProjectiles 1	traits_ramp_up																							
+unthrowable	WeaponTrait	Passive	TRUE	BUnthrowable true	traits_unthrowable																							
+selfcharging	WeaponTrait	Passive	FALSE	BSelfcharging true	traits_selfcharging																							
+critical_throw	WeaponTrait	Passive	FALSE	BThrowAutoCrit true	traits_critical_throw																							
+wounding	AmmoTrait	Passive	FALSE	FDoWoundChance 0.40	traits_wounding_pierce																							
+fragile	WeaponTrait	Passive	TRUE	IFragile 5	traits_fragile																							
+unwieldy	WeaponTrait	Passive	TRUE	FUnwieldyMult 0.8	traits_unwieldy																							
+heavy_weapon	WeaponTrait	Passive	TRUE	BHeavyWeapon true	traits_heavy_weapon																							
+overheat	WeaponTrait	Passive	TRUE	IOverheatDurability 1	traits_overheat																							
+overclock	WeaponTrait	Passive	FALSE	IOverclockDamage 15	traits_overclock																							
+bipod	WeaponTrait	Passive	FALSE	FBipodScatter -0.5 FBipodAccuracy 0.3	traits_bipod																							
+optic_sight	WeaponTrait	Passive	FALSE	IEffRangeStarts 4	traits_optic_sight																							
+explosive	AmmoTrait	Passive	FALSE	SExplosive rocket_basic_explosion	trait_inherit_damage																							
+explosive_light_flak	AmmoTrait	Passive	FALSE	SExplosive flak_low_explosion	trait_inherit_damage																							
+explosive_flak	AmmoTrait	Passive	FALSE	SExplosive flak_explosion	trait_inherit_damage																							
+explosive_shotgun	AmmoTrait	Passive	FALSE	SExplosive shotgun_explosion	trait_inherit_damage																							
+explosive_fire	AmmoTrait	Passive	FALSE	SExplosive rocket_fire_explosion	traits_incendiary																							
+explosive_poison	AmmoTrait	Passive	FALSE	SExplosive rocket_poison_explosion	traits_toxic																							
+explosive_quasi	AmmoTrait	Passive	FALSE	SExplosive rocket_quasi_explosion	trait_inherit_damage																							
+explosive_hfg	AmmoTrait	Passive	FALSE	SExplosive hfg_explosion	trait_inherit_damage																							
+ricochet	AmmoTrait	Passive	FALSE	IRicochet 5 IMaxDistance 15	traits_ricochet																							
+collimator	WeaponTrait	Passive	FALSE	FFalloffBonus -0.12	traits_collimator																							
+laser_sight	WeaponTrait	Passive	FALSE	BLaserSight true	traits_laser_sight																							
+corrosive	AmmoTrait	Passive	FALSE	FCorrosiveEffect 0.8	traits_corrosive																							
+backstab	WeaponTrait	Passive	FALSE	FBackstabCritChance 0.6 FBackstabCritDmg 1.5	traits_backstab																							
+suppressive_fire	WeaponTrait	Passive	FALSE	FSuppressedAccuracy 0.6	traits_suppressive_fire																							
+mark_target	WeaponTrait	Passive	FALSE	IMarkCritVulnerableDuration 3	traits_suppressive_fire																							
+#end																												
+																												
+#explosions																												
+Id		Parameters.VisualExplosion	Parameters.Radius	Parameters.DistanceDamageFalloff	Parameters.GainDmgToCreature	Parameters.SelfDamaging	Parameters.GainDmgToLocation	Parameters.GainDmgToMonolith	Parameters.Damage	Parameters.DamageType	Parameters.WoundChance	Parameters.Throwback	Parameters.ThrowbackChance	Parameters.ThrowbackDependOnRadius	Parameters.Stun	Parameters.StunChance	Parameters.StunDuration	Parameters.StunDependOnRadius	Parameters.PropagateFire	Parameters.PropagateFireChance	Parameters.LargeFireChance	Parameters.FireDependOnRadius	Parameters.PropagateLiquid	Parameters.LiquidType	Parameters.Disintegrate	Parameters.PropagateGas	Parameters.GasType	Parameters.GasStrength
+blob_death_explosion		TRUE	2	2	TRUE	FALSE	TRUE	FALSE	50	blunt	0.7	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+mercury_death_explosion		TRUE	2	2	TRUE	FALSE	FALSE	FALSE	40	poison	1.5	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+cattaram_explosion		TRUE	4	2	TRUE	TRUE	TRUE	FALSE	100	explosion	1.1	TRUE	0.4	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+frag_big_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	125	explosion	1.5	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+frag_explosion		TRUE	3	1	TRUE	TRUE	TRUE	FALSE	100	explosion	1.2	TRUE	0.8	TRUE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+he_explosion		TRUE	1	3	TRUE	TRUE	TRUE	FALSE	120	blunt	1.4	TRUE	1	FALSE	TRUE	0.5	1	FALSE	TRUE	0.1	10	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+quasi_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	85	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+thermal_explosion		FALSE	2	2	FALSE	TRUE	FALSE	FALSE	20	fire	0	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.75	70	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+stun_explosion		TRUE	3	2	FALSE	TRUE	FALSE	FALSE	0	shock	0	FALSE	0	FALSE	TRUE	1	4	TRUE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+electronic_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	36	shock	0.5	FALSE	0	FALSE	TRUE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+heart_explosion		FALSE	0	1	TRUE	TRUE	FALSE	FALSE	10	blunt	0.1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE	FALSE	Smoke	Weak
+bloodBarrel_explosion		TRUE	1	1	FALSE	TRUE	FALSE	FALSE	0	blunt	0	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE	FALSE	Smoke	Weak
+fuel_barrel_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	40	fire	0.2	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.8	30	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+toxic_barrel_explosion		TRUE	2	1	TRUE	FALSE	FALSE	FALSE	40	poison	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Toxic	FALSE	FALSE	Smoke	Weak
+frost_barrel_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	50	cold	0.8	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Water	FALSE	FALSE	Smoke	Weak
+cargo_explosion		TRUE	3	1	TRUE	TRUE	TRUE	FALSE	90	explosion	1.4	TRUE	1	TRUE	FALSE	0	0	FALSE	TRUE	0.2	5	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+frag_low_explosion		TRUE	2	2	TRUE	TRUE	TRUE	FALSE	90	explosion	0.7	TRUE	0.6	TRUE	FALSE	0	0	FALSE	TRUE	0.03	6	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+thermal_low_explosion		FALSE	1	2	FALSE	TRUE	FALSE	FALSE	10	fire	0	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.7	55	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+toxic_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	50	poison	0.2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Toxic	FALSE	FALSE	Smoke	Weak
+frost_explosion		TRUE	1	2	TRUE	TRUE	FALSE	FALSE	95	cold	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Ice	FALSE	FALSE	Smoke	Weak
+urparp_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	75	plasma	0.5	TRUE	0.3	FALSE	FALSE	0	0	FALSE	TRUE	0.6	0	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+thermal_big_explosion		FALSE	4	3	TRUE	TRUE	FALSE	FALSE	40	fire	0.2	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.85	70	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+nano_explosion		FALSE	0	1	TRUE	TRUE	TRUE	FALSE	20	lacer	0	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0	0	FALSE	FALSE	Red	TRUE	TRUE	Nano	Strong
+phase_explosion		TRUE	4	2	TRUE	TRUE	TRUE	TRUE	150	chaos	0.4	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+fake_explosion		TRUE	3	1	TRUE	TRUE	TRUE	FALSE	90	explosion	0.7	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+orbital_explosion		TRUE	4	1	TRUE	TRUE	TRUE	FALSE	125	explosion	0.5	TRUE	1	TRUE	TRUE	1	1	TRUE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+knife_explosion		FALSE	0	1	TRUE	TRUE	FALSE	FALSE	60	pierce	2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+skrivnus_explosion		FALSE	0	1	TRUE	TRUE	TRUE	FALSE	90	lacer	3	FALSE	1	FALSE	TRUE	1	1	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+hfg_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	300	plasma	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	TRUE	FALSE	Smoke	Weak
+flak_low_explosion		TRUE	1	3	TRUE	TRUE	FALSE	FALSE	18	explosion	1.2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+flak_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	55	pierce	1.4	TRUE	0.2	TRUE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+shotgun_explosion		TRUE	2	1	TRUE	TRUE	TRUE	FALSE	45	explosion	1.2	TRUE	0.3	TRUE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+rocket_basic_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	90	explosion	1.2	TRUE	0.75	TRUE	FALSE	0	0	FALSE	TRUE	0.05	10	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+rocket_fire_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	75	fire	0.8	TRUE	0.1	FALSE	FALSE	0	0	FALSE	TRUE	0.65	45	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+rocket_poison_explosion		TRUE	2	2	TRUE	TRUE	FALSE	FALSE	50	poison	2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Toxic	FALSE	FALSE	Smoke	Weak
+rocket_quasi_explosion		TRUE	2	3	TRUE	TRUE	TRUE	FALSE	85	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.25	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+cortex_bomb_explosion		TRUE	5	2	TRUE	TRUE	TRUE	FALSE	150	explosion	1.5	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+seismic_explosion		TRUE	4	1	TRUE	FALSE	TRUE	FALSE	80	blunt	1	TRUE	0.9	FALSE	TRUE	0.6	1	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+field_emitter_explosion		TRUE	5	2	TRUE	FALSE	FALSE	FALSE	12	shock	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+ultravoice_explosion		TRUE	5	2	FALSE	FALSE	FALSE	FALSE	0	shock	0	FALSE	0	FALSE	TRUE	1	4	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+magnetic_generator_explosion		TRUE	5	1	FALSE	FALSE	FALSE	FALSE	0	shock	0	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+crystal_explosion		TRUE	1	3	TRUE	TRUE	TRUE	FALSE	80	explosion	1.4	TRUE	1	FALSE	TRUE	0.5	1	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+shards_explosion		TRUE	1	3	TRUE	TRUE	TRUE	FALSE	80	explosion	1.4	TRUE	1	FALSE	TRUE	0.5	1	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+bone_explosion		TRUE	1	3	TRUE	TRUE	TRUE	FALSE	55	pierce	0.7	TRUE	0.2	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE	FALSE	Smoke	Weak
+spike_explosion		TRUE	0	1	TRUE	TRUE	FALSE	FALSE	55	pierce	0.7	TRUE	0.2	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE	FALSE	Smoke	Weak
+blood_blast_explosion		TRUE	1	2	TRUE	TRUE	TRUE	FALSE	40	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+blood_spike_explosion		TRUE	0	1	TRUE	TRUE	FALSE	FALSE	65	pierce	2	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+mars_explosion		TRUE	2	3	TRUE	TRUE	TRUE	FALSE	75	plasma	1.2	TRUE	0.6	TRUE	FALSE	0.7	2	TRUE	TRUE	0.8	50	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+mars_big_explosion		TRUE	4	2	TRUE	TRUE	TRUE	FALSE	120	plasma	1.2	TRUE	0.8	TRUE	FALSE	0.85	2	TRUE	TRUE	0.85	45	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+shatter_explosion		TRUE	3	1	TRUE	TRUE	TRUE	FALSE	100	explosion	1.2	TRUE	0.8	TRUE	FALSE	0	0	FALSE	TRUE	0.05	5	TRUE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+translocation_explosion		TRUE	2	3	TRUE	TRUE	TRUE	FALSE	65	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+meteor_explosion		TRUE	2	3	TRUE	TRUE	TRUE	FALSE	65	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+spore_explosion		TRUE	3	1	TRUE	TRUE	FALSE	FALSE	35	poison	0.4	FALSE	0	FALSE	TRUE	0.85	1	TRUE	FALSE	0	0	FALSE	FALSE	Toxic	FALSE	FALSE	Smoke	Weak
+pandemic_explosion		TRUE	3	1	TRUE	TRUE	FALSE	FALSE	35	poison	0.4	FALSE	0	FALSE	TRUE	0.85	1	TRUE	FALSE	0	0	FALSE	FALSE	Toxic	FALSE	FALSE	Smoke	Weak
+ron_explosion		TRUE	4	3	TRUE	FALSE	FALSE	FALSE	60	shock	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+orb_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	85	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+impaler_explosion		TRUE	0	1	TRUE	TRUE	TRUE	FALSE	55	pierce	0.7	TRUE	0.2	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	TRUE	Red	FALSE	FALSE	Smoke	Weak
+gas_tank_explosion		TRUE	4	0	TRUE	TRUE	FALSE	FALSE	0	explosion	0	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	TRUE	FALSE	Red	FALSE	TRUE	Flammable	Strong
+matrix_explosion		TRUE	3	2	TRUE	TRUE	TRUE	FALSE	85	shock	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE	FALSE	Smoke	Weak
+#end																												
+																												
+#projectiles																												
+Id	Speed	MakeBloodDecals																										
+continues_laser	50	FALSE																										
+continues_mercury	50	FALSE																										
+continues_quasi_laser	50	FALSE																										
+continues_ultimate_ray	50	FALSE																										
+disk	18	TRUE																										
+matrix	18	TRUE																										
+disruptor	12	FALSE																										
+disruptor_small	12	FALSE																										
+flame_thrower	10	FALSE																										
+frost	12	FALSE																										
+heavy	20	TRUE																										
+heavy_thermal	20	TRUE																										
+hfg	9	FALSE																										
+laser	20	FALSE																										
+lighting	20	FALSE																										
+lighting_small	20	FALSE																										
+melta_beam	20	FALSE																										
+melta_small_beam	20	FALSE																										
+microwave	20	FALSE																										
+nail	20	TRUE																										
+quasi_nail	20	TRUE																										
+pistol	20	TRUE																										
+plasma	14	FALSE																										
+plasma_shrapnel	18	FALSE																										
+plasma_charge	12	FALSE																										
+quasi_beam	50	FALSE																										
+quasi_bolt	20	FALSE																										
+quasi_dart	20	TRUE																										
+quasi_laser	20	FALSE																										
+quasi_charge	12	FALSE																										
+shrapnel	20	TRUE																										
+sound	14	FALSE																										
+tech_frost	12	FALSE																										
+tech_frost_shrapnel	12	FALSE																										
+thermal	20	FALSE																										
+thermal_shrapnel	20	FALSE																										
+toxic	20	TRUE																										
+toxic_thrower	10	FALSE																										
+extinguisher_thrower	10	FALSE																										
+rocket	10	FALSE																										
+small_rocket	10	FALSE																										
+web_bolt	9	FALSE																										
+scrivnus_bone	9	TRUE																										
+flauros_fly_bullet	9	FALSE																										
+knife	14	TRUE																										
+axe	14	TRUE																										
+shuriken	14	TRUE																										
+bottle	10	TRUE																										
+bomb_briefcase	10	FALSE																										
+#end																												
+																												
+#firemodes																												
+Id		AmmoPerShot	WeaponCastsCount	RequiredAllAmmoToShot	Accuracy	DamageMult	ScatterAngle	DelayInSecsBetweenShots																				
+stab_power_2		2	2	FALSE	0.2	1.05	0	0.45																				
+shotgun_unload_6		6	6	FALSE	0.2	1	3.2	0.025																				
+pistol_8		8	8	FALSE	-0.2	1	7.2	0.035																				
+launcher_venus_1		5	1	FALSE	0.3	1	4	0																				
+launcher_mars_1		10	1	FALSE	0.3	1	4	0																				
+launcher_mars_2		20	2	FALSE	0.15	1	4.4	0.06																				
+flamethrower_1		10	1	TRUE	1	1	3	0.05																				
+stab_3		0	3	FALSE	-0.2	0.55	0	0.35																				
+stab_1		0	1	FALSE	0	1	0	0																				
+injection_1		1	1	FALSE	0	1.65	0	0																				
+slash_2		0	2	FALSE	0	0.9	0	0.5																				
+stab_2		0	2	FALSE	0.2	0.7	0	0.5																				
+slash_1		0	1	FALSE	0.2	1.6	0	0																				
+slash_power_2		2	2	TRUE	0	1.35	0	0.45																				
+slash_power_1		1	1	FALSE	0.15	1.9	0	0																				
+smash_1		0	1	FALSE	0	1.2	0	0																				
+smash_2		0	2	FALSE	-0.1	0.55	0	0.45																				
+smash_power_1		1	1	FALSE	0	1.6	0	0																				
+breaker		1	1	FALSE	0	1.6	0	0																				
+smash_power_2		1	2	FALSE	-0.1	0.75	0	0.45																				
+chop_strong_1		0	1	FALSE	0	1.1	0	0																				
+chop_2		0	2	FALSE	0.15	0.45	0	0.4																				
+chop_precise_1		0	1	FALSE	0.15	0.85	0	0																				
+punch_1		0	1	FALSE	0	1	0	0																				
+claw_1		0	1	FALSE	0	1	0	0																				
+hfg_1		40	1	TRUE	1	1	2	0																				
+disc_1		1	1	FALSE	0.3	1	3	0																				
+disc_2		2	2	FALSE	0.15	1	3.5	0.06																				
+disc_3		3	3	FALSE	0.05	1	4	0.05																				
+disc_4		4	4	FALSE	0	1	4.4	0.05																				
+shotgun_1		1	1	FALSE	0.3	1	3	0																				
+shotgun_2		2	2	FALSE	0.15	1	3.5	0.06																				
+shotgun_3		3	3	FALSE	0.05	1	4	0.05																				
+shotgun_4		4	4	FALSE	0	1	4.4	0.05																				
+shotgun_5		5	5	FALSE	-0.1	1	4.8	0.045																				
+shotgun_wide_1		1	1	FALSE	0.35	1	17	0																				
+shotgun_narrow_1		1	1	FALSE	0.2	1	1.3	0																				
+shotgun_unload_2		2	2	FALSE	0.2	1	3.2	0.025																				
+rifle_1		1	1	FALSE	0.3	1	3	0																				
+rifle_2		2	2	FALSE	0.15	1	3.5	0.06																				
+rifle_3		3	3	FALSE	0.05	1	4	0.05																				
+rifle_4		4	4	FALSE	0	1	4.4	0.05																				
+rifle_5		5	5	FALSE	-0.1	1	4.8	0.045																				
+rifle_6		6	6	FALSE	-0.15	1	5.6	0.04																				
+rifle_8		8	8	FALSE	-0.2	1	7.2	0.035																				
+pistol_1		1	1	FALSE	0.3	1	3	0																				
+pistol_2		2	2	FALSE	0.15	1	3.5	0.06																				
+pistol_3		3	3	FALSE	0.05	1	4	0.05																				
+pistol_4		4	4	FALSE	0	1	4.4	0.05																				
+pistol_5		5	5	FALSE	-0.1	1	4.8	0.045																				
+pistol_6		6	6	FALSE	-0.15	1	5.6	0.04																				
+quasi_1		1	1	FALSE	0.3	1	3	0																				
+quasi_2		2	2	FALSE	0.15	1	3.5	0.06																				
+quasi_3		3	3	FALSE	0.05	1	4	0.05																				
+quasi_4		4	4	FALSE	0	1	4.4	0.05																				
+quasi_5		5	5	FALSE	-0.1	1	4.8	0.045																				
+quasi_6		6	6	FALSE	-0.15	1	5.6	0.04																				
+quasi_8		8	8	FALSE	-0.2	1	7.2	0.035																				
+pulse_1		1	1	FALSE	0.3	1	3	0																				
+pulse_2		2	2	FALSE	0.15	1	3.5	0.06																				
+pulse_3		3	3	FALSE	0.05	1	4	0.05																				
+pulse_4		4	4	FALSE	0	1	4.4	0.05																				
+pulse_5		5	5	FALSE	-0.1	1	4.8	0.045																				
+beam_1		1	1	FALSE	0.3	1	3	0																				
+beam_2		2	2	FALSE	0.15	1	3.5	0.06																				
+beam_3		3	3	FALSE	0.05	1	4	0.05																				
+beam_4		4	4	FALSE	0	1	4.4	0.05																				
+beam_5		5	5	FALSE	-0.1	1	4.8	0.045																				
+beam_8		8	8	FALSE	-0.2	1	7.2	0.035																				
+beam_unload_3		3	3	FALSE	0.2	1	3.2	0.025																				
+beam_power_1		4	1	FALSE	0.3	1.8	3.3	0																				
+beam_power_2		3	1	FALSE	0.3	1.8	3.3	0																				
+plasma_1		1	1	FALSE	0.3	1	3	0																				
+plasma_2		2	2	FALSE	0.15	1	3.5	0.06																				
+plasma_3		3	3	FALSE	0.05	1	4	0.05																				
+plasma_4		4	4	FALSE	0	1	4.4	0.05																				
+plasma_5		5	5	FALSE	-0.1	1	4.8	0.045																				
+plasma_6		6	6	FALSE	-0.15	1	5.6	0.04																				
+plasma_8		8	8	FALSE	-0.2	1	7.2	0.035																				
+lightning_1		1	1	FALSE	0.3	1	3	0																				
+lightning_2		2	2	FALSE	0.15	1	3.5	0.06																				
+lightning_4		4	4	FALSE	0.05	1	4.4	0.05																				
+lightning_8		8	8	FALSE	-0.2	1	7.2	0.035																				
+launcher_1		1	1	FALSE	0.3	1	4	0																				
+#end																												
+																												
+#armorsets																												
+Id		Items																										
+fa_scale		dil_light_armor_1 dil_light_helmet_1 dil_light_pants_1 dil_light_boots_1																										
+pointsman		police_medium_armor_1 police_medium_helmet_1 police_medium_pants_1 police_medium_boots_1																										
+cerberus		fra_heavy_armor_1 fra_heavy_mask_1 fra_heavy_pants_1 fra_heavy_boots_1																										
+chu_priest		chu_manager_shirt_1 chu_manager_mask_1 chu_manager_pants_1 chu_manager_boots_1																										
+pattern_seraphim		chu_power_armor_1 chu_power_helmet_1 chu_power_pants_1 chu_power_boots_1																										
+miner_foreman		miner_shirt_1 miner_hard_cap_1 miner_pants_1 miner_boots_1																										
+ironclad		miner_medium_armor_1 miner_medium_helmet_1 miner_medium_pants_1 miner_medium_boots_1																										
+gehenna		miner_power_armor_1 miner_power_helmet_1 miner_power_pants_1 miner_power_boots_1																										
+tunneler		miner_reinforced_shirt_1 miner_hard_cap_2 miner_reinforced_pants_1 miner_reinforced_boots_1																										
+pattern_prophet		sun_power_armor_1 sun_power_helmet_1 sun_power_pants_1 sun_power_boots_1																										
+hazmat		ddr_chem_coat_1 ddr_chem_helmet_1 ddr_chem_pants_1 ddr_chem_boots_1																										
+eliminator		ddr_reinforced_chem_coat_1 ddr_reinforced_chem_helmet_1 ddr_reinforced_chem_pants_1																										
+pattern_vivisection		ddr_power_armor_1 ddr_power_helmet_1 ddr_power_pants_1 ddr_power_boots_1																										
+pattern_mystery		anc_medium_armor_1 anc_medium_helmet_1 anc_medium_pants_1 anc_medium_boots_1																										
+arbiter		anc_medium_armor_2 anc_medium_mask_1 anc_medium_pants_2 anc_medium_boots_2																										
+pattern_shadow		anc_agent_armor_1 anc_agent_mask_1 anc_agent_pants_1 anc_agent_boots_1																										
+blue_guard		anc_reinforced_shirt_1 anc_reinforced_pants_1 anc_reinforced_hat_1																										
+pattern_dawn		sbn_light_armor_1 sbn_light_helmet_1 sbn_light_pants_1 sbn_light_boots_1																										
+pattern_aurora		sbn_medium_armor_1 sbn_medium_helmet_1 sbn_medium_pants_1 sbn_medium_boots_1																										
+myrmidon		sbn_heavy_armor_1 sbn_heavy_helmet_1 sbn_heavy_pants_1 sbn_heavy_boots_1																										
+commando		military_shirt_3 military_light_helmet_1 military_pants_2																										
+pattern_bloodbath		rwa_light_armor_1 rwa_light_helmet_2 rwa_light_pants_1 rwa_light_boots_1																										
+pattern_carnage		rwa_heavy_armor_1 rwa_heavy_helmet_1 rwa_heavy_pants_1 rwa_heavy_boots_1																										
+pattern_warlord		rwa_power_armor_1 rwa_power_helmet_1 rwa_power_pants_1 rwa_power_boots_1																										
+frame_power		military_power_armor_1 military_power_helmet_1 military_power_pants_1 military_power_boots_1																										
+legend		military_heavy_armor_1 military_heavy_helmet_1 military_heavy_pants_1 military_heavy_boots_1																										
+cadet		military_medium_armor_1 military_medium_helmet_1 military_medium_pants_1 military_medium_boots_1																										
+ibn_sina		medical_heavy_armor_1 medical_heavy_helmet_1 medical_heavy_pants_1 medical_heavy_boots_1																										
+vimes		police_reinforced_shirt_1 police_cap_2 police_pants_2 police_boots_2																										
+clobber		police_heavy_armor_1 police_heavy_helmet_2 police_heavy_pants_1 police_heavy_boots_1																										
+eva_spacesuit		laborer_medium_armor_1 laborer_medium_helmet_1 laborer_medium_pants_1 laborer_medium_boots_1																										
+glory		military_light_armor_1 military_light_gasmask_1 military_light_pants_1 military_light_boots_1																										
+corpsman		military_doc_armor_1 military_doc_helmet_1 military_doc_pants_1																										
+med_hazmat		medical_chem_shirt_1 medical_chem_helmet_1 medical_chem_pants_1																										
+science_wear		science_reinforced_shirt_1 science_gasmask_1 science_reinforced_pants_1 science_reinforced_boots_1																										
+science_hazmat		science_chem_shirt_1 science_chem_helmet_1 science_chem_pants_1 science_chem_boots_1																										
+frostman		laborer_warm_shirt_1 laborer_warm_hat_1 laborer_warm_pants_1 laborer_warm_boots_1																										
+pirogov		medical_medium_armor_1 medical_medium_helmet_1 medical_medium_pants_1 medical_medium_boots_1																										
+karnonos		sun_medium_armor_1 sun_medium_helmet_1 sun_medium_pants_1 sun_medium_boots_1																										
+dustline		grh_light_armor_1 grh_light_helmet_1 grh_light_pants_1 grh_light_boots_1																										
+stratum		plb_medium_armor_1 plb_medium_helmet_1 plb_medium_pants_1 plb_medium_boots_1																										
+integumentum		plb_power_armor_1 plb_power_helmet_1 plb_power_pants_1 plb_power_boots_1																										
+renli		tia_shirt_1 tia_gasmask_1 tia_pants_1 tia_boots_1																										
+yongli		tia_light_armor_1 tia_light_helmet_1 tia_light_pants_1 tia_light_boots_1																										
+shenli		tia_heavy_armor_1 tia_heavy_helmet_1 tia_heavy_pants_1 tia_heavy_boots_1																										
+#end																												

@@ -41,11 +41,18 @@ extinguisher_holder	2 1	TRUE	FALSE		extinguisherContainer	1 1
 watermelon_growbox	1 1	TRUE	FALSE		watermelonGrowbox	1 1			
 cabbage_growbox	1 1	TRUE	FALSE		cabbageGrowbox	1 1			
 silence_casket	3 1	FALSE	FALSE			0 0			
+matrix_box	2 2	TRUE	TRUE		matrixContainer	1 2			
 #end									
 									
 #itemdrop_AztecAltar									
 Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation	Bramfaturian
 quest_golden_skull 20	quest_golden_skull 20	quest_golden_skull 20	quest_golden_skull 20	quest_golden_skull 20	quest_golden_skull 20	quest_golden_skull 20	quest_golden_skull 20	quest_golden_skull 20	quest_golden_skull 20
+#end									
+									
+#itemdrop_matrixContainer									
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation	Bramfaturian
+matrix_medical_kit 10	matrix_medical_kit 10	matrix_medical_kit 10	matrix_medical_kit 10	matrix_medical_kit 10	matrix_medical_kit 10	matrix_medical_kit 10	matrix_medical_kit 10	matrix_medical_kit 10	matrix_medical_kit 10
+matrix_knife 6	matrix_knife 6	matrix_knife 6	matrix_knife 6	matrix_knife 6	matrix_knife 6	matrix_knife 6	matrix_knife 6	matrix_knife 6	matrix_knife 6
 #end									
 									
 #itemdrop_trashbin									
