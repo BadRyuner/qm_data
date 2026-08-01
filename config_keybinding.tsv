@@ -1,7 +1,7 @@
 #keybinding														
 Id	Layout	OtherKeyIdToPress	Bind1	Bind2	ControllerBind1	ControllerBind2	ImmutableBind1	ImmutableBind2	ImmutableControllerBind1	ImmutableControllerBind2	AxisName	MovementVector	ExclusiveInputMode	ForbiddenKeysToBind
 PrimaryCursorAction			Mouse0	None	None	None							KeyboardAndMouse	
-SecondaryCursorAction			Mouse1	None	None	None							KeyboardAndMouse	
+SecondaryCursorAction			Mouse1	None	ActionBottomRow2	None							KeyboardAndMouse KeyboardOnly Controller	
 PreciseCursorShoot		PrimaryCursorAction	LeftShift	None	None	None							KeyboardAndMouse	
 ForceCursorMove		PrimaryCursorAction	LeftControl	None	None	None							KeyboardAndMouse	
 MoveTowardsSight			None	None	RightShoulder2	None								
@@ -92,6 +92,7 @@ OpenLog	Hotkeys		O	None	None	None							KeyboardAndMouse
 Customize	Hotkeys		C	None	None	None							KeyboardAndMouse	
 SkipCutscene	Hotkeys		Space	None	ActionTopRow1	None								
 TakeAll	Hotkeys		G	None	None	None							KeyboardAndMouse	
+Equip	Hotkeys		LeftShift E	None	None	None							KeyboardAndMouse	
 Evacuate	Hotkeys		E	None	None	None							KeyboardAndMouse	
 CallCapsule	Hotkeys		Z	None	None	None							KeyboardAndMouse	
 Arsenal_GoToTab1	Hotkeys		Alpha1	None	None	None							KeyboardAndMouse	
@@ -103,6 +104,8 @@ Arsenal_GoToTab6	Hotkeys		Alpha6	None	None	None							KeyboardAndMouse
 Arsenal_GoToTab7	Hotkeys		Alpha7	None	None	None							KeyboardAndMouse	
 Arsenal_GoToTab8	Hotkeys		Alpha8	None	None	None							KeyboardAndMouse	
 Arsenal_GoToTab9	Hotkeys		Alpha9	None	None	None							KeyboardAndMouse	
+Arsenal_PrevTab	Hotkeys		LeftControl Greater	None	LeftShoulder1	None							KeyboardAndMouse Controller	
+Arsenal_NextTab	Hotkeys		LeftControl Less	None	RightShoulder1	None							KeyboardAndMouse Controller	
 Arsenal_DropToTab1	Hotkeys		LeftShift Alpha1	None	None	None							KeyboardAndMouse	
 Arsenal_DropToTab2	Hotkeys		LeftShift Alpha2	None	None	None							KeyboardAndMouse	
 Arsenal_DropToTab3	Hotkeys		LeftShift Alpha3	None	None	None							KeyboardAndMouse	

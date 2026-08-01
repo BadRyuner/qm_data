@@ -1,41 +1,41 @@
 #mercenary_profiles																									
 Id	ModifyStartCost	ModifyStep	ModifyLevelLimit	Health	ResistSheet	WoundSlots	MeleeDamage	MeleeAccuracy	RangeAccuracy	ReceiveAmputationChance	ReceiveWoundChanceMult	AttackWoundChanceMult	Dodge	Los	StarvationLimit	PainThresholdLimit	PainThresholdRegen	TalentPerkId	ActorId	SkinIndex	HairType	HairColorHex	VoiceBank	Immunity	CreatureClass
-john_hawkwood_boss	20	0.1		150	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 11 19 crit 1.8 critchance 0.16	0.5	0.5	0.04	0.8	1.2	0.35	10	2400	18	1	talent_the_man_who_sold_the_world	human_male	0	hair1	#633D08	player		Human
-francis_reid_daly	20	0.1		130	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 9 21 crit 1.6 critchance 0.04	0.4	0.45	0.04	0.9	1.1	0.29	10	2200	12	1	talent_gunsmith	human_male	0			player		Human
-victoria_boudicca	20	0.1		90	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 2 10 crit 1.6 critchance 0.12	0.45	0.5	0.04	1	1.25	0.32	10	2000	8	1	talent_sniper	human_female	0	hair1	#633D08	player		Human
-persival_fawcett	20	0.1		150	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 7 23 crit 1.4 critchance 0.08	0.4	0.35	0.04	0.6	1	0.26	10	2400	16	1	talent_invincible	human_male	1	hair1	#633D08	player		Human
-Isabella_capet	20	0.1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 4 20 crit 1.5 critchance 0.16	0.45	0.35	0.04	0.85	1.25	0.32	10	1800	14	1	talent_beneficial_mutation	human_female	1	hair3	#FF3100	player		Human
-maximilian_rohr	20	0.1		130	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 3 15 crit 1.6 critchance 0.04	0.35	0.4	0.04	0.7	1	0.26	10	2400	16	1	talent_feel_no_pain	human_male	0	hair2	#FFC400	player		Human
-priya_marlon	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 13 crit 1.7 critchance 0.08	0.35	0.45	0.04	0.9	1.1	0.26	10	2000	12	1	talent_thrift	human_female	0	hair2	#FFC400	player		Human
-jacques_kennet	20	0.1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 2 10 crit 1.5 critchance 0.08	0.3	0.5	0.04	1	1.15	0.32	10	2200	10	1	talent_tactical_reload	human_male	0	hair1	#908E87	player		Human
-mirza_aishatu	20	0.1		140	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 6 18 crit 1.6 critchance 0.08	0.4	0.4	0.04	0.9	1	0.29	10	2400	12	1	talent_slow_metabolism	human_female	1	hair2	#633D08	player		Human
-kenzie_yukio	20	0.1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 8 16 crit 1.7 critchance 0.16	0.5	0.4	0.04	1	1.1	0.29	10	1800	10	1	talent_ninjutsu	human_male	0	hair2	#633D08	player		Human
-marika_wulfnod	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 1 17 crit 1.5 critchance 0.08	0.35	0.45	0.04	0.9	1.05	0.29	10	2200	14	1	talent_organization	human_female	0	hair1	#FFC400	player		Human
-auberon_lukas	20	0.1		130	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 9 21 crit 1.7 critchance 0.12	0.4	0.4	0.04	0.9	1	0.26	10	2000	14	1	talent_one_man_army	human_male	0	hair2	#633D08	player		Human
-niko_medich	20	0.1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 4 8 crit 1.8 critchance 0.12	0.45	0.45	0.04	1	1.05	0.29	10	2000	12	1	talent_gunslinger	human_male	0	hair1	#908E87	player		Human
-hannah_reich	20	0.1		90	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 13 crit 1.5 critchance 0.08	0.4	0.45	0.04	1	1.1	0.32	10	2000	16	1	talent_strafe	human_female	0	hair2	#633D08	player		Human
-edward_lowrance	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 7 11 crit 1.7 critchance 0.12	0.4	0.4	0.04	0.95	1.15	0.29	10	1800	12	1	talent_dreamer	human_male	0	hair1	#EAE664	player		Human
-bob_denarre	20	0.1		140	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 4 20 crit 1.4 critchance 0.04	0.35	0.35	0.04	0.8	1.1	0.32	10	2200	14	1	talent_dog_of_war	human_male	0	hair1	#EFF2F6	player		Human
-jan_shrammert	20	0.1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 3 15 crit 1.6 critchance 0.16	0.5	0.45	0.04	1	1.15	0.26	10	1800	10	1	talent_preparation	human_male	0			player		Human
-laksha_saminath	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 3 15 crit 1.6 critchance 0.08	0.45	0.4	0.04	0.85	1	0.29	10	2200	14	1	talent_field_medic	human_female	1	hair1	#4E2908	player		Human
+john_hawkwood_boss	0	1		150	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 11 19 crit 0.6 critchance 0.08	0.5	0.5	0.04	0.8	1.2	0.4	10	2400	18	1	talent_the_man_who_sold_the_world	human_male	0	hair1	#633D08	player		Human
+francis_reid_daly	0	1		130	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 9 21 crit 0.4 critchance 0.02	0.4	0.45	0.04	0.9	1.1	0.3	10	2200	12	1	talent_gunsmith	human_male	0			player		Human
+victoria_boudicca	0	1		90	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 2 10 crit 0.4 critchance 0.06	0.45	0.5	0.04	1	1.25	0.34	10	2000	8	1	talent_sniper	human_female	0	hair1	#633D08	player		Human
+persival_fawcett	0	1		150	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 7 23 crit 0.2 critchance 0.04	0.4	0.35	0.04	0.6	1	0.25	10	2400	16	1	talent_invincible	human_male	1	hair1	#633D08	player		Human
+Isabella_capet	0	1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 4 20 crit 0.3 critchance 0.08	0.45	0.35	0.04	0.85	1.25	0.36	10	1800	14	1	talent_beneficial_mutation	human_female	1	hair3	#FF3100	player		Human
+maximilian_rohr	0	1		130	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 3 15 crit 0.4 critchance 0.02	0.35	0.4	0.04	0.7	1	0.25	10	2400	16	1	talent_feel_no_pain	human_male	0	hair2	#FFC400	player		Human
+priya_marlon	0	1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 13 crit 0.5 critchance 0.04	0.35	0.45	0.04	0.9	1.1	0.27	10	2000	12	1	talent_thrift	human_female	0	hair2	#FFC400	player		Human
+jacques_kennet	0	1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 2 10 crit 0.3 critchance 0.04	0.3	0.5	0.04	1	1.15	0.32	10	2200	10	1	talent_tactical_reload	human_male	0	hair1	#908E87	player		Human
+mirza_aishatu	0	1		140	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 6 18 crit 0.4 critchance 0.04	0.4	0.4	0.04	0.9	1	0.3	10	2400	12	1	talent_slow_metabolism	human_female	1	hair2	#633D08	player		Human
+kenzie_yukio	0	1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 8 16 crit 0.5 critchance 0.08	0.5	0.4	0.04	1	1.1	0.32	10	1800	10	1	talent_ninjutsu	human_male	0	hair2	#633D08	player		Human
+marika_wulfnod	0	1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 1 17 crit 0.3 critchance 0.04	0.35	0.45	0.04	0.9	1.05	0.32	10	2200	14	1	talent_organization	human_female	0	hair1	#FFC400	player		Human
+auberon_lukas	0	1		130	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 9 21 crit 0.5 critchance 0.06	0.4	0.4	0.04	0.9	1	0.27	10	2000	14	1	talent_one_man_army	human_male	0	hair2	#633D08	player		Human
+niko_medich	0	1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 4 8 crit 0.6 critchance 0.06	0.45	0.45	0.04	1	1.05	0.3	10	2000	12	1	talent_gunslinger	human_male	0	hair1	#908E87	player		Human
+hannah_reich	0	1		90	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 13 crit 0.3 critchance 0.04	0.4	0.45	0.04	1	1.1	0.34	10	2000	16	1	talent_strafe	human_female	0	hair2	#633D08	player		Human
+edward_lowrance	0	1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 7 11 crit 0.5 critchance 0.06	0.4	0.4	0.04	0.95	1.15	0.32	10	1800	12	1	talent_dreamer	human_male	0	hair1	#EAE664	player		Human
+bob_denarre	0	1		140	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 4 20 crit 0.2 critchance 0.02	0.35	0.35	0.04	0.8	1.1	0.36	10	2200	14	1	talent_dog_of_war	human_male	0	hair1	#EFF2F6	player		Human
+jan_shrammert	0	1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 3 15 crit 0.4 critchance 0.08	0.5	0.45	0.04	1	1.15	0.28	10	1800	10	1	talent_preparation	human_male	0			player		Human
+laksha_saminath	0	1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 3 15 crit 0.4 critchance 0.04	0.45	0.4	0.04	0.85	1	0.3	10	2200	14	1	talent_field_medic	human_female	1	hair1	#4E2908	player		Human
 #end																									
 																									
 #mercenary_classes																									
 Id	ModifyStartCost	ModifyStep	PerkIds																						
-scouts_of_hades	30	0.1	cqc_specialist_basic military_training_basic gear_maintenance_basic blind_fury_basic fire_transfer_basic assault_reflex_basic																						
-eclipse_blades	30	0.1	berserk_gang_basic athletics_basic reaction_training_basic cold_weapon_wielding_basic cannibalism_basic carnage_basic																						
-tifton_elite	30	0.1	heavy_weaponary_basic grenadier_basic selfhealing_basic stationary_defense_basic spray_and_pray_basic shock_awe_basic																						
-tunnel_rats	30	0.1	cautious_basic handmade_shotgun_ammo_basic marauder_basic dirty_shot_basic vicious_symbiosis_basic covermaster_basic																						
-phoenix_brigade	30	0.1	shielding_basic battle_physicist_basic reinforced_battery_basic revealing_flame_basic cauterize_basic scholar_basic																						
-spaceborn_ghosts	30	0.1	agent_training_basic muffled_basic lightweight_gear_basic cheap_shot_basic assault_reflex_basic war_crime_basic																						
-angels_of_spades	30	0.1	sniper_training_basic enemy_anatomy_basic precise_shot_basic blind_shot_basic ghost_killer_basic enhanced_heavy_ammo_basic																						
-doppelganger_pack	30	0.1	possession_basic ritualism_basic masochism_basic fear_and_hunger_basic insanity_basic axe_rage_basic																						
-valkyrie_squad	30	0.1	selfhealing_basic first_aid_basic medicus_basic duty_shift_basic therapist_basic pressure_points_basic																						
-martian_mech	30	0.1	steel_without_basic steel_within_basic reactivation_basic devastation_tactic_basic terminator_basic heavy_weaponary_basic																						
-tongkong	30	0.1	piersing_burst_basic pyromaniac_basic lizard_basic battle_concentration_basic last_bullet_basic death_over_chains_basic																						
-cobra	30	0.1	bodybuilding_basic axe_rage_basic tomahawk_basic hidden_potential_basic cobra_throw_basic surgeon_basic																						
-unit_317	30	0.1	cyber_compatibility_basic sandman_basic unconventional_munitions_basic tactical_camouflage_basic blurred_silhouette_basic cyberpsychosis_basic																						
-golem_group	30	0.1	stationary_defense_basic central_command_basic krav_maga_basic recharge_on_reload_basic direct_channel_basic backward_compatibility_basic																						
+scouts_of_hades	30	1.05	cqc_specialist_basic military_training_basic gear_maintenance_basic blind_fury_basic fire_transfer_basic assault_reflex_basic																						
+eclipse_blades	30	1.05	berserk_gang_basic athletics_basic reaction_training_basic cold_weapon_wielding_basic cannibalism_basic carnage_basic																						
+tifton_elite	30	1.05	heavy_weaponary_basic grenadier_basic selfhealing_basic stationary_defense_basic spray_and_pray_basic shock_awe_basic																						
+tunnel_rats	30	1.05	cautious_basic handmade_shotgun_ammo_basic marauder_basic dirty_shot_basic vicious_symbiosis_basic covermaster_basic																						
+phoenix_brigade	30	1.05	shielding_basic battle_physicist_basic reinforced_battery_basic revealing_flame_basic cauterize_basic scholar_basic																						
+spaceborn_ghosts	30	1.05	agent_training_basic muffled_basic lightweight_gear_basic cheap_shot_basic assault_reflex_basic war_crime_basic																						
+angels_of_spades	30	1.05	sniper_training_basic enemy_anatomy_basic precise_shot_basic blind_shot_basic ghost_killer_basic enhanced_heavy_ammo_basic																						
+doppelganger_pack	30	1.05	possession_basic ritualism_basic masochism_basic fear_and_hunger_basic insanity_basic axe_rage_basic																						
+valkyrie_squad	30	1.05	selfhealing_basic first_aid_basic medicus_basic duty_shift_basic therapist_basic pressure_points_basic																						
+martian_mech	30	1.05	steel_without_basic steel_within_basic reactivation_basic devastation_tactic_basic terminator_basic heavy_weaponary_basic																						
+tongkong	30	1.05	piersing_burst_basic pyromaniac_basic lizard_basic battle_concentration_basic last_bullet_basic death_over_chains_basic																						
+cobra	30	1.05	bodybuilding_basic axe_rage_basic tomahawk_basic hidden_potential_basic cobra_throw_basic surgeon_basic																						
+unit_317	30	1.05	cyber_compatibility_basic sandman_basic unconventional_munitions_basic tactical_camouflage_basic blurred_silhouette_basic cyberpsychosis_basic																						
+golem_group	30	1.05	stationary_defense_basic central_command_basic krav_maga_basic recharge_on_reload_basic direct_channel_basic backward_compatibility_basic																						
 #end																									
 																									
 #perks																									
@@ -43,7 +43,7 @@ Id	PerkType	LevelUpActionType	ActiveWeaponClassLimit	ActiveWeaponSubClassLimit	E
 talent_gunsmith	Talent	None			0	0		None	FWeaponDurability 1.2 FEquipWeaponWeight -0.5																
 talent_sniper	Talent	None			0	0		None	IWeaponDistance 2 IEnemyHuntBonus -2																
 talent_invincible	Talent	None			0	0		None	IResists 12 FWeightMeleeDmgIncrease 0.12 IKiloDmgThreshold 10																
-talent_beneficial_mutation	Talent	None			0	0		None	BIgnoreInfection true FMissingHealthDamageIncrease 0.04																
+talent_beneficial_mutation	Talent	None			0	0		None	BIgnoreInfection true FMissingHealthDamageIncrease 0.05																
 talent_feel_no_pain	Talent	None			0	0		None	BIgnorePain true FIncomeCritMult -0.5																
 talent_thrift	Talent	None			0	0		None	IAllConsumablesStack 4 FPhysicalResistsWeightModifier 0.4																
 talent_tactical_reload	Talent	None			0	0		None	IAddedProj 1 IConstReload 1																
@@ -55,7 +55,7 @@ talent_strafe	Talent	None			0	0		None	BRunActions true FUsedApDodgeBonus 0.10
 talent_dreamer	Talent	None			0	0		None	IQMorphGain -1 IAILosBonus -1																
 talent_dog_of_war	Talent	None			0	0		None	IHealthRegen 2 IPerkCooldownBonus -3																
 talent_preparation	Talent	None			0	0		None	BBackstabResistIgnore true IRevealRange 4																
-talent_organization	Talent	None			0	0		None	IVestSlots 2 FLootCorpseItem 0.5																
+talent_organization	Talent	None			0	0		None	IVestSlots 3 FLootCorpseItem 0.5																
 talent_field_medic	Talent	None			0	0		None	IFixationHeal 3 FImplantDropChance 0.25																
 talent_the_man_who_sold_the_world	Talent	None			0	0		None	BManWhoSoldAWorld true																
 rank_0	Rank	AnyKill			1	35	rank_1	None																	
@@ -118,12 +118,12 @@ heavy_weaponary_master	Passive	ShotRangedWeapon	AssaultRifle Machinegun Minigun 
 heavy_weaponary_legend	Passive	ShotRangedWeapon	AssaultRifle Machinegun Minigun GrenadeLauncher RocketLauncher					None	FScatter -0.4 FRangeAccuracy 0.25																
 stationary_defense_basic	Passive	PlaceTurret			50	100	stationary_defense_advanced	None	FTurretDamage 0.25 ITurretHealth 25 IPlacementRange 1																
 stationary_defense_advanced	Passive	PlaceTurret			50	250	stationary_defense_master	None	FTurretDamage 0.3 ITurretHealth 30 IPlacementRange 1																
-stationary_defense_master	Passive	PlaceTurret			40	400	stationary_defense_legend	None	FTurretDamage 0.35 ITurretHealth 35 IPlacementRange 2																
+stationary_defense_master	Passive	PlaceTurret			50	400	stationary_defense_legend	None	FTurretDamage 0.35 ITurretHealth 35 IPlacementRange 2																
 stationary_defense_legend	Passive	PlaceTurret						None	FTurretDamage 0.4 ITurretHealth 40 IPlacementRange 2																
-grenadier_basic	Passive	ThrowGrenade			25	100	grenadier_advanced	None	FGrenadeDamage 0.25																
-grenadier_advanced	Passive	ThrowGrenade			25	250	grenadier_master	None	FGrenadeDamage 0.35																
-grenadier_master	Passive	ThrowGrenade			25	400	grenadier_legend	None	FGrenadeDamage 0.45																
-grenadier_legend	Passive	ThrowGrenade						None	FGrenadeDamage 0.55																
+grenadier_basic	Passive	ThrowGrenade			25	100	grenadier_advanced	None	FGrenadeDamage 0.2																
+grenadier_advanced	Passive	ThrowGrenade			25	250	grenadier_master	None	FGrenadeDamage 0.3																
+grenadier_master	Passive	ThrowGrenade			25	400	grenadier_legend	None	FGrenadeDamage 0.4																
+grenadier_legend	Passive	ThrowGrenade						None	FGrenadeDamage 0.5																
 tomahawk_basic	Passive	ThrowMeleeWeapon			10	100	tomahawk_advanced	None	FThrowCritChance 0.3																
 tomahawk_advanced	Passive	ThrowMeleeWeapon			10	250	tomahawk_master	None	FThrowCritChance 0.4 IThrowRangeBonus 1																
 tomahawk_master	Passive	ThrowMeleeWeapon			10	400	tomahawk_legend	None	FThrowCritChance 0.5 IThrowRangeBonus 2																
@@ -152,18 +152,18 @@ marauder_basic	Passive	LootUniqCorpse			1	100	marauder_advanced	None	FLootCorpse
 marauder_advanced	Passive	LootUniqCorpse			1	250	marauder_master	None	FLootCorpseItem 0.6 FLootStorageItem 0.6																
 marauder_master	Passive	LootUniqCorpse			1	400	marauder_legend	None	FLootCorpseItem 0.9 FLootStorageItem 0.9																
 marauder_legend	Passive	LootUniqCorpse						None	FLootCorpseItem 1.2 FLootStorageItem 1.2																
-handmade_shotgun_ammo_basic	Passive	ShotShellsAmmo			2	100	handmade_shotgun_ammo_advanced	None	FShellAmmoDamage 0.25																
-handmade_shotgun_ammo_advanced	Passive	ShotShellsAmmo			2	250	handmade_shotgun_ammo_master	None	FShellAmmoDamage 0.3																
-handmade_shotgun_ammo_master	Passive	ShotShellsAmmo			2	400	handmade_shotgun_ammo_legend	None	FShellAmmoDamage 0.35																
-handmade_shotgun_ammo_legend	Passive	ShotShellsAmmo						None	FShellAmmoDamage 0.4																
+handmade_shotgun_ammo_basic	Passive	ShotShellsAmmo			2	100	handmade_shotgun_ammo_advanced	None	FShellAmmoDamage 0.2																
+handmade_shotgun_ammo_advanced	Passive	ShotShellsAmmo			2	250	handmade_shotgun_ammo_master	None	FShellAmmoDamage 0.25																
+handmade_shotgun_ammo_master	Passive	ShotShellsAmmo			2	400	handmade_shotgun_ammo_legend	None	FShellAmmoDamage 0.3																
+handmade_shotgun_ammo_legend	Passive	ShotShellsAmmo						None	FShellAmmoDamage 0.35																
 first_aid_basic	Passive	OnWoundFixate			5	100	first_aid_advanced	None	FFixateAddedChance 0.25																
 first_aid_advanced	Passive	OnWoundFixate			5	250	first_aid_master	None	FFixateAddedChance 0.3																
 first_aid_master	Passive	OnWoundFixate			5	400	first_aid_legend	None	FFixateAddedChance 0.35																
 first_aid_legend	Passive	OnWoundFixate						None	FFixateAddedChance 0.4																
-piersing_burst_basic	Passive	ShotRangedWeapon	Smg		2	100	piersing_burst_advanced	None	FPierce 0.3																
-piersing_burst_advanced	Passive	ShotRangedWeapon	Smg		2	250	piersing_burst_master	None	FPierce 0.4																
-piersing_burst_master	Passive	ShotRangedWeapon	Smg		2	400	piersing_burst_legend	None	FPierce 0.5																
-piersing_burst_legend	Passive	ShotRangedWeapon	Smg					None	FPierce 0.6																
+piersing_burst_basic	Passive	ShotRangedWeapon	Smg AssaultRifle		2	100	piersing_burst_advanced	None	FPierce 0.3																
+piersing_burst_advanced	Passive	ShotRangedWeapon	Smg AssaultRifle		2	250	piersing_burst_master	None	FPierce 0.4																
+piersing_burst_master	Passive	ShotRangedWeapon	Smg AssaultRifle		2	400	piersing_burst_legend	None	FPierce 0.5																
+piersing_burst_legend	Passive	ShotRangedWeapon	Smg AssaultRifle					None	FPierce 0.6																
 duty_shift_basic	Trigger	UsingAnyMeds			10	100	duty_shift_advanced	None	IDuration 3 ICooldown 22 IActivation 80 FResists 0.45																
 duty_shift_advanced	Trigger	UsingAnyMeds			10	250	duty_shift_master	None	IDuration 4 ICooldown 18 IActivation 80 FResists 0.45																
 duty_shift_master	Trigger	UsingAnyMeds			10	400	duty_shift_legend	None	IDuration 5 ICooldown 14 IActivation 80 FResists 0.45																
@@ -192,14 +192,14 @@ axe_rage_basic	Trigger	OnMeleeWoundInflict	Axe Club Knife		5	100	axe_rage_advanc
 axe_rage_advanced	Trigger	OnMeleeWoundInflict	Axe Club Knife		5	250	axe_rage_master	None	IDuration 4 ICooldown 6 IActivation 25 IMultiHit 3 BActionPointDuration true																
 axe_rage_master	Trigger	OnMeleeWoundInflict	Axe Club Knife		5	400	axe_rage_legend	None	IDuration 5 ICooldown 5 IActivation 25 IMultiHit 3 BActionPointDuration true																
 axe_rage_legend	Trigger	OnMeleeWoundInflict	Axe Club Knife					None	IDuration 6 ICooldown 4 IActivation 25 IMultiHit 3 BActionPointDuration true																
-enhanced_heavy_ammo_basic	Passive	ShotHeavyAmmo			2	100	enhanced_heavy_ammo_advanced	None	FHeavyAmmoDamage 0.2																
-enhanced_heavy_ammo_advanced	Passive	ShotHeavyAmmo			2	250	enhanced_heavy_ammo_master	None	FHeavyAmmoDamage 0.25																
-enhanced_heavy_ammo_master	Passive	ShotHeavyAmmo			2	400	enhanced_heavy_ammo_legend	None	FHeavyAmmoDamage 0.3																
-enhanced_heavy_ammo_legend	Passive	ShotHeavyAmmo						None	FHeavyAmmoDamage 0.35																
-reinforced_battery_basic	Passive	OnAttackWithBatteryAmmo			2	100	reinforced_battery_advanced	None	FBatteryAmmoDamage 0.2																
-reinforced_battery_advanced	Passive	OnAttackWithBatteryAmmo			2	250	reinforced_battery_master	None	FBatteryAmmoDamage 0.25																
-reinforced_battery_master	Passive	OnAttackWithBatteryAmmo			2	400	reinforced_battery_legend	None	FBatteryAmmoDamage 0.3																
-reinforced_battery_legend	Passive	OnAttackWithBatteryAmmo						None	FBatteryAmmoDamage 0.35																
+enhanced_heavy_ammo_basic	Passive	ShotHeavyAmmo			2	100	enhanced_heavy_ammo_advanced	None	FHeavyAmmoDamage 0.15																
+enhanced_heavy_ammo_advanced	Passive	ShotHeavyAmmo			2	250	enhanced_heavy_ammo_master	None	FHeavyAmmoDamage 0.2																
+enhanced_heavy_ammo_master	Passive	ShotHeavyAmmo			2	400	enhanced_heavy_ammo_legend	None	FHeavyAmmoDamage 0.25																
+enhanced_heavy_ammo_legend	Passive	ShotHeavyAmmo						None	FHeavyAmmoDamage 0.3																
+reinforced_battery_basic	Passive	OnAttackWithBatteryAmmo			2	100	reinforced_battery_advanced	None	FBatteryAmmoDamage 0.15																
+reinforced_battery_advanced	Passive	OnAttackWithBatteryAmmo			2	250	reinforced_battery_master	None	FBatteryAmmoDamage 0.2																
+reinforced_battery_master	Passive	OnAttackWithBatteryAmmo			2	400	reinforced_battery_legend	None	FBatteryAmmoDamage 0.25																
+reinforced_battery_legend	Passive	OnAttackWithBatteryAmmo						None	FBatteryAmmoDamage 0.3																
 cheap_shot_basic	Trigger	OnStealthAttack			10	100	cheap_shot_advanced	None	IDuration 6 ICooldown 18 IActivation 80 FCritChance 0.25																
 cheap_shot_advanced	Trigger	OnStealthAttack			10	250	cheap_shot_master	None	IDuration 8 ICooldown 16 IActivation 80 FCritChance 0.3																
 cheap_shot_master	Trigger	OnStealthAttack			10	400	cheap_shot_legend	None	IDuration 10 ICooldown 14 IActivation 80 FCritChance 0.35																
@@ -232,17 +232,17 @@ shock_awe_basic	Trigger	ExplosionHitOnEnemy			10	100	shock_awe_advanced	None	IDu
 shock_awe_advanced	Trigger	ExplosionHitOnEnemy			10	250	shock_awe_master	None	IDuration 2 ICooldown 15 IActivation 80 FExplStunChance 0.6 IExplStunDuration 1																
 shock_awe_master	Trigger	ExplosionHitOnEnemy			10	400	shock_awe_legend	None	IDuration 2 ICooldown 15 IActivation 80 FExplStunChance 0.6 IExplStunDuration 2																
 shock_awe_legend	Trigger	ExplosionHitOnEnemy						None	IDuration 2 ICooldown 15 IActivation 80 FExplStunChance 0.7 IExplStunDuration 2																
-spray_and_pray_basic	Trigger	AmmoBelow20Percent	Machinegun Minigun		25	100	spray_and_pray_advanced	None	IDuration 6 ICooldown 10 IActivation 40 FMachineGunDamage 0.6																
-spray_and_pray_advanced	Trigger	AmmoBelow30Percent	Machinegun Minigun		25	250	spray_and_pray_master	None	IDuration 6 ICooldown 8 IActivation 40 FMachineGunDamage 0.6																
-spray_and_pray_master	Trigger	AmmoBelow40Percent	Machinegun Minigun		20	400	spray_and_pray_legend	None	IDuration 6 ICooldown 6 IActivation 40 FMachineGunDamage 0.6																
-spray_and_pray_legend	Trigger	AmmoBelow50Percent	Machinegun Minigun					None	IDuration 6 ICooldown 4 IActivation 40 FMachineGunDamage 0.6																
+spray_and_pray_basic	Trigger	AmmoBelow20Percent	AssaultRifle Machinegun Minigun		40	100	spray_and_pray_advanced	None	IDuration 5 ICooldown 16 IActivation 80 FDamage 0.3 FPierce 0.15 FRangeAccuracy 0.15																
+spray_and_pray_advanced	Trigger	AmmoBelow30Percent	AssaultRifle Machinegun Minigun		40	250	spray_and_pray_master	None	IDuration 5 ICooldown 14 IActivation 80 FDamage 0.4 FPierce 0.2 FRangeAccuracy 0.2																
+spray_and_pray_master	Trigger	AmmoBelow40Percent	AssaultRifle Machinegun Minigun		40	400	spray_and_pray_legend	None	IDuration 5 ICooldown 12 IActivation 80 FDamage 0.5 FPierce 0.25 FRangeAccuracy 0.25																
+spray_and_pray_legend	Trigger	AmmoBelow50Percent	AssaultRifle Machinegun Minigun					None	IDuration 5 ICooldown 10 IActivation 80 FDamage 0.6 FPierce 0.3 FRangeAccuracy 0.3																
 agent_training_basic	Passive	ShotRangedWeapon	Pistol		2	100	agent_training_advanced	None	FPistolAccuracy 0.15 IAddedPistolRange 1																
 agent_training_advanced	Passive	ShotRangedWeapon	Pistol		2	250	agent_training_master	None	FPistolAccuracy 0.2 IAddedPistolRange 1																
 agent_training_master	Passive	ShotRangedWeapon	Pistol		2	400	agent_training_legend	None	FPistolAccuracy 0.25 IAddedPistolRange 2																
 agent_training_legend	Passive	ShotRangedWeapon	Pistol					None	FPistolAccuracy 0.3 IAddedPistolRange 2																
-muffled_basic	Passive	IdleKill			8	100	muffled_advanced	None	FNoiseSuppression 0.5																
-muffled_advanced	Passive	IdleKill			8	250	muffled_master	None	FNoiseSuppression 0.6																
-muffled_master	Passive	IdleKill			8	400	muffled_legend	None	FNoiseSuppression 0.7																
+muffled_basic	Passive	IdleKill			10	100	muffled_advanced	None	FNoiseSuppression 0.5																
+muffled_advanced	Passive	IdleKill			10	250	muffled_master	None	FNoiseSuppression 0.6																
+muffled_master	Passive	IdleKill			10	400	muffled_legend	None	FNoiseSuppression 0.7																
 muffled_legend	Passive	IdleKill						None	FNoiseSuppression 0.8																
 lightweight_gear_basic	Passive	WeightStealth			1	150	lightweight_gear_advanced	None	FEquipmentWeight -0.25																
 lightweight_gear_advanced	Passive	WeightStealth			1	300	lightweight_gear_master	None	FEquipmentWeight -0.35																
@@ -252,9 +252,9 @@ shielding_basic	Passive	ElementalDmgAbsorbedByResist			4	100	shielding_advanced	
 shielding_advanced	Passive	ElementalDmgAbsorbedByResist			4	250	shielding_master	None	FElementalResists 0.3																
 shielding_master	Passive	ElementalDmgAbsorbedByResist			4	400	shielding_legend	None	FElementalResists 0.35																
 shielding_legend	Passive	ElementalDmgAbsorbedByResist						None	FElementalResists 0.4																
-battle_physicist_basic	Passive	DisassembleBatteryGuns			2	100	battle_physicist_advanced	None	FEnergySaving 0.2																
-battle_physicist_advanced	Passive	DisassembleBatteryGuns			2	200	battle_physicist_master	None	FEnergySaving 0.25																
-battle_physicist_master	Passive	DisassembleBatteryGuns			2	300	battle_physicist_legend	None	FEnergySaving 0.3																
+battle_physicist_basic	Passive	DisassembleBatteryGuns			5	100	battle_physicist_advanced	None	FEnergySaving 0.2																
+battle_physicist_advanced	Passive	DisassembleBatteryGuns			5	250	battle_physicist_master	None	FEnergySaving 0.25																
+battle_physicist_master	Passive	DisassembleBatteryGuns			5	400	battle_physicist_legend	None	FEnergySaving 0.3																
 battle_physicist_legend	Passive	DisassembleBatteryGuns						None	FEnergySaving 0.35																
 revealing_flame_basic	Trigger	PutFireOnEnemy			10	100	revealing_flame_advanced	None	IDuration 8 ICooldown 12 IActivation 80 IRevealRange 4 BRevealingSignal true																
 revealing_flame_advanced	Trigger	PutFireOnEnemy			10	250	revealing_flame_master	None	IDuration 8 ICooldown 12 IActivation 80 IRevealRange 5 BRevealingSignal true																
@@ -336,10 +336,10 @@ sandman_basic	Passive	IdleKill			15	100	sandman_advanced	None	FSandmanScatter -0
 sandman_advanced	Passive	IdleKill			15	250	sandman_master	None	FSandmanScatter -0.5 FSandmanFalloff -0.06																
 sandman_master	Passive	IdleKill			15	400	sandman_legend	None	FSandmanScatter -0.6 FSandmanFalloff -0.08																
 sandman_legend	Passive	IdleKill						None	FSandmanScatter -0.7 FSandmanFalloff -0.1																
-unconventional_munitions_basic	Passive	Shot9mm42Ammo			2	100	unconventional_munitions_advanced	None	F9mm42AmmoDamage 0.25 F9mm42WoundChance 0.25																
-unconventional_munitions_advanced	Passive	Shot9mm42Ammo			2	250	unconventional_munitions_master	None	F9mm42AmmoDamage 0.3 F9mm42WoundChance 0.3																
-unconventional_munitions_master	Passive	Shot9mm42Ammo			2	400	unconventional_munitions_legend	None	F9mm42AmmoDamage 0.35 F9mm42WoundChance 0.35																
-unconventional_munitions_legend	Passive	Shot9mm42Ammo						None	F9mm42AmmoDamage 0.4 F9mm42WoundChance 0.4																
+unconventional_munitions_basic	Passive	Shot9mm42Ammo			2	100	unconventional_munitions_advanced	None	F9mm42AmmoDamage 0.2 F9mm42WoundChance 0.2																
+unconventional_munitions_advanced	Passive	Shot9mm42Ammo			2	250	unconventional_munitions_master	None	F9mm42AmmoDamage 0.25 F9mm42WoundChance 0.3																
+unconventional_munitions_master	Passive	Shot9mm42Ammo			2	400	unconventional_munitions_legend	None	F9mm42AmmoDamage 0.3 F9mm42WoundChance 0.4																
+unconventional_munitions_legend	Passive	Shot9mm42Ammo						None	F9mm42AmmoDamage 0.35 F9mm42WoundChance 0.5																
 tactical_camouflage_basic	Trigger	OnEnemyAlert			25	100	tactical_camouflage_advanced	None	IDuration 2 ICooldown 40 IActivation 200 BTacticalCamo true																
 tactical_camouflage_advanced	Trigger	OnEnemyAlert			25	250	tactical_camouflage_master	None	IDuration 2 ICooldown 30 IActivation 150 BTacticalCamo true																
 tactical_camouflage_master	Trigger	OnEnemyAlert			25	400	tactical_camouflage_legend	None	IDuration 3 ICooldown 30 IActivation 150 BTacticalCamo true																
@@ -348,10 +348,10 @@ blurred_silhouette_basic	Trigger	Run			10	100	blurred_silhouette_advanced	None	I
 blurred_silhouette_advanced	Trigger	Run			10	250	blurred_silhouette_master	None	IDuration 8 ICooldown 25 IActivation 120 FDodge 0.4																
 blurred_silhouette_master	Trigger	Run			10	400	blurred_silhouette_legend	None	IDuration 8 ICooldown 20 IActivation 120 FDodge 0.5																
 blurred_silhouette_legend	Trigger	Run						None	IDuration 8 ICooldown 15 IActivation 120 FDodge 0.6																
-cyberpsychosis_basic	Trigger	ImplantActivation			10	100	cyberpsychosis_advanced	None	IDuration 4 ICooldown 15 IActivation 80 FDamage 0.6																
-cyberpsychosis_advanced	Trigger	ImplantActivation			10	250	cyberpsychosis_master	None	IDuration 5 ICooldown 15 IActivation 80 FDamage 0.7																
-cyberpsychosis_master	Trigger	ImplantActivation			10	400	cyberpsychosis_legend	None	IDuration 6 ICooldown 15 IActivation 80 FDamage 0.8																
-cyberpsychosis_legend	Trigger	ImplantActivation						None	IDuration 7 ICooldown 15 IActivation 80 FDamage 0.9																
+cyberpsychosis_basic	Trigger	ImplantActivation			10	100	cyberpsychosis_advanced	None	IDuration 5 ICooldown 15 IActivation 80 FDamage 0.6																
+cyberpsychosis_advanced	Trigger	ImplantActivation			10	250	cyberpsychosis_master	None	IDuration 6 ICooldown 15 IActivation 80 FDamage 0.7																
+cyberpsychosis_master	Trigger	ImplantActivation			10	400	cyberpsychosis_legend	None	IDuration 7 ICooldown 15 IActivation 80 FDamage 0.8																
+cyberpsychosis_legend	Trigger	ImplantActivation						None	IDuration 8 ICooldown 15 IActivation 80 FDamage 0.9																
 krav_maga_basic	Passive	OnBarehandHit			10	100	krav_maga_advanced	None	FBarehandCritChance 0.15 FBarehandCritDmg 0.4																
 krav_maga_advanced	Passive	OnBarehandHit			10	250	krav_maga_master	None	FBarehandCritChance 0.2 FBarehandCritDmg 0.5																
 krav_maga_master	Passive	OnBarehandHit			10	400	krav_maga_legend	None	FBarehandCritChance 0.25 FBarehandCritDmg 0.6																
@@ -404,7 +404,7 @@ ethereal_barrier	ActiveImplant	None			0	0		Survival	ICooldown 40 IShieldCapacity
 energy_shield	ActiveImplant	None			0	0		Advantage	ICooldown 4 IShieldCapacity 200 IShieldDecay 10																
 acid_gland	ActiveImplant	None			0	0		TargetCell	ICooldown 6 BSelectTarget true SProjectileId toxic SDamageType poison IMinDamage 28 IMaxDamage 46																
 web_gland	ActiveImplant	None			0	0		TargetCell	ICooldown 12 BSelectTarget true SProjectileId web_bolt IDuration 2 FRootChance 1																
-rocket_injector	ActiveImplant	None			0	0		TargetCell	ICooldown 4 BSelectTarget true SProjectileId small_rocket IMinCount 3 SExplosionId frag_explosion IMinDamage 80 SDamageType explosion IRadius 2 FSalvoInterval 0.3																
+rocket_injector	ActiveImplant	None			0	0		TargetCell	ICooldown 4 BSelectTarget true SProjectileId small_rocket IMinCount 3 SExplosionId frag_explosion IMinDamage 80 SDamageType explosion IRadius 2 FSalvoInterval 0.3 FScatter 0.15																
 stealth_skin	ActiveImplant	None			0	0		None	ICooldown 4 IDuration 10																
 chaos_orb	ActiveImplant	None			0	0		TargetCell	ICooldown 20 BSelectTarget true SExplosionId orb_explosion IRadius 3 IMinDamage 85 SDamageType chaos BExplosion true IExplosionRadius 3																
 ice_crystal	ActiveImplant	None			0	0		TargetCell	ICooldown 12 BSelectTarget true IMinDamage 45 IMaxDamage 60 SDamageType cold BTargetEnemy true																
@@ -412,5 +412,5 @@ discharge_gland	ActiveImplant	None			0	0		AoE	ICooldown 16 IUsageRadius 3 SExplo
 impaler	ActiveImplant	None			0	0		TargetCell	ICooldown 8 BSelectTarget true SExplosionId impaler_explosion IDuration 3 BTargetEnemy true																
 matrix_interference_generator	ActiveImplant	None			0	0		TargetCell	ICooldown 20 BSelectTarget true SExplosionId matrix_explosion IRadius 3 IMinDamage 85 SDamageType shock BExplosion true IExplosionRadius 3																
 matrix_hologram	ActiveImplant	None			0	0		None	ICooldown 4 IDuration 4 BSelectTarget true																
-matrix_shield	ActiveImplant	None			0	0		Advantage	ICooldown 4 IShieldCapacity 200 IShieldDecay 10																
+matrix_shield	ActiveImplant	None			0	0		Advantage	ICooldown 4 IShieldCapacity 100 IShieldDecay 40																
 #end																									

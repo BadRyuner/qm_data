@@ -9,23 +9,23 @@ xio_4_nanau	Oddibjord	XiomaraMasks	Tezctlan	XiomaraMasks	skull_venus_blood_mirro
 xio_4_topil	Clotho	XiomaraMasks	Tezctlan	XiomaraMasks	skull_venus_run_cold venus_warrior_smg quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo xio_light_armor_2 xio_light_helmet_2 xio_pants_1 xio_light_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 quasi_repair_kit spider_cocoon spider_cocoon spider_cocoon	Custom			6	FALSE	stage1 1100	stage1 2200				
 xio_4_tonatiuh	FrescoPlatforms	XiomaraMasks	Tezctlan	XiomaraMasks	skull_venus_reapers_harvest venus_warrior_hand quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo xio_light_armor_2 xio_light_helmet_2 xio_pants_1 xio_light_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 quasi_repair_kit spider_cocoon spider_cocoon spider_cocoon	Custom			6	FALSE	stage1 450 stage2 600	stage1 2500 stage2 2100				
 xio_5_shattered	FeatheredTemple	XiomaraMasks	Tezctlan	XiomaraMasks	skull_venus_hemostatic_shock	Custom		endgame_xiomara	8	FALSE	stage1 900 stage2 1300 stage3 1200	stage1 3200 stage2 6000 stage3 2600			venus_spear_hmg_1 quest_golden_skull	ShatterEmer
-anc_1_comm_anarchy	Oddibjord	AnCom	Unknown	AnCom	quest_golden_skull	ItemInInventoryById	quest_golden_skull 1		4	FALSE	stage1 800 stage2 800 stage3 800 stage4 1000 stage5 1000	stage1 2400 stage2 3200 stage3 3200 stage4 1600 stage5 4800	stage1 RealWare stage2 RealWare stage3 RealWare stage4 Tezctlan stage5 RealWare			
-anc_2_mib	Jamame	AnCom	CResistance	AnCom	anc_quasi_assault_1 anc_medium_armor_2 anc_medium_mask_1 anc_medium_pants_2 anc_medium_boots_2 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo	Custom			6	FALSE	stage1 600 stage2 800 stage3 800	stage1 2200 stage2 2600 stage3 3200				No_Bramfatura
-anc_3_reload	FullersCore	AnCom	SBN	AnCom		Custom			6	FALSE	stage1 1000 stage2 1000 stage3 1000	stage1 2000 stage2 2000 stage3 2000				Duggur_Reload
-anc_4_deadman	HISAres	AnCom	RealWare	AnCom		Custom			8	FALSE	stage1 1000 stage2 1000 stage3 1000	stage1 0 stage2 2000 stage3 2000				
-anc_4_screamers	SinkholeOasis	AnCom	SheduThousand	AnCom		Custom			8	FALSE	stage1 1000 stage2 1000 stage3 1000	stage1 2000 stage2 2000 stage3 2000				
-anc_5_sonnen	Photosphere	AnCom	AnCom	AnCom		Custom		endgame_ancom	10	FALSE	stage1 1000 stage2 1000 stage3 1000 stage4 1000 stage5 1000	stage1 300 stage2 1000 stage3 1000 stage4 0 stage5 0				
-hiv_1_cold_war	HumankindsHope	Hive	CResistance	Hive		Custom			6	FALSE						
-hiv_2_bifrost	Geist	Hive	Dilthey	Hive		Custom			8	FALSE						
-hiv_2_telegraph	ISSStation	Hive	SBN	Hive		Custom			8	FALSE						
-hiv_2_rokosz	HISAres	Hive	RealWare	Hive		Custom			8	FALSE						
-hiv_3_awakened	OrkneyIslands	Hive	UnchainedBelt	Hive		Custom		endgame_hive	10	FALSE						
-rwa_1_covert	HumankindsHope	RealWare	AnCom	RealWare	military_heavy_helmet_1 rwa_heavy_helmet_1 big_backpack_1 medical_kit_2 medical_kit_2 medical_kit_2 medium_basic_ammo medium_basic_ammo	Custom	1		2	TRUE	stage1 500 stage2 500 stage3 600 stage4 600	stage1 1600 stage2 1600 stage3 1600 stage4 2000		quest_emp_turret		
-rwa_2_treasure	Hargeysa	RealWare	UnchainedBelt	RealWare		Custom			4	FALSE	stage1 600 stage2 4200 stage3 1000 stage4 1000 stage5 1000	stage1 0 stage2 2600 stage3 2200 stage4 2000 stage5 2300				
-rwa_2_malefic	Carmel	RealWare	CResistance	RealWare		Custom			4	FALSE	stage1 1000 stage2 1000 stage3 1000 stage4 1200	stage1 2900 stage2 2600 stage3 2500 stage4 2400				
-rwa_3_light	FeatheredTemple	RealWare	Tezctlan	RealWare		Custom			8	FALSE	stage1 1300 stage2 2200	stage1 5200 stage2 6800				
-rwa_4a_whirl	SinkholeOasis	RealWare	SheduThousand	RealWare		Custom			8	FALSE	stage1 1500 stage2 1600 stage3 600 stage4 2100	stage1 4000 stage2 0 stage3 4600 stage4 6500		quest_bomb_briefcase		
-rwa_4b_odoacer	HISAres	SheduThousand	RealWare	SheduThousand		Custom			8	FALSE	stage1 500 stage2 800 stage3 900 stage4 2100	stage1 0 stage2 4900 stage3 0 stage4 6200				
+anc_1_comm_anarchy	Oddibjord	AnCom	Unknown	AnCom	quest_golden_skull anulator medium_chip medium_chip class_chip	ItemInInventoryById	quest_golden_skull 1		4	FALSE	stage1 800 stage2 800 stage3 800 stage4 1000 stage5 1000	stage1 2400 stage2 3200 stage3 3200 stage4 1600 stage5 4800	stage1 RealWare stage2 RealWare stage3 RealWare stage4 Tezctlan stage5 RealWare			
+anc_2_mib	Jamame	AnCom	CResistance	AnCom	frost_gas_grenade frost_gas_grenade frost_gas_grenade anulator high_chip high_chip augment_chip anc_agent_mask_1 anc_agent_armor_1 anc_agent_pants_1 anc_agent_boots_1 medical_kit_2 medical_kit_2 medical_kit_2	Custom			6	FALSE	stage1 600 stage2 800 stage3 800	stage1 2200 stage2 2600 stage3 3200				No_Bramfatura
+anc_3_reload	FullersCore	AnCom	SBN	AnCom	anc_medium_armor_2 anc_medium_mask_1 anc_medium_pants_2 anc_medium_boots_2 anulator medium_cold_ammo medium_cold_ammo medium_cold_ammo medium_cold_ammo anc_pistol_2 high_chip high_chip augment_chip medical_kit_2 medical_kit_2 medical_kit_2	Custom			6	FALSE	stage1 1400 stage2 1300 stage3 900	stage1 5000 stage2 5600 stage3 5200				Duggur_Reload
+anc_4_deadman	HISAres	AnCom	RealWare	AnCom	frost_grenade frost_grenade frost_grenade quasi_sensor_device anc_chip anc_chip anc_quasi_smg_1 medium_cold_ammo medium_cold_ammo medium_cold_ammo medium_cold_ammo	Custom			8	FALSE	stage1 600 stage2 1200 stage3 1300	stage1 0 stage2 4800 stage3 5200				
+anc_4_screamers	SinkholeOasis	AnCom	SheduThousand	AnCom	quasi_grenade quasi_grenade quasi_grenade demonic_eye anc_chip anc_chip anc_quasi_assault_1 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo	Custom			8	FALSE	stage1 1200 stage2 1100 stage3 1400	stage1 4000 stage2 0 stage3 6800				
+anc_5_sonnen	Photosphere	AnCom	Unknown	AnCom		Custom		endgame_ancom	10	FALSE	stage1 1000 stage2 1000 stage3 1000 stage4 1000 stage5 1000	stage1 0 stage2 800 stage3 800 stage4 0 stage5 0				No_Bramfatura
+hiv_1_cold_war	HumankindsHope	AnCom	CResistance	Hive	anc_medium_armor_2 anc_medium_mask_1 anc_medium_pants_2 anc_medium_boots_2 anulator medium_cold_ammo medium_cold_ammo medium_cold_ammo medium_cold_ammo anc_pistol_2 high_chip high_chip augment_chip augment_chip medical_kit_2 medical_kit_2 medical_kit_2	Custom			6	FALSE	stage1 1200 stage2 1500 stage3 900 stage4 900	stage1 4500 stage2 5600 stage3 3600 stage4 1600				
+hiv_2_bifrost	Vasa	Hive	Dilthey	Hive	quasi_grenade quasi_grenade quasi_grenade demonic_eye anc_chip anc_chip anc_quasi_assault_1 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo	Custom			8	FALSE	stage1 2200 stage2 2000 stage3 1000 stage4 1400	stage1 8700 stage2 8200 stage3 3000 stage4 8000	stage1 UnchainedBelt stage2 RealWare stage3 RealWare stage4 RealWare			
+hiv_2_telegraph	ISSStation	Hive	SBN	Hive	anc_chip anc_chip pmc_smg_3 small_burst_ammo small_burst_ammo small_burst_ammo small_burst_ammo big_backpack_1	Custom			8	FALSE	stage1 1600 stage2 1500 stage3 1300	stage1 7200 stage2 6600 stage3 6200				
+hiv_2_rokosz	HISAres	Hive	RealWare	Hive	frost_grenade frost_grenade frost_grenade quasi_sensor_device anc_chip anc_chip anc_quasi_smg_1 medium_cold_ammo medium_cold_ammo medium_cold_ammo medium_cold_ammo	Custom			8	FALSE	stage1 400 stage2 1400 stage3 2200	stage1 0 stage2 10500 stage3 14500				
+hiv_3_awakened	OrkneyIslands	Hive	UnchainedBelt	Hive		Custom		endgame_hive	10	FALSE	stage1 1000 stage2 1000 stage3 1000 stage4 1000	stage1 3350 stage2 3250 stage3 3400 stage4 3160				
+rwa_1_covert	HumankindsHope	RealWare	AnCom	RealWare	big_backpack_1 medical_kit_2 medical_kit_2 medical_kit_2 medium_basic_ammo medium_basic_ammo class_chip military_medium_armor_1 military_medium_helmet_1 military_medium_pants_1 military_medium_boots_1	Custom	1		2	TRUE	stage1 500 stage2 500 stage3 600 stage4 600	stage1 1600 stage2 1600 stage3 1600 stage4 2000		quest_emp_turret		
+rwa_2_treasure	Hargeysa	RealWare	UnchainedBelt	RealWare	medium_chip medium_chip military_heavy_armor_1 military_heavy_helmet_1 military_heavy_pants_1 military_heavy_boots_1 rwa_military_pistol_1 small_expansive_ammo small_expansive_ammo small_expansive_ammo small_expansive_ammo	Custom			4	FALSE	stage1 600 stage2 4200 stage3 1000 stage4 1000 stage5 1000	stage1 0 stage2 2600 stage3 2200 stage4 2000 stage5 2300				
+rwa_2_malefic	Carmel	RealWare	CResistance	RealWare	medium_chip medium_chip military_heavy_armor_1 military_heavy_helmet_1 military_heavy_pants_1 military_heavy_boots_1 rwa_military_smg_1 medium_basic_ammo medium_basic_ammo medium_basic_ammo medium_basic_ammo	Custom			4	FALSE	stage1 1000 stage2 1000 stage3 1000 stage4 1200	stage1 2900 stage2 2600 stage3 2500 stage4 2400				
+rwa_3_light	FeatheredTemple	RealWare	Tezctlan	RealWare	rwa_chip rwa_chip rwa_heavy_armor_1 rwa_heavy_helmet_1 rwa_heavy_pants_1 rwa_heavy_boots_1 rwa_military_assault_1 rifle_armorpierce_ammo rifle_armorpierce_ammo rifle_armorpierce_ammo rifle_armorpierce_ammo	Custom			8	FALSE	stage1 1300 stage2 2200	stage1 5200 stage2 6800				
+rwa_4a_whirl	SinkholeOasis	RealWare	SheduThousand	RealWare	rwa_chip rwa_chip rwa_power_armor_1 rwa_power_helmet_1 rwa_power_pants_1 rwa_power_boots_1 rwa_military_hmg_1 rifle_plasma_ammo rifle_plasma_ammo rifle_plasma_ammo rifle_plasma_ammo	Custom			8	FALSE	stage1 1500 stage2 1600 stage3 -666 stage4 2100	stage1 4000 stage2 0 stage3 4600 stage4 4600		quest_bomb_briefcase		
+rwa_4b_odoacer	HISAres	SheduThousand	RealWare	SheduThousand	rwa_chip rwa_chip possessed_medium_armor_1 possessed_medium_helmet_1 possessed_medium_pants_1 possessed_medium_boots_1 she_plasma_assault_1 mars_crab_hand mars_crab_stomach battery_basic_ammo battery_basic_ammo battery_basic_ammo she_gas_shotgun_1 mars_gas_ammo mars_gas_ammo mars_gas_ammo	Custom			8	FALSE	stage1 500 stage2 -666 stage3 900 stage4 2100	stage1 0 stage2 4900 stage3 0 stage4 6200				No_Bramfatura
 rwa_5a_glass	OrkneyIslands	RealWare	AnCom	RealWare		Custom		endgame_rwa	10	FALSE	stage1 1600 stage2 2000 stage3 2500	stage1 6200 stage2 6000 stage3 0				
 rwa_5b_carnage	OrkneyIslands	SheduThousand	AnCom	SheduThousand		Custom		endgame_shedu	10	FALSE	stage1 1600 stage2 2000 stage3 2500	stage1 6200 stage2 6000 stage3 0				
 civ_1_manifesto	HeritageStation	CResistance	SBN	CResistance	civ_marksman_1 rifle_basic_ammo servo_backpack_1 civ_medium_armor_2 civ_medium_helmet_2 firearm_repair_kit automap thermal_grenade tool_container engineering_parts_container welding_machine_device	Custom	1		6	FALSE	stage1 300 stage2 300 stage3 300	stage1 1200 stage2 1600 stage3 2000				
@@ -41,64 +41,118 @@ tez_4_emerald	Carcosa	Tezctlan	ChurchRevelation	Tezctlan	venus_poleaxe_1 venus_m
 tez_5_stones	PilgrimsRift	Tezctlan	Sunlight	Tezctlan	venus_poleaxe_1 venus_marksman_1 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo tez_heavy_armor_3 tez_heavy_helmet_3 tez_heavy_pants_2 tez_heavy_boots_1 quasi_medical_kit_1 quasi_medical_kit_1 venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_armor_plates venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_weapon_parts venus_warrior_smg skull_of_the_damned	Custom			9	FALSE	stage1 850 stage2 900 stage3 900	stage1 2400 stage2 3200 stage3 5600				No_Bramfatura
 tez_6_erad	SinkholeOasis	Tezctlan	SheduThousand	Tezctlan		Custom		endgame_tezctlan	10	FALSE	stage1 1600 stage2 1500	stage1 4800 stage2 4400		venus_spear_hmg_1		
 tez_side_1_poison	FeatheredTemple	Magnum	Tezctlan		quest_skull_tezctlan	Custom	1		6	FALSE	stage1 100	stage1 400				
-unc_1_ghoul	HISWoodpecker	UnchainedBelt	CoreWard		unc_assault_1 trash_armored_vest_1 rifle_basic_ammo rifle_basic_ammo alcohol_container alcohol_container	Custom	1		6	TRUE	stage1 500 stage2 500 stage3 600 stage4 600 stage5 600	stage1 1600 stage2 1600 stage3 1600 stage4 2000 stage5 2400				
+unc_1_ghoul	HISWoodpecker	UnchainedBelt	CoreWard	UnchainedBelt	unc_assault_1 trash_armored_vest_1 rifle_basic_ammo rifle_basic_ammo alcohol_container alcohol_container	Custom	1		6	TRUE	stage1 500 stage2 500 stage3 600 stage4 600 stage5 600	stage1 1600 stage2 1600 stage3 1600 stage4 2000 stage5 2400				
 #end																
 																
 #storyvars																
 Parameter	Value															
 // Tutorial																
-TutorialItemsInLocker	military_pistol_2 small_basic_ammo trash_common_vest_1 small_backpack_1 common_shirt_3 common_sneakers_1 splint bandage pills_antibiotics common_pants_4															
+TutorialItemsInLocker	military_pistol_2 small_basic_ammo military_common_vest_1 small_backpack_1 common_shirt_3 common_sneakers_1 splint bandage pills_antibiotics common_pants_4															
 TutorialItemsOnCharacter	common_hybershirt_1 common_hyber_pants_1															
 TutorialAncomRewardItems	low_chip medium_backpack_1 firearm_repair_kit armor_repair_kit stationary_turret weapon_container armor_container															
 TutorialMachineBlockWait	15															
 TutorialAncomQuestItemId	quest_ancom_data															
 TutorialAncomDataReputationReward	20															
-//Whirlwind																
+																
+// Whirlwind																
 WhirlwindUprarpClassId	urparp_boss															
 WhirlwindBombId	quest_bomb_briefcase															
+																
 // Light																
 LightEipshwitzHeadId	quest_prison_head															
 LightPhaseBombId	phase_bomb															
 LightAnComReinforceSpawnList	rwa_3_light_extra_ancom_reinforce															
 LightReinforcePoints	4200															
 LightTurnsToEscape	60															
-//Odoacer																
+																
+// Odoacer																
 OdoacerAngusMobClassId	quest_angus															
 OdoacerYanMobClassId	quest_rwa_ceo															
 OdoacerTurnsToEscape	100															
-//Glassbead																
+																
+// Glassbead																
 GlassbeadStage1TurnsToEscape	10															
 GlassbeadFakeBaronId	quest_anc_inner_circle															
 GlassbeadBaronsId	cattaram_baron mars_baron mercury_baron moon_baron ron_baron flauros_baron scrivnus_baron venus_baron olirna_baron															
-//Carnage																
+																
+// Carnage																
 CarnageCutsceneElligbleMonsters	mars_knight mars_crab															
 CarnageCutsceneMonsterCount	8															
 CarnageRitualMobClassId	quest_anc_inner_circle															
 CarnageUrparpMobClassId	urparp_boss_carnage															
 CarnageStage3ReinforceList	rwa_5b_carnage_extra_reinforce															
 CarnageStage3ReinforcePoints	2150															
-//Reload																
+																
+// Reload																
 ReloadAntiQmorphDeviceId	quest_andreev_emitter															
 ReloadDuggurMonsterReinforcement	anc_3_reload_extra_duggur															
-ReloadDuggurSpawnPoints	1000															
-//Deadman																
+ReloadDuggurSpawnPoints	600															
+ReloadAbsentiaBramfaturaId	No_Bramfatura															
+																
+// Deadman																
 DeadmanAngusMobClassId	quest_angus															
 DeadmanTurnsCount	1000															
 DeadmanStage1MobList	anc_4_deadman_floor_1															
-DeadmanStage1MobPoints	2000															
+DeadmanStage1MobPoints	1500															
 DeadmanYanMobClassId	quest_rwa_ceo															
-DeadmanUrBaronMobClassId	moon_baron															
-//Screamers																
+DeadmanUrBaronMobClassId	quest_mars_baron															
+																
+// Screamers																
 ScreamersUrparpMobClassId	urparp_boss															
 ScreamersScreamer1Id	quest_she_elite_1															
 ScreamersScreamer2Id	quest_she_elite_2															
 ScreamersScreamer3Id	quest_she_elite_3															
 ScreamersLeaderMobClassId	quest_she_elite_4															
+																
+// Sonnen																
+SonnenInnerCircleMobId	quest_anc_inner_circle															
+SonnenStage1Timer	10															
+SonnenAndreevDeviceId	quest_andreev_emitter															
+SonnenInnerCircleCountToLose	5															
+SonnenStage1MonsterPoints	300															
+SonnenStage1SpawnList	anc_5_sonnen_extra_ritual															
+SonnenStage4WaitTime	10															
+																
+// Cold War																
+ColdWarColnodeMobClassId	quest_civ_elite_red															
+ColdWarRedChipItemId	quest_red_chip															
+ColdWarObjectiveId	quest_malleusMatrix															
+																
+// Bifrost																
+BifrostSergeyKingId	quest_dil_ceo															
+																
+// Telegraph																
+TelegraphHelstromIndexId	quest_hellstrom_index															
+TelegraphEllieMobClassId	quest_ellie															
+TelegraphRobertoMobClassId	quest_sbn_ceo															
+																
+// Rocosz																
+RocoszStage1MonsterPoints	8800															
+RocoszStage1MonsterTableId	hiv_2_rokosz_floor_1															
+RocoszTerminalName	quest_asdTerminalInvul															
+RocoszCapsuleName	capsule_spawnpoint															
+RocoszShuttleId	shuttle_spawnpoint															
+RocoszAngusMobClassId	quest_angus															
+RocoszFrazerMobClassId	quest_rwa_ceo															
+																
+// Hive Awakened																
+HiveAwakenedEmitterItemId	quest_andreev_emitter															
+HiveAwakenedBombContainerId	quest_nuclear_bomb															
+HiveAwakenedMastObjectiveId	maleficarum_stage1_terminal															
+HiveAwakenedSsethMobClassId	quest_unc_sseth_hive															
+HiveAwakenedEvilPirateMobClassId	quest_unc_evil															
+HiveAwakenedCommPirateMobClassId	quest_unc_communication_hive															
+HiveAwakenedFloor1SpawnPoints	3350															
+HiveAwakenedFloor2SpawnPoints	3250															
+HiveAwakenedFloor3SpawnPoints	3400															
+HiveAwakenedFloor4SpawnPoints	3160															
+//Treasure																
+TreasureTurnsToDestroyComputer	100															
 #end																
 																
 #strategies																
 Id	ProcMissionWeights	PassivePowerGain	PassivePowerGainIntervalHours	WinConditions	FailConditions	InstantFailConditions	ScenarioOnStart	ScenarioOnSuccess	ScenarioOnFail	RunMissionsOnStart	RunMissionsOnSuccess	OverridenTag	PortraitPostfix			
-AwaitingNextStep				IAwaitingDays 5								AwaitingNextStep	_Scouting			
+AwaitingNextStep				IAwaitingDays 1								AwaitingNextStep	_Scouting			
 ReputationGrow_25	RaiderCapture 100 Elimination 100 Sabotage 100 Espionage 100 Ritual 100 Robbery 100			FGainReputation 25								GainReputation	_Defense			
 Expansion	RaiderCapture 80 Elimination 20 Ritual 40 Robbery 20			IStrategyDurationMin 336 IStrategyDurationMax 672									_Expansion			
 Scouting	Elimination 30 Sabotage 50 Espionage 20 Ritual 50 Robbery 75			IStrategyDurationMin 336 IStrategyDurationMax 672									_Scouting			
@@ -106,25 +160,25 @@ Defense	Sabotage 10 Espionage 90 Ritual 10 Robbery 50	1	24	IStrategyDurationMin 
 StartupExpansion	RaiderCapture 80 Elimination 20 Ritual 40 Robbery 20			SStoryTrigger Finish_Tutorial	IStrategyDurationMin 672 IStrategyDurationMax 1344							Expansion	_Expansion			
 StartupScouting	Elimination 30 Sabotage 50 Espionage 20 Ritual 50 Robbery 75			SStoryTrigger Finish_Tutorial	IStrategyDurationMin 672 IStrategyDurationMax 1344							Scouting	_Scouting			
 StartupDefense	Sabotage 10 Espionage 90 Ritual 10 Robbery 50	1	24	SStoryTrigger Finish_Tutorial	IStrategyDurationMin 672 IStrategyDurationMax 1344							Defense	_Defense			
-Shedu_Expansion	RaiderCapture 100	50	24	IStrategyDurationMin 1600 IStrategyDurationMax 2688								Expansion				
 #end																
 																
 // ANCOM																
 #strategies																
 Id	ProcMissionWeights	PassivePowerGain	PassivePowerGainIntervalHours	WinConditions	FailConditions	InstantFailConditions	ScenarioOnStart	ScenarioOnSuccess	ScenarioOnFail	RunMissionsOnStart	RunMissionsOnSuccess	OverridenTag	PortraitPostfix			
 AnCom_Story_awaits_pcpu	RaiderCapture 50 Elimination 35 Sabotage 35 Espionage 35			SStoryTrigger quest_ancom_data_AnCom	SNoStoryTrigger quest_ancom_data_AnCom SStoryTriggerContains quest_ancom_data_							AwaitsCPCU				
-AnCom_Story_pcpu_received				IAwaitingDays 5			AnCom_Received_Data					AwaitingNextStep				
+AnCom_Story_awaits_coldwar	RaiderCapture 50 Elimination 35 Sabotage 35 Espionage 35			BEndless true												
+AnCom_Story_pcpu_received				IAwaitingDays 1			AnCom_Received_Data					AwaitingNextStep				
 AnCom_Story_CommunityAndAnarchy	Elimination 65 Sabotage 65 Espionage 65			SFinishMission anc_1_comm_anarchy	SStationDestroyed HISUnveiled SFinishMission tez_1_flower		Intro_CommunityAndAnarchy			anc_1_comm_anarchy		StoryMission				
 AnCom_Story_MenInBlack	RaiderCapture 35 Elimination 35 Sabotage 35			SFinishMission anc_2_mib	SStationDestroyed HISUnveiled		Intro_MenInBlack			anc_2_mib		StoryMission				
-AnCom_Story_ReloadBuild	Elimination 65 Sabotage 65 Espionage 65			SFactionPowerLessThan SBN SFaction AnCom				Intro_Reload		anc_3_reload		BreakPower				
+AnCom_Story_ReloadBuild	Elimination 65 Sabotage 65 Espionage 65			SFactionPowerLessThan SBN SFaction AnCom				Intro_Reload			anc_3_reload					
 AnCom_Story_Reload	Elimination 65 Sabotage 65 Espionage 65			SFinishMission anc_3_reload								StoryMission				
 AnCom_Fork_After_Reload	RaiderCapture 100			SLocationCapture mars ILocationCaptureTotal 1 SAliveFaction SheduThousand	SLocationCapture mars ILocationCaptureTotal 1 SDestroyedFaction SheduThousand											
 AnCom_Story_DeadmanEntry	RaiderCapture 50 Elimination 35 Sabotage 35 Espionage 35				SFinishMission anc_4_screamers		Intro_Deadman			anc_4_deadman		CaptureStationsLocation				
-AnCom_Story_ScreamersEntry	RaiderCapture 50 Elimination 35 Sabotage 35 Espionage 35						Intro_Screamers			anc_4_screamers		CaptureStationsLocation				
+AnCom_Story_ScreamersEntry	RaiderCapture 50 Elimination 35 Sabotage 35 Espionage 35				SFinishMission anc_4_deadman		Intro_Screamers			anc_4_screamers		CaptureStationsLocation				
 AnCom_Story_Deadman	Elimination 65 Sabotage 65 Espionage 65			SFinishMission anc_4_deadman								StoryMission				
 AnCom_Story_Screamers	Elimination 65 Sabotage 65 Espionage 65			SFinishMission anc_4_screamers								StoryMission				
-AnCom_Story_SonnenEntry				SFinishMissionAny anc_4_screamers SFinishMissionAny anc_4_deadman			Intro_Sonnen			anc_5_sonnen		AwaitingNextStep				
-AnCom_Story_Sonnen				SFinishMission anc_5_sonnen								StoryMission				
+AnCom_Story_SonnenEntry				SFinishMissionAny anc_4_screamers SFinishMissionAny anc_4_deadman			Intro_Sonnen			anc_5_sonnen						
+AnCom_Story_Sonnen	RaiderCapture 50 Elimination 35 Sabotage 35 Espionage 35			SFinishMission anc_5_sonnen								StoryMission				
 #end																
 																
 #questlines_AnCom																
@@ -137,8 +191,8 @@ AnCom_4	ReputationGrow_25 100
 AnCom_5	AnCom_Story_MenInBlack 100															
 AnCom_6	AnCom_Story_ReloadBuild 100															
 AnCom_7	AnCom_Story_Reload 100															
-AnCom_8	AnCom_Fork_After_Reload 100	AnCom_9_deadman														
-AnCom_9	AnCom_Story_ScreamersEntry 100															
+AnCom_8	AnCom_Fork_After_Reload 100	AnCom_11_deadman														
+AnCom_9	AnCom_Story_ScreamersEntry 100	AnCom_13														
 AnCom_10	AnCom_Story_Screamers 100															
 AnCom_11_deadman	AnCom_Story_DeadmanEntry 100	AnCom_13														
 AnCom_12_deadman	AnCom_Story_Deadman 100															
@@ -150,28 +204,18 @@ AnCom_endgame_loop	Expansion 100 Scouting 100 Defense 100
 // HIVE																
 #strategies																
 Id	ProcMissionWeights	PassivePowerGain	PassivePowerGainIntervalHours	WinConditions	FailConditions	InstantFailConditions	ScenarioOnStart	ScenarioOnSuccess	ScenarioOnFail	RunMissionsOnStart	RunMissionsOnSuccess	OverridenTag	PortraitPostfix			
-Hive_Story_Initial	Elimination 65 Sabotage 65 Espionage 64			SFinishMissionAny rwa_3_light SFinishMissionAny tez_1_flower												
-Hive_Wait_BeforeColdWar				IAwaitingDays 1				Hive_AnCom_1			hiv_1_cold_war	AwaitingNextStep				
-Hive_Story_ColdWar	Elimination 65 Sabotage 65 Espionage 65			SFinishMission hiv_1_cold_war				Hive_AnCom_2				StoryMission				
-Hive_AncomCollapse				IAwaitingDays 1				Hive_AnCom_Collapse				AwaitingNextStep				
-Hive_AnyThree				SFinishMissionAny hiv_2_bifrost SFinishMissionAny hiv_2_telegraph SFinishMissionAny hiv_2_rokosz				Hive_Any_Three				MultipleMissions				
-Hive_Story_ThreeMissions	Elimination 65 Sabotage 65 Espionage 67			SFinishMission hiv_2_bifrost SFinishMission hiv_2_telegraph SFinishMission hiv_2_rokosz				Hive_Three_Complete			hiv_3_awakened	MultipleMissions				
-Hive_LocationCapture_earth_1	RaiderCapture 100			SLocationCapture earth ILocationCaptureTotal 1 SFaction AnCom				Hive_Earth_Captured				CaptureStationsLocation	_Expansion			
+Hive_AncomCollapse							Hive_AnCom_Collapse									
+Hive_Story_ThreeMissions	Elimination 65 Sabotage 65 Espionage 67			SFinishMission hiv_2_bifrost SFinishMission hiv_2_telegraph SFinishMission hiv_2_rokosz				Hive_Three_Complete								
+Hive_LocationCapture_earth_1	RaiderCapture 100			SLocationCapture earth ILocationCaptureTotal 1				Hive_Earth_Captured								
 Hive_Story_Awakened	Elimination 65 Sabotage 65 Espionage 68			SFinishMission hiv_3_awakened				Hive_Finale				StoryMission				
 #end																
 																
 #questlines_Hive																
 Id	Strategies	NextStepOnFail														
-Hive_0	Hive_Story_Initial 100															
-Hive_1	Hive_Wait_BeforeColdWar 100															
-Hive_2	Hive_Story_ColdWar 100															
-Hive_3	Hive_AncomCollapse 100															
-Hive_4	Hive_AnyThree 100															
-Hive_5	Hive_AnyThree 100															
-Hive_6	Hive_AnyThree 100															
-Hive_7	Hive_Story_ThreeMissions 100															
-Hive_8	Hive_LocationCapture_earth_1 100															
-Hive_9	Hive_Story_Awakened 100															
+Hive_0	Hive_AncomCollapse 100															
+Hive_1	Hive_Story_ThreeMissions 100															
+Hive_2	Hive_LocationCapture_earth_1 100															
+Hive_3	Hive_Story_Awakened 100															
 Hive_endgame_loop	Expansion 100 Scouting 100 Defense 100															
 #end																
 																
@@ -179,10 +223,11 @@ Hive_endgame_loop	Expansion 100 Scouting 100 Defense 100
 #strategies																
 Id	ProcMissionWeights	PassivePowerGain	PassivePowerGainIntervalHours	WinConditions	FailConditions	InstantFailConditions	ScenarioOnStart	ScenarioOnSuccess	ScenarioOnFail	RunMissionsOnStart	RunMissionsOnSuccess	OverridenTag	PortraitPostfix			
 Tezctlan_Story_awaits_pcpu	RaiderCapture 50 Elimination 35 Sabotage 35 Ritual 65 Espionage 35			SStoryTrigger quest_ancom_data_Tezctlan	SNoStoryTrigger quest_ancom_data_Tezctlan SStoryTriggerContains quest_ancom_data_							AwaitsCPCU				
-Tezctlan_Story_pcpu_received				IAwaitingDays 5			Tezctlan_Received_Data					AwaitingNextStep				
+Tezctlan_Story_pcpu_received				IAwaitingDays 1			Tezctlan_Received_Data					AwaitingNextStep				
 Tezctlan_Story_PoisonTrial	RaiderCapture 50 Elimination 35 Sabotage 35 Ritual 65 Espionage 35			SFinishMission tez_side_1_poison			Intro_PoisonTrial			tez_side_1_poison		StoryMission				
 Tezctlan_Story_Venus_Conquest	RaiderCapture 110 Ritual 15	1	24	SLocationCapture venus ILocationCaptureTotal 7								SectorControl				
 Tezctlan_Story_FlowerWar	Elimination 35 Sabotage 35 Ritual 65 Espionage 35			SFinishMission tez_1_flower	SStationDestroyed HISUnveiled		Intro_FlowerWar			tez_1_flower		StoryMission				
+Tezctlan_Story_Await_ColdWar	Elimination 35 Sabotage 35 Ritual 65 Espionage 35			IAwaitingDays 1	SMissionExists hiv_1_cold_war			Hive_AnCom_1			hiv_1_cold_war	AwaitingNextStep				
 Tezctlan_Story_More_Expanse	RaiderCapture 150 Sabotage 15 Ritual 25			SLocationCapture tsiolkovsky ILocationCaptureCount 3								AwaitingNextStep				
 Tezctlan_Story_InterplanLove	Elimination 35 Sabotage 35 Ritual 65 Espionage 35			SFinishMission tez_2_interplan			Intro_InterplanLove	Outro_InterplanLove		tez_2_interplan		StoryMission				
 Tezctlan_Story_WhatIsMine	Elimination 35 Sabotage 35 Ritual 65 Espionage 35			SFinishMission tez_3_mine		SPlayerHasItem quest_golden_skull IReceiveItemCount 1	Intro_WhatIsMine			tez_3_mine		StoryMission				
@@ -198,12 +243,13 @@ Tezctlan_1	Tezctlan_Story_awaits_pcpu 100	Tezctlan_4
 Tezctlan_2	Tezctlan_Story_pcpu_received 100															
 Tezctlan_3	Tezctlan_Story_PoisonTrial 100															
 Tezctlan_4	Tezctlan_Story_Venus_Conquest 100															
-Tezctlan_5	Tezctlan_Story_FlowerWar 100	Tezctlan_6														
-Tezctlan_6	Tezctlan_Story_InterplanLove 100															
-Tezctlan_7	Tezctlan_Story_WhatIsMine 100	Tezctlan_8														
-Tezctlan_8	Tezctlan_Story_EmeraldTemple 100	Tezctlan_9														
-Tezctlan_9	Tezctlan_Story_StandStones 100	Tezctlan_10														
-Tezctlan_10	Tezctlan_Story_Eradication 100															
+Tezctlan_5	Tezctlan_Story_FlowerWar 100	Tezctlan_7														
+Tezctlan_6	Tezctlan_Story_Await_ColdWar 100	Tezctlan_7														
+Tezctlan_7	Tezctlan_Story_InterplanLove 100															
+Tezctlan_8	Tezctlan_Story_WhatIsMine 100	Tezctlan_9														
+Tezctlan_9	Tezctlan_Story_EmeraldTemple 100	Tezctlan_10														
+Tezctlan_10	Tezctlan_Story_StandStones 100	Tezctlan_11														
+Tezctlan_11	Tezctlan_Story_Eradication 100															
 Tezctlan_endgame_loop	Expansion 100 Scouting 100 Defense 100															
 #end																
 																
@@ -214,7 +260,7 @@ XiomaraMasks_Story_realware_rep	RaiderCapture 65 Elimination 5 Sabotage 5 Ritual
 XiomaraMasks_Story_sinkhole_visit	RaiderCapture 80 Elimination 35 Sabotage 35 Ritual 65 Espionage 35			SFinishMission xio_1_sinkhole								StoryMission				
 XiomaraMasks_Story_use_your_head	Elimination 65 Sabotage 65 Espionage 65 Ritual 35			SFinishMission xio_2_madness						xio_2_madness		StoryMission				
 XiomaraMasks_Story_ruins_of_bramfaturas	Elimination 65 Sabotage 65 Espionage 65 Ritual 35			SFinishMission xio_3_bram_ruins						xio_3_bram_ruins		StoryMission				
-XiomaraMasks_Awaitting	Elimination 65 Sabotage 65 Espionage 65 Ritual 35			IAwaitingDays 5								AwaitingNextStep				
+XiomaraMasks_Awaitting	Elimination 65 Sabotage 65 Espionage 65 Ritual 35			IAwaitingDays 1								AwaitingNextStep				
 XiomaraMasks_ThreeMissions	Elimination 65 Sabotage 65 Espionage 65 Ritual 35			SFinishMission xio_4_nanau SFinishMission xio_4_topil SFinishMission xio_4_tonatiuh			Intro_ThreeMissions			xio_4_nanau xio_4_topil xio_4_tonatiuh		MultipleMissions				
 XiomaraMasks_ShatteredEmer	Elimination 65 Sabotage 65 Espionage 65 Ritual 36			SFinishMission xio_5_shattered			Intro_ShatteredEmer			xio_5_shattered		StoryMission				
 #end																
@@ -236,19 +282,21 @@ XiomaraMasks_endgame_loop	Expansion 100 Scouting 100 Defense 100
 #strategies																
 Id	ProcMissionWeights	PassivePowerGain	PassivePowerGainIntervalHours	WinConditions	FailConditions	InstantFailConditions	ScenarioOnStart	ScenarioOnSuccess	ScenarioOnFail	RunMissionsOnStart	RunMissionsOnSuccess	OverridenTag	PortraitPostfix			
 RealWare_Story_awaits_pcpu	RaiderCapture 50 Elimination 35 Sabotage 35 Espionage 35			SStoryTrigger quest_ancom_data_RealWare	SNoStoryTrigger quest_ancom_data_RealWare SStoryTriggerContains quest_ancom_data_							AwaitsCPCU				
-RealWare_Story_pcpu_received				IAwaitingDays 5			RealWare_Received_Data					AwaitingNextStep				
+RealWare_Story_pcpu_received				IAwaitingDays 1			RealWare_Received_Data					AwaitingNextStep				
 RealWare_Story_AnCom_Espionage	Elimination 65 Sabotage 65 Espionage 65			SStoryTrigger CovertOps_espionage			Espionage_CovertOps					AncomEspionage	_Expansion			
 RealWare_Story_CovertOps	Elimination 65 Sabotage 65 Espionage 65			SFinishMission rwa_1_covert			Intro_CovertOps			rwa_1_covert		StoryMission				
-RealWare_LocationCapture_mars_5	RaiderCapture 100			SLocationCapture mars ILocationCaptureCount 5				Intro_Treasure_Malefic			rwa_2_treasure rwa_2_malefic	CaptureStationsLocation	_Expansion			
-RealWare_TwoMissions	Elimination 65 Sabotage 65 Espionage 65 Ritual 36			SFinishMission rwa_2_treasure SFinishMission rwa_2_malefic				Intro_Light			rwa_3_light	MultipleMissions				
+RealWare_LocationCapture_mars_5	RaiderCapture 100			SLocationCapture mars ILocationCaptureTotal 4				Intro_Treasure_Malefic			rwa_2_treasure rwa_2_malefic	SectorControl	_Expansion			
+RealWare_TwoMissions	Elimination 65 Sabotage 65 Espionage 65 Ritual 36			SFinishMission rwa_2_treasure SFinishMission rwa_2_malefic				Intro_Light			rwa_3_light					
 RealWare_Light	Elimination 65 Sabotage 65 Espionage 65 Ritual 36			SFinishMission rwa_3_light				Outro_Light				StoryMission				
 RealWare_After_light_delay	Elimination 65 Sabotage 65 Espionage 65 Ritual 36			IAwaitingDays 1				RealWare_Day_After_Light				AwaitingNextStep				
-RealWare_Whirl				SFinishMission rwa_4a_whirl				Outro_Whirl				StoryMission				
-RealWare_LocationCapture_earth_1	RaiderCapture 100			SLocationCapture earth ILocationCaptureTotal 1				Realware_Earth_Captured				CaptureStationsLocation	_Expansion			
-RealWare_Glass				SFinishMission rwa_5a_glass								StoryMission				
-SheduThousand_Odoacer				SFinishMission rwa_4b_odoacer				Outro_Odoacer				StoryMission				
-SheduThousand_LocationCapture_earth_1	RaiderCapture 100			SLocationCapture earth ILocationCaptureTotal 1				SheduThousand_Earth_Captured				CaptureStationsLocation	_Expansion			
-SheduThousand_Carnage				SFinishMission rwa_5b_carnage								StoryMission				
+RealWare_Whirl	RaiderCapture 35 Elimination 35 Sabotage 35 Espionage 35			SFinishMission rwa_4a_whirl				Outro_Whirl				StoryMission				
+RealWare_LocationCapture_earth_1	RaiderCapture 100			SLocationCapture earth ILocationCaptureTotal 1				Realware_Earth_Captured					_Expansion			
+RealWare_Glass	RaiderCapture 35 Elimination 35 Sabotage 35 Espionage 35			SFinishMission rwa_5a_glass								StoryMission				
+Shedu_Expansion	RaiderCapture 100	50	24	IStrategyDurationMin 1600 IStrategyDurationMax 2688	SStoryTrigger shedu_no_story							Expansion				
+SheduThousand_Awaiting	Elimination 65 Sabotage 65 Espionage 65 Ritual 35			IAwaitingDays 1								AwaitingNextStep				
+SheduThousand_Odoacer	RaiderCapture 70 Elimination 35 Sabotage 35 Espionage 35			SFinishMission rwa_4b_odoacer				Outro_Odoacer				StoryMission				
+SheduThousand_LocationCapture_earth_1	RaiderCapture 100			SLocationCapture earth ILocationCaptureTotal 1				SheduThousand_Earth_Captured					_Expansion			
+SheduThousand_Carnage	RaiderCapture 50 Elimination 35 Sabotage 35 Espionage 35			SFinishMission rwa_5b_carnage								StoryMission				
 #end																
 																
 #questlines_RealWare																
@@ -271,19 +319,22 @@ RealWare_endgame_loop	Expansion 100 Scouting 100 Defense 100
 #questlines_SheduThousand																
 Id	Strategies	NextStepOnFail														
 SheduThousand_0	Shedu_Expansion 100	SheduThousand_endgame_loop														
-SheduThousand_1	SheduThousand_Odoacer 100															
-SheduThousand_2	SheduThousand_LocationCapture_earth_1 100															
-SheduThousand_3	SheduThousand_Carnage 100															
+SheduThousand_1	SheduThousand_Awaiting 100															
+SheduThousand_2	SheduThousand_Odoacer 100															
+SheduThousand_3	SheduThousand_LocationCapture_earth_1 100															
+SheduThousand_4	SheduThousand_Carnage 100															
 SheduThousand_endgame_loop	Expansion 100 Scouting 100 Defense 100															
 #end																
 																
 // CResistance																
 #strategies																
 Id	ProcMissionWeights	PassivePowerGain	PassivePowerGainIntervalHours	WinConditions	FailConditions	InstantFailConditions	ScenarioOnStart	ScenarioOnSuccess	ScenarioOnFail	RunMissionsOnStart	RunMissionsOnSuccess	OverridenTag	PortraitPostfix			
+CResistance_Story_Gain_Reputation	RaiderCapture 100 Elimination 100 Sabotage 100 Espionage 100 Ritual 100 Robbery 100			SFaction CResistance IReputation 25								Reputation				
 CResistance_Story_Manifesto	Elimination 65 Sabotage 65 Espionage 65 Robbery 33			SFinishMission civ_1_manifesto			Intro_Manifesto			civ_1_manifesto		StoryMission				
-CResistance_Story_AfterManifest_Awaiting				IAwaitingDays 5			Contact_FromSparkToFlame					AwaitingNextStep				
+CResistance_Story_AfterManifest_Awaiting				IAwaitingDays 1			Contact_FromSparkToFlame					AwaitingNextStep				
 CResistance_Story_AnCom_FactionWar	Elimination 65 Sabotage 65 Espionage 65 Robbery 33			FPowerThreshold 0.8 FPowerInitialMin 3000 SFaction AnCom			Prepare_FromSparkToFlame			civ_2_spark_flame		BreakPower				
 CResistance_Story_FromSparkToFlame	Elimination 65 Sabotage 65 Espionage 65 Robbery 33			SFinishMission civ_2_spark_flame	SStationDestroyed HISUnveiled SFinishMission tez_1_flower		Intro_FromSparkToFlame					StoryMission				
+CResistance_Story_Await_ColdWar	Elimination 35 Sabotage 35 Ritual 65 Espionage 35			IAwaitingDays 1	SMissionExists hiv_1_cold_war			Hive_AnCom_1			hiv_1_cold_war	AwaitingNextStep				
 CResistance_Story_IronBroom	RaiderCapture 50 Elimination 35 Sabotage 35 Robbery 33 Espionage 35			SFinishMission civ_3_iron_broom			Intro_IronBroom			civ_3_iron_broom		StoryMission				
 CUnity_Story_IcePick	RaiderCapture 50 Elimination 35 Sabotage 35 Robbery 33 Espionage 35			SFinishMission civ_4a_icepick	SFinishMission civ_4b_beacon		Intro_IcePick			civ_4a_icepick		StoryMission				
 FactionWar_GodBuilders	RaiderCapture 100 Elimination 100 Sabotage 100 Espionage 100 Ritual 100 Robbery 100			SFactionWarVictim GodBuilders IFactionWarMissionsCount 3	SDestroyedFaction GodBuilders							FactionWar	_Expansion			
@@ -294,25 +345,26 @@ LocationCapture_phobos_2	RaiderCapture 100			SLocationCapture phobos ILocationCa
 LocationCapture_deimos_2	RaiderCapture 100			SLocationCapture deimos ILocationCaptureCount 2								CaptureStationsLocation	_Expansion			
 GodBuilders_Story_Beacon	RaiderCapture 50 Elimination 35 Sabotage 35 Robbery 33 Espionage 35			SFinishMission civ_4b_beacon	SFinishMission civ_4a_icepick		Intro_Beacon			civ_4b_beacon		StoryMission				
 GodBuilders_Story_SacredFlame	Elimination 65 Sabotage 65 Espionage 65 Robbery 33			SFinishMission civ_5b_sacred			Intro_SacredFlame			civ_5b_sacred		StoryMission				
-GodBuilders_Story_AfterSacredFlame_Awaiting	Elimination 65 Sabotage 65 Espionage 65 Robbery 33			IAwaitingDays 5			Outro_SacredFlame					AwaitingNextStep				
+GodBuilders_Story_AfterSacredFlame_Awaiting	Elimination 65 Sabotage 65 Espionage 65 Robbery 33			IAwaitingDays 1			Outro_SacredFlame					AwaitingNextStep				
 #end																
 																
 #questlines_CResistance																
 Id	Strategies	NextStepOnFail														
 CResistance_0	StartupExpansion 100 StartupScouting 100 StartupDefense 100	CResistance_0														
-CResistance_1	ReputationGrow_25 100															
+CResistance_1	CResistance_Story_Gain_Reputation 100															
 CResistance_2	CResistance_Story_Manifesto 100															
 CResistance_3	CResistance_Story_AfterManifest_Awaiting 100															
 CResistance_4	CResistance_Story_AnCom_FactionWar 100															
 CResistance_5	CResistance_Story_FromSparkToFlame 100															
-CResistance_6	SpecialMissions_Capture 100															
-CResistance_7	CResistance_Story_IronBroom 100															
+CResistance_6	CResistance_Story_Await_ColdWar 100															
+CResistance_7	SpecialMissions_Capture 100															
+CResistance_8	CResistance_Story_IronBroom 100															
 CResistance_endgame_loop	Expansion 100 Scouting 100 Defense 100															
 #end																
 																
 #questlines_GodBuilders																
 Id	Strategies	NextStepOnFail														
-GodBuilders_1	LocationCapture_phobos_2 100 LocationCapture_deimos_2 100 FactionWar_CUnity 100	GodBuilders_2														
+GodBuilders_1	FactionWar_CUnity 100	GodBuilders_2														
 GodBuilders_2	GodBuilders_Story_Beacon 100	GodBuilders_endgame_loop														
 GodBuilders_3	FactionWar_RealWare 100	GodBuilders_4														
 GodBuilders_4	GodBuilders_Story_SacredFlame 100															
@@ -333,7 +385,7 @@ Id	ProcMissionWeights	PassivePowerGain	PassivePowerGainIntervalHours	WinConditio
 SpecialMissions_Robbery	Robbery 100			SMissionsCompleted Robbery IMissionsCompletedCount 5								SpecialMissions	_Defense			
 ItemRecieve_hydraulic_pump	RaiderCapture 100 Elimination 100 Sabotage 100 Espionage 100 Ritual 100 Robbery 100			SReceiveItem hydraulic_pump IReceiveItemCount 3								ItemReceive	_Scouting			
 UnchainedBelt_Story_awaits_bad_rep	Elimination 25 Sabotage 50 Espionage 25 Robbery 75			ICorpBadReputationCount 3								BadCorpReputation	_Expansion			
-UnchainedBelt_Story_GhoulShip	RaiderCapture 25 Elimination 25 Sabotage 50 Espionage 25 Robbery 75			SFinishMission unc_1_ghoul			Intro_GhoulShip			unc_1_ghoul		StoryMission	_Expansion			
+UnchainedBelt_Story_GhoulShip	RaiderCapture 25 Elimination 25 Sabotage 50 Espionage 25 Robbery 75			SFinishMission unc_1_ghoul		SFinishMission rwa_2_treasure	Intro_GhoulShip			unc_1_ghoul		StoryMission	_Expansion			
 #end																
 																
 #questlines_UnchainedBelt																
@@ -342,7 +394,7 @@ UnchainedBelt_0	StartupExpansion 100 StartupScouting 100 StartupDefense 100	Unch
 UnchainedBelt_1	ItemRecieve_hydraulic_pump 100															
 UnchainedBelt_2	SpecialMissions_Robbery 100															
 UnchainedBelt_3	UnchainedBelt_Story_awaits_bad_rep 100															
-UnchainedBelt_4	UnchainedBelt_Story_GhoulShip 100															
+UnchainedBelt_4	UnchainedBelt_Story_GhoulShip 100	UnchainedBelt_endgame_loop														
 UnchainedBelt_endgame_loop	Expansion 100 Scouting 100 Defense 100															
 #end																
 																

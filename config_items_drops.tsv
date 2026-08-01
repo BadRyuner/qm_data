@@ -12,12 +12,12 @@ blood_sink	1 1	FALSE	FALSE		bloodsinkdrop	0 1
 water_toilet	2 1	FALSE	FALSE		toiletdrop	0 2			
 water_tank	1 1	FALSE	FALSE		watertankdrop	1 1			
 data_container	6 4	TRUE	TRUE	Parts Data Blueprint	bookcaseContainer	0 3			
-common_container	6 4	TRUE	TRUE	Food Drink Alcohol Pills Syringe Dressing Parts Ammo ThrowableWeapon RepairKit QuasiArtefact Turret Cyborg Mine QuasiPact Blueprint Data Organ MilitaryBarter ValuableBarter ScienceBarter IndustrialBarter Backpack Vest QuasiOrgan Medpack Armor Leggings Boots Helmet		0 0			
+common_container	6 4	TRUE	TRUE	Food Drink Alcohol Pills Syringe Dressing Parts Ammo ThrowableWeapon RepairKit QuasiArtefact Turret Cyborg Mine QuasiPact Blueprint Data Organ MilitaryBarter ValuableBarter ScienceBarter IndustrialBarter Backpack Vest QuasiOrgan Medpack Armor Leggings Boots Helmet	marauderExtra	0 0			
 common_locker	4 3	TRUE	TRUE	Food Drink Alcohol Pills Syringe Dressing Parts Ammo ThrowableWeapon RepairKit QuasiArtefact Turret Cyborg Mine QuasiPact Blueprint Data Organ MilitaryBarter ValuableBarter ScienceBarter IndustrialBarter Backpack Vest QuasiOrgan Medpack Armor Leggings Boots Helmet	armorContainer	0 1			
 cloth_locker	4 3	TRUE	TRUE	Helmet Leggings Boots Armor Parts	armorContainer	0 2			
 weapon_stand	6 3	TRUE	TRUE	Weapon Ammo ThrowableWeapon Grenade Mine	weaponBigcontainer	0 1			
-common_box	4 3	TRUE	TRUE	Food Drink Alcohol Pills Syringe Dressing Parts Ammo ThrowableWeapon RepairKit QuasiArtefact Turret Cyborg Mine QuasiPact Blueprint Data Organ MilitaryBarter ValuableBarter ScienceBarter IndustrialBarter Backpack Vest QuasiOrgan Medpack Armor Leggings Boots Helmet		0 0			
-wooden_box	4 3	TRUE	TRUE	Food Drink Alcohol Pills Syringe Dressing Parts Ammo ThrowableWeapon RepairKit QuasiArtefact Turret Cyborg Mine QuasiPact Blueprint Data Organ MilitaryBarter ValuableBarter ScienceBarter IndustrialBarter Backpack Vest QuasiOrgan Medpack Armor Leggings Boots Helmet		0 0			
+common_box	4 3	TRUE	TRUE	Food Drink Alcohol Pills Syringe Dressing Parts Ammo ThrowableWeapon RepairKit QuasiArtefact Turret Cyborg Mine QuasiPact Blueprint Data Organ MilitaryBarter ValuableBarter ScienceBarter IndustrialBarter Backpack Vest QuasiOrgan Medpack Armor Leggings Boots Helmet	marauderExtra	0 0			
+wooden_box	4 3	TRUE	TRUE	Food Drink Alcohol Pills Syringe Dressing Parts Ammo ThrowableWeapon RepairKit QuasiArtefact Turret Cyborg Mine QuasiPact Blueprint Data Organ MilitaryBarter ValuableBarter ScienceBarter IndustrialBarter Backpack Vest QuasiOrgan Medpack Armor Leggings Boots Helmet	marauderExtra	0 0			
 weapon_case_big	4 2	TRUE	TRUE	Weapon Ammo ThrowableWeapon Grenade Mine	weaponBigcontainer	0 2			
 weapon_case_small	4 1	TRUE	TRUE	Weapon Ammo ThrowableWeapon Grenade Mine	weaponSmallcontainer	0 1			
 flowers_container	4 3	TRUE	FALSE		poppycontainer	1 2			
@@ -28,7 +28,7 @@ medical_container	6 4	TRUE	TRUE	Syringe Pills Dressing Medpack	medicalcontainer	
 medical_case	4 2	TRUE	TRUE	Syringe Pills Dressing Cyborg	medicalcontainer	0 3			
 medical_holder	2 1	TRUE	TRUE	Syringe Pills Dressing Medpack	medicalcontainer	1 1			
 trash_can	4 2	TRUE	TRUE	Food Parts	trashbin	0 3			
-common_rack	6 3	TRUE	TRUE	Food Drink Alcohol Pills Syringe Dressing Parts Ammo ThrowableWeapon RepairKit QuasiArtefact Turret Cyborg Mine QuasiPact Blueprint Data Organ MilitaryBarter ValuableBarter ScienceBarter IndustrialBarter Backpack Vest QuasiOrgan Medpack Armor Leggings Boots Helmet		0 0			
+common_rack	6 3	TRUE	TRUE	Food Drink Alcohol Pills Syringe Dressing Parts Ammo ThrowableWeapon RepairKit QuasiArtefact Turret Cyborg Mine QuasiPact Blueprint Data Organ MilitaryBarter ValuableBarter ScienceBarter IndustrialBarter Backpack Vest QuasiOrgan Medpack Armor Leggings Boots Helmet	marauderExtra	0 0			
 science_container_value	4 4	TRUE	TRUE	Data Blueprint Dressing Syringe Pills Medpack MilitaryBarter IndustrialBarter ScienceBarter ValuableBarter Cyborg	scienceContainer	1 3			
 server_container	4 2	TRUE	TRUE	Parts Data Blueprint	serverContainer	0 3			
 aztec_chest	4 1	TRUE	TRUE	Parts Data Blueprint	aztecChest	0 4			
@@ -42,6 +42,44 @@ watermelon_growbox	1 1	TRUE	FALSE		watermelonGrowbox	1 1
 cabbage_growbox	1 1	TRUE	FALSE		cabbageGrowbox	1 1			
 silence_casket	3 1	FALSE	FALSE			0 0			
 matrix_box	2 2	TRUE	TRUE		matrixContainer	1 2			
+#end									
+									
+#itemdrop_marauderExtra									
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation	Bramfaturian
+human_skull 3	human_skull 3	human_skull 3	human_skull 3	human_skull 3	human_skull 3	human_skull 3	human_skull 3	human_skull 3	human_skull 3
+human_rib 3	human_rib 3	human_rib 3	human_rib 3	human_rib 3	human_rib 3	human_rib 3	human_rib 3	human_rib 3	human_rib 3
+human_ear 2	human_ear 2	human_ear 2	human_ear 2	human_ear 2	human_ear 2	human_ear 2	human_ear 2	human_ear 2	human_ear 2
+glass 7	glass 7	glass 7	glass 7	glass 7	glass 7	glass 7	glass 7	glass 7	glass 7
+broken_weapon 10	broken_weapon 10	broken_weapon 10	broken_weapon 10	broken_weapon 10	broken_weapon 10	broken_weapon 10	broken_weapon 10	broken_weapon 10	broken_weapon 10
+glass_bottle 4	glass_bottle 4	glass_bottle 4	glass_bottle 4	glass_bottle 4	glass_bottle 4	glass_bottle 4	glass_bottle 4	glass_bottle 4	glass_bottle 4
+tin 4	tin 4	tin 4	tin 4	tin 4	tin 4	tin 4	tin 4	tin 4	tin 4
+powder 6	powder 6	powder 6	powder 6	powder 6	powder 6	powder 6	powder 6	powder 6	powder 6
+human_poop 6	human_poop 6	human_poop 6	human_poop 6	human_poop 6	human_poop 6	human_poop 6	human_poop 6	human_poop 6	human_poop 6
+rags 4	rags 4	rags 4	rags 4	rags 4	rags 4	rags 4	rags 4	rags 4	rags 4
+plastic 4	plastic 4	plastic 4	plastic 4	plastic 4	plastic 4	plastic 4	plastic 4	plastic 4	plastic 4
+rotten_burger_pack_1 2	rotten_burger_pack_1 2	rotten_burger_pack_1 2	rotten_burger_pack_1 2	rotten_burger_pack_1 2	rotten_burger_pack_1 2	rotten_burger_pack_1 2	rotten_burger_pack_1 2	rotten_burger_pack_1 2	rotten_burger_pack_1 2
+rotten_burger_pack_2 2	rotten_burger_pack_2 2	rotten_burger_pack_2 2	rotten_burger_pack_2 2	rotten_burger_pack_2 2	rotten_burger_pack_2 2	rotten_burger_pack_2 2	rotten_burger_pack_2 2	rotten_burger_pack_2 2	rotten_burger_pack_2 2
+spring 1	spring 1	spring 1	spring 1	spring 1	spring 1	spring 1	spring 1	spring 1	spring 1
+rusty_plates 1	rusty_plates 1	rusty_plates 1	rusty_plates 1	rusty_plates 1	rusty_plates 1	rusty_plates 1	rusty_plates 1	rusty_plates 1	rusty_plates 1
+paper_towel 3	paper_towel 3	paper_towel 3	paper_towel 3	paper_towel 3	paper_towel 3	paper_towel 3	paper_towel 3	paper_towel 3	paper_towel 3
+chips_pack_1 2	chips_pack_1 2	chips_pack_1 2	chips_pack_1 2	chips_pack_1 2	chips_pack_1 2	chips_pack_1 2	chips_pack_1 2	chips_pack_1 2	chips_pack_1 2
+chips_pack_2 2	chips_pack_2 2	chips_pack_2 2	chips_pack_2 2	chips_pack_2 2	chips_pack_2 2	chips_pack_2 2	chips_pack_2 2	chips_pack_2 2	chips_pack_2 2
+burger_pack_1 1	burger_pack_1 1	burger_pack_1 1	burger_pack_1 1	burger_pack_1 1	burger_pack_1 1	burger_pack_1 1	burger_pack_1 1	burger_pack_1 1	burger_pack_1 1
+burger_pack_2 1	burger_pack_2 1	burger_pack_2 1	burger_pack_2 1	burger_pack_2 1	burger_pack_2 1	burger_pack_2 1	burger_pack_2 1	burger_pack_2 1	burger_pack_2 1
+rod_parts 1	rod_parts 1	rod_parts 1	rod_parts 1	rod_parts 1	rod_parts 1	rod_parts 1	rod_parts 1	rod_parts 1	rod_parts 1
+blunt_parts 1	blunt_parts 1	blunt_parts 1	blunt_parts 1	blunt_parts 1	blunt_parts 1	blunt_parts 1	blunt_parts 1	blunt_parts 1	blunt_parts 1
+nail_bolts_ammo 1	nail_bolts_ammo 1	nail_bolts_ammo 1	nail_bolts_ammo 1	nail_bolts_ammo 1	nail_bolts_ammo 1	nail_bolts_ammo 1	nail_bolts_ammo 1	nail_bolts_ammo 1	nail_bolts_ammo 1
+small_basic_ammo 2	small_basic_ammo 2	small_basic_ammo 2	small_basic_ammo 2	small_basic_ammo 2	small_basic_ammo 2	small_basic_ammo 2	small_basic_ammo 2	small_basic_ammo 2	small_basic_ammo 2
+medium_basic_ammo 2	medium_basic_ammo 2	medium_basic_ammo 2	medium_basic_ammo 2	medium_basic_ammo 2	medium_basic_ammo 2	medium_basic_ammo 2	medium_basic_ammo 2	medium_basic_ammo 2	medium_basic_ammo 2
+rifle_basic_ammo 2	rifle_basic_ammo 2	rifle_basic_ammo 2	rifle_basic_ammo 2	rifle_basic_ammo 2	rifle_basic_ammo 2	rifle_basic_ammo 2	rifle_basic_ammo 2	rifle_basic_ammo 2	rifle_basic_ammo 2
+shotgun_shrapnel_ammo 2	shotgun_shrapnel_ammo 2	shotgun_shrapnel_ammo 2	shotgun_shrapnel_ammo 2	shotgun_shrapnel_ammo 2	shotgun_shrapnel_ammo 2	shotgun_shrapnel_ammo 2	shotgun_shrapnel_ammo 2	shotgun_shrapnel_ammo 2	shotgun_shrapnel_ammo 2
+cigarettes_1 3	cigarettes_1 3	cigarettes_1 3	cigarettes_1 3	roasted_human_meat 3	cigarettes_1 3	cigarettes_1 3	cigarettes_1 3	cigarettes_1 6	cigarettes_1 9
+gas_ammo 3	pills_antibiotics 3	armor_plates 4	battery_basic_ammo 4	cigarettes_1 8	watermelon 5	candy_1 4	quasi_medical_kit_1 9	ration_pack_1 3	human_organ_1 12
+toxic_ammo 3	pills_antiradin 3	ceramite_plates 4	heavy_basic_ammo 3	trash_knife_1 3	cabbage 6	soda_can_1 4	quasi_repair_kit 9	ration_pack_2 3	
+rubber 5	pills_fibromine 3	vodka_bottle_1 4	rifle_armorpierce_ammo 3	trash_blade_1 3	canned_food_1 2	soda_can_2 4		human_organ_1 3	
+tape 4	pills_cryopentol 3	handmade_thermal_grenade 3	small_burst_ammo 3	darknet_unit 2	canned_food_2 2	energy_can_1 3		luxury_canned_food_1 2	
+engineering_repair_kit 3	pills_tranexam 3	cyborg_drill 3	shotgun_flechette_ammo 3	drug_cargo 2	canned_food_3 2	chocolate_pack_1 3		luxury_ration_pack_1 2	
+	pills_osteodron 3		explosives 2		spider_cocoon 1			luxury_ration_pack_2 2	
 #end									
 									
 #itemdrop_AztecAltar									
@@ -66,15 +104,15 @@ water_bottle_1 5	plastic 15	water_bottle_1 5	water_bottle_1 5	handmade_thermal_g
 plastic 15	ceramite_plates 3	plastic 15	plastic 15	human_wrist 10	plastic 15	plastic 15	human_rib 10	plastic 15	human_rib 10
 armor_plates 5	tin 10	armor_plates 5	ceramite_plates 3	human_feet 10	armor_plates 5	armor_plates 5	human_skull 10	armor_plates 5	human_skull 10
 rusty_plates 5	glass_bottle 10	rusty_plates 5	armor_plates 5	human_skin 10	rusty_plates 5	rusty_plates 5	human_ear 10	rusty_plates 5	human_ear 10
-rubber 10	personal_key 5	handmade_thermal_grenade 3	rusty_plates 5	human_poop 10	tin 10	rubber 10	human_eye 10	rubber 10	human_eye 10
+rubber 10	personal_key 8	handmade_thermal_grenade 3	rusty_plates 5	human_poop 10	tin 10	rubber 10	human_eye 10	rubber 10	human_eye 10
 tin 10	acid 10	tin 10	rubber 10	human_rib 10	glass_bottle 10	tin 10	roasted_spider_meat 5	tin 10	roasted_spider_meat 5
 glass_bottle 10	explosives 5	glass_bottle 10	tin 10	human_skull 10	tape 5	glass_bottle 10	rotten_soup_can_1 10	glass_bottle 10	rotten_soup_can_1 10
-human_poop 10	wire 5	human_poop 10	glass_bottle 10	human_ear 10	juice_pack_1 5	chocolate_pack_1 5	rotten_human_skin 5	personal_key 5	rotten_human_skin 5
+human_poop 10	wire 5	human_poop 10	glass_bottle 10	human_ear 10	juice_pack_1 5	chocolate_pack_1 5	rotten_human_skin 5	personal_key 6	rotten_human_skin 5
 nail_bolts_ammo 10	tape 5	nail_bolts_ammo 10	human_poop 10	human_eye 10	juice_pack_2 5	glass 5		tape 5	
-tape 5	juice_pack_1 5	tape 5	personal_key 5	tin 10	chocolate_pack_1 5	energy_can_1 5		juice_pack_1 5	
+tape 5	juice_pack_1 5	tape 5	personal_key 12	tin 10	chocolate_pack_1 5	energy_can_1 5		juice_pack_1 5	
 chocolate_pack_1 5	juice_pack_2 5	chocolate_pack_1 5	explosives 5	glass_bottle 10	glass 5	chips_pack_1 5		juice_pack_2 5	
 glass 5	glass 5	glass 5	tape 5	glass 5	energy_can_1 5	chips_pack_2 5		chocolate_pack_1 5	
-handmade_thermal_grenade 3	energy_can_1 5	energy_can_1 5	chocolate_pack_1 5	energy_can_1 5	chips_pack_1 5			glass 5	
+handmade_thermal_grenade 3	energy_can_1 5	energy_can_1 5	chocolate_pack_1 5	energy_can_1 5	chips_pack_1 5	personal_key 4		glass 5	
 energy_can_1 5	chips_pack_1 5	chips_pack_1 5	glass 5	chips_pack_1 5	chips_pack_2 5			energy_can_1 5	
 chips_pack_1 5	chips_pack_2 5	chips_pack_2 5	chips_pack_1 5	chips_pack_2 5				chips_pack_1 5	
 chips_pack_2 5			chips_pack_2 5					chips_pack_2 5	
@@ -138,11 +176,11 @@ tool_container 20	research_disk 20	robot_parts_container 20	surgical_kit 10	huma
 robot_parts_container 20	quasisamples 20	pills_antiradin 5	nanorobot_grenade 12	human_ear 8	luxury_ration_pack_1 8	pills_tranexam 5	human_ear 8	robot_parts_container 20	human_ear 8
 robot_resurrect_device 5	biomass_tank 20	pills_fibromine 5	medical_kit_2 10	human_eye 8	oil_bottle_1 8	pills_osteodron 5	human_eye 8	quasisamples 20	human_eye 8
 low_chip 20	medical_components 20	pills_cryopentol 5	ai_module 20	pills_antiradin 5	luxury_ration_pack_2 8	low_chip 10	anulator 2	research_disk 20	anulator 2
-medium_chip 28	anulator 2	pills_tranexam 5	ceramite_plates 6	pills_fibromine 5	pills_antiradin 5		spider_brain 8	scientific_equipment 20	spider_brain 8
+medium_chip 28	anulator 15	pills_tranexam 5	ceramite_plates 6	pills_fibromine 5	pills_antiradin 5		spider_brain 8	scientific_equipment 20	spider_brain 8
 high_chip 30	defibrillator_device 5	pills_osteodron 5	low_chip 16	pills_cryopentol 5	pills_fibromine 5		spider_joint 8	pills_antiradin 5	spider_joint 8
 	ai_module 20	low_chip 16	medium_chip 20	pills_tranexam 5	pills_cryopentol 5		spider_cocoon 8	pills_fibromine 5	spider_cocoon 8
 	low_chip 32		high_chip 30	pills_osteodron 5	pills_tranexam 5		spider_eye 8	pills_cryopentol 5	spider_eye 8
-	medium_chip 44				pills_osteodron 5		spider_chitin 8	pills_tranexam 5	spider_chitin 8
+	medium_chip 44		personal_key 16		pills_osteodron 5		spider_chitin 8	pills_tranexam 5	spider_chitin 8
 	high_chip 52						spider_meat 8	pills_osteodron 5	spider_meat 8
 	augment_chip 24							low_chip 10	
 #end									
@@ -162,26 +200,26 @@ wire 5	wire 5	wire 5	wire 5	wire 5	wire 5	wire 5	anulator 2	wire 5	anulator 2
 augment_chip 10	augment_chip 10	augment_chip 10	augment_chip 10	augment_chip 10	augment_chip 10	augment_chip 10	spider_brain 8	augment_chip 10	spider_brain 8
 medium_chip 8	medium_chip 8	medium_chip 8	medium_chip 8	medium_chip 8	medium_chip 8	medium_chip 8	spider_joint 8	medium_chip 8	spider_joint 8
 low_chip 6	low_chip 6	low_chip 6	low_chip 6	low_chip 6	low_chip 6	low_chip 6	spider_cocoon 8	low_chip 6	spider_cocoon 8
-			military_unit 15	darknet_unit 15		management_unit 10	spider_eye 8	management_unit 10	spider_eye 8
-							spider_chitin 8		spider_chitin 8
+personal_key 4	personal_key 6	personal_key 2	military_unit 15	darknet_unit 15	personal_key 2	management_unit 10	spider_eye 8	management_unit 10	spider_eye 8
+			personal_key 8	personal_key 12		personal_key 4	spider_chitin 8	personal_key 2	spider_chitin 8
 							spider_meat 8		spider_meat 8
 									
 #end									
 									
 #itemdrop_industryContainer									
 Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation	Bramfaturian
-tool_container 20	tool_container 20	miner_breaker_1 10	tape 10	trash_pipe_1 10	mining_equipment 10	construction_equipment 10	quasi_repair_kit 5	construction_equipment 10	quasi_repair_kit 5
-robot_parts_container 20	robot_parts_container 30	tool_container 20	armor_repair_kit 10	worker_crowbar_1 10	construction_equipment 10	robot_parts_container 20	venus_armor_plates 10	robot_parts_container 20	venus_armor_plates 10
+tool_container 20	tool_container 20	miner_breaker_1 10	tape 10	trash_pipe_1 10	mining_equipment 15	construction_equipment 10	quasi_repair_kit 5	construction_equipment 10	quasi_repair_kit 5
+robot_parts_container 20	robot_parts_container 30	tool_container 20	armor_repair_kit 10	worker_crowbar_1 10	construction_equipment 15	robot_parts_container 20	venus_armor_plates 10	robot_parts_container 20	venus_armor_plates 10
 engineering_parts_container 20	engineering_parts_container 30	robot_parts_container 20	firearm_repair_kit 10	worker_pistol_1 10	robot_parts_container 20	tool_container 20	moon_armor_plates 10	tool_container 20	moon_armor_plates 10
 welding_machine_device 20	electrical_parts_container 10	welding_machine_device 20	melee_repair_kit 10	electrical_parts_container 10	tool_container 20	engineering_parts_container 20	moon_weapon_parts 10	engineering_parts_container 20	moon_weapon_parts 10
-mining_equipment 10	scientific_equipment 20	mining_equipment 20	tool_container 20	tape 10	engineering_parts_container 20	armor_plates 8	venus_weapon_parts 10	armor_plates 8	venus_weapon_parts 10
-construction_equipment 10	medical_equipment 20	armor_plates 10	robot_parts_container 30	melee_repair_kit 12	armor_plates 8	weapon_parts 8		weapon_parts 8	
+mining_equipment 10	scientific_equipment 20	mining_equipment 30	tool_container 20	tape 10	engineering_parts_container 20	armor_plates 8	venus_weapon_parts 10	armor_plates 8	venus_weapon_parts 10
+construction_equipment 20	medical_equipment 20	armor_plates 10	robot_parts_container 30	melee_repair_kit 12	armor_plates 8	weapon_parts 8		weapon_parts 8	
 armor_plates 10	tape 10	weapon_parts 10	electrical_parts_container 10	firearm_repair_kit 15	weapon_parts 8	armor_repair_kit 10		armor_repair_kit 10	
 weapon_parts 10	armor_repair_kit 10	trash_pipe_1 10	welding_machine_device 20	drug_cargo 5	armor_repair_kit 10	firearm_repair_kit 10		firearm_repair_kit 10	
-coarse_parts 10	firearm_repair_kit 10	worker_crowbar_1 10	ai_module 20		firearm_repair_kit 10	melee_repair_kit 7		melee_repair_kit 7	
+coarse_parts 10	firearm_repair_kit 10	worker_crowbar_1 10	ai_module 20	personal_key 6	firearm_repair_kit 10	melee_repair_kit 7		melee_repair_kit 7	
 trash_pipe_1 10	melee_repair_kit 7	worker_pistol_1 10	ceramite_plates 6		melee_repair_kit 7	transformer 5		transformer 5	
 worker_crowbar_1 10	transformer 5	tape 10	low_chip 12		transformer 5			low_chip 12	
-worker_pistol_1 10	lens 5	armor_repair_kit 10			low_chip 8				
+worker_pistol_1 10	lens 5	armor_repair_kit 10	personal_key 4		low_chip 8				
 electrical_parts_container 10	geoscanner_device 20	firearm_repair_kit 10							
 tape 10	ceramite_plates 6	engineering_repair_kit 14							
 armor_repair_kit 10	low_chip 12	low_chip 8							

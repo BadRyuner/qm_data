@@ -1,39 +1,39 @@
 #factions																							
-Id	Enabled	InitialPower	InitialTechLevel	InitialPlayerReputation	FactionType	AllianceType	SpawnMissionChance	GuardCreatureId	AgentCreatureId	CeoMobClassId	MinQmorphosWhenVictims	UseGeneralRewards	PortraitsByStrategy	ItemDropCategories	CanBeCaptured								
-AnCom	TRUE	0	1	20	Corp	Hexarchy	0.08	sniper	professor		0	TRUE	FALSE	AnCom	FALSE								
-Hive	FALSE	0	1	20	Corp	Hexarchy	0.08	sniper	professor		0	TRUE	FALSE	AnCom	FALSE								
-Tezctlan	TRUE	1000	2	20	Tezctlan	Empire	0.45	venus_jaguar_knight	venus_acolyte		100	FALSE	FALSE	Tezctlan	FALSE								
-XiomaraMasks	FALSE	0	3	0	Xiomara	Rebels	0.08	venus_eagle_knight	venus_acolyte		100	FALSE	FALSE	XiomaraMasks	FALSE								
-SBN	TRUE	0	1	10	Corp	Hexarchy	0.08	cyborg_recreation	manager		0	TRUE	FALSE	SBN	FALSE								
-RealWare	TRUE	0	1	10	Corp	Hexarchy	0.08	soldier	warden		0	TRUE	FALSE	RealWare	FALSE								
-Tianming	TRUE	0	1	10	Corp	Hexarchy	0.08	clonewarrior	perfect		0	TRUE	FALSE	Tianming	FALSE								
-DaydreamChems	TRUE	0	1	0	Corp	Corporation	0.2	professor_combat	professor	ddr_ceo	0	TRUE	FALSE	DaydreamChems	TRUE								
-PlanetBridge	TRUE	0	1	0	Corp	Corporation	0.2	pmc_heavy	manager	plb_ceo	0	TRUE	FALSE	PlanetBridge	TRUE								
-Grasshopper	TRUE	0	1	0	Corp	Corporation	0.2	sniper	agent	gra_ceo	0	TRUE	FALSE	Grasshopper	TRUE								
-Sunlight	TRUE	0	1	0	Corp	Corporation	0.2	berserk	manager	sun_ceo	0	TRUE	FALSE	Sunlight	TRUE								
-Emeraldlight	FALSE	0	6	0	Corp	Empire	0.45	berserk	manager	sun_ceo	0	TRUE	FALSE	Emeraldlight	FALSE								
-FrancheComte	TRUE	0	1	0	Corp	Corporation	0.2	pmc_heavy	medic_combat	fra_ceo	0	TRUE	FALSE	FrancheComte	TRUE								
-ChurchRevelation	TRUE	0	1	0	Corp	Corporation	0.2	soldier	manager	chu_ceo	0	TRUE	FALSE	ChurchRevelation	TRUE								
-ChurchGannix	FALSE	0	6	0	Corp	Empire	0.45	soldier	manager	chu_ceo	0	TRUE	FALSE	ChurchGannix	FALSE								
-CoreWard	TRUE	0	1	0	Corp	Corporation	0.2	enforcer	manager	cor_ceo	0	TRUE	FALSE	CoreWard	TRUE								
-CResistance	TRUE	0	1	-10	CivilRes	Resistance	0.45	civ_soldier	civ_medic_combat		0	TRUE	FALSE	CResistance	FALSE								
-GodBuilders	FALSE	0	6	0	CivilRes	Resistance	0.45	civ_enforcer	civ_medic_combat		0	TRUE	FALSE	CResistance	FALSE								
-CivilUnity	FALSE	0	6	0	CivilRes	Resistance	0.45	civ_soldier	civ_medic_combat		0	TRUE	FALSE	CResistance	FALSE								
-Dilthey	TRUE	0	1	20	Corp	Hexarchy	0.08	cyborg_battle	manager		0	TRUE	FALSE	Dilthey	FALSE								
-UnchainedBelt	TRUE	0	1	-10	Pirates	Pirates	0.45	unc_enforcer	soldier		0	TRUE	TRUE	UnchainedBelt	FALSE								
-SheduThousand	FALSE	0	5	0	Shedu	Legion	0.45	mars_battle_gun	quest_mars_knight		100	FALSE	FALSE	SheduThousand	FALSE								
-EipschwitzHead	FALSE	0	1	0	Xiomara	Rebels	0	pmc_heavy	professor		0	TRUE	FALSE	Common	FALSE								
-Unknown	FALSE	0	1	0	Corp	Corporation	0	pmc_heavy	venus_acolyte		0	TRUE	FALSE	Common	FALSE								
-Magnum	FALSE	0	0	100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	TRUE	FALSE	Common	FALSE								
-ShartamakhumFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Shartamakhum	FALSE								
-GannixFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Gannix	FALSE								
-DuggurFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Duggur	FALSE								
-UrFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Ur	FALSE								
-CattaramFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Cattaram	FALSE								
-RonFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Ron	FALSE								
-ScrivnusFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Scrivnus	FALSE								
-FlaurosFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Flauros	FALSE								
-OlirnaFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	venus_acolyte		0	FALSE	FALSE	Flauros	FALSE								
+Id	Enabled	InitialPower	InitialTechLevel	InitialPlayerReputation	FactionType	AllianceType	SpawnMissionChance	GuardCreatureId	CEOGuardCreatureId	AgentCreatureId	CeoMobClassId	MinQmorphosWhenVictims	UseGeneralRewards	PortraitsByStrategy	ItemDropCategories	CanBeCaptured	CanBeTraded						
+AnCom	TRUE	0	1	20	Corp	Hexarchy	0.08	sniper	anc_elite	professor		0	TRUE	FALSE	AnCom	FALSE	TRUE						
+Hive	FALSE	0	1	20	Corp	Hexarchy	0.08	sniper	anc_elite	professor		0	TRUE	FALSE	AnCom	FALSE	TRUE						
+Tezctlan	TRUE	1000	2	20	Tezctlan	Empire	0.45	venus_jaguar_knight	venus_demon_warrior	venus_acolyte		100	FALSE	FALSE	Tezctlan	FALSE	TRUE						
+XiomaraMasks	FALSE	0	3	0	Xiomara	Rebels	0.08	venus_eagle_knight	venus_demon_warrior	venus_acolyte		100	FALSE	FALSE	XiomaraMasks	FALSE	TRUE						
+SBN	TRUE	0	1	10	Corp	Hexarchy	0.08	cyborg_recreation	sbn_elite	manager		0	TRUE	FALSE	SBN	FALSE	TRUE						
+RealWare	TRUE	0	1	10	Corp	Hexarchy	0.08	soldier	rwa_elite	warden		0	TRUE	FALSE	RealWare	FALSE	TRUE						
+Tianming	TRUE	0	1	10	Corp	Hexarchy	0.08	clonewarrior	tia_elite	perfect		0	TRUE	FALSE	Tianming	FALSE	TRUE						
+DaydreamChems	TRUE	0	1	0	Corp	Corporation	0.2	professor_combat	ddr_elite	professor	ddr_ceo	0	TRUE	FALSE	DaydreamChems	TRUE	TRUE						
+PlanetBridge	TRUE	0	1	0	Corp	Corporation	0.2	pmc_heavy	plb_elite	manager	plb_ceo	0	TRUE	FALSE	PlanetBridge	TRUE	TRUE						
+Grasshopper	TRUE	0	1	0	Corp	Corporation	0.2	sniper	gra_elite	agent	gra_ceo	0	TRUE	FALSE	Grasshopper	TRUE	TRUE						
+Sunlight	TRUE	0	1	0	Corp	Corporation	0.2	berserk	sun_elite	manager	sun_ceo	0	TRUE	FALSE	Sunlight	TRUE	TRUE						
+Emeraldlight	FALSE	0	6	0	Corp	Empire	0.45	berserk	sun_elite	manager	sun_ceo	0	TRUE	FALSE	Emeraldlight	FALSE	TRUE						
+FrancheComte	TRUE	0	1	0	Corp	Corporation	0.2	pmc_heavy	fra_elite	medic_combat	fra_ceo	0	TRUE	FALSE	FrancheComte	TRUE	TRUE						
+ChurchRevelation	TRUE	0	1	0	Corp	Corporation	0.2	soldier	chu_elite	manager	chu_ceo	0	TRUE	FALSE	ChurchRevelation	TRUE	TRUE						
+ChurchGannix	FALSE	0	6	0	Corp	Empire	0.45	soldier	chu_elite	manager	chu_ceo	0	TRUE	FALSE	ChurchGannix	FALSE	TRUE						
+CoreWard	TRUE	0	1	0	Corp	Corporation	0.2	enforcer	cor_elite	manager	cor_ceo	0	TRUE	FALSE	CoreWard	TRUE	TRUE						
+CResistance	TRUE	0	1	-10	CivilRes	Resistance	0.45	civ_soldier	civ_elite	civ_medic_combat		0	TRUE	FALSE	CResistance	FALSE	TRUE						
+GodBuilders	FALSE	0	6	0	CivilRes	Resistance	0.45	civ_enforcer	civ_elite	civ_medic_combat		0	TRUE	FALSE	CResistance	FALSE	TRUE						
+CivilUnity	FALSE	0	6	0	CivilRes	Resistance	0.45	civ_soldier	civ_elite	civ_medic_combat		0	TRUE	FALSE	CResistance	FALSE	TRUE						
+Dilthey	TRUE	0	1	20	Corp	Hexarchy	0.08	cyborg_battle	dil_elite	manager		0	TRUE	FALSE	Dilthey	FALSE	TRUE						
+UnchainedBelt	TRUE	0	1	-10	Pirates	Pirates	0.45	unc_enforcer	unc_elite	looter		0	TRUE	TRUE	UnchainedBelt	FALSE	TRUE						
+SheduThousand	FALSE	0	5	0	Shedu	Legion	0.45	mars_battle_gun	she_elite	quest_mars_knight		100	FALSE	FALSE	SheduThousand	FALSE	TRUE						
+EipschwitzHead	FALSE	0	1	0	Xiomara	Rebels	0	pmc_heavy	elite	professor		0	TRUE	FALSE	Common	FALSE	TRUE						
+Unknown	FALSE	0	1	0	Corp	Corporation	0	pmc_heavy	elite	venus_acolyte		0	TRUE	FALSE	Empty	FALSE	FALSE						
+Magnum	FALSE	0	0	100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	TRUE	FALSE	Common	FALSE	TRUE						
+ShartamakhumFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	FALSE	FALSE	Shartamakhum	FALSE	TRUE						
+GannixFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	FALSE	FALSE	Gannix	FALSE	TRUE						
+DuggurFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	FALSE	FALSE	Duggur	FALSE	TRUE						
+UrFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	FALSE	FALSE	Ur	FALSE	TRUE						
+CattaramFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	FALSE	FALSE	Cattaram	FALSE	TRUE						
+RonFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	FALSE	FALSE	Ron	FALSE	TRUE						
+ScrivnusFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	FALSE	FALSE	Scrivnus	FALSE	TRUE						
+FlaurosFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	FALSE	FALSE	Flauros	FALSE	TRUE						
+OlirnaFeral	FALSE	5000	0	-100	Xiomara	Rebels	0	pmc_heavy	elite	venus_acolyte		0	FALSE	FALSE	Olirna	FALSE	TRUE						
 #end																							
 																							
 #alliances																							
@@ -48,40 +48,40 @@ Legion	FALSE	Shedu	SheduThousand
 #end																							
 																							
 #spaceobjects																							
-Id	Available	SpaceObjectType	ParentId	RootNeighbourIndex	ExistInBramfatura	BramfaturaId	ItemDropCategories	ForbiddenItemClasses															
-mercury	TRUE	Planet		1	TRUE	Shartamakhum	Shartamakhum Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-volcano	TRUE	Satelite	mercury		FALSE		Shartamakhum Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-citadel	TRUE	Satelite	mercury		FALSE		Shartamakhum Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-venus	TRUE	Planet		2	TRUE	Gannix	Gannix Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-havoc	TRUE	Satelite	venus		FALSE		Gannix Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-mechta	TRUE	Satelite	venus		FALSE		Gannix Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-earth	TRUE	Planet		3	TRUE	Duggur		Weapon Helmet Armor Leggings Boots QuasiPact															
-tsiolkovsky	TRUE	Satelite	earth		FALSE			Weapon Helmet Armor Leggings Boots QuasiPact															
-moon	TRUE	Satelite	earth		FALSE		Duggur Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-fuller	TRUE	Satelite	moon		FALSE		Duggur Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-mars	TRUE	Planet		4	TRUE	Ur_Awakened	Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-phobos	TRUE	Satelite	mars		FALSE		Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-deimos	TRUE	Satelite	mars		FALSE		Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-ceres	TRUE	Planet		5	TRUE	Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-hungary	TRUE	Planet		5	TRUE	Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-wernher	TRUE	Planet		5	TRUE	Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-annaherman	TRUE	Planet		5	TRUE	Ron	Ron Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-vesta	TRUE	Planet		5	TRUE	Ron	Ron Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-pallas	TRUE	Planet		5	TRUE	Ron	Ron Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-geist	TRUE	Planet		5	TRUE	Scrivnus	Scrivnus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-interamnia	TRUE	Planet		5	TRUE	Scrivnus	Scrivnus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-hekate	FALSE	Planet		5	TRUE	Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-hygeia	TRUE	Planet		5	TRUE	Scrivnus	Scrivnus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-jupiter	TRUE	Planet		6	TRUE	Flauros	Flauros Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-io	TRUE	Satelite	jupiter		FALSE		Flauros Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-europa	TRUE	Satelite	jupiter		FALSE		Flauros Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-ganymede	TRUE	Satelite	jupiter		FALSE		Flauros Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-callisto	TRUE	Satelite	jupiter		FALSE		Flauros Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-saturn	TRUE	Planet		7	TRUE	Olirna_Sleeping	Olirna Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-enceladus	TRUE	Satelite	saturn		FALSE		Olirna Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-titan	TRUE	Satelite	saturn		FALSE		Olirna Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-phoebe	TRUE	Satelite	saturn		FALSE		Olirna Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
-hyperion	TRUE	Satelite	saturn		FALSE		Olirna Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact															
+Id	Available	SpaceObjectType	ParentId	RootNeighbourIndex	ExistInBramfatura	BramfaturaId																	
+mercury	TRUE	Planet		1	TRUE	Shartamakhum																	
+volcano	TRUE	Satelite	mercury		FALSE																		
+citadel	TRUE	Satelite	mercury		FALSE																		
+venus	TRUE	Planet		2	TRUE	Gannix																	
+havoc	TRUE	Satelite	venus		FALSE																		
+mechta	TRUE	Satelite	venus		FALSE																		
+earth	TRUE	Planet		3	TRUE	Duggur																	
+tsiolkovsky	TRUE	Satelite	earth		FALSE																		
+moon	TRUE	Satelite	earth		FALSE																		
+fuller	TRUE	Satelite	moon		FALSE																		
+mars	TRUE	Planet		4	TRUE	Ur_Awakened																	
+phobos	TRUE	Satelite	mars		FALSE																		
+deimos	TRUE	Satelite	mars		FALSE																		
+ceres	TRUE	Planet		5	TRUE	Cattaram																	
+hungary	TRUE	Planet		5	TRUE	Cattaram																	
+wernher	TRUE	Planet		5	TRUE	Cattaram																	
+annaherman	TRUE	Planet		5	TRUE	Ron																	
+vesta	TRUE	Planet		5	TRUE	Ron																	
+pallas	TRUE	Planet		5	TRUE	Ron																	
+geist	TRUE	Planet		5	TRUE	Scrivnus																	
+interamnia	TRUE	Planet		5	TRUE	Scrivnus																	
+hekate	FALSE	Planet		5	TRUE	Cattaram																	
+hygeia	TRUE	Planet		5	TRUE	Scrivnus																	
+jupiter	TRUE	Planet		6	TRUE	Flauros																	
+io	TRUE	Satelite	jupiter		FALSE																		
+europa	TRUE	Satelite	jupiter		FALSE																		
+ganymede	TRUE	Satelite	jupiter		FALSE																		
+callisto	TRUE	Satelite	jupiter		FALSE																		
+saturn	TRUE	Planet		7	TRUE	Olirna_Sleeping																	
+enceladus	TRUE	Satelite	saturn		FALSE																		
+titan	TRUE	Satelite	saturn		FALSE																		
+phoebe	TRUE	Satelite	saturn		FALSE																		
+hyperion	TRUE	Satelite	saturn		FALSE																		
 #end																							
 																							
 #stations																							
@@ -148,19 +148,19 @@ MoonTradeCenter	TRUE	moon	DaydreamChems	Civilian	0.12	0	1	1	FALSE	1	moonCity_Bus
 Candle	TRUE	moon	AnCom	Civilian	0.12	0	1	1	FALSE	1	moonCity_Business_moon	mercurySurfaceLevels	Duggur	33465	48500								
 AllianceArcology	TRUE	moon	PlanetBridge	SpaceStation	0.12	0	1	1	FALSE	1	moonCity_Colony_moon	mercurySurfaceLevels	Duggur	33465	48500								
 Tycho	TRUE	moon	ChurchRevelation	Industrial	0.16	0	1	1	FALSE	1	moonCity_Spaceport_moon	mercurySurfaceLevels	Duggur	27625	42500								
-ShuCenter	TRUE	mars	FrancheComte	SpaceStation	0.03	0	1	1	FALSE	1	orbit_Router	mercurySurfaceLevels	Ur_Sleeping	35000	50000								
-RedTiangong	TRUE	mars	Tianming	Industrial	0.03	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Ur_Sleeping	35000	50000								
-RebusSkyCity	TRUE	mars	AnCom	Civilian	0.03	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Ur_Sleeping	30485	45500								
-HISAres	TRUE	mars	RealWare	Military	0.03	0	1	1	TRUE	1	orbit_Military	mercurySurfaceLevels	Ur_Sleeping	30485	45500								
-Argyre	TRUE	mars	DaydreamChems	Mine	0.05	0	1	1	FALSE	1	mars_marsMine_mars	mercurySurfaceLevels	Ur_Sleeping	36565	51500								
-SinkholeOasis	TRUE	mars	RealWare	Military	0.03	0	1	1	TRUE	0.5	mars_Military_mars	mercurySurfaceLevels	Ur_Sleeping	45485	65500								
-Gloria	TRUE	mars	ChurchRevelation	Industrial	0.03	0	1	1	FALSE	1	mars_Spaceport_mars	mercurySurfaceLevels	Ur_Sleeping	35000	50000								
-IntercityTradeCenter	TRUE	mars	SBN	Civilian	0.03	0	1	1	FALSE	1	marsCity_Business_mars	mercurySurfaceLevels	Ur_Sleeping	36565	51500								
-Charon	TRUE	phobos	PlanetBridge	SpaceStation	0.03	0	1	1	TRUE	1	orbit_Spaceport	mercurySurfaceLevels	Ur_Sleeping	23560	38000								
-Canaan	TRUE	phobos	Grasshopper	Industrial	0.05	0	1	1	FALSE	1	moon_Spaceport_phobos	mercurySurfaceLevels	Ur_Sleeping	22265	36500								
-Hypnos	TRUE	phobos	RealWare	Civilian	0.03	0	1	1	FALSE	1	moon_Colony_phobos	mercurySurfaceLevels	Ur_Sleeping	33465	48500								
-Orphan	TRUE	phobos	CResistance	Mine	0.05	0	1	1	FALSE	1	moon_moonMine_phobos	mercurySurfaceLevels	Ur_Sleeping	36565	51500								
-RogueCity	TRUE	phobos	CResistance	Civilian	0.03	0	1	1	FALSE	1	moon_Colony_phobos	mercurySurfaceLevels	Ur_Sleeping	24885	39500								
+ShuCenter	TRUE	mars	FrancheComte	SpaceStation	0.12	0	1	1	FALSE	1	orbit_Router	mercurySurfaceLevels	Ur_Sleeping	35000	50000								
+RedTiangong	TRUE	mars	Tianming	Industrial	0.16	0	1	1	FALSE	1	orbit_Industrial	mercurySurfaceLevels	Ur_Sleeping	35000	50000								
+RebusSkyCity	TRUE	mars	AnCom	Civilian	0.12	0	1	1	FALSE	1	orbit_Station	mercurySurfaceLevels	Ur_Sleeping	30485	45500								
+HISAres	TRUE	mars	RealWare	Military	0.12	0	1	1	TRUE	1	orbit_Military	mercurySurfaceLevels	Ur_Sleeping	30485	45500								
+Argyre	TRUE	mars	DaydreamChems	Mine	0.16	0	1	1	FALSE	1	mars_marsMine_mars	mercurySurfaceLevels	Ur_Sleeping	36565	51500								
+SinkholeOasis	TRUE	mars	RealWare	Military	0.12	0	1	1	TRUE	0.5	mars_Military_mars	mercurySurfaceLevels	Ur_Sleeping	45485	65500								
+Gloria	TRUE	mars	ChurchRevelation	Industrial	0.16	0	1	1	FALSE	1	mars_Spaceport_mars	mercurySurfaceLevels	Ur_Sleeping	35000	50000								
+IntercityTradeCenter	TRUE	mars	SBN	Civilian	0.12	0	1	1	FALSE	1	marsCity_Business_mars	mercurySurfaceLevels	Ur_Sleeping	36565	51500								
+Charon	TRUE	phobos	PlanetBridge	SpaceStation	0.12	0	1	1	TRUE	1	orbit_Spaceport	mercurySurfaceLevels	Ur_Sleeping	23560	38000								
+Canaan	TRUE	phobos	Grasshopper	Industrial	0.16	0	1	1	FALSE	1	moon_Spaceport_phobos	mercurySurfaceLevels	Ur_Sleeping	22265	36500								
+Hypnos	TRUE	phobos	RealWare	Civilian	0.12	0	1	1	FALSE	1	moon_Colony_phobos	mercurySurfaceLevels	Ur_Sleeping	33465	48500								
+Orphan	TRUE	phobos	CResistance	Mine	0.16	0	1	1	FALSE	1	moon_moonMine_phobos	mercurySurfaceLevels	Ur_Sleeping	36565	51500								
+RogueCity	TRUE	phobos	CResistance	Civilian	0.12	0	1	1	FALSE	1	moon_Colony_phobos	mercurySurfaceLevels	Ur_Sleeping	24885	39500								
 SwiftAndVoltaire	TRUE	deimos	Dilthey	Lab	0.08	0	1	1	FALSE	1	moonCity_Lab_deimos	mercurySurfaceLevels	Ur_Sleeping	24885	39500								
 AresPost	TRUE	deimos	SBN	Industrial	0.16	0	1	1	FALSE	1	moon_Spaceport_deimos	mercurySurfaceLevels	Ur_Sleeping	35000	50000								
 Warden	TRUE	deimos	CResistance	Civilian	0.12	0	1	1	FALSE	1	moon_Colony_deimos	mercurySurfaceLevels	Ur_Sleeping	24885	39500								
@@ -249,19 +249,19 @@ Cronus	TRUE	hyperion	RealWare	Lab	0.08	0	1	1	FALSE	1	orbit_Lab	mercurySurfaceLev
 Labyrinth13	TRUE	hyperion	SBN	Lab	0.08	0	1	1	FALSE	1	moon_moonMine_ganymede	mercurySurfaceLevels	Olirna_Sleeping	23560	38000								
 PointShadow	TRUE	hyperion	CResistance	SpaceStation	0.12	0	1	1	FALSE	1	moon_Lab_wernher	mercurySurfaceLevels	Olirna_Sleeping	30485	45500								
 PilgrimsRift	TRUE	hyperion	Sunlight	Lab	0.08	0	1	1	TRUE	1	moon_Colony_phobos	mercurySurfaceLevels	Olirna_Sleeping	27625	42500								
-bramfaturian_Shartamakhum	TRUE		ShartamakhumFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Shartamakhum	BramfaturaInvasion	Shartamakhum	0	0								
-bramfaturian_Gannix	TRUE		GannixFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Gannix	BramfaturaInvasion	Gannix	0	0								
-bramfaturian_Gannix_Sleeping	TRUE		GannixFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Gannix	BramfaturaInvasion	Gannix_Sleeping	0	0								
-bramfaturian_Duggur	TRUE		DuggurFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Duggur	BramfaturaInvasion	Duggur	0	0								
-bramfaturian_Duggur_Sleeping	TRUE		DuggurFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Duggur	BramfaturaInvasion	Duggur_Sleeping	0	0								
-bramfaturian_Ur_Awakened	TRUE		UrFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Ur_Awakened	BramfaturaInvasion	Ur_Awakened	0	0								
-bramfaturian_Ur_Sleeping	TRUE		UrFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Ur_Awakened	BramfaturaInvasion	Ur_Sleeping	0	0								
-bramfaturian_Cattaram	TRUE		CattaramFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Cattaram	BramfaturaInvasion	Cattaram	0	0								
-bramfaturian_Ron	TRUE		RonFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Ron	BramfaturaInvasion	Ron	0	0								
-bramfaturian_Scrivnus	TRUE		ScrivnusFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Scrivnus	BramfaturaInvasion	Scrivnus	0	0								
-bramfaturian_Flauros	TRUE		FlaurosFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Flauros	BramfaturaInvasion	Flauros	0	0								
-bramfaturian_Olirna_Awakened	TRUE		OlirnaFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Olirna	BramfaturaInvasion	Olirna_Awakened	0	0								
-bramfaturian_Olirna_Sleeping	TRUE		OlirnaFeral	Bramfaturian	0	0	0	0	TRUE	0	bramfaturian_Olirna	BramfaturaInvasion	Olirna_Sleeping	0	0								
+bramfaturian_Shartamakhum	TRUE		ShartamakhumFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Shartamakhum	BramfaturaInvasion	Shartamakhum	0	0								
+bramfaturian_Gannix	TRUE		GannixFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Gannix	BramfaturaInvasion	Gannix	0	0								
+bramfaturian_Gannix_Sleeping	TRUE		GannixFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Gannix	BramfaturaInvasion	Gannix_Sleeping	0	0								
+bramfaturian_Duggur	TRUE		DuggurFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Duggur	BramfaturaInvasion	Duggur	0	0								
+bramfaturian_Duggur_Sleeping	TRUE		DuggurFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Duggur	BramfaturaInvasion	Duggur_Sleeping	0	0								
+bramfaturian_Ur_Awakened	TRUE		UrFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Ur_Awakened	BramfaturaInvasion	Ur_Awakened	0	0								
+bramfaturian_Ur_Sleeping	TRUE		UrFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Ur_Awakened	BramfaturaInvasion	Ur_Sleeping	0	0								
+bramfaturian_Cattaram	TRUE		CattaramFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Cattaram	BramfaturaInvasion	Cattaram	0	0								
+bramfaturian_Ron	TRUE		RonFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Ron	BramfaturaInvasion	Ron	0	0								
+bramfaturian_Scrivnus	TRUE		ScrivnusFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Scrivnus	BramfaturaInvasion	Scrivnus	0	0								
+bramfaturian_Flauros	TRUE		FlaurosFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Flauros	BramfaturaInvasion	Flauros	0	0								
+bramfaturian_Olirna_Awakened	TRUE		OlirnaFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Olirna	BramfaturaInvasion	Olirna_Awakened	0	0								
+bramfaturian_Olirna_Sleeping	TRUE		OlirnaFeral	Bramfaturian	0.4	0	0	0	TRUE	0	bramfaturian_Olirna	BramfaturaInvasion	Olirna_Sleeping	0	0								
 #end																							
 																							
 #stationtypes																							
@@ -285,7 +285,7 @@ orbit_Military	TRUE	130	110	MilitaryOrbital	#8ba7bd	0.7	military_floor_normal mi
 orbit_Router	TRUE	130	110	RouterOrbital	#8ba7bd	0.7	cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor gray_metal_deep_draft	cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor gray_metal_deep_draft	shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal	shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal shipmagnum_cornerwall_normal	0 0	0 0	false false	FillBordersStation	FillBordersStation	FALSE	FALSE	door_1_vert	door_1_hor	door_1_vert	door_1_hor	Indoor1 OrbitOutdoor	Indoor1 OrbitOutdoor
 orbit_Spaceport	TRUE	130	110	SpaceportOrbital	#8ba7bd	0.7	jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_deep_space	jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_deep_space	jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal	jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal	0 0	0 0	false false	FillBordersSpace	FillBordersSpace	FALSE	FALSE	jupiter_vert_door	jupiter_hor_door	jupiter_vert_door	jupiter_hor_door	Indoor1 OrbitOutdoor	Indoor1 OrbitOutdoor
 orbit_Station	TRUE	130	110	StationOrbital	#8ba7bd	0.7	mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal gray_metal_deep_draft	mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal gray_metal_deep_draft	gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal	gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal	0 0	0 0	false false	FillBordersStation	FillBordersStation	FALSE	FALSE	magnumDoor_vert	magnumDoor_hor	magnumDoor_vert	magnumDoor_hor	Indoor1 OrbitOutdoor	Indoor1 OrbitOutdoor
-orbit_Lab	TRUE	130	110	LaboratoryOrbital	#8ba7bd	0.7	jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_deep_space	jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_deep_space	jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal	jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal jupiter_station_cornerwall_normal	0 0	0 0	false false	FillBordersSpace	FillBordersSpace	FALSE	FALSE	labglass_door_vert	labglass_door_horisont	labglass_door_vert	labglass_door_horisont	Indoor1 OrbitOutdoor	Indoor1 OrbitOutdoor
+orbit_Lab	TRUE	130	110	LaboratoryOrbital	#8ba7bd	0.7	jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_deep_space	jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_station_normal jupiter_deep_space	lab_cornerwall_normal lab_cornerwall_normal lab_cornerwall_normal lab_cornerwall_normal lab_cornerwall_normal lab_cornerwall_normal	lab_cornerwall_normal lab_cornerwall_normal lab_cornerwall_normal lab_cornerwall_normal lab_cornerwall_normal lab_cornerwall_normal	0 0	0 0	false false	FillBordersSpace	FillBordersSpace	FALSE	FALSE	labglass_door_vert	labglass_door_horisont	labglass_door_vert	labglass_door_horisont	Indoor1 OrbitOutdoor	Indoor1 OrbitOutdoor
 orbit_Farm	TRUE	130	110	FarmOrbital	#8ba7bd	0.7	mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal gray_metal_deep_draft	mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal gray_metal_deep_draft	gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal	gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal	0 0	0 0	false false	FillBordersSpace	FillBordersSpace	FALSE	FALSE	door_1_vert	door_1_hor	door_1_vert	door_1_hor	Indoor1 OrbitOutdoor	Indoor1 OrbitOutdoor
 orbit_Prison	TRUE	130	110	PrisonOrbital	#92c0ff	0.6	mech_metal_floor_normal mech_metal_floor_normal mech_metal_floor_normal mech_metal_floor_normal mech_metal_floor_normal gray_metal_deep_draft	mech_metal_floor_normal mech_metal_floor_normal mech_metal_floor_normal mech_metal_floor_normal mech_metal_floor_normal gray_metal_deep_draft	gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal	gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal	0 0	0 0	false false	FillBordersSpace	FillBordersSpace	FALSE	FALSE	door_1_vert	door_1_hor	door_1_vert	door_1_hor	Indoor1 OrbitOutdoor	Indoor1 OrbitOutdoor
 orbit_Business	TRUE	130	110	BusinessOrbital	#8ba7bd	0.7	moon_metal_floor_normal moon_metal_floor_normal moon_metal_floor_normal moon_metal_floor_normal moon_metal_floor_normal indus_deep_space	moon_metal_floor_normal moon_metal_floor_normal moon_metal_floor_normal moon_metal_floor_normal moon_metal_floor_normal indus_deep_space	moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal	moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal	0 0	0 0	false false	FillBordersSpace	FillBordersSpace	FALSE	FALSE	door_lab_vert	door_lab_hor	door_lab_vert	door_lab_hor	Indoor1 OrbitOutdoor	Indoor1 OrbitOutdoor
@@ -475,14 +475,62 @@ mars_temple_wall	300	15	mars_temple_floor_destroyed
 																							
 #techlevels																							
 TechLevel	ExperienceToLevelUp	MaxMissionsCount																					
-1	600	3																					
-2	900	3																					
-3	1250	4																					
-4	1800	4																					
-5	2300	4																					
-6	2600	5																					
-7	3100	5																					
-8	4100	5																					
-9	5100	6																					
+1	500	3																					
+2	700	3																					
+3	1500	4																					
+4	2300	4																					
+5	2600	4																					
+6	3000	5																					
+7	3200	5																					
+8	3300	5																					
+9	4000	6																					
 10	0	6																					
+#end																							
+																							
+#bramfaturas																							
+Id	ItemDropCategories	ForbiddenItemClasses																					
+Shartamakhum	Shartamakhum Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Gannix	Gannix Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Duggur	Duggur Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Gannix_Sleeping		Weapon Helmet Armor Leggings Boots QuasiPact																					
+Ur_Sleeping		Weapon Helmet Armor Leggings Boots QuasiPact																					
+Duggur_Sleeping		Weapon Helmet Armor Leggings Boots QuasiPact																					
+Olirna_Sleeping		Weapon Helmet Armor Leggings Boots QuasiPact																					
+No_Bramfatura		Weapon Helmet Armor Leggings Boots QuasiPact																					
+Defense		Weapon Helmet Armor Leggings Boots QuasiPact																					
+Ur_Awakened	Ur Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Cattaram	Cattaram Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Ron	Ron Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Scrivnus	Scrivnus Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Flauros	Flauros Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Olirna_Awakened	Olirna Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Shartamakhum_Invasion	Shartamakhum Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Gannix_Invasion	Gannix	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Gannix_Sleeping_Invasion		Weapon Helmet Armor Leggings Boots QuasiPact																					
+Duggur_Invasion	Duggur	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Duggur_Sleeping_Invasion		Weapon Helmet Armor Leggings Boots QuasiPact																					
+Ur_Awakened_Invasion	Ur	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Ur_Sleeping_Invasion	Ur	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Cattaram_Invasion	Cattaram	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Ron_Invasion	Ron	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Scrivnus_Invasion	Scrivnus	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Flauros_Invasion	Flauros	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Olirna_Awakened_Invasion	Olirna	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Olirna_Sleeping_Invasion		Weapon Helmet Armor Leggings Boots QuasiPact																					
+ShatterEmer	Gannix Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+Duggur_Reload	Duggur Possessed Quasi	Weapon Helmet Armor Leggings Boots QuasiPact																					
+#end																							
+																							
+#bramfaturaTLprogression																							
+TechLevel	StartingFloor																						
+1	0																						
+2	0																						
+3	0																						
+4	1																						
+5	2																						
+6	3																						
+7	0																						
+8	4																						
+9	7																						
+10	10																						
 #end																							

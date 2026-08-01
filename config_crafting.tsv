@@ -2,25 +2,26 @@
 Id		AllowedWorkbenches	OutputItem	RequiredItems	RequiredPerks			
 		workbench	rags_backpack_1	rags 4				
 		workbench	trash_common_vest_1	rags 3				
-		workbench	miner_knife_1	broken_weapon 2 pierce_parts 1 plastic 1				
-		workbench	trash_axe_1	pierce_parts 2 rod_parts 2 rubber 1				
-		workbench	trash_shotgun_1	rusty_plates 1 broken_weapon 2 blunt_parts 2				
-		workbench	trash_smg_1	broken_weapon 2 weapon_parts 1 rusty_plates 1 rod_parts 1				
-		workbench	trash_assault_1	broken_weapon 2 weapon_parts 1 rusty_plates 1 rod_parts 1				
+		workbench	miner_knife_1	pierce_parts 1 rod_parts 1 plastic 1				
+		workbench	trash_axe_1	pierce_parts 1 rod_parts 1 plastic 1 rusty_plates 1				
+		workbench	trash_shotgun_1	spring 1 plastic 2 rusty_plates 1				
+		workbench	trash_smg_1	spring 1 plastic 1 metal_tread 1				
+		workbench	trash_assault_1	spring 2 armor_plates 1 plastic 1 rusty_plates 1				
 		workbench	handmade_frag_grenade	tin 1 nail_bolts_ammo 1 explosives 1				
 		workbench	handmade_thermal_grenade	glass_bottle 1 gas_ammo 1 rags 1				
+		workbench	handmade_smoke_grenade	tin 1 plastic 1 gas_ammo 1 acid 1				
 		workbench	battery_crafted_ammo	glass 1 acid 1 wire 1				
 		workbench	tape	medical_glue 1 acid 1 plastic 1				
-		primitive_workbench	trash_blade_1	pierce_parts 2 rusty_plates 1 plastic 1				
-		primitive_workbench	trash_club_1	coarse_parts 2 rod_parts 2 sawblade_ammo 1				
+		primitive_workbench	trash_blade_1	pierce_parts 1 rod_parts 1 plastic 1 rusty_plates 1				
+		primitive_workbench	trash_club_1	sawblade_ammo 1 rod_parts 1 plastic 1				
 		primitive_workbench	trash_pipe_1	blunt_parts 2				
-		primitive_workbench	trash_knife_1	glass 1 tape 1				
+		primitive_workbench	trash_knife_1	glass 2 plastic 1				
 		primitive_workbench	rags_backpack_1	rags 4				
 		primitive_workbench	trash_common_vest_1	rags 3				
-		primitive_workbench	spider_light_helmet_1	spider_chitin 1 rags 1				
-		primitive_workbench	spider_light_armor_1	spider_chitin 3 rags 1				
-		primitive_workbench	spider_light_pants_1	spider_chitin 2 rags 1				
-		primitive_workbench	spider_light_boots_1	spider_chitin 1 rags 1				
+		primitive_workbench	spider_light_helmet_1	rags 1 spider_chitin 2				
+		primitive_workbench	spider_light_armor_1	rags 2 spider_chitin 3				
+		primitive_workbench	spider_light_pants_1	rags 2 spider_chitin 3				
+		primitive_workbench	spider_light_boots_1	rags 2 spider_chitin 1				
 		stove	canned_food_1	tin 1 human_meat 3				
 		stove	canned_food_2	tin 1 cabbage 1 ration_pack_2 1				
 		stove	burger_pack_1	plastic 1 dog_meat 1				
@@ -64,11 +65,12 @@ Id		AllowedWorkbenches	OutputItem	RequiredItems	RequiredPerks
 		productionFabricator	highexplosion_grenade	tin 1 explosives 1				
 		productionFabricator	thermal_grenade	tin 1 gas_ammo 2 powder 2				
 		productionFabricator	stun_grenade	tin 1 acid 2 human_poop 2				
+		productionFabricator	smoke_grenade	tin 1 acid 2 plastic 2 gas_ammo 2				
 		productionFabricator	melee_repair_kit	pierce_parts 2 blunt_parts 2				
-		productionFabricator	firearm_repair_kit	plastic 1 weapon_parts 2 spring 2				
+		productionFabricator	firearm_repair_kit	rusty_plates 1 armor_plates 1 spring 2				
 		productionFabricator	engineering_repair_kit	rod_parts 2 coarse_parts 2				
-		productionFabricator	tech_repair_kit	microelectronics_parts 2 circuit_board 2				
-		productionFabricator	armor_repair_kit	rags 1 rubber 1 armor_plates 1 ceramite_plates 1				
+		productionFabricator	tech_repair_kit	lens 1 transformer 1 capacitor_parts 1 bulb 1				
+		productionFabricator	armor_repair_kit	rags 1 plastic 1 rusty_plates 1 armor_plates 1				
 		productionFabricator	cyborg_head	armor_plates 1 plastic 1 glass 1 bulb 1 circuit_board 1				
 		productionFabricator	cyborg_hand	armor_plates 1 metal_tread 1 weapon_parts 1				
 		productionFabricator	cyborg_leg	armor_plates 1 metal_tread 1 weapon_parts 1				
@@ -99,6 +101,7 @@ Id		AllowedWorkbenches	OutputItem	RequiredItems	RequiredPerks
 		printerFabricator	packaged_industrial_robot	armor_plates 4				
 		printerFabricator	packaged_security_robot	ceramite_plates 4				
 		printerFabricator	packaged_recreational_robot	rubber 4				
+		printerFabricator	placeable_barrel	armor_plates 4				
 		medical_printer	cigarettes_1	pills_sorbent 4				
 		medical_printer	plaster	plastic 4				
 		medical_printer	hydrogel_bandage	rags 2				
@@ -128,144 +131,177 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		pills_sorbent		2	1	1.05		
 		pills_antibiotics	plastic 1 rotten_human_meat 1	10	1	1.05		
 		syringe_morphine	glass 1 poppy_box 1	18	1	1.05		
-		armor_repair_kit	rags 1 rubber 1 armor_plates 1 ceramite_plates 1	24	1	1.05		
-		firearm_repair_kit	plastic 1 weapon_parts 2 spring 2	24	1	1.05		
-		melee_repair_kit	pierce_parts 2 blunt_parts 2	24	1	1.05		
-		engineering_repair_kit	rod_parts 2 coarse_parts 2	24	1	1.05		
-		tech_repair_kit	microelectronics_parts 2 circuit_board 2	24	1	1.05		
-		worker_pistol_1	rod_parts 1 coarse_parts 1 spring 1	18	1	1.06	rod_parts 1 spring 3 low_chip 7 medium_chip 15	10
-		army_pistol_1	plastic 1 spring 1	10	1	1.08	weapon_parts 1 spring 3 low_chip 7	10
-		army_pistol_2	plastic 1 weapon_parts 1	14	2	1.08	weapon_parts 1 spring 3 low_chip 7	10
-		army_pistol_3	plastic 1 weapon_parts 1 metal_tread 1	18	3	1.08	weapon_parts 1 spring 3 low_chip 7 medium_chip 15	15
-		army_pistol_4	ceramite_plates 1 weapon_parts 1 metal_tread 1	36	4	1.06	spring 1 low_chip 3 firearm_repair_kit 12 medium_chip 15	25
-		pmc_pistol_1	plastic 1 spring 1	10	1	1.08	weapon_parts 1 spring 3 low_chip 7	10
-		pmc_pistol_2	plastic 1 weapon_parts 1	16	2	1.08	weapon_parts 1 spring 3 low_chip 7	10
-		pmc_pistol_3	plastic 1 weapon_parts 1 metal_tread 1 spring 1	18	3	1.08	weapon_parts 1 spring 3 low_chip 7 medium_chip 15	15
-		military_pistol_1	plastic 1 weapon_parts 1 spring 1	10	1	1.08	weapon_parts 1 spring 3 low_chip 7	10
-		military_pistol_2	rubber 1 weapon_parts 1 metal_tread 1	24	2	1.08	weapon_parts 1 spring 3 low_chip 7 medium_chip 15	10
-		military_pistol_3	rubber 1 weapon_parts 1 metal_tread 1 blunt_parts 1	38	3	1.08	spring 1 low_chip 3 firearm_repair_kit 12 medium_chip 15	15
-		rwa_military_pistol_1	ceramite_plates 1 armor_plates 1 weapon_parts 1 circuit_board 1	42	1	1.05	weapon_parts 1 low_chip 3 medium_chip 10 high_chip 20	30
-		trucker_pistol_2	rubber 1 weapon_parts 1 blunt_parts 1	24	2	1.08	weapon_parts 1 spring 3 low_chip 7	10
-		trucker_pistol_3	rubber 1 weapon_parts 1 spring 1 blunt_parts 1	26	3	1.08	weapon_parts 1 spring 3 low_chip 7 medium_chip 15	15
-		chu_trucker_pistol_1	ceramite_plates 1 weapon_parts 1 blunt_parts 1	36	5	1.05	low_chip 1 weapon_container 8 medium_chip 10 high_chip 20	30
-		chu_trucker_pistol_2	ceramite_plates 1 weapon_parts 1 spring 1	36	5	1.05	low_chip 1 weapon_container 8 medium_chip 10 high_chip 20	30
-		rail_pistol_2	rubber 1 circuit_board 1 capacitor_parts 1 metal_tread 1	30	2	1.08	capacitor_parts 1 transformer 3 low_chip 7	10
-		rail_pistol_3	rubber 1 microelectronics_parts 1 capacitor_parts 1 metal_tread 1	34	1	1.08	capacitor_parts 1 transformer 3 low_chip 7 medium_chip 15	15
-		laser_pistol_2	plastic 1 circuit_board 1 bulb 1 wire 1	36	2	1.08	circuit_board 1 wire 3 low_chip 7	10
-		common_pistol_2	plastic 1 spring 1	20	1	1.08	weapon_parts 1 spring 3 low_chip 7	10
-		common_pistol_3	plastic 1 weapon_parts 1	24	1	1.08	weapon_parts 1 spring 3 low_chip 7 medium_chip 15	10
-		cor_worker_pistol_1	rusty_plates 1 plastic 1 spring 1	26	1	1.06	rusty_plates 1 spring 3 low_chip 7 medium_chip 15	25
-		anc_quasi_pistol_1	ceramite_plates 1 microelectronics_parts 1 venus_weapon_parts 1 wire 1	46	1	1.05	broken_weapon 1 low_chip 5 quasisamples 15 high_chip 20	30
-		sbn_rail_pistol_1	armor_plates 1 microelectronics_parts 1 capacitor_parts 1 metal_tread 1	36	1	1.06	weapon_parts 1 circuit_board 3 low_chip 5 medium_chip 15	25
-		ddr_frost_pistol_1	plastic 1 circuit_board 2 bulb 1 wire 1	40	1	1.05	wire 1 circuit_board 3 low_chip 5 high_chip 20	30
-		grh_revolver_pistol_1	rubber 1 weapon_parts 1 spring 1	32	1	1.06	weapon_parts 1 rod_parts 3 low_chip 5 medium_chip 15	25
-		sun_laser_pistol_1	armor_plates 1 microelectronics_parts 1 bulb 1 wire 1	42	1	1.06	wire 1 capacitor_parts 3 low_chip 6 medium_chip 15	25
-		fra_security_pistol_1	rubber 1 weapon_parts 1 spring 1 metal_tread 1	28	1	1.06	weapon_parts 1 rod_parts 3 low_chip 5 medium_chip 15	25
-		fra_shock_pistol_1	ceramite_plates 1 microelectronics_parts 1 bulb 1 capacitor_parts 1 transformer 1	32	1	1.06	wire 1 capacitor_parts 3 low_chip 6 medium_chip 15	25
-		dil_sound_pistol_1	plastic 1 microelectronics_parts 1 bulb 1	32	1	1.06	wire 1 capacitor_parts 3 low_chip 6 medium_chip 15	25
-		dil_sound_pistol_2	plastic 1 microelectronics_parts 1 bulb 1 capacitor_parts 1	36	2	1.05	capacitor_parts 1 low_chip 5 medium_chip 10 high_chip 20	30
-		ddr_toxic_pistol_1	plastic 1 glass 1 circuit_board 1 metal_tread 1	26	1	1.06	weapon_parts 1 acid 3 low_chip 7 medium_chip 15	25
-		ddr_disruptor_pistol_1	ceramite_plates 2 circuit_board 1 microelectronics_parts 1 glass 1	32	1	1.06	circuit_board 1 microelectronics_parts 3 low_chip 10 medium_chip 15	25
-		plb_pistol_1	plastic 1 weapon_parts 1	48	1	1.05	weapon_parts 1 low_chip 3 medium_chip 10 high_chip 20	30
-		spec_pistol_1	plastic 1 weapon_parts 1	48	1	1.05	weapon_parts 1 low_chip 3 medium_chip 10 high_chip 20	30
-		spec_pistol_2	plastic 2 weapon_parts 1	60	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 tia_chip 25	35
-		tia_disc_pistol_1	coarse_parts 1 spring 1 rusty_plates 1	24	1	1.05	blunt_parts 1 bulb 3 low_chip 7 medium_chip 15	25
-		common_shock_pistol_1	plastic 1 wire 1 transformer 1	32	1	1.05	plastic 1 transformer 3 low_chip 7	10
-		pmc_shotgun_1	rubber 1 weapon_parts 1 blunt_parts 1	24	2	1.08	weapon_parts 1 broken_weapon 3 low_chip 7 medium_chip 15	10
-		pmc_shotgun_2	armor_plates 1 weapon_parts 1 blunt_parts 1	38	1	1.06	weapon_parts 1 low_chip 3 firearm_repair_kit 12 medium_chip 15	25
-		trucker_shotgun_1	rubber 1 weapon_parts 1 spring 1 blunt_parts 1	28	3	1.08	weapon_parts 1 blunt_parts 3 low_chip 7 medium_chip 15	10
-		trucker_shotgun_2	armor_plates 1 weapon_parts 1 spring 1 blunt_parts 1	36	5	1.06	blunt_parts 1 low_chip 3 firearm_repair_kit 12 medium_chip 15	20
-		trucker_shotgun_3	ceramite_plates 1 weapon_parts 1 spring 1 blunt_parts 1	44	8	1.05	low_chip 1 weapon_container 8 medium_chip 10 high_chip 20	30
-		common_shotgun_2	rubber 1 weapon_parts 1 spring 1 blunt_parts 1	24	1	1.08	weapon_parts 1 blunt_parts 3 low_chip 7 medium_chip 15	15
-		plasma_shotgun_2	ceramite_plates 2 circuit_board 1 microelectronics_parts 1 capacitor_parts 1	40	5	1.08	circuit_board 1 microelectronics_parts 5 medium_chip 7 high_chip 15	10
-		military_shotgun_1	armor_plates 1 weapon_parts 1 blunt_parts 1	26	10	1.08	low_chip 1 firearm_repair_kit 8 medium_chip 10 high_chip 20	15
-		fra_security_shotgun_1	ceramite_plates 1 weapon_parts 1 spring 1 blunt_parts 1	24	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 fra_chip 25	35
-		chu_shotgun_1	ceramite_plates 2 weapon_parts 1 spring 1 blunt_parts 1	50	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 chu_chip 25	40
-		anc_shotgun_1	armor_plates 1 ceramite_plates 1 weapon_parts 1 blunt_parts 1	48	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 anc_chip 25	35
-		sbn_rail_shotgun_1	armor_plates 1 microelectronics_parts 1 capacitor_parts 1 metal_tread 1	40	1	1.05	circuit_board 1 low_chip 5 medium_chip 10 high_chip 20	30
-		sun_laser_shotgun_1	ceramite_plates 2 microelectronics_parts 1 capacitor_parts 1	48	1	1.05	circuit_board 1 low_chip 5 medium_chip 10 high_chip 20	30
-		ddr_toxic_shotgun_1	bulb 1 microelectronics_parts 1 glass 1 circuit_board 1 metal_tread 1	40	1	1.05	acid 1 low_chip 5 medium_chip 10 ddr_chip 25	35
-		ddr_frost_shotgun_1	bulb 1 microelectronics_parts 1 glass 1 capacitor_parts 1 transformer 1	48	1	1.05	circuit_board 1 low_chip 5 medium_chip 10 ddr_chip 25	40
-		dil_sound_shotgun_1	ceramite_plates 2 microelectronics_parts 1 capacitor_parts 1	40	1	1.05	capacitor_parts 1 low_chip 5 medium_chip 10 high_chip 20	30
-		spec_shotgun_1	rubber 1 weapon_parts 2	24	1	1.05	blunt_parts 1 bulb 3 low_chip 7 medium_chip 15	25
-		pmc_smg_1	rubber 1 weapon_parts 1 blunt_parts 1	18	1	1.08	weapon_parts 1 spring 3 low_chip 7 medium_chip 15	10
-		pmc_smg_2	rubber 1 weapon_parts 1 spring 1 blunt_parts 1	22	2	1.08	spring 1 firearm_repair_kit 5 low_chip 7 medium_chip 15	10
-		pmc_smg_3	rubber 1 weapon_parts 2 spring 1 blunt_parts 1	32	1	1.05	weapon_parts 1 firearm_repair_kit 5 low_chip 7 high_chip 20	30
-		pmc_smg_4	rubber 1 weapon_parts 1 spring 1 blunt_parts 2	22	2	1.08	spring 1 firearm_repair_kit 5 low_chip 7 medium_chip 15	10
-		military_smg_1	armor_plates 1 weapon_parts 1 spring 1 blunt_parts 1	28	4	1.06	spring 1 firearm_repair_kit 5 low_chip 7 medium_chip 15	20
-		police_smg_1	rubber 1 weapon_parts 1 blunt_parts 1	18	2	1.08	weapon_parts 1 spring 3 low_chip 7 medium_chip 15	10
-		laser_smg_1	plastic 1 microelectronics_parts 1 bulb 1 wire 1	40	4	1.08	circuit_board 1 wire 3 low_chip 7 medium_chip 15	15
-		laser_smg_2	plastic 1 circuit_board 1 bulb 1 wire 1 capacitor_parts 1	48	1	1.06	bulb 1 microelectronics_parts 3 low_chip 7 medium_chip 15	20
-		plasma_shotgun_1	ceramite_plates 2 microelectronics_parts 1 capacitor_parts 1	50	1	1.06	circuit_board 1 low_chip 3 electrical_parts_container 10 medium_chip 15	25
-		rwa_military_smg_1	ceramite_plates 1 weapon_parts 1 spring 1 blunt_parts 1	48	1	1.05	low_chip 1 firearm_repair_kit 8 medium_chip 10 rwa_chip 25	35
-		anc_quasi_smg_1	armor_plates 2 weapon_parts 1 spring 1	36	1	1.05	weapon_parts 1 low_chip 5 medium_chip 10 high_chip 20	30
-		grh_common_smg_1	ceramite_plates 1 armor_plates 1 weapon_parts 1	40	1	1.05	low_chip 1 firearm_repair_kit 8 medium_chip 10 high_chip 20	30
-		fra_security_smg_1	rubber 1 weapon_parts 1 spring 2	40	1	1.05	weapon_parts 1 low_chip 5 medium_chip 10 high_chip 20	30
-		fra_security_smg_2	ceramite_plates 1 weapon_parts 1 spring 1 blunt_parts 1	40	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 fra_chip 25	35
-		fra_shock_smg_1	ceramite_plates 1 microelectronics_parts 1 bulb 1 capacitor_parts 1 transformer 1	40	1	1.05	circuit_board 1 low_chip 5 medium_chip 10 high_chip 20	30
-		sbn_rail_smg_1	ceramite_plates 1 microelectronics_parts 1 capacitor_parts 1 metal_tread 1	44	1	1.05	weapon_parts 1 low_chip 5 medium_chip 10 high_chip 20	30
-		dil_shock_smg_1	microelectronics_parts 1 bulb 1 capacitor_parts 1 transformer 1	44	2	1.05	circuit_board 1 low_chip 5 medium_chip 10 high_chip 20	30
-		dil_chaos_smg_1	microelectronics_parts 1 capacitor_parts 1 transformer 1	60	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 dil_chip 25	35
-		cor_worker_discthrower_1	coarse_parts 1 spring 1 armor_plates 1 rod_parts 1	38	1	1.05	low_chip 1 tool_container 8 medium_chip 10 high_chip 20	30
-		plb_smg_1	plastic 1 weapon_parts 1 spring 1	60	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 plb_chip 25	35
-		spec_smg_1	plastic 1 weapon_parts 1 spring 1	32	1	1.05	weapon_parts 1 low_chip 3 medium_chip 10 high_chip 20	30
-		spec_smg_2	plastic 1 weapon_parts 1 spring 1	54	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 tia_chip 25	35
-		common_assault_1	armor_plates 1 weapon_parts 1 spring 1 blunt_parts 1	36	6	1.08	lens 1 firearm_repair_kit 5 low_chip 7 medium_chip 15	15
-		pmc_assault_1	armor_plates 1 weapon_parts 1 lens 1 blunt_parts 1	32	6	1.08	weapon_parts 1 lens 3 low_chip 5 medium_chip 15	15
-		military_assault_1	ceramite_plates 1 weapon_parts 1 lens 1 blunt_parts 1	42	1	1.06	low_chip 1 firearm_repair_kit 8 medium_chip 10 high_chip 20	20
-		rwa_military_assault_1	ceramite_plates 1 armor_plates 1 weapon_parts 1 microelectronics_parts 1 circuit_board 1	52	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 rwa_chip 25	35
-		plasma_assault_1	ceramite_plates 1 circuit_board 1 microelectronics_parts 1 transformer 1	42	1	1.05	circuit_board 1 microelectronics_parts 3 low_chip 7 medium_chip 15	30
-		chu_meltathrower_1	coarse_parts 2 metal_tread 1 rusty_plates 1 rod_parts 1	56	3	1.05	coarse_parts 1 firearm_repair_kit 8 medium_chip 10 high_chip 20	30
-		sun_laser_assault_1	ceramite_plates 1 microelectronics_parts 1 lens 1 transformer 1 capacitor_parts 1	50	3	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 sun_chip 25	35
-		grh_trucker_assault_1	armor_plates 1 weapon_parts 1 lens 1 blunt_parts 1	30	1	1.05	weapon_parts 1 low_chip 3 medium_chip 7 high_chip 20	30
-		fra_security_assault_1	ceramite_plates 1 armor_plates 1 weapon_parts 1 lens 1	38	1	1.05	weapon_parts 1 low_chip 3 medium_chip 7 fra_chip 25	35
-		dil_sound_assault_1	ceramite_plates 1 microelectronics_parts 1 lens 1 transformer 1 capacitor_parts 1	50	3	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 dil_chip 25	35
-		dil_chaos_assault_1	microelectronics_parts 1 lens 1 transformer 1	60	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 dil_chip 25	40
-		tia_disc_assault_1	coarse_parts 1 spring 1 armor_plates 1	48	1	1.05	weapon_parts 1 low_chip 3 medium_chip 10 high_chip 20	30
-		tia_shock_assault_1	microelectronics_parts 1 capacitor_parts 1 transformer 1	54	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 tia_chip 25	35
-		army_sniper_1	ceramite_plates 1 weapon_parts 1 lens 1 spring 1 blunt_parts 2	54	6	1.06	lens 1 firearm_repair_kit 5 low_chip 7 medium_chip 15	20
-		army_sniper_2	ceramite_plates 1 weapon_parts 1 lens 1 microelectronics_parts 1	58	8	1.05	low_chip 1 weapon_container 8 medium_chip 10 high_chip 20	35
-		trucker_marksman_1	rubber 1 weapon_parts 1 blunt_parts 1	30	4	1.08	weapon_parts 1 lens 5 low_chip 7 medium_chip 15	10
-		trucker_marksman_2	armor_plates 1 weapon_parts 1 lens 1 blunt_parts 2	40	5	1.08	lens 1 firearm_repair_kit 5 low_chip 7 medium_chip 15	15
-		laser_sniper_1	plastic 1 microelectronics_parts 1 lens 1 bulb 1 transformer 1	60	1	1.06	low_chip 1 electrical_parts_container 8 medium_chip 10 high_chip 20	25
-		laser_marksman_1	plastic 1 microelectronics_parts 1 lens 1 bulb 1 capacitor_parts 1	44	1	1.08	low_chip 1 electrical_parts_container 8 medium_chip 10 high_chip 20	15
-		cor_laser_sniper_1	armor_plates 1 plastic 1 circuit_board 1 bulb 1 wire 1	40	1	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 high_chip 20	30
-		anc_marksman_1	ceramite_plates 1 weapon_parts 1 lens 1 microelectronics_parts 1 blunt_parts 1	62	1	1.05	lens 1 firearm_repair_kit 8 medium_chip 10 anc_chip 25	35
-		anc_quasi_assault_1	armor_plates 1 ceramite_plates 1 microelectronics_parts 1 venus_weapon_parts 1 wire 1	50	1	1.05	low_chip 1 quasisamples 8 medium_chip 10 anc_chip 25	35
-		ddr_disruptor_marksman_1	ceramite_plates 2 circuit_board 2 microelectronics_parts 1 glass 2	50	1	1.06	microelectronics_parts 1 low_chip 3 electrical_parts_container 10 medium_chip 15	25
-		rail_marksman_1	ceramite_plates 1 microelectronics_parts 1 capacitor_parts 1 metal_tread 2	54	1	1.06	wire 1 circuit_board 3 electrical_parts_container 12 medium_chip 15	25
-		sbn_rail_assault_1	ceramite_plates 1 microelectronics_parts 1 bulb 1 capacitor_parts 1 transformer 1	42	2	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 sbn_chip 25	40
-		grh_trucker_marksman_1	ceramite_plates 1 armor_plates 1 weapon_parts 1 lens 1	42	2	1.05	low_chip 1 weapon_container 8 medium_chip 10 gra_chip 25	40
-		grh_trucker_marksman_2	armor_plates 1 weapon_parts 1 lens 1 blunt_parts 1	48	1	1.05	lens 1 firearm_repair_kit 5 low_chip 7 high_chip 20	30
-		grh_microwave_marksman_1	bulb 1 microelectronics_parts 1 glass 1 capacitor_parts 1 transformer 1	50	1	1.06	microelectronics_parts 1 low_chip 3 electrical_parts_container 10 medium_chip 15	25
-		sun_laser_sniper_1	ceramite_plates 1 microelectronics_parts 1 lens 1 transformer 1 capacitor_parts 1	64	1	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 high_chip 20	30
-		sun_laser_marksman_1	ceramite_plates 1 weapon_parts 1 lens 1 microelectronics_parts 1 blunt_parts 1	70	2	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 sun_chip 25	40
-		dil_shock_sniper_1	ceramite_plates 1 weapon_parts 1 lens 1 microelectronics_parts 1 blunt_parts 1	70	2	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 dil_chip 25	40
-		cor_worker_hmg_1	rusty_plates 1 coarse_parts 1 spring 1 rod_parts 1	32	1	1.06	rusty_plates 1 spring 3 low_chip 7 medium_chip 15	25
-		cor_hmg_1	ceramite_plates 2 weapon_parts 1 spring 1 blunt_parts 1	52	8	1.06	weapon_parts 1 blunt_parts 3 low_chip 7 medium_chip 15	25
-		plb_hmg_1	ceramite_plates 1 weapon_parts 2 spring 1	54	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 plb_chip 25	35
-		army_hmg_1	ceramite_plates 1 weapon_parts 1 spring 1 blunt_parts 2	52	8	1.06	weapon_parts 1 blunt_parts 3 low_chip 7 medium_chip 15	25
-		plasma_hmg_1	ceramite_plates 1 microelectronics_parts 1 wire 1 capacitor_parts 1 transformer 1	70	1	1.06	low_chip 1 electrical_parts_container 8 medium_chip 10 high_chip 20	25
-		military_minigun_1	ceramite_plates 1 weapon_parts 1 metal_tread 1 spring 1 blunt_parts 2	62	12	1.05	low_chip 1 weapon_container 8 medium_chip 10 high_chip 20	35
-		plb_worker_shockgun_1	ceramite_plates 1 microelectronics_parts 2 bulb 1 capacitor_parts 1 transformer 1	70	1	1.05	low_chip 1 electrical_parts_container 8 medium_chip 10 high_chip 20	30
-		cor_worker_flamethrower_1	coarse_parts 1 metal_tread 1 armor_plates 1 rod_parts 1	36	1	1.05	low_chip 1 tool_container 8 medium_chip 10 high_chip 20	30
-		toxic_thrower_1	armor_plates 1 glass 1 circuit_board 1 capacitor_parts 1	48	1	1.06	weapon_parts 1 acid 3 low_chip 7 medium_chip 15	25
-		grenade_launcher_1	armor_plates 1 weapon_parts 1 spring 1 metal_tread 1 blunt_parts 1	56	1	1.05	spring 1 firearm_repair_kit 8 medium_chip 10 fra_chip 25	35
-		common_rocketlauncher_1	rusty_plates 2 weapon_parts 2 spring 1	36	1	1.05	weapon_parts 1 low_chip 3 medium_chip 10 high_chip 20	30
-		army_rocketlauncher_1	ceramite_plates 2 weapon_parts 2 microelectronics_parts 1	54	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 high_chip 25	35
-		tia_rocketlauncher_1	armor_plates 2 weapon_parts 2 spring 1	30	1	1.05	weapon_parts 1 low_chip 3 medium_chip 10 high_chip 20	30
-		common_knife_1	pierce_parts 1 plastic 1	8	1	1.08	blunt_parts 1 pierce_parts 3 low_chip 7	10
-		tech_blade_1	pierce_parts 1 metal_tread 1 plastic 1 rubber 1	32	1	1.08	pierce_parts 1 armor_plates 3 low_chip 7	15
-		ddr_poisonknife_1	pierce_parts 2 glass 1 rubber 1 plastic 1	24	1	1.05	pierce_parts 1 glass 3 low_chip 7 medium_chip 15	25
-		med_lightblade_1	pierce_parts 1 blunt_parts 1 microelectronics_parts 1 wire 1	32	1	1.08	wire 1 microelectronics_parts 3 low_chip 7	10
-		sun_laser_powersword_1	microelectronics_parts 2 bulb 1	60	1	1.05	low_chip 1 weapon_container 8 medium_chip 10 sun_chip 25	35
-		tia_blade_1	pierce_parts 2 rusty_plates 1	18	1	1.05	blunt_parts 1 bulb 3 low_chip 7 medium_chip 15	25
-		police_club_1	blunt_parts 1 rod_parts 1 plastic 1	14	1	1.08	blunt_parts 1 rod_parts 3 low_chip 7	10
-		fra_police_club_1	blunt_parts 1 rod_parts 1 bulb 1	24	1	1.06	blunt_parts 1 bulb 3 low_chip 7 medium_chip 15	25
-		chu_fireclub_1	blunt_parts 2 broken_weapon 2	40	1	1.05	blunt_parts 1 low_chip 3 medium_chip 10 high_chip 20	30
-		common_axe_1	pierce_parts 1 blunt_parts 1 rubber 1	24	1	1.08	blunt_parts 1 pierce_parts 3 low_chip 7	10
-		military_axe_1	pierce_parts 1 blunt_parts 1 armor_plates 1	28	1	1.06	pierce_parts 1 armor_plates 3 low_chip 7 medium_chip 15	25
-		military_shovel_1	rusty_plates 1 pierce_parts 1 rod_parts 1	12	1	1.06	pierce_parts 1 armor_plates 3 low_chip 7 medium_chip 15	25
+		armor_repair_kit	rags 1 plastic 1 rubber 1 rusty_plates 1 armor_plates 1 ceramite_plates 1	24	1	1.05		
+		firearm_repair_kit	plastic 1 rusty_plates 1 armor_plates 1 spring 2 weapon_parts 2	24	1	1.05		
+		melee_repair_kit	rod_parts 2 pierce_parts 2 blunt_parts 2	24	1	1.05		
+		engineering_repair_kit	rod_parts 3 coarse_parts 3	24	1	1.05		
+		tech_repair_kit	lens 1 transformer 1 capacitor_parts 1 bulb 1 microelectronics_parts 1 circuit_board 1	24	1	1.05		
+		worker_torch_1	rod_parts 1 rusty_plates 2 plastic 1	24	17	1	rusty_plates 1 rod_parts 2 engineering_parts_container 8 low_chip 10 medium_chip 20	4
+		worker_pistol_1	rod_parts 1 rusty_plates 1 plastic 1	19	15	1	rusty_plates 1 rod_parts 2 engineering_parts_container 8 low_chip 10 medium_chip 20	4
+		army_pistol_1	spring 1 plastic 2	19	15	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		army_pistol_2	spring 1 plastic 2	22	17	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		army_pistol_3	weapon_parts 1 plastic 2 bulb 1 lens 1	32	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		army_pistol_4	weapon_parts 1 rubber 1 plastic 1 bulb 1 lens 1	38	19	1	rubber 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 chu_chip 24	12
+		pmc_pistol_1	spring 1 plastic 2	19	15	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		pmc_pistol_2	spring 1 plastic 2	19	15	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		pmc_pistol_3	weapon_parts 1 plastic 2 coarse_parts 1	30	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		military_pistol_1	spring 1 plastic 2	19	15	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 rwa_chip 20	4
+		military_pistol_2	spring 1 plastic 2 lens 1	27	19	1	plastic 1 spring 2 military_parts_container 4 medium_chip 8 low_chip 16	8
+		military_pistol_3	weapon_parts 1 plastic 2 bulb 1 lens 1	32	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		rwa_military_pistol_1	weapon_parts 1 rubber 1 plastic 1 bulb 1 lens 1	38	19	1	rubber 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 rwa_chip 24	12
+		trucker_pistol_2	spring 1 plastic 2	25	19	1	plastic 1 spring 2 military_parts_container 4 medium_chip 8 low_chip 16	8
+		trucker_pistol_3	weapon_parts 1 rubber 1 plastic 1 bulb 1 lens 1	38	19	1	rubber 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 high_chip 24	12
+		chu_trucker_pistol_1	weapon_parts 1 rubber 2 microelectronics_parts 1 lens 1	44	15	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 chu_chip 32	16
+		chu_trucker_pistol_2	weapon_parts 1 rubber 2 microelectronics_parts 1 lens 1	44	15	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 chu_chip 32	16
+		rail_pistol_1	capacitor_parts 1 transformer 1 plastic 1	19	15	1	transformer 1 capacitor_parts 2 electrical_parts_container 8 low_chip 10 medium_chip 20	4
+		rail_pistol_2	capacitor_parts 1 transformer 1 plastic 1	25	19	1	transformer 1 capacitor_parts 2 electrical_parts_container 4 medium_chip 8 low_chip 16	8
+		rail_pistol_3	capacitor_parts 1 transformer 1 rubber 1 armor_plates 1 microelectronics_parts 1	48	19	1	transformer 1 capacitor_parts 2 prototype_schematics 6 medium_chip 12 plb_chip 24	12
+		laser_pistol_2	lens 1 microelectronics_parts 2 rubber 1	30	11	1	microelectronics_parts 1 lens 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		common_pistol_2	spring 1 plastic 2 lens 1	22	17	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		common_pistol_3	weapon_parts 1 plastic 2 bulb 1 lens 1	32	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		cor_worker_pistol_1	rod_parts 1 rusty_plates 1 plastic 1	22	17	1	rusty_plates 1 rod_parts 2 engineering_parts_container 8 low_chip 10 cor_chip 20	4
+		anc_pistol_1	spring 1 plastic 2	25	19	1	plastic 1 spring 2 military_parts_container 4 anc_chip 8 low_chip 16	8
+		anc_pistol_2	weapon_parts 1 plastic 2 bulb 1 lens 1	35	15	1	plastic 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 anc_chip 24	12
+		anc_quasi_pistol_1	circuit_board 1 venus_weapon_parts 1 rubber 1	34	15	1	venus_weapon_parts 1 circuit_board 2 quasiresearch_disk 8 high_chip 16 anc_chip 32	16
+		sbn_rail_pistol_1	capacitor_parts 1 transformer 1 plastic 1 armor_plates 1	37	19	1	transformer 1 capacitor_parts 2 electrical_parts_container 4 sbn_chip 8 low_chip 16	8
+		ddr_frost_pistol_1	capacitor_parts 1 microelectronics_parts 2 rubber 1	30	11	1	microelectronics_parts 1 capacitor_parts 2 prototype_schematics 4 medium_chip 8 ddr_chip 16	8
+		grh_revolver_pistol_1	weapon_parts 1 plastic 2 coarse_parts 1 blunt_parts 1	35	15	1	plastic 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 gra_chip 24	12
+		sun_laser_pistol_1	lens 1 bulb 1 plastic 1	25	19	1	bulb 1 lens 2 electrical_parts_container 4 sun_chip 8 low_chip 16	8
+		sun_cryolaser_pistol_1	lens 1 microelectronics_parts 2 rubber 1	33	15	1	microelectronics_parts 1 lens 2 prototype_schematics 6 medium_chip 12 sun_chip 24	12
+		fra_security_pistol_1	spring 1 plastic 2	22	17	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 fra_chip 20	4
+		fra_security_pistol_2	weapon_parts 1 rubber 1 plastic 1 bulb 1	36	19	1	rubber 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 fra_chip 24	12
+		fra_shock_pistol_1	transformer 1 microelectronics_parts 2 rubber 1	30	11	1	microelectronics_parts 1 transformer 2 prototype_schematics 4 medium_chip 8 fra_chip 16	8
+		dil_sound_pistol_1	capacitor_parts 1 transformer 1 plastic 1	19	15	1	transformer 1 capacitor_parts 2 electrical_parts_container 8 low_chip 10 dil_chip 20	4
+		dil_sound_pistol_2	transformer 1 capacitor_parts 1 rubber 1 microelectronics_parts 1	30	11	1	capacitor_parts 1 transformer 2 prototype_schematics 4 medium_chip 8 dil_chip 16	8
+		dil_ion_pistol_1	transformer 1 microelectronics_parts 2 rubber 1	36	19	1	microelectronics_parts 1 transformer 2 prototype_schematics 6 medium_chip 12 dil_chip 24	12
+		worker_discthrower_1	rod_parts 2 rusty_plates 2 plastic 1	36	17	1	rusty_plates 1 rod_parts 2 engineering_parts_container 8 low_chip 10 medium_chip 20	4
+		ddr_toxic_pistol_1	spring 1 plastic 1 glass 1	19	15	1	glass 1 spring 2 electrical_parts_container 8 low_chip 10 ddr_chip 20	4
+		ddr_disruptor_pistol_1	transformer 1 rubber 1 microelectronics_parts 2	36	19	1	microelectronics_parts 1 transformer 2 prototype_schematics 6 medium_chip 12 ddr_chip 24	12
+		plb_pistol_1	weapon_parts 1 plastic 2 coarse_parts 1	33	15	1	plastic 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 plb_chip 24	12
+		plb_pistol_2	weapon_parts 1 rubber 2 microelectronics_parts 1	39	11	1	rubber 1 weapon_parts 2 weapon_container 6 high_chip 12 plb_chip 24	12
+		spec_pistol_1	weapon_parts 1 plastic 2 bulb 1	33	15	1	plastic 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 tia_chip 24	12
+		spec_pistol_2	weapon_parts 1 rubber 2 microelectronics_parts 1 lens 1	44	15	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 tia_chip 32	16
+		tia_disc_pistol_1	rod_parts 1 rusty_plates 1 plastic 1	22	17	1	rusty_plates 1 rod_parts 2 engineering_parts_container 8 low_chip 10 tia_chip 20	4
+		common_shock_pistol_1	transformer 1 microelectronics_parts 2 rubber 1	33	15	1	microelectronics_parts 1 transformer 2 prototype_schematics 6 medium_chip 12 high_chip 24	12
+		pmc_shotgun_1	spring 2 plastic 2 rusty_plates 1	36	17	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		pmc_shotgun_2	weapon_parts 2 rubber 1 plastic 1 armor_plates 1 bulb 1	50	19	1	rubber 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 anc_chip 24	12
+		trucker_shotgun_1	spring 2 plastic 2 rusty_plates 1	36	17	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		trucker_shotgun_2	weapon_parts 2 plastic 2 armor_plates 1 bulb 1	44	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		trucker_shotgun_3	weapon_parts 2 rubber 1 plastic 1 armor_plates 1 bulb 1 lens 1	52	19	1	rubber 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 chu_chip 24	12
+		common_shotgun_1	spring 1 plastic 2 rusty_plates 1	24	17	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		common_shotgun_2	weapon_parts 2 plastic 2 armor_plates 1 bulb 1 lens 1	46	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		common_shotgun_3	weapon_parts 2 rubber 2 ceramite_plates 1 microelectronics_parts 1 lens 1	58	15	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 fra_chip 32	16
+		cor_nail_shotgun_1	coarse_parts 2 rusty_plates 2 plastic 1 wire 1 lens 1	52	19	1	rusty_plates 1 coarse_parts 2 tool_container 6 medium_chip 12 cor_chip 24	12
+		plasma_shotgun_2	capacitor_parts 2 microelectronics_parts 2 rubber 1 armor_plates 1	50	19	1	microelectronics_parts 1 capacitor_parts 2 prototype_schematics 6 medium_chip 12 chu_chip 24	12
+		military_shotgun_1	spring 2 plastic 2 rusty_plates 1 metal_tread 1	41	19	1	plastic 1 spring 2 military_parts_container 4 medium_chip 8 low_chip 16	8
+		fra_security_shotgun_1	weapon_parts 2 rubber 1 plastic 1 armor_plates 1 coarse_parts 1	50	19	1	rubber 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 fra_chip 24	12
+		chu_shotgun_1	weapon_parts 2 rubber 2 ceramite_plates 1 microelectronics_parts 1 lens 1	58	15	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 chu_chip 32	16
+		anc_shotgun_1	weapon_parts 2 plastic 2 armor_plates 1 coarse_parts 1	44	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 anc_chip 16	8
+		anc_shotgun_2	weapon_parts 1 rubber 2 ceramite_plates 1 microelectronics_parts 1 lens 1	43	11	1	rubber 1 weapon_parts 2 weapon_container 6 high_chip 12 anc_chip 24	12
+		sbn_rail_shotgun_1	transformer 2 capacitor_parts 1 rubber 1 armor_plates 1 microelectronics_parts 1	44	11	1	capacitor_parts 1 transformer 2 prototype_schematics 4 medium_chip 8 sbn_chip 16	8
+		sun_laser_shotgun_1	lens 2 microelectronics_parts 2 rubber 1 armor_plates 1	47	15	1	microelectronics_parts 1 lens 2 prototype_schematics 6 medium_chip 12 sun_chip 24	12
+		ddr_shotgun_1	weapon_parts 2 plastic 2 armor_plates 1 coarse_parts 1	44	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 ddr_chip 16	8
+		ddr_toxic_shotgun_1	spring 2 microelectronics_parts 1 rubber 1 armor_plates 1 glass 1	47	15	1	glass 1 spring 2 prototype_schematics 6 medium_chip 12 ddr_chip 24	12
+		ddr_frost_shotgun_1	capacitor_parts 2 circuit_board 2 rubber 1 ceramite_plates 1	53	11	1	circuit_board 1 capacitor_parts 2 weapon_container 6 high_chip 12 ddr_chip 24	12
+		dil_sound_shotgun_1	transformer 2 capacitor_parts 1 rubber 1 armor_plates 1 microelectronics_parts 1	47	15	1	capacitor_parts 1 transformer 2 prototype_schematics 6 medium_chip 12 dil_chip 24	12
+		spec_shotgun_1	spring 2 plastic 2 rusty_plates 1 metal_tread 1	41	19	1	plastic 1 spring 2 military_parts_container 4 tia_chip 8 low_chip 16	8
+		pmc_smg_1	spring 2 plastic 2 rusty_plates 1	33	15	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		pmc_smg_2	spring 1 plastic 1 metal_tread 1	25	19	1	plastic 1 spring 2 military_parts_container 4 medium_chip 8 low_chip 16	8
+		pmc_smg_3	weapon_parts 2 rubber 2 ceramite_plates 1 microelectronics_parts 1 lens 1	58	15	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 anc_chip 32	16
+		pmc_smg_4	weapon_parts 2 plastic 2 armor_plates 1 coarse_parts 1	44	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		military_smg_1	weapon_parts 2 plastic 2 armor_plates 1 bulb 1 lens 1	46	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		police_smg_1	weapon_parts 2 plastic 2 armor_plates 1 bulb 1	47	15	1	plastic 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 high_chip 24	12
+		laser_smg_1	lens 1 microelectronics_parts 1 rubber 1	31	15	1	microelectronics_parts 1 lens 2 prototype_schematics 6 medium_chip 12 high_chip 24	12
+		laser_smg_2	lens 2 circuit_board 2 rubber 1 ceramite_plates 1	53	51	1	circuit_board 1 lens 2 weapon_container 6 research_disk 12 high_chip 36	12
+		plasma_shotgun_1	capacitor_parts 2 circuit_board 2 rubber 1 ceramite_plates 2	58	67	1	circuit_board 1 capacitor_parts 2 weapon_container 6 research_disk 16 high_chip 48	16
+		rwa_military_smg_1	weapon_parts 2 rubber 1 ceramite_plates 1 microelectronics_parts 1 plastic 1 lens 1	55	11	1	rubber 1 weapon_parts 2 weapon_container 6 high_chip 12 rwa_chip 24	12
+		anc_smg_1	spring 2 plastic 2 rusty_plates 1	36	17	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 anc_chip 20	4
+		anc_quasi_smg_1	weapon_parts 2 rubber 2 ceramite_plates 1 microelectronics_parts 1 plastic 1	61	19	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 anc_chip 32	16
+		grh_common_smg_1	spring 1 plastic 1	20	17	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 gra_chip 20	4
+		fra_security_smg_1	spring 1 plastic 1 metal_tread 1	25	19	1	plastic 1 spring 2 military_parts_container 4 fra_chip 8 low_chip 16	8
+		fra_security_smg_2	weapon_parts 2 rubber 1 plastic 1 armor_plates 1 coarse_parts 1	50	19	1	rubber 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 fra_chip 24	12
+		fra_shock_smg_1	transformer 2 circuit_board 2 rubber 1 ceramite_plates 1	53	11	1	circuit_board 1 transformer 2 weapon_container 6 high_chip 12 fra_chip 24	12
+		sun_cryolaser_smg_1	lens 2 circuit_board 1 rubber 1	42	15	1	circuit_board 1 lens 2 weapon_container 8 high_chip 16 sun_chip 32	16
+		sbn_rail_smg_1	transformer 2 capacitor_parts 1 rubber 1 armor_plates 1 microelectronics_parts 1	47	15	1	capacitor_parts 1 transformer 2 prototype_schematics 6 medium_chip 12 sbn_chip 24	12
+		sbn_smg_1	weapon_parts 2 rubber 2 ceramite_plates 1 microelectronics_parts 1 lens 1	58	15	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 sbn_chip 32	16
+		dil_shock_smg_1	transformer 1 plastic 1 wire 1 lens 1	27	19	1	bulb 1 transformer 2 electrical_parts_container 4 dil_chip 8 low_chip 16	8
+		dil_ion_smg_1	transformer 2 circuit_board 2 rubber 1 ceramite_plates 1	56	15	1	circuit_board 1 transformer 2 weapon_container 8 high_chip 16 dil_chip 32	16
+		dil_chaos_smg_1	transformer 2 circuit_board 2 rubber 1 ceramite_plates 1 lens 1	61	19	1	circuit_board 1 transformer 2 weapon_container 8 high_chip 16 dil_chip 32	16
+		cor_worker_discthrower_1	coarse_parts 2 rusty_plates 2 plastic 1 wire 1	47	15	1	rusty_plates 1 coarse_parts 2 tool_container 6 medium_chip 12 cor_chip 24	12
+		plb_smg_1	weapon_parts 2 rubber 2 ceramite_plates 1 microelectronics_parts 1 plastic 1	58	15	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 plb_chip 32	16
+		spec_smg_1	weapon_parts 2 plastic 2 armor_plates 1 coarse_parts 1 blunt_parts 1	46	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 tia_chip 16	8
+		spec_smg_2	weapon_parts 2 rubber 1 ceramite_plates 1 microelectronics_parts 1 blunt_parts 1 lens 1	55	11	1	rubber 1 weapon_parts 2 weapon_container 6 high_chip 12 tia_chip 24	12
+		common_assault_1	spring 2 armor_plates 1 plastic 1 rusty_plates 1	36	17	1	armor_plates 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		pmc_assault_1	spring 2 armor_plates 1 plastic 1 rusty_plates 1 metal_tread 1 lens 1	43	19	1	armor_plates 1 spring 2 military_parts_container 4 medium_chip 8 low_chip 16	8
+		military_assault_1	weapon_parts 2 armor_plates 1 plastic 1 rusty_plates 1 bulb 1 lens 1	59	15	1	armor_plates 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 high_chip 24	12
+		rwa_military_assault_1	weapon_parts 2 ceramite_plates 1 rubber 1 microelectronics_parts 1 lens 1	66	15	1	ceramite_plates 1 weapon_parts 2 weapon_container 8 high_chip 16 rwa_chip 32	16
+		plasma_assault_1	capacitor_parts 2 circuit_board 2 rubber 2 ceramite_plates 1	65	51	1	circuit_board 1 capacitor_parts 2 weapon_container 6 research_disk 12 high_chip 36	12
+		chu_meltathrower_1	capacitor_parts 2 microelectronics_parts 1 rubber 1 armor_plates 1 rusty_plates 1	57	15	1	microelectronics_parts 1 capacitor_parts 2 prototype_schematics 6 medium_chip 12 chu_chip 24	12
+		sun_laser_assault_1	lens 2 circuit_board 2 rubber 1 ceramite_plates 1	56	15	1	circuit_board 1 lens 2 weapon_container 8 high_chip 16 sun_chip 32	16
+		sun_cryolaser_assault_1	lens 2 circuit_board 2 rubber 1 ceramite_plates 1	59	19	1	circuit_board 1 lens 2 weapon_container 8 high_chip 16 sun_chip 32	16
+		grh_trucker_assault_1	weapon_parts 2 armor_plates 2 plastic 1 coarse_parts 1 blunt_parts 1	46	11	1	armor_plates 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 gra_chip 16	8
+		grh_trucker_assault_2	weapon_parts 2 ceramite_plates 2 rubber 1 microelectronics_parts 1 lens 1	61	19	1	ceramite_plates 1 weapon_parts 2 weapon_container 8 high_chip 16 gra_chip 32	16
+		fra_security_assault_1	weapon_parts 2 ceramite_plates 2 rubber 1 microelectronics_parts 1 lens 1	74	11	1	ceramite_plates 1 weapon_parts 2 weapon_container 5 high_chip 10 fra_chip 20	20
+		dil_sound_assault_1	transformer 2 capacitor_parts 1 rubber 1 ceramite_plates 1 circuit_board 1	53	11	1	capacitor_parts 1 transformer 2 weapon_container 6 high_chip 12 dil_chip 24	12
+		dil_chaos_assault_1	transformer 2 circuit_board 1 rubber 1 ceramite_plates 1 lens 1	72	11	1	circuit_board 1 transformer 2 weapon_container 5 high_chip 10 dil_chip 20	20
+		tia_disc_assault_1	coarse_parts 2 ceramite_plates 2 rubber 2 wire 1	65	11	1	ceramite_plates 1 coarse_parts 2 tool_container 6 high_chip 12 tia_chip 24	12
+		tia_shock_assault_1	transformer 2 circuit_board 1 rubber 1 ceramite_plates 1 lens 1	72	11	1	circuit_board 1 transformer 2 weapon_container 5 high_chip 10 tia_chip 20	20
+		army_sniper_1	spring 1 plastic 2 rusty_plates 1 metal_tread 1 blunt_parts 1 lens 1	43	19	1	plastic 1 spring 2 military_parts_container 4 medium_chip 8 low_chip 16	8
+		army_sniper_2	weapon_parts 1 rubber 1 ceramite_plates 1 microelectronics_parts 1 blunt_parts 1 rod_parts 1 lens 1	65	51	1	rubber 1 weapon_parts 2 weapon_container 6 research_disk 12 high_chip 36	12
+		trucker_marksman_1	spring 2 plastic 2 rusty_plates 1 blunt_parts 1	38	17	1	plastic 1 spring 2 military_parts_container 8 low_chip 10 medium_chip 20	4
+		trucker_marksman_2	weapon_parts 1 rubber 1 plastic 1 armor_plates 1 bulb 1 blunt_parts 1 lens 1	52	19	1	rubber 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 high_chip 24	12
+		laser_sniper_1	lens 2 circuit_board 2 rubber 2 ceramite_plates 1	71	67	1	circuit_board 1 lens 2 weapon_container 6 research_disk 12 high_chip 48	16
+		laser_marksman_1	lens 2 microelectronics_parts 2 rubber 2 armor_plates 1	52	19	1	microelectronics_parts 1 lens 2 prototype_schematics 6 medium_chip 12 high_chip 24	12
+		cor_laser_sniper_1	lens 2 microelectronics_parts 2 rubber 2 armor_plates 1	56	11	1	microelectronics_parts 1 lens 2 prototype_schematics 4 medium_chip 8 cor_chip 16	8
+		plb_marksman_1	weapon_parts 2 rubber 2 ceramite_plates 1 microelectronics_parts 1 lens 1	58	15	1	rubber 1 weapon_parts 2 weapon_container 8 high_chip 16 plb_chip 32	16
+		anc_marksman_1	weapon_parts 2 plastic 2 armor_plates 1 bulb 1	47	15	1	plastic 1 weapon_parts 2 prototype_schematics 6 medium_chip 12 anc_chip 24	12
+		anc_quasi_assault_1	circuit_board 2 venus_weapon_parts 1 rubber 1 ceramite_plates 1 rod_parts 1 lens 1	74	11	1	venus_weapon_parts 1 circuit_board 2 quasiresearch_disk 5 high_chip 10 anc_chip 20	20
+		ddr_disruptor_marksman_1	transformer 2 rubber 2 ceramite_plates 1 circuit_board 1	61	19	1	circuit_board 1 transformer 2 weapon_container 8 high_chip 16 ddr_chip 32	16
+		rail_marksman_1	transformer 2 capacitor_parts 1 rubber 2 armor_plates 1 microelectronics_parts 1	62	19	1	capacitor_parts 1 transformer 2 prototype_schematics 6 medium_chip 12 plb_chip 24	12
+		sbn_rail_assault_1	transformer 2 capacitor_parts 1 rubber 2 ceramite_plates 1 circuit_board 1	64	11	1	capacitor_parts 1 transformer 2 weapon_container 5 high_chip 10 sbn_chip 20	20
+		grh_trucker_marksman_1	spring 1 plastic 2 rusty_plates 1 metal_tread 1 blunt_parts 1 lens 1	43	19	1	plastic 1 spring 2 military_parts_container 4 gra_chip 8 low_chip 16	8
+		grh_trucker_marksman_2	weapon_parts 2 rubber 2 ceramite_plates 1 coarse_parts 1 blunt_parts 1	65	11	1	rubber 1 weapon_parts 2 weapon_container 6 high_chip 12 gra_chip 24	12
+		grh_microwave_marksman_1	coarse_parts 2 ceramite_plates 2 rubber 2 wire 1	74	11	1	ceramite_plates 1 coarse_parts 2 tool_container 5 high_chip 10 gra_chip 20	20
+		sun_laser_sniper_1	lens 2 microelectronics_parts 2 rubber 2 armor_plates 1	56	11	1	microelectronics_parts 1 lens 2 prototype_schematics 4 medium_chip 8 sun_chip 16	8
+		sun_laser_marksman_1	lens 2 circuit_board 2 rubber 2 ceramite_plates 1	75	11	1	circuit_board 1 lens 2 weapon_container 6 high_chip 12 sun_chip 24	12
+		chu_sniper_1	weapon_parts 1 plastic 2 armor_plates 1 coarse_parts 1 blunt_parts 1 lens 1	46	11	1	plastic 1 weapon_parts 2 prototype_schematics 4 medium_chip 8 chu_chip 16	8
+		chu_plasma_sniper_1	capacitor_parts 2 circuit_board 2 rubber 1 ceramite_plates 1 lens 1	68	15	1	circuit_board 1 capacitor_parts 2 weapon_container 8 high_chip 16 chu_chip 32	16
+		dil_shock_sniper_1	transformer 2 circuit_board 2 rubber 1 ceramite_plates 1 lens 1	65	11	1	circuit_board 1 transformer 2 weapon_container 6 high_chip 12 dil_chip 24	12
+		worker_hmg_1	rod_parts 2 rusty_plates 2 plastic 1 armor_plates 1	51	19	1	rusty_plates 1 rod_parts 2 engineering_parts_container 4 medium_chip 8 low_chip 16	8
+		cor_worker_hmg_1	coarse_parts 2 rusty_plates 1 plastic 1 armor_plates 1 wire 1 lens 1	69	15	1	rusty_plates 1 coarse_parts 2 tool_container 6 medium_chip 12 cor_chip 24	12
+		cor_worker_hmg_2	coarse_parts 2 ceramite_plates 3 rubber 1 wire 1	81	19	1	ceramite_plates 1 coarse_parts 2 tool_container 8 high_chip 16 cor_chip 32	16
+		cor_hmg_1	weapon_parts 2 ceramite_plates 2 rubber 1 microelectronics_parts 1 blunt_parts 1	55	11	1	ceramite_plates 1 weapon_parts 2 weapon_container 6 high_chip 12 cor_chip 24	12
+		plb_hmg_1	weapon_parts 2 ceramite_plates 2 rubber 1 microelectronics_parts 1	59	19	1	ceramite_plates 1 weapon_parts 2 weapon_container 8 high_chip 16 plb_chip 32	16
+		army_hmg_1	weapon_parts 2 ceramite_plates 2 rubber 1 microelectronics_parts 1 blunt_parts 1	65	51	1	ceramite_plates 1 weapon_parts 2 weapon_container 6 research_disk 12 high_chip 36	12
+		fra_security_hmg_1	weapon_parts 2 ceramite_plates 2 rubber 1 microelectronics_parts 1 blunt_parts 1	71	19	1	ceramite_plates 1 weapon_parts 2 weapon_container 8 high_chip 16 fra_chip 32	16
+		rwa_military_hmg_1	weapon_parts 1 ceramite_plates 1 rubber 1 microelectronics_parts 1 blunt_parts 1 rod_parts 1 lens 1	84	11	1	ceramite_plates 1 weapon_parts 2 weapon_container 5 high_chip 10 rwa_chip 20	20
+		plasma_hmg_1	capacitor_parts 2 circuit_board 2 rubber 1 ceramite_plates 1	69	67	1	circuit_board 1 capacitor_parts 2 weapon_container 6 research_disk 12 high_chip 48	16
+		sun_cryolaser_hmg_1	lens 2 circuit_board 1 rubber 2 ceramite_plates 2	84	11	1	circuit_board 1 lens 2 weapon_container 5 high_chip 10 sun_chip 20	20
+		military_minigun_1	weapon_parts 2 ceramite_plates 2 rubber 1 microelectronics_parts 1 blunt_parts 1	71	67	1	ceramite_plates 1 weapon_parts 2 weapon_container 6 research_disk 12 high_chip 48	16
+		plb_worker_shockgun_1	transformer 2 microelectronics_parts 2 rubber 1 armor_plates 1 rusty_plates 1	59	15	1	microelectronics_parts 1 transformer 2 prototype_schematics 6 medium_chip 12 plb_chip 24	12
+		worker_flamethrower_1	rod_parts 1 rusty_plates 2 plastic 2 armor_plates 1 metal_tread 1	43	19	1	rusty_plates 1 rod_parts 2 engineering_parts_container 4 medium_chip 8 low_chip 16	8
+		cor_worker_flamethrower_1	coarse_parts 1 rusty_plates 2 plastic 2 armor_plates 1 wire 1	72	19	1	rusty_plates 1 coarse_parts 2 tool_container 6 medium_chip 12 cor_chip 24	12
+		toxic_thrower_1	spring 2 microelectronics_parts 1 rubber 1 armor_plates 1 rusty_plates 1 glass 1	46	11	1	glass 1 spring 2 prototype_schematics 4 medium_chip 8 ddr_chip 16	8
+		grenade_launcher_1	spring 2 rusty_plates 2 rubber 1 ceramite_plates 1	47	15	1	rusty_plates 1 spring 2 weapon_container 6 medium_chip 12 high_chip 24	12
+		common_rocketlauncher_1	spring 2 rusty_plates 1 rubber 2 ceramite_plates 2	52	19	1	rusty_plates 1 spring 2 weapon_container 6 medium_chip 12 high_chip 24	12
+		army_rocketlauncher_1	transformer 1 ceramite_plates 2 rubber 2 microelectronics_parts 1 lens 1	68	67	1	ceramite_plates 1 transformer 2 weapon_container 6 research_disk 16 high_chip 48	16
+		tia_rocketlauncher_1	spring 2 rusty_plates 1 rubber 2 ceramite_plates 1 coarse_parts 1	62	19	1	rusty_plates 1 spring 2 weapon_container 6 medium_chip 12 tia_chip 24	12
+		sun_rocketlauncher_1	transformer 1 ceramite_plates 2 rubber 2 microelectronics_parts 2	71	19	1	ceramite_plates 1 transformer 2 weapon_container 8 high_chip 16 sun_chip 32	16
+		common_knife_1	pierce_parts 1 rod_parts 1 plastic 1	19	15	1	rod_parts 1 pierce_parts 2 ore_cargo 8 low_chip 10 medium_chip 20	4
+		military_knife_1	pierce_parts 1 rod_parts 1 plastic 1 coarse_parts 1	27	19	1	rod_parts 1 pierce_parts 2 precious_metals 4 medium_chip 8 low_chip 16	8
+		trash_sawblade_1	rod_parts 1 coarse_parts 1 rusty_plates 1 plastic 1 metal_tread 1	29	19	1	coarse_parts 1 rod_parts 2 engineering_parts_container 4 medium_chip 8 low_chip 16	8
+		tech_blade_1	pierce_parts 1 rod_parts 1 rubber 1 ceramite_plates 1 wire 1	32	11	1	rod_parts 1 pierce_parts 2 precious_metals 4 medium_chip 8 high_chip 16	8
+		ddr_poisonknife_1	pierce_parts 1 spring 1 plastic 1 glass 1	27	19	1	glass 1 spring 2 electrical_parts_container 4 low_chip 8 ddr_chip 16	8
+		med_lightblade_1	lens 1 microelectronics_parts 2 rubber 1 armor_plates 1	32	11	1	microelectronics_parts 1 lens 2 prototype_schematics 4 medium_chip 8 high_chip 16	8
+		sun_laser_powersword_1	lens 2 circuit_board 2 rubber 1 ceramite_plates 1	53	11	1	circuit_board 1 lens 2 weapon_container 6 high_chip 12 sun_chip 24	12
+		tia_blade_1	pierce_parts 1 rod_parts 1 plastic 1 rusty_plates 1	21	15	1	rod_parts 1 pierce_parts 2 ore_cargo 8 low_chip 10 tia_chip 20	4
+		police_club_1	blunt_parts 1 rod_parts 1 plastic 2	21	15	1	rod_parts 1 blunt_parts 2 ore_cargo 8 low_chip 10 medium_chip 20	4
+		miner_breaker_1	rod_parts 1 coarse_parts 2 plastic 1	24	17	1	coarse_parts 1 rod_parts 2 engineering_parts_container 8 low_chip 10 medium_chip 20	4
+		fra_police_club_1	transformer 1 bulb 1 plastic 2 wire 1	29	19	1	bulb 1 transformer 2 electrical_parts_container 4 fra_chip 8 low_chip 16	8
+		chu_fireclub_1	blunt_parts 1 rod_parts 1 rubber 2 wire 1	32	11	1	rod_parts 1 blunt_parts 2 precious_metals 4 medium_chip 8 chu_chip 16	8
+		common_axe_1	pierce_parts 1 rod_parts 1 plastic 1 rusty_plates 1	24	17	1	rod_parts 1 pierce_parts 2 ore_cargo 8 low_chip 10 medium_chip 20	4
+		military_axe_1	pierce_parts 1 rod_parts 1 rubber 1 ceramite_plates 1	30	11	1	rod_parts 1 pierce_parts 2 precious_metals 4 medium_chip 8 rwa_chip 16	8
+		military_shovel_1	rod_parts 1 rusty_plates 2 plastic 1	27	19	1	rusty_plates 1 rod_parts 2 engineering_parts_container 4 cor_chip 8 low_chip 16	8
 		small_basic_ammo	powder 1	0.5	1	1.05		
 		small_burst_ammo	powder 1 gas_ammo 1	0.8	1	1.05		
 		small_expansive_ammo	powder 2	1	1	1.05		
@@ -283,6 +319,7 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		rifle_plasma_ammo	powder 2 gas_ammo 1	2	1	1.05		
 		battery_basic_ammo	glass 1 acid 1	2.5	1	1.05		
 		dil_battery_ammo	glass 1 acid 1	2.5	1	1.05		
+		gas_ammo	plastic 1 acid 1	0.5	1	1.05		
 		toxic_ammo	acid 1	1	1	1.05		
 		sawblade_ammo	broken_weapon 1	0.8	1	1.05		
 		sawblade_poison_ammo	sawblade_ammo 1 acid 1	1.5	1	1.05		
@@ -294,12 +331,18 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		rocket_poison_ammo	plastic 1 gas_ammo 2 acid 2	2	1	1.05		
 		rocket_nuke_ammo	plastic 1 gas_ammo 4 explosives 1	2.5	1	1.05		
 		throwing_knife	pierce_parts 1 plastic 1	12	1	1.05		
+		handmade_frag_grenade	tin 1 nail_bolts_ammo 1 explosives 1	14	1	1.05		
 		frag_grenade	armor_plates 1 nail_bolts_ammo 1 explosives 1	16	1	1.05		
 		highexplosion_grenade	armor_plates 1 explosives 1	16	1	1.05		
+		handmade_thermal_grenade	glass_bottle 1 gas_ammo 1 rags 1	14	1	1.05		
 		thermal_grenade	armor_plates 1 gas_ammo 1 powder 1	14	1	1.05		
 		stun_grenade	rusty_plates 1 acid 1 human_poop 1	12	1	1.05		
+		handmade_smoke_grenade	tin 1 plastic 1 gas_ammo 1 acid 1	14	1	1.05		
+		smoke_grenade	armor_plates 1 acid 1 plastic 1	14	1	1.05		
 		toxic_grenade	glass 1 acid 2 circuit_board 1	14	1	1.05		
+		toxic_gas_grenade	armor_plates 1 acid 1 microelectronics_parts 1	18	1	1.05		
 		frost_grenade	glass 1 circuit_board 1 water_bottle_1 1	14	1	1.05		
+		frost_gas_grenade	armor_plates 1 microelectronics_parts 1 water_bottle_1 1	18	1	1.05		
 		phase_bomb	microelectronics_parts 2 capacitor_parts 1 explosives 1 circuit_board 1	6	1	1.05		
 		frag_mine	armor_plates 1 explosives 3	16	1	1.05		
 		small_backpack_1	rags 4	8	1	1.05		
@@ -315,193 +358,192 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		armored_vest_1	armor_plates 1 rubber 1 metal_tread 1	24	1	1.05		
 		armored_expanded_vest_1	armored_vest_1 1 rags 2	36	1	1.05		
 		heavy_armored_vest_1	ceramite_plates 1 rubber 1 metal_tread 1	36	1	1.05		
-		common_shirt_2	rags 2	6	1	1.08	rags 1 low_chip 5 medium_chip 15	10
-		common_pants_3	rags 2	6	1	1.08	rags 1 low_chip 5 medium_chip 15	10
-		common_sneakers_1	rags 2 plastic 1	6	1	1.08	rags 1 rubber 3 low_chip 5 medium_chip 15	10
-		science_gasmask_1	rubber 1 rags 1 plastic 1 glass 1 metal_tread 1	24	1	1.05	plastic 1 rubber 3 low_chip 5 medium_chip 15	15
-		science_reinforced_shirt_1	rubber 1 rags 1 plastic 1 armor_plates 1 metal_tread 1	24	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		science_reinforced_pants_1	rubber 1 rags 1 plastic 1 armor_plates 1 metal_tread 1	24	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		science_reinforced_boots_1	rubber 1 rags 1 plastic 1 metal_tread 1	24	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		science_chem_helmet_1	rubber 1 plastic 1 acid 1 rags 1	20	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		science_chem_shirt_1	rubber 2 plastic 1 acid 1 rags 1	20	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		science_chem_pants_1	rubber 2 plastic 1 acid 1 rags 1	20	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		science_chem_boots_1	rubber 1 plastic 1 acid 1 rags 1	20	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		medical_gasmask_1	rubber 1 plastic 1 glass 1 rags 1	8	1	1.05	plastic 1 rubber 3 low_chip 5 medium_chip 15	15
-		medical_chem_helmet_1	rubber 1 rags 2 plastic 1 glass 1 acid 1	16	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		medical_chem_shirt_1	rubber 1 rags 2 plastic 1 acid 1	16	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		medical_chem_pants_1	rubber 1 rags 2 plastic 1 acid 1	16	1	1.05	rags 1 rubber 3 low_chip 5 medium_chip 15	15
-		medical_medium_helmet_1	rusty_plates 1 armor_plates 1 plastic 1 capacitor_parts 1 glass 1	46	1	1.05	rusty_plates 1 armor_plates 3 low_chip 7 medium_chip 15	25
-		medical_medium_armor_1	rusty_plates 1 armor_plates 1 plastic 1 capacitor_parts 1	46	1	1.05	rusty_plates 1 armor_plates 3 low_chip 7 medium_chip 15	25
-		medical_medium_pants_1	rusty_plates 1 armor_plates 1 plastic 1 capacitor_parts 1	46	1	1.05	rusty_plates 1 armor_plates 3 low_chip 7 medium_chip 15	25
-		medical_medium_boots_1	rusty_plates 1 armor_plates 1 plastic 1 capacitor_parts 1	46	1	1.05	rusty_plates 1 armor_plates 3 low_chip 7 medium_chip 15	25
-		medical_heavy_helmet_1	rusty_plates 1 plastic 1 metal_tread 1 glass 1 transformer 1	42	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		medical_heavy_armor_1	rusty_plates 1 armor_plates 1 ceramite_plates 1 metal_tread 1 transformer 1	42	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		medical_heavy_pants_1	rusty_plates 1 armor_plates 1 ceramite_plates 1 metal_tread 1 transformer 1	42	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		medical_heavy_boots_1	rusty_plates 1 armor_plates 1 ceramite_plates 1 rubber 1 metal_tread 1	42	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		military_mask_1	rags 2	10	1	1.08	rags 1 low_chip 5 medium_chip 15	10
-		military_light_helmet_1	rusty_plates 1 plastic 1 metal_tread 1	22	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		military_shirt_3	armor_plates 1 rags 3	22	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		military_pants_2	armor_plates 1 rags 3	22	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		military_doc_helmet_1	rags 1 rusty_plates 1 metal_tread 1 circuit_board 1	28	1	1.05	rags 1 rusty_plates 3 low_chip 7 medium_chip 15	20
-		military_doc_armor_1	rags 1 rusty_plates 1 metal_tread 1 transformer 1	28	1	1.05	rags 1 rusty_plates 3 low_chip 7 medium_chip 15	20
-		military_doc_pants_1	rags 1 rusty_plates 1 metal_tread 1 rubber 1	28	1	1.05	rags 1 rusty_plates 3 low_chip 7 medium_chip 15	20
-		miner_gasmask_1	rubber 1 rags 1 rusty_plates 1 metal_tread 1	12	1	1.06	rubber 1 rusty_plates 3 low_chip 5 medium_chip 15	15
-		military_light_gasmask_1	rusty_plates 1 plastic 1 glass 1 metal_tread 1	18	1	1.08	rusty_plates 1 armor_plates 3 low_chip 7 medium_chip 20	10
-		military_light_armor_1	rusty_plates 2 rags 2 metal_tread 1	18	1	1.08	rusty_plates 1 armor_plates 3 low_chip 7 medium_chip 20	10
-		military_light_pants_1	rusty_plates 1 rags 2 metal_tread 1	12	1	1.08	rusty_plates 1 armor_plates 3 low_chip 7 medium_chip 20	10
-		military_light_boots_1	rusty_plates 1 plastic 1 rubber 1 metal_tread 1	12	1	1.08	rusty_plates 1 armor_plates 3 low_chip 7 medium_chip 20	10
-		military_medium_helmet_1	armor_plates 1 rusty_plates 1 rags 1 capacitor_parts 1	42	1	1.05	armor_plates 1 low_chip 7 medium_chip 15	25
-		military_medium_armor_1	armor_plates 1 rusty_plates 2 rags 1 capacitor_parts 1	42	1	1.05	armor_plates 1 low_chip 7 medium_chip 15	25
-		military_medium_pants_1	armor_plates 2 rusty_plates 1 rags 1 capacitor_parts 1	42	1	1.05	armor_plates 1 low_chip 7 medium_chip 15	25
-		military_medium_boots_1	armor_plates 1 rusty_plates 1 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 low_chip 7 medium_chip 15	25
-		military_heavy_helmet_1	armor_plates 1 ceramite_plates 1 glass 1 circuit_board 1	48	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	25
-		military_heavy_armor_1	armor_plates 1 ceramite_plates 1 metal_tread 1 transformer 1	48	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	25
-		military_heavy_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 metal_tread 1	48	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	25
-		military_heavy_boots_1	ceramite_plates 1 armor_plates 1 rubber 1 transformer 1	48	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	25
-		military_power_helmet_1	ceramite_plates 1 armor_plates 1 glass 1 microelectronics_parts 1	48	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	25
-		military_power_armor_1	ceramite_plates 1 armor_plates 2 capacitor_parts 1 microelectronics_parts 1	48	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	25
-		military_power_pants_1	ceramite_plates 1 armor_plates 1 rubber 1 metal_tread 1 microelectronics_parts 1	48	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	25
-		military_power_boots_1	ceramite_plates 1 armor_plates 1 rubber 1 metal_tread 1 microelectronics_parts 1	48	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	25
-		laborer_warm_hat_1	rags 2 rubber 1	12	1	1.06	rags 1 plastic 3 low_chip 5 medium_chip 15	15
-		laborer_warm_shirt_1	rags 3 rubber 2	12	1	1.06	rags 1 plastic 3 low_chip 5 medium_chip 15	15
-		laborer_warm_pants_1	rags 3 rubber 2	12	1	1.06	rags 1 plastic 3 low_chip 5 medium_chip 15	15
-		laborer_warm_boots_1	rags 2 rubber 1	12	1	1.06	rags 1 plastic 3 low_chip 5 medium_chip 15	15
-		laborer_medium_helmet_1	rusty_plates 1 rubber 1 rags 1 glass 1	12	1	1.05	rags 1 rusty_plates 3 low_chip 7 medium_chip 15	15
-		laborer_medium_armor_1	rusty_plates 1 rubber 1 rags 1 metal_tread 1	12	1	1.05	rags 1 rusty_plates 3 low_chip 7 medium_chip 15	15
-		laborer_medium_pants_1	rusty_plates 1 rubber 1 rags 1 metal_tread 1	12	1	1.05	rags 1 rusty_plates 3 low_chip 7 medium_chip 15	15
-		laborer_medium_boots_1	rusty_plates 1 rubber 1 metal_tread 1	12	1	1.05	rags 1 rusty_plates 3 low_chip 7 medium_chip 15	15
-		laborer_exoskeleton_1	rusty_plates 1 rags 1 rubber 1 armor_plates 1 microelectronics_parts 1	64	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	35
-		miner_hard_cap_1	rags 2 rusty_plates 1	16	1	1.06	rusty_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		miner_shirt_1	rags 3 rusty_plates 1	16	1	1.06	rusty_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		miner_pants_1	rags 2 rusty_plates 1	16	1	1.06	rusty_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		miner_boots_1	rusty_plates 1 plastic 1 rubber 1	16	1	1.06	rusty_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		miner_hard_cap_2	rags 2 rusty_plates 1	16	1	1.06	rubber 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		miner_reinforced_shirt_1	rags 3 rusty_plates 1	16	1	1.06	rubber 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		miner_reinforced_pants_1	rags 2 rubber 1 rusty_plates 1	16	1	1.06	rubber 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		miner_reinforced_boots_1	rags 2 rubber 1	16	1	1.06	rubber 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		miner_exoskeleton_1	rusty_plates 1 rubber 1 ceramite_plates 1 metal_tread 1 transformer 1	42	1	1.08	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	35
-		miner_medium_helmet_1	armor_plates 1 ceramite_plates 1 glass 1 circuit_board 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 high_chip 20	30
-		miner_medium_armor_1	armor_plates 1 ceramite_plates 1 capacitor_parts 1 metal_tread 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 high_chip 20	30
-		miner_medium_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 capacitor_parts 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 high_chip 20	30
-		miner_medium_boots_1	armor_plates 1 ceramite_plates 1 rubber 1 capacitor_parts 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 high_chip 20	30
-		miner_power_helmet_1	ceramite_plates 1 armor_plates 2 glass 1 microelectronics_parts 1	64	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		miner_power_armor_1	ceramite_plates 2 armor_plates 2 capacitor_parts 1	64	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		miner_power_pants_1	ceramite_plates 1 armor_plates 1 rubber 2 microelectronics_parts 1	64	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		miner_power_boots_1	ceramite_plates 1 armor_plates 1 rubber 1 plastic 1 microelectronics_parts 1	64	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		police_cap_2	rags 3 plastic 1	22	1	1.05	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		police_reinforced_shirt_1	armor_plates 1 rags 2	22	1	1.05	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		police_pants_2	armor_plates 1 rags 2	22	1	1.05	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		police_boots_2	rags 2 plastic 1 rubber 2	22	1	1.05	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		police_medium_helmet_1	armor_plates 2 plastic 1 capacitor_parts 1	24	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		police_medium_armor_1	armor_plates 1 rags 2 capacitor_parts 1	24	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		police_medium_pants_1	armor_plates 2 rags 2 capacitor_parts 1	24	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		police_medium_boots_1	armor_plates 1 plastic 2 rubber 1 capacitor_parts 1	24	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		police_heavy_helmet_2	armor_plates 1 ceramite_plates 1 plastic 1 metal_tread 1 transformer 1	42	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		police_heavy_armor_1	armor_plates 1 ceramite_plates 1 plastic 1 transformer 1	42	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		police_heavy_pants_1	armor_plates 2 ceramite_plates 1 plastic 1 transformer 1	42	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		police_heavy_boots_1	armor_plates 1 ceramite_plates 1 rubber 2 transformer 1	42	1	1.06	ceramite_plates 1 low_chip 5 medium_chip 10 high_chip 20	30
-		anc_reinforced_hat_1	rags 3	22	1	1.06	rags 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		anc_reinforced_shirt_1	armor_plates 1 rags 3	22	1	1.06	rags 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		anc_reinforced_pants_1	armor_plates 1 rags 1	22	1	1.06	rags 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		anc_agent_mask_1	armor_plates 2 glass 1 circuit_board 1	36	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		anc_agent_armor_1	armor_plates 1 rags 1 rubber 2 transformer 1	36	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		anc_agent_pants_1	armor_plates 2 rubber 1 transformer 1	36	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		anc_agent_boots_1	armor_plates 2 rubber 1 transformer 1	36	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		anc_medium_helmet_1	armor_plates 1 ceramite_plates 1 glass 1 capacitor_parts 1	52	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 anc_chip 25	35
-		anc_medium_armor_1	armor_plates 1 ceramite_plates 1 rubber 2 capacitor_parts 1	52	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 anc_chip 25	35
-		anc_medium_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 capacitor_parts 1	52	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 anc_chip 25	35
-		anc_medium_boots_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 capacitor_parts 1	52	1	1.05	ceramite_plates 1 low_chip 5 medium_chip 10 anc_chip 25	35
-		anc_medium_mask_1	armor_plates 1 plastic 1 glass 1 capacitor_parts 1	34	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		anc_medium_armor_2	armor_plates 1 ceramite_plates 1 metal_tread 1 capacitor_parts 1	34	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		anc_medium_pants_2	armor_plates 1 ceramite_plates 1 metal_tread 1 capacitor_parts 1	34	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		anc_medium_boots_2	armor_plates 1 ceramite_plates 1 metal_tread 1 capacitor_parts 1	34	1	1.06	armor_plates 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		sbn_light_helmet_1	armor_plates 1 ceramite_plates 1 glass 1 metal_tread 1 microelectronics_parts 1	50	1	1.05	ceramite_plates 1 armor_repair_kit 5 medium_chip 9 sbn_chip 25	35
-		sbn_light_armor_1	armor_plates 1 ceramite_plates 1 rubber 1 capacitor_parts 1 metal_tread 1	50	1	1.05	ceramite_plates 1 armor_repair_kit 5 medium_chip 9 sbn_chip 25	35
-		sbn_light_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 metal_tread 1	50	1	1.05	ceramite_plates 1 armor_repair_kit 5 medium_chip 9 sbn_chip 25	35
-		sbn_light_boots_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 metal_tread 1	50	1	1.05	ceramite_plates 1 armor_repair_kit 5 medium_chip 9 sbn_chip 25	35
-		sbn_medium_helmet_1	armor_plates 1 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 low_chip 7 medium_chip 15	25
-		sbn_medium_armor_1	armor_plates 2 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 low_chip 7 medium_chip 15	25
-		sbn_medium_pants_1	armor_plates 1 rags 3 capacitor_parts 1	42	1	1.05	armor_plates 1 low_chip 7 medium_chip 15	25
-		sbn_medium_boots_1	armor_plates 1 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 low_chip 7 medium_chip 15	25
-		sbn_heavy_helmet_1	ceramite_plates 1 armor_plates 1 glass 1 microelectronics_parts 1 transformer 1	64	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 sbn_chip 25	35
-		sbn_heavy_armor_1	ceramite_plates 1 armor_plates 1 rubber 1 microelectronics_parts 1 transformer 1	64	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 sbn_chip 25	35
-		sbn_heavy_pants_1	ceramite_plates 1 armor_plates 1 rubber 2 transformer 1	64	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 sbn_chip 25	35
-		sbn_heavy_boots_1	ceramite_plates 1 armor_plates 1 rubber 1 plastic 1 transformer 1	64	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 sbn_chip 25	35
-		rwa_light_helmet_1	rusty_plates 2 metal_tread 2	28	1	1.05	rags 1 armor_plates 3 low_chip 7 medium_chip 15	20
-		rwa_light_helmet_2	armor_plates 2 rags 1 metal_tread 1	28	1	1.05	rags 1 armor_plates 3 low_chip 7 medium_chip 15	20
-		rwa_light_armor_1	armor_plates 1 rags 1 metal_tread 1	28	1	1.05	rags 1 armor_plates 3 low_chip 7 medium_chip 15	20
-		rwa_light_pants_1	armor_plates 2 rags 2 metal_tread 1	28	1	1.05	rags 1 armor_plates 3 low_chip 7 medium_chip 15	20
-		rwa_light_boots_1	armor_plates 2 rags 2 metal_tread 1	28	1	1.05	rags 1 armor_plates 3 low_chip 7 medium_chip 15	20
-		rwa_heavy_helmet_1	armor_plates 1 ceramite_plates 1 glass 1 microelectronics_parts 1 transformer 1	54	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 rwa_chip 25	35
-		rwa_heavy_armor_1	armor_plates 2 ceramite_plates 1 rubber 1 microelectronics_parts 1 transformer 1	54	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 rwa_chip 25	35
-		rwa_heavy_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 transformer 1	54	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 rwa_chip 25	35
-		rwa_heavy_boots_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 transformer 1	54	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 rwa_chip 25	35
-		rwa_power_helmet_1	ceramite_plates 2 armor_plates 2 glass 1 microelectronics_parts 1	64	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 rwa_chip 25	40
-		rwa_power_armor_1	ceramite_plates 2 armor_plates 1 rubber 1 capacitor_parts 1	64	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 rwa_chip 25	40
-		rwa_power_pants_1	ceramite_plates 2 armor_plates 1 rubber 1 microelectronics_parts 1	64	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 rwa_chip 25	40
-		rwa_power_boots_1	ceramite_plates 1 armor_plates 1 rubber 1 plastic 1 microelectronics_parts 1	64	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 rwa_chip 25	40
-		ddr_chem_helmet_1	armor_plates 1 rubber 2 glass 1	32	1	1.06	rubber 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		ddr_chem_coat_1	rubber 2 plastic 1 rags 1	32	1	1.06	rubber 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		ddr_chem_pants_1	armor_plates 1 rubber 2 rags 1	32	1	1.06	rubber 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		ddr_chem_boots_1	armor_plates 2 rubber 2	32	1	1.06	rubber 1 low_chip 3 ceramite_plates 7 medium_chip 15	25
-		ddr_reinforced_chem_helmet_1	armor_plates 1 ceramite_plates 1 glass 2 microelectronics_parts 1	60	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		ddr_reinforced_chem_coat_1	armor_plates 2 rubber 1 plastic 1 rags 1	60	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		ddr_reinforced_chem_pants_1	armor_plates 2 ceramite_plates 1 rubber 1 plastic 1	60	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		ddr_power_helmet_1	ceramite_plates 1 armor_plates 1 glass 1 microelectronics_parts 1 metal_tread 1	64	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 ddr_chip 25	40
-		ddr_power_armor_1	ceramite_plates 2 armor_plates 1 microelectronics_parts 1 metal_tread 1	64	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 ddr_chip 25	40
-		ddr_power_pants_1	ceramite_plates 1 armor_plates 2 microelectronics_parts 1 metal_tread 1	64	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 ddr_chip 25	40
-		ddr_power_boots_1	ceramite_plates 1 armor_plates 2 microelectronics_parts 1 metal_tread 1	64	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 ddr_chip 25	40
-		sun_medium_helmet_1	rubber 1 rusty_plates 2 armor_plates 1	36	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		sun_medium_armor_1	rubber 1 rusty_plates 2 armor_plates 1	36	1	1.05	ceramite_plates 1 armor_repair_kit 8 high_chip 10 	30
-		sun_medium_pants_1	rubber 1 rusty_plates 2 armor_plates 1	36	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		sun_medium_boots_1	rubber 1 rusty_plates 2 armor_plates 1	36	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		sun_power_helmet_1	armor_plates 1 ceramite_plates 1 glass 1 microelectronics_parts 1	62	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 sun_chip 25	35
-		sun_power_armor_1	armor_plates 1 ceramite_plates 1 rubber 1 capacitor_parts 1 microelectronics_parts 1	62	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 sun_chip 25	35
-		sun_power_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 microelectronics_parts 1	62	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 sun_chip 25	35
-		sun_power_boots_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 microelectronics_parts 1	62	1	1.05	low_chip 1 armor_repair_kit 8 medium_chip 10 sun_chip 25	35
-		grh_light_helmet_1	rags 1 rubber 1 rusty_plates 1	40	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		grh_light_armor_1	rags 1 rubber 1 rusty_plates 1	40	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		grh_light_pants_1	rags 1 rubber 1 rusty_plates 1	40	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		grh_light_boots_1	rags 1 rubber 1 rusty_plates 1	40	1	1.05	ceramite_plates 1 low_chip 3 medium_chip 10 high_chip 20	30
-		plb_medium_helmet_1	rags 1 rubber 1 rusty_plates 2	48	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 plb_chip 25	35
-		plb_medium_armor_1	rags 1 rubber 1 rusty_plates 2	48	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 plb_chip 25	35
-		plb_medium_pants_1	rags 1 rubber 1 rusty_plates 2	48	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 plb_chip 25	35
-		plb_medium_boots_1	rags 1 rubber 1 rusty_plates 2	48	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 plb_chip 25	35
-		plb_power_helmet_1	rags 1 rubber 1 ceramite_plates 2	28	1	1.08	ceramite_plates 1 armor_repair_kit 8 high_chip 10 plb_chip 25	40
-		plb_power_armor_1	rags 1 rubber 2 ceramite_plates 3	56	1	1.08	ceramite_plates 1 armor_repair_kit 8 high_chip 10 plb_chip 25	40
-		plb_power_pants_1	rags 1 rubber 2 ceramite_plates 3	42	1	1.08	ceramite_plates 1 armor_repair_kit 8 high_chip 10 plb_chip 25	40
-		plb_power_boots_1	rags 1 rubber 1 ceramite_plates 2	28	1	1.08	ceramite_plates 1 armor_repair_kit 8 high_chip 10 plb_chip 25	40
-		fra_heavy_mask_1	armor_plates 1 ceramite_plates 1 glass 1 transformer 1	52	1	1.05	ceramite_plates 1 medium_chip 3 high_chip 6 high_chip 20	30
-		fra_heavy_armor_1	armor_plates 1 ceramite_plates 1 rubber 1 capacitor_parts 1 transformer 1	52	1	1.05	ceramite_plates 1 medium_chip 3 high_chip 6 high_chip 20	30
-		fra_heavy_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 transformer 1	52	1	1.05	ceramite_plates 1 medium_chip 3 high_chip 6 high_chip 20	30
-		fra_heavy_boots_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 transformer 1	52	1	1.05	ceramite_plates 1 medium_chip 3 high_chip 6 high_chip 20	30
-		dil_light_helmet_1	armor_plates 1 ceramite_plates 1 glass 1 microelectronics_parts 1 metal_tread 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 dil_chip 25	35
-		dil_light_armor_1	armor_plates 1 ceramite_plates 1 capacitor_parts 1 transformer 1 metal_tread 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 dil_chip 25	35
-		dil_light_pants_1	armor_plates 1 ceramite_plates 1 capacitor_parts 1 transformer 1 metal_tread 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 dil_chip 25	35
-		dil_light_boots_1	armor_plates 1 ceramite_plates 1 capacitor_parts 1 transformer 1 metal_tread 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 dil_chip 25	35
-		tia_gasmask_1	plastic 2	12	1	1.05	rags 1 plastic 3 low_chip 7	15
-		tia_shirt_1	rags 1 plastic 2	24	1	1.05	rags 1 plastic 3 low_chip 7	15
-		tia_pants_1	rags 1 plastic 1	18	1	1.05	rags 1 plastic 3 low_chip 7	15
-		tia_boots_1	rags 1 plastic 1	12	1	1.05	rags 1 plastic 3 low_chip 7	15
-		tia_light_helmet_1	rubber 1 armor_plates 1	20	1	1.05	rubber 1 armor_repair_kit 8 medium_chip 10 tia_chip 25	35
-		tia_light_armor_1	plastic 1 rubber 1 armor_plates 1	40	1	1.05	rubber 1 armor_repair_kit 8 medium_chip 10 tia_chip 25	35
-		tia_light_pants_1	plastic 1 rubber 1 armor_plates 1	30	1	1.05	rubber 1 armor_repair_kit 8 medium_chip 10 tia_chip 25	35
-		tia_light_boots_1	plastic 1 armor_plates 1	20	1	1.05	rubber 1 armor_repair_kit 8 medium_chip 10 tia_chip 25	35
-		tia_heavy_helmet_1	rags 1 plastic 1 ceramite_plates 2	24	1	1.06	ceramite_plates 1 armor_repair_kit 8 low_chip 10 tia_chip 25	30
-		tia_heavy_armor_1	rags 1 plastic 1 ceramite_plates 3	48	1	1.06	ceramite_plates 1 armor_repair_kit 8 low_chip 10 tia_chip 25	30
-		tia_heavy_pants_1	rags 1 plastic 1 ceramite_plates 3	36	1	1.06	ceramite_plates 1 armor_repair_kit 8 low_chip 10 tia_chip 25	30
-		tia_heavy_boots_1	rags 1 plastic 1 ceramite_plates 2	24	1	1.06	ceramite_plates 1 armor_repair_kit 8 low_chip 10 tia_chip 25	30
-		chu_manager_mask_1	armor_plates 1 glass 2 metal_tread 1	34	1	1.05	rags 1 low_chip 3 medium_chip 10 high_chip 20	30
-		chu_manager_shirt_1	rags 3 rubber 1 plastic 1	34	1	1.05	rags 1 low_chip 3 medium_chip 10 high_chip 20	30
-		chu_manager_pants_1	armor_plates 1 rubber 1 rags 2	34	1	1.05	rags 1 low_chip 3 medium_chip 10 high_chip 20	30
-		chu_manager_boots_1	armor_plates 1 rubber 2	34	1	1.05	rags 1 low_chip 3 medium_chip 10 high_chip 20	30
-		chu_power_helmet_1	ceramite_plates 1 armor_plates 1 glass 1 circuit_board 1 microelectronics_parts 1	40	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 chu_chip 25	35
-		chu_power_armor_1	ceramite_plates 2 capacitor_parts 1 microelectronics_parts 1 metal_tread 1	40	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 chu_chip 25	35
-		chu_power_pants_1	ceramite_plates 1 armor_plates 1 rubber 1 metal_tread 1 microelectronics_parts 1	40	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 chu_chip 25	35
-		chu_power_boots_1	ceramite_plates 1 armor_plates 1 rubber 1 metal_tread 1 microelectronics_parts 1	40	1	1.05	ceramite_plates 1 armor_repair_kit 8 medium_chip 10 chu_chip 25	35
+		common_shirt_2	rags 4	5	11	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 medium_chip 16	4
+		common_pants_3	rags 3	4	9	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 medium_chip 16	4
+		common_sneakers_1	rags 2	3	7	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 medium_chip 16	4
+		science_gasmask_1	plastic 1 rubber 1 rusty_plates 1	7	11	1	metal_tread 1 rubber 2 scientist_clothing_container 8 low_chip 16 medium_chip 24	8
+		science_reinforced_shirt_1	plastic 1 rubber 2 rusty_plates 1 metal_tread 1	12	19	1	metal_tread 1 rubber 2 scientist_clothing_container 8 low_chip 16 medium_chip 24	8
+		science_reinforced_pants_1	plastic 1 rubber 2 rusty_plates 1	9	15	1	metal_tread 1 rubber 2 scientist_clothing_container 8 low_chip 16 medium_chip 24	8
+		science_reinforced_boots_1	plastic 1 rubber 1 rusty_plates 1	6	11	1	metal_tread 1 rubber 2 scientist_clothing_container 8 low_chip 16 medium_chip 24	8
+		science_chem_helmet_1	plastic 1 rubber 2	8	15	1	metal_tread 1 rubber 2 scientist_clothing_container 12 medium_chip 24 high_chip 36	12
+		science_chem_shirt_1	plastic 1 rubber 3 metal_tread 1	15	27	1	metal_tread 1 rubber 2 scientist_clothing_container 12 medium_chip 24 high_chip 36	12
+		science_chem_pants_1	plastic 1 rubber 3	11	21	1	metal_tread 1 rubber 2 scientist_clothing_container 12 medium_chip 24 high_chip 36	12
+		science_chem_boots_1	plastic 1 rubber 2	7	15	1	metal_tread 1 rubber 2 scientist_clothing_container 12 medium_chip 24 high_chip 36	12
+		medical_gasmask_1	rags 1 plastic 1	3	7	1	metal_tread 1 rags 2 scientist_clothing_container 4 low_chip 8 medium_chip 16	4
+		medical_chem_helmet_1	plastic 1 rubber 1	8	11	1	metal_tread 1 rubber 2 scientist_clothing_container 10 medium_chip 18 high_chip 26	8
+		medical_chem_shirt_1	plastic 1 rubber 2 metal_tread 1	13	19	1	metal_tread 1 rubber 2 scientist_clothing_container 10 medium_chip 18 high_chip 26	8
+		medical_chem_pants_1	plastic 1 rubber 2	10	15	1	metal_tread 1 rubber 2 scientist_clothing_container 10 medium_chip 18 high_chip 26	8
+		medical_medium_helmet_1	rags 2 rusty_plates 1	11	9	1	metal_tread 1 rags 2 scientist_clothing_container 4 low_chip 8 medium_chip 16	4
+		medical_medium_armor_1	rags 3 rusty_plates 1 metal_tread 1	19	13	1	metal_tread 1 rags 2 scientist_clothing_container 4 low_chip 8 medium_chip 16	4
+		medical_medium_pants_1	rags 3 rusty_plates 1 metal_tread 1	15	11	1	metal_tread 1 rags 2 scientist_clothing_container 4 low_chip 8 medium_chip 16	4
+		medical_medium_boots_1	rags 2 rusty_plates 1	9	9	1	metal_tread 1 rags 2 scientist_clothing_container 4 low_chip 8 medium_chip 16	4
+		medical_heavy_helmet_1	rags 1 armor_plates 1 ceramite_plates 2	24	15	1	wire 1 ceramite_plates 2 scientist_clothing_container 12 medium_chip 21 high_chip 36	12
+		medical_heavy_armor_1	rags 1 armor_plates 1 ceramite_plates 2 wire 2	43	27	1	wire 1 ceramite_plates 2 scientist_clothing_container 12 medium_chip 21 high_chip 36	12
+		medical_heavy_pants_1	rags 1 armor_plates 1 ceramite_plates 2 wire 1	32	21	1	wire 1 ceramite_plates 2 scientist_clothing_container 12 medium_chip 21 high_chip 36	12
+		medical_heavy_boots_1	rags 1 armor_plates 1 ceramite_plates 2	21	15	1	wire 1 ceramite_plates 2 scientist_clothing_container 12 medium_chip 21 high_chip 36	12
+		military_mask_1	rags 2	3	7	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 medium_chip 16	4
+		military_light_helmet_1	rags 1 ceramite_plates 1	4	11	1	metal_tread 1 ceramite_plates 2 regular_clothing_container 8 low_chip 16 rwa_chip 24	8
+		military_shirt_3	rags 1 armor_plates 2 ceramite_plates 1 metal_tread 1	6	19	1	metal_tread 1 ceramite_plates 2 regular_clothing_container 8 low_chip 16 rwa_chip 24	8
+		military_pants_2	rags 1 armor_plates 1 ceramite_plates 1	5	15	1	metal_tread 1 ceramite_plates 2 regular_clothing_container 8 low_chip 16 rwa_chip 24	8
+		military_doc_helmet_1	plastic 2 armor_plates 1	8	11	1	metal_tread 1 plastic 2 security_clothing_container 10 medium_chip 18 high_chip 26	8
+		military_doc_armor_1	plastic 3 armor_plates 1 metal_tread 1	13	19	1	metal_tread 1 plastic 2 security_clothing_container 10 medium_chip 18 high_chip 26	8
+		military_doc_pants_1	plastic 3 armor_plates 1	10	15	1	metal_tread 1 plastic 2 security_clothing_container 10 medium_chip 18 high_chip 26	8
+		miner_gasmask_1	rags 1 rubber 1 rusty_plates 1	13	11	1	metal_tread 1 rubber 2 miner_clothing_container 10 medium_chip 18 high_chip 26	8
+		military_light_gasmask_1	rags 1 armor_plates 2	11	9	1	metal_tread 1 armor_plates 2 security_clothing_container 4 low_chip 8 medium_chip 16	4
+		military_light_armor_1	rags 1 armor_plates 3 metal_tread 1	19	13	1	metal_tread 1 armor_plates 2 security_clothing_container 4 low_chip 8 medium_chip 16	4
+		military_light_pants_1	rags 1 armor_plates 3 metal_tread 1	15	11	1	metal_tread 1 armor_plates 2 security_clothing_container 4 low_chip 8 medium_chip 16	4
+		military_light_boots_1	rags 1 armor_plates 2	9	9	1	metal_tread 1 armor_plates 2 security_clothing_container 4 low_chip 8 medium_chip 16	4
+		military_medium_helmet_1	plastic 1 armor_plates 2	13	11	1	metal_tread 1 armor_plates 2 security_clothing_container 10 medium_chip 18 high_chip 26	8
+		military_medium_armor_1	plastic 1 armor_plates 3 metal_tread 1	24	19	1	metal_tread 1 armor_plates 2 security_clothing_container 10 medium_chip 18 high_chip 26	8
+		military_medium_pants_1	plastic 1 armor_plates 3 metal_tread 1	18	15	1	metal_tread 1 armor_plates 2 security_clothing_container 10 medium_chip 18 high_chip 26	8
+		military_medium_boots_1	plastic 1 armor_plates 2	11	11	1	metal_tread 1 armor_plates 2 security_clothing_container 10 medium_chip 18 high_chip 26	8
+		military_heavy_helmet_1	plastic 1 armor_plates 1 ceramite_plates 2	22	15	1	wire 1 ceramite_plates 2 armor_container 12 medium_chip 24 high_chip 36	12
+		military_heavy_armor_1	plastic 1 armor_plates 1 ceramite_plates 2 wire 2	40	27	1	wire 1 ceramite_plates 2 armor_container 12 medium_chip 24 high_chip 36	12
+		military_heavy_pants_1	plastic 1 armor_plates 1 ceramite_plates 2 metal_tread 1	30	21	1	wire 1 ceramite_plates 2 armor_container 12 medium_chip 24 high_chip 36	12
+		military_heavy_boots_1	plastic 1 armor_plates 1 ceramite_plates 2	19	15	1	wire 1 ceramite_plates 2 armor_container 12 medium_chip 24 high_chip 36	12
+		military_power_helmet_1	rags 1 armor_plates 2 ceramite_plates 1 capacitor_parts 1	34	83	1	capacitor_parts 1 ceramite_plates 2 armor_container 16 high_chip 32 research_disk 64	16
+		military_power_armor_1	rags 1 armor_plates 2 ceramite_plates 1 capacitor_parts 2	62	99	1	capacitor_parts 1 ceramite_plates 2 armor_container 16 high_chip 32 research_disk 64	16
+		military_power_pants_1	rags 1 armor_plates 2 ceramite_plates 1 coarse_parts 2	46	91	1	capacitor_parts 1 ceramite_plates 2 armor_container 16 high_chip 32 research_disk 64	16
+		military_power_boots_1	rags 1 armor_plates 2 ceramite_plates 1 coarse_parts 1	29	83	1	capacitor_parts 1 ceramite_plates 2 armor_container 16 high_chip 32 research_disk 64	16
+		laborer_warm_hat_1	rags 1 rubber 1 rusty_plates 1	8	11	1	metal_tread 1 rubber 2 worker_clothing_container 10 medium_chip 18 high_chip 26	8
+		laborer_warm_shirt_1	rags 2 rubber 1 rusty_plates 1 metal_tread 1	13	19	1	metal_tread 1 rubber 2 worker_clothing_container 10 medium_chip 18 high_chip 26	8
+		laborer_warm_pants_1	rags 2 rubber 1 rusty_plates 1	10	15	1	metal_tread 1 rubber 2 worker_clothing_container 10 medium_chip 18 high_chip 26	8
+		laborer_warm_boots_1	rags 1 rubber 1 rusty_plates 1	7	11	1	metal_tread 1 rubber 2 worker_clothing_container 10 medium_chip 18 high_chip 26	8
+		laborer_medium_helmet_1	rags 1 plastic 1 rubber 1	12	11	1	metal_tread 1 rubber 2 worker_clothing_container 8 low_chip 16 plb_chip 24	8
+		laborer_medium_armor_1	rags 2 plastic 1 rubber 1 metal_tread 1	21	19	1	metal_tread 1 rubber 2 worker_clothing_container 8 low_chip 16 plb_chip 24	8
+		laborer_medium_pants_1	rags 2 plastic 1 rubber 1 metal_tread 1	16	15	1	metal_tread 1 rubber 2 worker_clothing_container 8 low_chip 16 plb_chip 24	8
+		laborer_medium_boots_1	rags 1 plastic 1 rubber 1	10	11	1	metal_tread 1 rubber 2 worker_clothing_container 8 low_chip 16 plb_chip 24	8
+		laborer_exoskeleton_1	rags 1 rubber 2 rusty_plates 1 coarse_parts 2	51	27	1	coarse_parts 1 rubber 2 worker_clothing_container 12 medium_chip 21 high_chip 36	12
+		miner_hard_cap_1	rags 1 rusty_plates 1	3	7	1	metal_tread 1 rags 2 miner_clothing_container 4 low_chip 8 medium_chip 16	4
+		miner_shirt_1	rags 4 metal_tread 1	5	11	1	metal_tread 1 rags 2 miner_clothing_container 4 low_chip 8 medium_chip 16	4
+		miner_pants_1	rags 3	4	9	1	metal_tread 1 rags 2 miner_clothing_container 4 low_chip 8 medium_chip 16	4
+		miner_boots_1	rags 2	3	7	1	metal_tread 1 rags 2 miner_clothing_container 4 low_chip 8 medium_chip 16	4
+		miner_hard_cap_2	rags 1 rusty_plates 2	7	11	1	metal_tread 1 rusty_plates 2 miner_clothing_container 8 low_chip 16 cor_chip 24	8
+		miner_reinforced_shirt_1	rags 1 rusty_plates 3 metal_tread 1	12	19	1	metal_tread 1 rusty_plates 2 miner_clothing_container 8 low_chip 16 cor_chip 24	8
+		miner_reinforced_pants_1	rags 1 rusty_plates 3	9	15	1	metal_tread 1 rusty_plates 2 miner_clothing_container 8 low_chip 16 cor_chip 24	8
+		miner_reinforced_boots_1	rags 1 rusty_plates 2	6	11	1	metal_tread 1 rusty_plates 2 miner_clothing_container 8 low_chip 16 cor_chip 24	8
+		miner_exoskeleton_1	rags 1 rubber 1 rusty_plates 2 coarse_parts 2	40	19	1	coarse_parts 1 rubber 2 miner_clothing_container 10 medium_chip 18 high_chip 26	8
+		miner_medium_helmet_1	rags 1 rubber 1 armor_plates 2	22	15	1	wire 1 rubber 2 miner_clothing_container 12 medium_chip 24 cor_chip 36	12
+		miner_medium_armor_1	rags 1 rubber 1 armor_plates 2 wire 2	40	27	1	wire 1 rubber 2 miner_clothing_container 12 medium_chip 24 cor_chip 36	12
+		miner_medium_pants_1	rags 1 rubber 1 armor_plates 2 metal_tread 1	30	21	1	wire 1 rubber 2 miner_clothing_container 12 medium_chip 24 cor_chip 36	12
+		miner_medium_boots_1	rags 1 rubber 1 armor_plates 2	19	15	1	wire 1 rubber 2 miner_clothing_container 12 medium_chip 24 cor_chip 36	12
+		miner_power_helmet_1	rubber 2 armor_plates 1 ceramite_plates 1 capacitor_parts 1	31	15	1	coarse_parts 1 rubber 2 miner_clothing_container 14 high_chip 27 cor_chip 36	12
+		miner_power_armor_1	rubber 2 armor_plates 1 ceramite_plates 1 coarse_parts 2	56	27	1	coarse_parts 1 rubber 2 miner_clothing_container 14 high_chip 27 cor_chip 36	12
+		miner_power_pants_1	rubber 2 armor_plates 1 ceramite_plates 1 coarse_parts 2	42	21	1	coarse_parts 1 rubber 2 miner_clothing_container 14 high_chip 27 cor_chip 36	12
+		miner_power_boots_1	rubber 2 armor_plates 1 ceramite_plates 1 coarse_parts 1	27	15	1	coarse_parts 1 rubber 2 miner_clothing_container 14 high_chip 27 cor_chip 36	12
+		police_cap_2	rags 2 rusty_plates 1	6	9	1	metal_tread 1 rags 2 security_clothing_container 4 low_chip 8 fra_chip 16	4
+		police_reinforced_shirt_1	rags 3 rusty_plates 1 metal_tread 1	11	13	1	metal_tread 1 rags 2 security_clothing_container 4 low_chip 8 fra_chip 16	4
+		police_pants_2	rags 3 rusty_plates 1	8	11	1	metal_tread 1 rags 2 security_clothing_container 4 low_chip 8 fra_chip 16	4
+		police_boots_2	rags 2 rusty_plates 1	5	9	1	metal_tread 1 rags 2 security_clothing_container 4 low_chip 8 fra_chip 16	4
+		police_medium_helmet_1	rusty_plates 1 armor_plates 1 ceramite_plates 1	13	11	1	metal_tread 1 ceramite_plates 2 security_clothing_container 10 medium_chip 18 fra_chip 26	8
+		police_medium_armor_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 metal_tread 1	24	19	1	metal_tread 1 ceramite_plates 2 security_clothing_container 10 medium_chip 18 fra_chip 26	8
+		police_medium_pants_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 metal_tread 1	18	15	1	metal_tread 1 ceramite_plates 2 security_clothing_container 10 medium_chip 18 fra_chip 26	8
+		police_medium_boots_1	rusty_plates 1 armor_plates 1 ceramite_plates 1	11	11	1	metal_tread 1 ceramite_plates 2 security_clothing_container 10 medium_chip 18 fra_chip 26	8
+		police_heavy_helmet_2	rusty_plates 1 armor_plates 1 ceramite_plates 1	17	15	1	wire 1 ceramite_plates 2 security_clothing_container 14 high_chip 27 fra_chip 36	12
+		police_heavy_armor_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 wire 1	30	27	1	wire 1 ceramite_plates 2 security_clothing_container 14 high_chip 27 fra_chip 36	12
+		police_heavy_pants_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 wire 1	23	21	1	wire 1 ceramite_plates 2 security_clothing_container 14 high_chip 27 fra_chip 36	12
+		police_heavy_boots_1	rusty_plates 1 armor_plates 1 ceramite_plates 1	14	15	1	wire 1 ceramite_plates 2 security_clothing_container 14 high_chip 27 fra_chip 36	12
+		anc_reinforced_hat_1	rags 1 rusty_plates 1	4	15	1	wire 1 rags 2 regular_clothing_container 12 medium_chip 24 anc_chip 36	12
+		anc_reinforced_shirt_1	rags 3 rusty_plates 1 wire 1	8	27	1	wire 1 rags 2 regular_clothing_container 12 medium_chip 24 anc_chip 36	12
+		anc_reinforced_pants_1	rags 2 rusty_plates 1	6	21	1	wire 1 rags 2 regular_clothing_container 12 medium_chip 24 anc_chip 36	12
+		anc_agent_mask_1	rags 1 rusty_plates 2	7	11	1	metal_tread 1 rusty_plates 2 security_clothing_container 8 low_chip 16 anc_chip 24	8
+		anc_agent_armor_1	rags 1 rusty_plates 3 metal_tread 1	12	19	1	metal_tread 1 rusty_plates 2 security_clothing_container 8 low_chip 16 anc_chip 24	8
+		anc_agent_pants_1	rags 1 rusty_plates 3	9	15	1	metal_tread 1 rusty_plates 2 security_clothing_container 8 low_chip 16 anc_chip 24	8
+		anc_agent_boots_1	rags 1 rusty_plates 2	6	11	1	metal_tread 1 rusty_plates 2 security_clothing_container 8 low_chip 16 anc_chip 24	8
+		anc_medium_helmet_1	armor_plates 1 ceramite_plates 1	10	15	1	wire 1 ceramite_plates 2 armor_container 14 high_chip 27 anc_chip 36	12
+		anc_medium_armor_1	armor_plates 1 ceramite_plates 2 wire 1	18	27	1	wire 1 ceramite_plates 2 armor_container 14 high_chip 27 anc_chip 36	12
+		anc_medium_pants_1	armor_plates 1 ceramite_plates 2	13	21	1	wire 1 ceramite_plates 2 armor_container 14 high_chip 27 anc_chip 36	12
+		anc_medium_boots_1	armor_plates 1 ceramite_plates 1	9	15	1	wire 1 ceramite_plates 2 armor_container 14 high_chip 27 anc_chip 36	12
+		anc_medium_mask_1	rags 2 armor_plates 1	11	9	1	metal_tread 1 rags 2 security_clothing_container 4 low_chip 8 anc_chip 16	4
+		anc_medium_armor_2	rags 3 armor_plates 1 metal_tread 1	19	13	1	metal_tread 1 rags 2 security_clothing_container 4 low_chip 8 anc_chip 16	4
+		anc_medium_pants_2	rags 3 armor_plates 1 metal_tread 1	15	11	1	metal_tread 1 rags 2 security_clothing_container 4 low_chip 8 anc_chip 16	4
+		anc_medium_boots_2	rags 2 armor_plates 1	9	9	1	metal_tread 1 rags 2 security_clothing_container 4 low_chip 8 anc_chip 16	4
+		sbn_light_helmet_1	rags 1 armor_plates 1 ceramite_plates 1	13	11	1	metal_tread 1 rags 2 security_clothing_container 10 medium_chip 18 sbn_chip 26	8
+		sbn_light_armor_1	rags 2 armor_plates 1 ceramite_plates 1 metal_tread 1	24	19	1	metal_tread 1 rags 2 security_clothing_container 10 medium_chip 18 sbn_chip 26	8
+		sbn_light_pants_1	rags 2 armor_plates 1 ceramite_plates 1 metal_tread 1	18	15	1	metal_tread 1 rags 2 security_clothing_container 10 medium_chip 18 sbn_chip 26	8
+		sbn_light_boots_1	rags 1 armor_plates 1 ceramite_plates 1	11	11	1	metal_tread 1 rags 2 security_clothing_container 10 medium_chip 18 sbn_chip 26	8
+		sbn_medium_helmet_1	plastic 1 rusty_plates 1 armor_plates 2	19	11	1	metal_tread 1 armor_plates 2 armor_container 8 low_chip 16 sbn_chip 24	8
+		sbn_medium_armor_1	plastic 1 rusty_plates 1 armor_plates 2 metal_tread 2	34	19	1	metal_tread 1 armor_plates 2 armor_container 8 low_chip 16 sbn_chip 24	8
+		sbn_medium_pants_1	plastic 1 rusty_plates 1 armor_plates 2 metal_tread 1	26	15	1	metal_tread 1 armor_plates 2 armor_container 8 low_chip 16 sbn_chip 24	8
+		sbn_medium_boots_1	plastic 1 rusty_plates 1 armor_plates 2	16	11	1	metal_tread 1 armor_plates 2 armor_container 8 low_chip 16 sbn_chip 24	8
+		sbn_heavy_helmet_1	plastic 2 armor_plates 1 ceramite_plates 1	27	19	1	wire 1 plastic 2 armor_container 16 high_chip 32 sbn_chip 48	16
+		sbn_heavy_armor_1	plastic 2 armor_plates 1 ceramite_plates 1 wire 2	49	35	1	wire 1 plastic 2 armor_container 16 high_chip 32 sbn_chip 48	16
+		sbn_heavy_pants_1	plastic 2 armor_plates 1 ceramite_plates 1 wire 1	37	27	1	wire 1 plastic 2 armor_container 16 high_chip 32 sbn_chip 48	16
+		sbn_heavy_boots_1	plastic 2 armor_plates 1 ceramite_plates 1	23	19	1	wire 1 plastic 2 armor_container 16 high_chip 32 sbn_chip 48	16
+		rwa_light_helmet_2	rusty_plates 3 armor_plates 1	19	11	1	metal_tread 1 rusty_plates 2 armor_container 8 low_chip 16 rwa_chip 24	8
+		rwa_light_armor_1	rusty_plates 3 armor_plates 1 metal_tread 2	34	19	1	metal_tread 1 rusty_plates 2 armor_container 8 low_chip 16 rwa_chip 24	8
+		rwa_light_pants_1	rusty_plates 3 armor_plates 1 metal_tread 1	26	15	1	metal_tread 1 rusty_plates 2 armor_container 8 low_chip 16 rwa_chip 24	8
+		rwa_light_boots_1	rusty_plates 3 armor_plates 1	16	11	1	metal_tread 1 rusty_plates 2 armor_container 8 low_chip 16 rwa_chip 24	8
+		rwa_heavy_helmet_1	rusty_plates 2 armor_plates 1 ceramite_plates 1	26	15	1	wire 1 ceramite_plates 2 armor_container 14 high_chip 27 rwa_chip 36	12
+		rwa_heavy_armor_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 wire 2	46	27	1	wire 1 ceramite_plates 2 armor_container 14 high_chip 27 rwa_chip 36	12
+		rwa_heavy_pants_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 wire 1	35	21	1	wire 1 ceramite_plates 2 armor_container 14 high_chip 27 rwa_chip 36	12
+		rwa_heavy_boots_1	rusty_plates 2 armor_plates 1 ceramite_plates 1	22	15	1	wire 1 ceramite_plates 2 armor_container 14 high_chip 27 rwa_chip 36	12
+		rwa_power_helmet_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 capacitor_parts 1	40	13	1	capacitor_parts 1 ceramite_plates 3 armor_container 15 high_chip 30 rwa_chip 40	20
+		rwa_power_armor_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 capacitor_parts 2	72	33	1	capacitor_parts 1 ceramite_plates 3 armor_container 15 high_chip 30 rwa_chip 40	20
+		rwa_power_pants_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 capacitor_parts 2	54	23	1	capacitor_parts 1 ceramite_plates 3 armor_container 15 high_chip 30 rwa_chip 40	20
+		rwa_power_boots_1	rusty_plates 2 armor_plates 1 ceramite_plates 1 capacitor_parts 1	34	13	1	capacitor_parts 1 ceramite_plates 3 armor_container 15 high_chip 30 rwa_chip 40	20
+		ddr_chem_helmet_1	plastic 1 rubber 1 rusty_plates 1	8	15	1	metal_tread 1 rubber 2 scientist_clothing_container 12 medium_chip 24 ddr_chip 36	12
+		ddr_chem_coat_1	plastic 1 rubber 2 rusty_plates 1 metal_tread 1	15	27	1	metal_tread 1 rubber 2 scientist_clothing_container 12 medium_chip 24 ddr_chip 36	12
+		ddr_chem_pants_1	plastic 1 rubber 2 rusty_plates 1	11	21	1	metal_tread 1 rubber 2 scientist_clothing_container 12 medium_chip 24 ddr_chip 36	12
+		ddr_chem_boots_1	plastic 1 rubber 1 rusty_plates 1	7	15	1	metal_tread 1 rubber 2 scientist_clothing_container 12 medium_chip 24 ddr_chip 36	12
+		ddr_reinforced_chem_helmet_1	rags 2 rusty_plates 1	13	11	1	metal_tread 1 rags 2 armor_container 10 medium_chip 18 ddr_chip 26	8
+		ddr_reinforced_chem_coat_1	rags 3 rusty_plates 1 metal_tread 1	24	19	1	metal_tread 1 rags 2 armor_container 10 medium_chip 18 ddr_chip 26	8
+		ddr_reinforced_chem_pants_1	rags 3 rusty_plates 1 metal_tread 1	18	15	1	metal_tread 1 rags 2 armor_container 10 medium_chip 18 ddr_chip 26	8
+		ddr_power_helmet_1	rags 2 armor_plates 1 ceramite_plates 1 capacitor_parts 1	37	19	1	capacitor_parts 1 rags 2 armor_container 16 high_chip 28 ddr_chip 48	16
+		ddr_power_armor_1	rags 2 armor_plates 1 ceramite_plates 1 capacitor_parts 2	67	35	1	capacitor_parts 1 rags 2 armor_container 16 high_chip 28 ddr_chip 48	16
+		ddr_power_pants_1	rags 2 armor_plates 1 ceramite_plates 1 capacitor_parts 2	50	27	1	capacitor_parts 1 rags 2 armor_container 16 high_chip 28 ddr_chip 48	16
+		ddr_power_boots_1	rags 2 armor_plates 1 ceramite_plates 1 capacitor_parts 1	32	19	1	capacitor_parts 1 rags 2 armor_container 16 high_chip 28 ddr_chip 48	16
+		sun_medium_helmet_1	rubber 1 rusty_plates 1 armor_plates 1	14	15	1	wire 1 rubber 2 armor_container 12 medium_chip 24 sun_chip 36	12
+		sun_medium_armor_1	rubber 1 rusty_plates 2 armor_plates 1 wire 1	26	27	1	wire 1 rubber 2 armor_container 12 medium_chip 24 sun_chip 36	12
+		sun_medium_pants_1	rubber 1 rusty_plates 2 armor_plates 1 metal_tread 1	19	21	1	wire 1 rubber 2 armor_container 12 medium_chip 24 sun_chip 36	12
+		sun_medium_boots_1	rubber 1 rusty_plates 1 armor_plates 1	12	15	1	wire 1 rubber 2 armor_container 12 medium_chip 24 sun_chip 36	12
+		sun_power_helmet_1	rusty_plates 1 armor_plates 2 ceramite_plates 1 capacitor_parts 1	40	13	1	capacitor_parts 1 ceramite_plates 3 armor_container 15 high_chip 30 sun_chip 40	20
+		sun_power_armor_1	rusty_plates 1 armor_plates 2 ceramite_plates 1 capacitor_parts 2	72	33	1	capacitor_parts 1 ceramite_plates 3 armor_container 15 high_chip 30 sun_chip 40	20
+		sun_power_pants_1	rusty_plates 1 armor_plates 2 ceramite_plates 1 capacitor_parts 2	54	23	1	capacitor_parts 1 ceramite_plates 3 armor_container 15 high_chip 30 sun_chip 40	20
+		sun_power_boots_1	rusty_plates 1 armor_plates 2 ceramite_plates 1 capacitor_parts 1	34	13	1	capacitor_parts 1 ceramite_plates 3 armor_container 15 high_chip 30 sun_chip 40	20
+		grh_light_helmet_1	rags 1 rubber 1 rusty_plates 1	9	15	1	wire 1 rubber 2 armor_container 12 medium_chip 21 gra_chip 36	12
+		grh_light_armor_1	rags 2 rubber 1 rusty_plates 1 wire 1	16	27	1	wire 1 rubber 2 armor_container 12 medium_chip 21 gra_chip 36	12
+		grh_light_pants_1	rags 2 rubber 1 rusty_plates 1	12	21	1	wire 1 rubber 2 armor_container 12 medium_chip 21 gra_chip 36	12
+		grh_light_boots_1	rags 1 rubber 1 rusty_plates 1	8	15	1	wire 1 rubber 2 armor_container 12 medium_chip 21 gra_chip 36	12
+		plb_medium_helmet_1	rags 1 rubber 1 rusty_plates 1	17	15	1	wire 1 rubber 2 armor_container 14 high_chip 27 plb_chip 36	12
+		plb_medium_armor_1	rags 1 rubber 2 rusty_plates 1 wire 1	30	27	1	wire 1 rubber 2 armor_container 14 high_chip 27 plb_chip 36	12
+		plb_medium_pants_1	rags 1 rubber 2 rusty_plates 1 wire 1	23	21	1	wire 1 rubber 2 armor_container 14 high_chip 27 plb_chip 36	12
+		plb_medium_boots_1	rags 1 rubber 1 rusty_plates 1	14	15	1	wire 1 rubber 2 armor_container 14 high_chip 27 plb_chip 36	12
+		plb_power_helmet_1	rags 2 rubber 1 ceramite_plates 1 capacitor_parts 1	37	19	1	capacitor_parts 1 rubber 2 armor_container 16 high_chip 28 plb_chip 48	16
+		plb_power_armor_1	rags 2 rubber 1 ceramite_plates 1 capacitor_parts 2	67	35	1	capacitor_parts 1 rubber 2 armor_container 16 high_chip 28 plb_chip 48	16
+		plb_power_pants_1	rags 2 rubber 1 ceramite_plates 1 capacitor_parts 2	50	27	1	capacitor_parts 1 rubber 2 armor_container 16 high_chip 28 plb_chip 48	16
+		plb_power_boots_1	rags 2 rubber 1 ceramite_plates 1 capacitor_parts 1	32	19	1	capacitor_parts 1 rubber 2 armor_container 16 high_chip 28 plb_chip 48	16
+		fra_heavy_mask_1	armor_plates 1 ceramite_plates 2	22	15	1	wire 1 ceramite_plates 2 armor_container 12 medium_chip 24 fra_chip 36	12
+		fra_heavy_armor_1	armor_plates 1 ceramite_plates 2 wire 2	40	27	1	wire 1 ceramite_plates 2 armor_container 12 medium_chip 24 fra_chip 36	12
+		fra_heavy_pants_1	armor_plates 1 ceramite_plates 2 metal_tread 1	30	21	1	wire 1 ceramite_plates 2 armor_container 12 medium_chip 24 fra_chip 36	12
+		fra_heavy_boots_1	armor_plates 1 ceramite_plates 2	19	15	1	wire 1 ceramite_plates 2 armor_container 12 medium_chip 24 fra_chip 36	12
+		dil_light_helmet_1	rubber 1 rusty_plates 1 armor_plates 1	11	19	1	wire 1 rubber 2 armor_container 16 high_chip 32 dil_chip 48	16
+		dil_light_armor_1	rubber 2 rusty_plates 1 armor_plates 1 wire 1	19	35	1	wire 1 rubber 2 armor_container 16 high_chip 32 dil_chip 48	16
+		dil_light_pants_1	rubber 2 rusty_plates 1 armor_plates 1	15	27	1	wire 1 rubber 2 armor_container 16 high_chip 32 dil_chip 48	16
+		dil_light_boots_1	rubber 1 rusty_plates 1 armor_plates 1	9	19	1	wire 1 rubber 2 armor_container 16 high_chip 32 dil_chip 48	16
+		tia_gasmask_1	rags 1 plastic 1	3	9	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 tia_chip 16	4
+		tia_shirt_1	rags 3 plastic 1 metal_tread 1	6	13	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 tia_chip 16	4
+		tia_pants_1	rags 2 plastic 1	4	11	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 tia_chip 16	4
+		tia_boots_1	rags 1 plastic 1	3	9	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 tia_chip 16	4
+		tia_light_helmet_1	plastic 1 rubber 1 armor_plates 1	10	15	1	wire 1 rubber 2 armor_container 14 high_chip 27 tia_chip 36	12
+		tia_light_armor_1	plastic 2 rubber 1 armor_plates 1 wire 1	18	27	1	wire 1 rubber 2 armor_container 14 high_chip 27 tia_chip 36	12
+		tia_light_pants_1	plastic 2 rubber 1 armor_plates 1	13	21	1	wire 1 rubber 2 armor_container 14 high_chip 27 tia_chip 36	12
+		tia_light_boots_1	plastic 1 rubber 1 armor_plates 1	9	15	1	wire 1 rubber 2 armor_container 14 high_chip 27 tia_chip 36	12
+		tia_heavy_helmet_1	plastic 2 rubber 1 ceramite_plates 1	21	11	1	metal_tread 1 rubber 2 armor_container 10 medium_chip 18 tia_chip 26	8
+		tia_heavy_armor_1	plastic 2 rubber 1 ceramite_plates 1 metal_tread 2	37	19	1	metal_tread 1 rubber 2 armor_container 10 medium_chip 18 tia_chip 26	8
+		tia_heavy_pants_1	plastic 2 rubber 1 ceramite_plates 1 metal_tread 1	28	15	1	metal_tread 1 rubber 2 armor_container 10 medium_chip 18 tia_chip 26	8
+		tia_heavy_boots_1	plastic 2 rubber 1 ceramite_plates 1	18	11	1	metal_tread 1 rubber 2 armor_container 10 medium_chip 18 tia_chip 26	8
+		chu_manager_mask_1	rags 2 rusty_plates 1	6	9	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 chu_chip 16	4
+		chu_manager_shirt_1	rags 3 rusty_plates 1 metal_tread 1	11	13	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 chu_chip 16	4
+		chu_manager_pants_1	rags 3 rusty_plates 1	8	11	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 chu_chip 16	4
+		chu_manager_boots_1	rags 2 rusty_plates 1	5	9	1	metal_tread 1 rags 2 regular_clothing_container 4 low_chip 8 chu_chip 16	4
+		chu_power_helmet_1	rags 1 rusty_plates 2 ceramite_plates 1 capacitor_parts 1	37	19	1	capacitor_parts 1 ceramite_plates 2 armor_container 16 high_chip 28 chu_chip 48	16
+		chu_power_armor_1	rags 1 rusty_plates 2 ceramite_plates 1 capacitor_parts 2	67	35	1	capacitor_parts 1 ceramite_plates 2 armor_container 16 high_chip 28 chu_chip 48	16
+		chu_power_pants_1	rags 1 rusty_plates 2 ceramite_plates 1 capacitor_parts 2	50	27	1	capacitor_parts 1 ceramite_plates 2 armor_container 16 high_chip 28 chu_chip 48	16
+		chu_power_boots_1	rags 1 rusty_plates 2 ceramite_plates 1 capacitor_parts 1	32	19	1	capacitor_parts 1 ceramite_plates 2 armor_container 16 high_chip 28 chu_chip 48	16
 		medical_kit_2	medical_kit_1 1 pills_osteodron 1 pills_tranexam 1 pills_fibromine 1	22	1	1.05		
 		surgical_kit	medical_kit_1 1 syringe_morphine 1 medical_glue 1 syringe_naloxone 1	40	1	1.05		
-		medical_glue	plastic 1 pills_antibiotics 1	8	1	1.05		
+		medical_glue	water_bottle_1 1 plastic 1 pills_antibiotics 1	8	1	1.05		
 		goldenstar_balm	tin 1 explosives 1	8	1	1.05		
 		syringe_bloodbag	plastic 1 throwable_heart 1	10	1	1.05		
 		pills_fibromine	acid 2 poppy_box 1	8	1	1.05		
@@ -513,9 +555,11 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		vodka_bottle_1	glass_bottle 1 water_bottle_1 1 human_poop 1	8	1	1.05		
 		mre_pack_1	canned_food_1 1 ration_pack_4 1 chocolate_pack_1 1	10	1	1.05		
 		automap	circuit_board 2 microelectronics_parts 1 bulb 1	64	1	1.05		
-		stationary_turret	military_minigun_1 1 armor_plates 1 weapon_parts 1 circuit_board 1	52	1	1.05		
-		fire_turret	worker_flamethrower_1 1 armor_plates 1 weapon_parts 1 circuit_board 1	64	1	1.05		
-		energy_turret	laser_sniper_1 1 armor_plates 1 weapon_parts 1 circuit_board 2	80	1	1.05		
+		stationary_turret	cyborg_battle_machinegun 1 metal_tread 1 weapon_parts 2 blunt_parts 1	52	1	1.05		
+		fire_turret	worker_flamethrower_1 1 metal_tread 1 weapon_parts 2 blunt_parts 1	64	1	1.05		
+		energy_turret	laser_marksman_1 1 metal_tread 1 weapon_parts 2 blunt_parts 1	80	1	1.05		
+		placeable_barrier	circuit_board 1 microelectronics_parts 1 capacitor_parts 1 transformer 1	80	1	1.05		
+		placeable_barrel	ceramite_plates 2 coarse_parts 1 spring 1	52	1	1.05		
 		data_lock	transformer 1 circuit_board 1 microelectronics_parts 1	48	1	1.05		
 		neural_jack	circuit_board 1 microelectronics_parts 1 metal_tread 2	36	1	1.05		
 		neurocortex	circuit_board 1 microelectronics_parts 2 metal_tread 1	36	1	1.05		
@@ -613,38 +657,38 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 								
 #itemexpire								
 Id		ExpiresAfterHours	ConvertedItemId					
-human_meat		24	rotten_human_meat					
+human_meat		48	rotten_human_meat					
 quasi_venus_rags		336	rags					
 quasi_bolts_ammo		168	broken_weapon					
 quasi_energy_ammo		168	syringe_bloodbag					
 quasi_medical_kit_1		504	human_organ_1					
-human_organ_1		48	rotten_human_meat					
+human_organ_1		72	rotten_human_meat					
 quasi_repair_kit		504	broken_weapon					
 demonic_eye		504	human_eye					
 quasi_grenade		504	human_eye					
-throwable_heart		24	rotten_human_meat					
+throwable_heart		48	rotten_human_meat					
 skrivnus_knife		504	throwing_knife					
 cattaram_mine		504	powder					
 quasi_ron_medicine_1		504	plastic					
-spider_meat		24	rotten_spider_meat					
-burger_pack_1		36	rotten_burger_pack_1					
-burger_pack_2		36	rotten_burger_pack_2					
-human_skin		24	rotten_human_skin					
-soup_can_1		36	rotten_soup_can_1					
-roasted_spider_meat		72	rotten_spider_meat					
-roasted_human_meat		72	rotten_human_meat					
+spider_meat		48	rotten_spider_meat					
+burger_pack_1		72	rotten_burger_pack_1					
+burger_pack_2		72	rotten_burger_pack_2					
+human_skin		48	rotten_human_skin					
+soup_can_1		72	rotten_soup_can_1					
+roasted_spider_meat		96	rotten_spider_meat					
+roasted_human_meat		96	rotten_human_meat					
 mercury_rags		336	rags					
-dog_meat		24	rotten_dog_meat					
-roasted_dog_meat		72	rotten_dog_meat					
-mars_crab_meat		24	rotten_dog_meat					
-ron_tentacle		24	metal_tread					
+dog_meat		48	rotten_dog_meat					
+roasted_dog_meat		96	rotten_dog_meat					
+mars_crab_meat		48	rotten_dog_meat					
+ron_tentacle		48	metal_tread					
 roasted_mars_crab_meat		336	rotten_dog_meat					
-roasted_ron_tentacle		72	wire					
+roasted_ron_tentacle		96	wire					
 jupiter_mushrooms		72	spring					
 jupiter_goulash		168	weapon_parts					
 ron_blood		504	water_bottle_1					
 ron_moonshine		840	water_bottle_1					
-jupiter_grass		2880	powder					
+jupiter_grass		336	powder					
 cattaram_geode		504	broken_weapon					
 mars_gas_ammo		336	gas_ammo					
 skull_cattaram_pillar		168	human_skull					

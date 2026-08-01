@@ -1,48 +1,57 @@
 #events_mobspawn													
 Id	Weight	Chance	DialogCaptionTag	PortraitId	StationTypes	SkipIfVictims	PointsRange	Bramfaturas	AllianceType	FactionId	QmorphosLevel	CustomUnitDropId	BlockAllDoors
-pirate_raid_1	15	0.05	name.jane	char_jane		UnchainedBelt	500 500		Traitors	UnchainedBelt	0		FALSE
-quarantine_raid_1	15	0.05	name.jane	char_jane	Industrial Mine Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity DaydreamChems	500 500		Traitors	DaydreamChems	0	eventlist_quarantine_raid_1	FALSE
-police_raid_1	15	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks FrancheComte CResistance GodBuilders CivilUnity	500 500		Traitors	FrancheComte	0	eventlist_police_raid_1	FALSE
-civ_raid_1	15	0.05	name.jane	char_jane	Industrial Lab Military ColonyFarm	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity	500 500		Traitors	CResistance	0		FALSE
-failed_experiment_1	5	0.02	name.jane	char_jane	Lab		0 0	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros			250		FALSE
-temple_ritual_1	5	0.01	name.jane	char_jane	QuasimorphicTemple		0 0	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros			500		FALSE
-ai_malfunction_1	15	0.04	name.jane	char_jane	Lab Mine Military Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks SheduThousand UnchainedBelt	400 600		Traitors	VICTIM	0	eventlist_ai_malfunction_1	TRUE
-spider_infestation_1	15	0.05	name.jane	char_jane	Lab Mine ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks	200 300		Traitors	VICTIM	0	eventlist_spider_infestation_1	FALSE
-dogs_1	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity	150 300		VictimFaction	VICTIM	0	eventlist_dogs_1	FALSE
-reinforcement_1	15	0.05	name.jane	char_jane			500 500		VictimFaction	VICTIM	0		FALSE
-revolt_1	15	0.05	name.jane	char_jane	Mine Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity	500 500		Traitors	VICTIM	0		TRUE
-tez_raid_1	15	0.05	name.jane	char_jane		Tezctlan AnCom SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros	Traitors	Tezctlan	0		FALSE
-xio_raid_1	15	0.05	name.jane	char_jane		XiomaraMasks AnCom SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros	Traitors	XiomaraMasks	0		FALSE
-she_raid_1	15	0.05	name.jane	char_jane		SheduThousand  AnCom SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt	500 500	Shartamakhum Gannix Duggur Cattaram Ron Scrivnus Flauros	Traitors	SheduThousand	0		FALSE
-tez_raid_2	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks SheduThousand	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros	Traitors	Tezctlan	100		FALSE
-xio_raid_2	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks SheduThousand	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros	Traitors	XiomaraMasks	100		FALSE
-she_raid_2	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks SheduThousand	500 500	Shartamakhum Gannix Duggur Cattaram Ron Scrivnus Flauros	Traitors	SheduThousand	100		FALSE
+pirate_raid_1	15	0.05	name.jane	char_jane		UnchainedBelt ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		Traitors	UnchainedBelt	0		FALSE
+quarantine_raid_1	15	0.05	name.jane	char_jane	Industrial Mine Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity DaydreamChems ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		Traitors	DaydreamChems	0	eventlist_quarantine_raid_1	FALSE
+police_raid_1	15	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks FrancheComte CResistance GodBuilders CivilUnity ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		Traitors	FrancheComte	0	eventlist_police_raid_1	FALSE
+civ_raid_1	15	0.05	name.jane	char_jane	Industrial Lab Military ColonyFarm	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		Traitors	CResistance	0		FALSE
+failed_experiment_1	5	0.02	name.jane	char_jane	Lab	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	0 0	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros Olirna_Awakened			250		FALSE
+temple_ritual_1	5	0.01	name.jane	char_jane	QuasimorphicTemple	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	0 0	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros Olirna_Awakened			500		FALSE
+ai_malfunction_1	15	0.04	name.jane	char_jane	Lab Mine Military Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks SheduThousand UnchainedBelt ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	400 600		Traitors	VICTIM	0	eventlist_ai_malfunction_1	TRUE
+spider_infestation_1	15	0.05	name.jane	char_jane	Lab Mine ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	200 300		Traitors	VICTIM	0	eventlist_spider_infestation_1	FALSE
+dogs_1	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	150 300		VictimFaction	VICTIM	0	eventlist_dogs_1	FALSE
+reinforcement_1	15	0.05	name.jane	char_jane		ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		VictimFaction	VICTIM	0		FALSE
+revolt_1	15	0.05	name.jane	char_jane	Mine Prison ColonyFarm Civilian SpaceStation	Tezctlan XiomaraMasks CResistance GodBuilders CivilUnity ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		Traitors	VICTIM	0		TRUE
+tez_raid_1	15	0.05	name.jane	char_jane		Tezctlan AnCom Hive SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros Olirna_Awakened	Traitors	Tezctlan	0		FALSE
+xio_raid_1	15	0.05	name.jane	char_jane		XiomaraMasks AnCom Hive SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros Olirna_Awakened	Traitors	XiomaraMasks	0		FALSE
+she_raid_1	15	0.05	name.jane	char_jane		SheduThousand AnCom Hive SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros Olirna_Awakened	Traitors	SheduThousand	0		FALSE
+tez_raid_2	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks SheduThousand ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros Olirna_Awakened	Traitors	Tezctlan	100		FALSE
+xio_raid_2	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks SheduThousand ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros Olirna_Awakened	Traitors	XiomaraMasks	100		FALSE
+she_raid_2	15	0.05	name.jane	char_jane		Tezctlan XiomaraMasks SheduThousand ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500	Shartamakhum Gannix Duggur Ur_Awakened Cattaram Ron Scrivnus Flauros Olirna_Awakened	Traitors	SheduThousand	100		FALSE
+bram_ShartamakhumFeral_alt_1	15	0.15	monster.mercury_baron.name	char_shartamakhum_baron	Bramfaturian	AnCom Hive Tezctlan XiomaraMasks SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight Emeraldlight FrancheComte ChurchRevelation ChurchGannix CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt SheduThousand GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		VictimFaction		0	eventlist_bram_ShartamakhumFeral_alt_1	FALSE
+bram_GannixFeral_alt_1	15	0.15	monster.venus_baron.name	char_gannix_baron	Bramfaturian	AnCom Hive Tezctlan XiomaraMasks SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight Emeraldlight FrancheComte ChurchRevelation ChurchGannix CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt SheduThousand ShartamakhumFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		VictimFaction		0	eventlist_bram_GannixFeral_alt_1	FALSE
+bram_DuggurFeral_alt_1	15	0.15	monster.moon_baron.name	char_duggur_baron	Bramfaturian	AnCom Hive Tezctlan XiomaraMasks SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight Emeraldlight FrancheComte ChurchRevelation ChurchGannix CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt SheduThousand ShartamakhumFeral GannixFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		VictimFaction		0	eventlist_bram_DuggurFeral_alt_1	FALSE
+bram_UrFeral_alt_1	15	0.15	monster.mars_baron.name	char_ur_baron	Bramfaturian	AnCom Hive Tezctlan XiomaraMasks SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight Emeraldlight FrancheComte ChurchRevelation ChurchGannix CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt SheduThousand ShartamakhumFeral GannixFeral DuggurFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		VictimFaction		0	eventlist_bram_UrFeral_alt_1	FALSE
+bram_CattaramFeral_alt_1	15	0.15	monster.cattaram_baron.name	char_cattaram_baron	Bramfaturian	AnCom Hive Tezctlan XiomaraMasks SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight Emeraldlight FrancheComte ChurchRevelation ChurchGannix CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt SheduThousand ShartamakhumFeral GannixFeral DuggurFeral UrFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		VictimFaction		0	eventlist_bram_CattaramFeral_alt_1	FALSE
+bram_RonFeral_alt_1	15	0.15	monster.ron_baron.name	char_ron_baron	Bramfaturian	AnCom Hive Tezctlan XiomaraMasks SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight Emeraldlight FrancheComte ChurchRevelation ChurchGannix CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt SheduThousand ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500		VictimFaction		0	eventlist_bram_RonFeral_alt_1	FALSE
+bram_ScrivnusFeral_alt_1	15	0.15	monster.scrivnus_baron.name	char_scrivnus_baron	Bramfaturian	AnCom Hive Tezctlan XiomaraMasks SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight Emeraldlight FrancheComte ChurchRevelation ChurchGannix CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt SheduThousand ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral FlaurosFeral OlirnaFeral	500 500		VictimFaction		0	eventlist_bram_ScrivnusFeral_alt_1	FALSE
+bram_FlaurosFeral_alt_1	15	0.15	monster.flauros_baron.name	char_flauros_baron	Bramfaturian	AnCom Hive Tezctlan XiomaraMasks SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight Emeraldlight FrancheComte ChurchRevelation ChurchGannix CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt SheduThousand ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral OlirnaFeral	500 500		VictimFaction		0	eventlist_bram_FlaurosFeral_alt_1	FALSE
+bram_OlirnaFeral_alt_1	15	0.15	monster.olirna_baron.name	char_olirna_baron	Bramfaturian	AnCom Hive Tezctlan XiomaraMasks SBN RealWare Tianming DaydreamChems PlanetBridge Grasshopper Sunlight Emeraldlight FrancheComte ChurchRevelation ChurchGannix CoreWard CResistance GodBuilders CivilUnity Dilthey UnchainedBelt SheduThousand ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral	500 500		VictimFaction		0	eventlist_bram_OlirnaFeral_alt_1	FALSE
 #end													
 													
 #events_itemspawn													
 Id	Weight	Chance	DialogCaptionTag	PortraitId	StationTypes	SkipIfVictims	PointsRange	ItemsIds					
-food_excess_1	15	0.05	name.jane	char_jane	Civilian ColonyFarm SpaceStation		500 500	canned_food_1 canned_food_2 canned_food_3 ration_pack_1 ration_pack_2 burger_pack_1 burger_pack_2 ration_pack_3 ration_pack_4					
-mining_1	15	0.03	name.jane	char_jane	Mine Military Prison	Tezctlan XiomaraMasks	480 640	frag_mine					
-ammo_excess_1	10	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation		20 50	small_basic_ammo small_burst_ammo small_expansive_ammo					
-ammo_excess_2	10	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation		40 70	medium_basic_ammo medium_police_ammo rifle_basic_ammo					
-ammo_excess_3	10	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation		40 70	shotgun_bullet_ammo shotgun_shrapnel_ammo shotgun_flechette_ammo shotgun_explosion_ammo					
-ammo_excess_4	15	0.05	name.jane	char_jane	Military Prison		100 150	rifle_basic_ammo rifle_armorpierce_ammo heavy_basic_ammo heavy_flak_ammo shotgun_explosion_ammo shotgun_flechette_ammo battery_basic_ammo					
-ammo_excess_5	15	0.05	name.jane	char_jane	Military Prison		300 500	rocket_basic_ammo rocket_fire_ammo					
-tool_excess_1	15	0.05	name.jane	char_jane	Industrial Mine		300 600	trash_sawblade_1 miner_breaker_1 worker_discthrower_1 worker_hmg_1 worker_crowbar_1 worker_wrench_1 military_shovel_1 worker_pistol_1					
-robot_excess_1	15	0.05	name.jane	char_jane	Industrial Mine	Tezctlan XiomaraMasks	700 1000	packaged_industrial_robot packaged_recreational_robot robot_resurrect_device					
-robot_excess_2	15	0.05	name.jane	char_jane	Military Prison	Tezctlan XiomaraMasks	800 1200	packaged_security_robot packaged_drone robot_resurrect_device					
-goods_excess_1	10	0.05	name.jane	char_jane	Industrial Mine		500 1000	tool_container robot_parts_container electrical_parts_container engineering_parts_container communication_relay welding_machine_device mining_equipment construction_equipment hydraulic_pump management_unit memory_software					
-goods_excess_2	10	0.05	name.jane	char_jane	Lab ColonyFarm		500 1000	organs_box scientist_clothing_container quasi_sensor_device geoscanner_device medical_equipment scientific_equipment chemical_analyzer quasiresearch_disk quasisamples biomass_tank medical_components pills_steroids					
-goods_excess_3	10	0.05	name.jane	char_jane	Civilian SpaceStation		500 1000	luxury_food_container water_container alcohol_container regular_clothing_container defibrillator_device precious_metals drug_cargo gunbang_magazine entertainment_software					
-goods_excess_4	10	0.05	name.jane	char_jane	Military Prison		500 1000	security_clothing_container weapon_container armor_container military_parts_container ai_module automap darknet_unit military_unit					
+food_excess_1	15	0.05	name.jane	char_jane	Civilian ColonyFarm SpaceStation	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500	canned_food_1 canned_food_2 canned_food_3 ration_pack_1 ration_pack_2 burger_pack_1 burger_pack_2 ration_pack_3 ration_pack_4					
+mining_1	15	0.03	name.jane	char_jane	Mine Military Prison	Tezctlan XiomaraMasks ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	480 640	frag_mine					
+ammo_excess_1	10	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	20 50	small_basic_ammo small_burst_ammo small_expansive_ammo					
+ammo_excess_2	10	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	40 70	medium_basic_ammo medium_police_ammo rifle_basic_ammo					
+ammo_excess_3	10	0.05	name.jane	char_jane	Industrial Mine ColonyFarm Civilian SpaceStation	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	40 70	shotgun_bullet_ammo shotgun_shrapnel_ammo shotgun_flechette_ammo shotgun_explosion_ammo					
+ammo_excess_4	15	0.05	name.jane	char_jane	Military Prison	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	100 150	rifle_basic_ammo rifle_armorpierce_ammo heavy_basic_ammo heavy_flak_ammo shotgun_explosion_ammo shotgun_flechette_ammo battery_basic_ammo					
+ammo_excess_5	15	0.05	name.jane	char_jane	Military Prison	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	300 500	rocket_basic_ammo rocket_fire_ammo					
+tool_excess_1	15	0.05	name.jane	char_jane	Industrial Mine	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	300 600	trash_sawblade_1 miner_breaker_1 worker_discthrower_1 worker_hmg_1 worker_crowbar_1 worker_wrench_1 military_shovel_1 worker_pistol_1					
+robot_excess_1	15	0.05	name.jane	char_jane	Industrial Mine	Tezctlan XiomaraMasks ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	700 1000	packaged_industrial_robot packaged_recreational_robot robot_resurrect_device					
+robot_excess_2	15	0.05	name.jane	char_jane	Military Prison	Tezctlan XiomaraMasks ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	800 1200	packaged_security_robot packaged_drone robot_resurrect_device					
+goods_excess_1	10	0.05	name.jane	char_jane	Industrial Mine	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 1000	tool_container robot_parts_container electrical_parts_container engineering_parts_container communication_relay welding_machine_device mining_equipment construction_equipment hydraulic_pump management_unit memory_software					
+goods_excess_2	10	0.05	name.jane	char_jane	Lab ColonyFarm	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 1000	organs_box scientist_clothing_container quasi_sensor_device geoscanner_device medical_equipment scientific_equipment chemical_analyzer quasiresearch_disk quasisamples biomass_tank medical_components pills_steroids					
+goods_excess_3	10	0.05	name.jane	char_jane	Civilian SpaceStation	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 1000	luxury_food_container water_container alcohol_container regular_clothing_container defibrillator_device precious_metals drug_cargo gunbang_magazine entertainment_software					
+goods_excess_4	10	0.05	name.jane	char_jane	Military Prison	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 1000	security_clothing_container weapon_container armor_container military_parts_container ai_module automap darknet_unit military_unit					
 #end													
 													
 #events_itemdespawn													
 Id	Weight	Chance	DialogCaptionTag	PortraitId	StationTypes	SkipIfVictims	PointsRange	ItemsClasses					
-food_shortage_1	15	0.05	name.jane	char_jane	Civilian ColonyFarm SpaceStation		500 500	Food Drink Alcohol					
-ammo_shortage_1	15	0.05	name.jane	char_jane	Military Prison		5000 5000	Weapon Ammo Grenade					
-goods_shortage_1	15	0.05	name.jane	char_jane	Industrial Lab ColonyFarm Civilian SpaceStation		1000 1000	MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Data Blueprint					
-meds_shortage_1	15	0.05	name.jane	char_jane	Industrial Mine Prison ColonyFarm Civilian SpaceStation		600 600	Pills Syringe Medpack Dressing					
+food_shortage_1	15	0.05	name.jane	char_jane	Civilian ColonyFarm SpaceStation	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	500 500	Food Drink Alcohol					
+ammo_shortage_1	15	0.05	name.jane	char_jane	Military Prison	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	5000 5000	Weapon Ammo Grenade					
+goods_shortage_1	15	0.05	name.jane	char_jane	Industrial Lab ColonyFarm Civilian SpaceStation	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	1000 1000	MilitaryBarter ScienceBarter IndustrialBarter ValuableBarter Data Blueprint					
+meds_shortage_1	15	0.05	name.jane	char_jane	Industrial Mine Prison ColonyFarm Civilian SpaceStation	ShartamakhumFeral GannixFeral DuggurFeral UrFeral CattaramFeral RonFeral ScrivnusFeral FlaurosFeral OlirnaFeral	600 600	Pills Syringe Medpack Dressing					
 #end													
 													
 #events_gift													
@@ -51,14 +60,17 @@ Tezctlan_gift_1	15	0.08	faction.Tezctlan.name	faction_Tezctlan	50 100	400 800	Te
 SBN_gift_1	15	0.08	faction.SBN.name	faction_SBN	50 100	400 800	SBN						
 RealWare_gift_1	15	0.08	faction.RealWare.name	faction_RealWare	50 100	400 800	RealWare						
 AnCom_gift_1	15	0.08	faction.AnCom.name	faction_AnCom	50 100	400 800	AnCom						
+Hive_gift_1	15	0.08	faction.Hive.name	faction_Hive	50 100	400 800	Hive						
 Dilthey_gift_1	15	0.08	faction.Dilthey.name	faction_Dilthey	50 100	400 800	Dilthey						
 Tianming_gift_1	15	0.08	faction.Tianming.name	faction_Tianming	50 100	400 800	Tianming						
 CoreWard_gift_1	15	0.08	faction.CoreWard.name	faction_CoreWard	50 100	400 800	CoreWard						
 DaydreamChems_gift_1	15	0.08	faction.DaydreamChems.name	faction_DaydreamChems	50 100	400 800	DaydreamChems						
 PlanetBridge_gift_1	15	0.08	faction.PlanetBridge.name	faction_PlanetBridge	50 100	400 800	PlanetBridge						
 ChurchRevelation_gift_1	15	0.08	faction.ChurchRevelation.name	faction_ChurchRevelation	50 100	400 800	ChurchRevelation						
+ChurchGannix_gift_1	15	0.08	faction.ChurchGannix.name	faction_ChurchGannix	50 100	400 800	ChurchGannix						
 Grasshopper_gift_1	15	0.08	faction.Grasshopper.name	faction_Grasshopper	50 100	400 800	Grasshopper						
 Sunlight_gift_1	15	0.08	faction.Sunlight.name	faction_Sunlight	50 100	400 800	Sunlight						
+Emeraldlight_gift_1	15	0.08	faction.Emeraldlight.name	faction_Emeraldlight	50 100	400 800	Emeraldlight						
 FrancheComte_gift_1	15	0.08	faction.FrancheComte.name	faction_FrancheComte	50 100	400 800	FrancheComte						
 CResistance_gift_1	15	0.08	faction.CResistance.name	faction_CResistance	50 100	400 800	CResistance						
 GodBuilders_gift_1	15	0.08	faction.GodBuilders.name	faction_GodBuilders	50 100	400 800	GodBuilders						
@@ -66,4 +78,26 @@ CivilUnity_gift_1	15	0.08	faction.CivilUnity.name	faction_CivilUnity	50 100	400 
 UnchainedBelt_gift_1	15	0.08	faction.UnchainedBelt.name	faction_UnchainedBelt_Expansion	50 100	400 800	UnchainedBelt						
 SheduThousand_gift_1	15	0.08	faction.SheduThousand.name	faction_SheduThousand	50 100	400 800	SheduThousand						
 XiomaraMasks_gift_1	15	0.08	faction.XiomaraMasks.name	faction_XiomaraMasks	50 100	400 800	XiomaraMasks						
+Tezctlan_insult_1	15	0.05	faction.Tezctlan.name	faction_Tezctlan	-100 -70	0 0	Tezctlan						
+SBN_insult_1	15	0.05	faction.SBN.name	faction_SBN	-100 -70	0 0	SBN						
+RealWare_insult_1	15	0.05	faction.RealWare.name	faction_RealWare	-100 -70	0 0	RealWare						
+AnCom_insult_1	15	0.05	faction.AnCom.name	faction_AnCom	-100 -70	0 0	AnCom						
+Hive_insult_1	15	0.05	faction.Hive.name	faction_Hive	-100 -70	0 0	Hive						
+Dilthey_insult_1	15	0.05	faction.Dilthey.name	faction_Dilthey	-100 -70	0 0	Dilthey						
+Tianming_insult_1	15	0.05	faction.Tianming.name	faction_Tianming	-100 -70	0 0	Tianming						
+CoreWard_insult_1	15	0.05	faction.CoreWard.name	faction_CoreWard	-100 -70	0 0	CoreWard						
+DaydreamChems_insult_1	15	0.05	faction.DaydreamChems.name	faction_DaydreamChems	-100 -70	0 0	DaydreamChems						
+PlanetBridge_insult_1	15	0.05	faction.PlanetBridge.name	faction_PlanetBridge	-100 -70	0 0	PlanetBridge						
+ChurchRevelation_insult_1	15	0.05	faction.ChurchRevelation.name	faction_ChurchRevelation	-100 -70	0 0	ChurchRevelation						
+ChurchGannix_insult_1	15	0.05	faction.ChurchGannix.name	faction_ChurchGannix	-100 -70	0 0	ChurchGannix						
+Grasshopper_insult_1	15	0.05	faction.Grasshopper.name	faction_Grasshopper	-100 -70	0 0	Grasshopper						
+Sunlight_insult_1	15	0.05	faction.Sunlight.name	faction_Sunlight	-100 -70	0 0	Sunlight						
+Emeraldlight_insult_1	15	0.05	faction.Emeraldlight.name	faction_Emeraldlight	-100 -70	0 0	Emeraldlight						
+FrancheComte_insult_1	15	0.05	faction.FrancheComte.name	faction_FrancheComte	-100 -70	0 0	FrancheComte						
+CResistance_insult_1	15	0.05	faction.CResistance.name	faction_CResistance	-100 -70	0 0	CResistance						
+GodBuilders_insult_1	15	0.05	faction.GodBuilders.name	faction_GodBuilders	-100 -70	0 0	GodBuilders						
+CivilUnity_insult_1	15	0.05	faction.CivilUnity.name	faction_CivilUnity	-100 -70	0 0	CivilUnity						
+UnchainedBelt_insult_1	15	0.05	faction.UnchainedBelt.name	faction_UnchainedBelt_Expansion	-100 -70	0 0	UnchainedBelt						
+SheduThousand_insult_1	15	0.05	faction.SheduThousand.name	faction_SheduThousand	-100 -70	0 0	SheduThousand						
+XiomaraMasks_insult_1	15	0.05	faction.XiomaraMasks.name	faction_XiomaraMasks	-100 -70	0 0	XiomaraMasks						
 #end													

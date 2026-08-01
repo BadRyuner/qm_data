@@ -1,7 +1,8 @@
 #global		
 Parameter	Value	
 // Build info		
-BuildVersion	UNSTABLE BETA.520s.531bad5
+BuildVersion	1.0.561s.a7d4f0d
+BuildNumber	561s
 SaveVersion	50	
 Console	false
 SkipIntro	FALSE	
@@ -13,11 +14,11 @@ LosLookAngle	100
 NotifyHiddenEnemiesRadius	6	
 BrokenWeaponItemId	broken_weapon	
 StartSpaceObjectId	phobos	
-SpawnItemOnDisassembleChance	0.5	
+SpawnItemOnDisassembleChance	0.33	
 StartGameDate	2200-09-13 12:00:00	
 StartMercenaries	francis_reid_daly victoria_boudicca persival_fawcett Isabella_capet maximilian_rohr priya_marlon	
 StartClasses	scouts_of_hades eclipse_blades tifton_elite phoenix_brigade	
-StartReceipts	ration_pack_3 ration_pack_4 small_backpack_1 trash_common_vest_1 common_shirt_2 common_pants_3 common_sneakers_1 common_knife_1 army_pistol_1 pmc_pistol_1 military_pistol_1 small_basic_ammo medium_basic_ammo shotgun_shrapnel_ammo bandage splint hydrogel_bandage medical_kit_1 syringe_morphine pills_sorbent pills_antibiotics armor_repair_kit firearm_repair_kit melee_repair_kit tech_repair_kit engineering_repair_kit	
+StartReceipts	ration_pack_3 ration_pack_4 small_backpack_1 trash_common_vest_1 common_shirt_2 common_pants_3 common_sneakers_1 common_knife_1 army_pistol_1 pmc_pistol_1 military_pistol_1 small_basic_ammo medium_basic_ammo shotgun_shrapnel_ammo bandage splint hydrogel_bandage medical_kit_1 syringe_morphine pills_sorbent pills_antibiotics armor_repair_kit firearm_repair_kit melee_repair_kit tech_repair_kit engineering_repair_kit handmade_frag_grenade handmade_thermal_grenade handmade_smoke_grenade cyborg_head cyborg_chest cyborg_guts cyborg_knee cyborg_battle_head cyborg_battle_chest cyborg_battle_guts cyborg_battle_knee	
 AllowEvacuationItems		
 DefaultDifficulty	Normal	
 DefaultDifficultyPage	general	
@@ -45,15 +46,15 @@ StationShippingMinHours	340
 StationShippingMaxHours	408	
 StationStorageLimit	200	
 StationProductionTimeRatio	3	
-PowerToRepMult	0.01	
+PowerToRepMult	0.006	
 MinReputation	-100	
 MaxReputation	100	
-ReputationRewardLimit	20	
+ReputationRewardLimit	25	
 TimeScaleInBramfaturaMult	600	
 TimeScaleX1Mult	100	
-TimeScaleX4Mult	400	
-TimeScaleX10Mult	1000	
-TimeScaleX100Mult	10000	
+TimeScaleX4Mult	2500	
+TimeScaleX10Mult	10000	
+TimeScaleX100Mult	25000	
 DistanceToHours	0.2	
 NewsLifetimeInHours	24	
 FactionPowerGainNews	1000 2000 5000 10000	
@@ -90,7 +91,7 @@ RitualMissionDefenseDurationTurns	80
 RitualMissionWavePowerMults	0.2 0.3 0.4	
 DefenseMissionDurationTurns	80	
 DefenseMissionsBramfaturaId	Defense	
-DefenseMissionWavePowerMults	0.4 0.55 0.65	
+DefenseMissionWavePowerMults	0.3 0.45 0.5	
 SabotageExplosionInvestigationRadius	30	
 VipUnitTechLevelBonus	1	
 VipBodyguardRange	2 4	
@@ -114,8 +115,8 @@ TradeSellItemRepThreshold	100
 TradeSellItemMult1	0.70	
 TradeSellItemMult2	0.20	
 TradeShuttleReputationSellCoef	0.5	
-TradeShuttleBarterPriorityPercent	0.5	
-TradeShuttleDignitasToReputationCoef	0.02	
+TradeShuttleBarterPriorityPercent	0.6	
+TradeShuttleDignitasToReputationCoef	0.01	
 		
 // Proxy company		
 ProxyCompanyStrategiesList	Expansion Scouting Defense	
@@ -143,7 +144,7 @@ DefaultEnvironmentPresets	Indoor1 OrbitOutdoor
 // Bramfatura invasion		
 BramfaturaMonsterPointsBase	500	
 BramfaturaMonsterPointsPerFloor	100	
-BramfaturaItemPoints	920	
+BramfaturaItemPoints	650	
 BramfaturaJumpCostRange	100 300	
 BramfaturaInvasionCostRange	200 300	
 		
@@ -163,11 +164,12 @@ MonsterRunMoveTimeScale	2
 SomniaMoveTimerMin	1	
 SomniaMoveTimerMax	20	
 AggroExplosionChance	1	
-AggroExplosionRadius	8	
-AggroGunshotRadius	4	
-NoiseDeathRadius	0	
+AggroExplosionRadius	9	
+AggroGunshotRadius	6	
+AggroProjectileHitRadius	2	
+NoiseDeathRadius	1	
 NoiseStepRadius	0	
-NoiseDoorRadius	0	
+NoiseDoorRadius	3	
 MoveChanceWhileDesperate	0.15	
 CantMoveAPTime	3	
 EccolapseAPTime	1	
@@ -178,6 +180,7 @@ HealthPercentToSurvival	0.95
 EnemiesToOutnumber	3	
 DistanceToOutnumber	3	
 BasePanicCounterRageChance	0.5	
+PathfindingArmorThreshold	41	
 		
 // Obstacles		
 MapObstacleDamageWhitefadeDuration	0.25	
@@ -212,24 +215,26 @@ ToxicDamageType	poison
 ToxicDamageMulti	0.5	
 ToxicPuddleLifeTime	5	
 		
-// Gas damage		
+// Gas		
+GasFadeInDuration	0.3	
+GasFadeOutDuration	0.45	
 GasToxicDamageType	poison	
-GasToxicDamagePerTurn	50	
+GasToxicDamagePerTurn	20	
 GasShockDamageType	shock	
-GasShockDamagePerTurn	50	
+GasShockDamagePerTurn	20	
 GasColdDamageType	cold	
-GasColdDamagePerTurn	50	
+GasColdDamagePerTurn	20	
 GasNanoDamageType	lacer	
-GasNanoDamagePerTurn	80	
+GasNanoDamagePerTurn	100	
 NanoSpreadChance	0.8	
 StrongNanoDuration	5	
 WeakNanoDuration	3	
 		
 // Vines		
 VinesDamageType	pierce	
-VinesDamagePerTurn	50	
-VinesSpreadChance	0.25	
-VinesSpreadChanceOnBlood	0.5	
+VinesDamagePerTurn	30	
+VinesSpreadChance	0.3	
+VinesSpreadChanceOnBlood	0.65	
 VinesSpreadFireChance	0.9	
 		
 // Damage		
@@ -277,7 +282,7 @@ WoundDefaultResolutionChance	0.05
 WoundResolutionBadLuckStep	0.05	
 		
 // WoundEffects		
-FrozenStunAfterProgressionLevel	60	
+FrozenStunAfterProgressionLevel	40	
 ShockStunAfterProgressionLevel	0	
 QmorphSummonCountMin	1	
 QmorphSummonCountMax	2	
@@ -290,6 +295,11 @@ DamageHintLargeSize	1.35
 HitHintLargeSize	1.35	
 PlaystationGuids	c3ad3cad-c7cf-4ca8-8c2e-e3df8d9960bb 71dfe6c8-9e81-428f-a58e-c7e664b7fbed cd9718bf-a87a-44bc-8716-60a0def28a9f 5286706d-19b4-4a45-b635-207ce78d8394	
 NintendoGuids	7bf3154b-9db8-4d52-950f-cd0eed8a5819	
+		
+//GraphicSettings		
+DefaultTargetFramerate	120	
+MinTargetFramerate	30	
+MaxTargetFramerate	300	
 #end		
 		
 #starting_items		
@@ -302,19 +312,19 @@ high	stationary_turret common_knife_1 common_knife_1 military_axe_1 common_pisto
 		
 #tutorialancomreward		
 Id	Items	
-Tezctlan	venus_axe_1 venus_quasi_pistol_1 quasi_basic_ammo tez_heavy_armor_1 tez_heavy_helmet_1 tez_heavy_pants_1 tez_heavy_boots_1 quasi_repair_kit quasi_medical_kit_1	
+Tezctlan	venus_axe_1 venus_quasi_pistol_1 quasi_basic_ammo tez_heavy_armor_1 tez_heavy_helmet_1 tez_heavy_pants_1 tez_heavy_boots_1 quasi_repair_kit quasi_medical_kit_1 skull_venus_drain_life	
 RealWare	mercenary_chip big_backpack_1 military_shotgun_1 military_pistol_2 shotgun_shrapnel_ammo small_basic_ammo rwa_light_armor_1 rwa_light_helmet_2 rwa_light_pants_1 rwa_light_boots_1 armor_repair_kit firearm_repair_kit	
-AnCom	class_chip medium_backpack_1 military_knife_1 pmc_assault_1 pmc_shotgun_1 rifle_basic_ammo shotgun_shrapnel_ammo anc_agent_armor_1 anc_agent_mask_1 anc_agent_pants_1 anc_agent_boots_1 melee_repair_kit firearm_repair_kit	
+AnCom	class_chip medium_backpack_1 military_knife_1 anc_pistol_1 anc_smg_1 medium_basic_ammo medium_basic_ammo anc_agent_armor_1 anc_agent_mask_1 anc_agent_pants_1 anc_agent_boots_1 melee_repair_kit firearm_repair_kit	
 SBN	mercenary_chip medium_backpack_1 pmc_smg_2 sbn_rail_pistol_1 small_basic_ammo sbn_medium_armor_1 sbn_medium_helmet_1 sbn_medium_pants_1 sbn_medium_boots_1 tech_repair_kit	
 Dilthey	low_chip medium_backpack_1 dil_sound_pistol_2 dil_shock_smg_1 dil_battery_ammo science_reinforced_shirt_1 science_gasmask_1 science_reinforced_pants_1 science_reinforced_boots_1 tech_repair_kit packaged_recreational_robot	
 Tianming	mercenary_chip medium_backpack_1 tia_disc_pistol_1 spec_shotgun_1 sawblade_ammo shotgun_shrapnel_ammo tia_heavy_armor_1 tia_heavy_helmet_1 tia_heavy_pants_1 tia_heavy_boots_1 armor_repair_kit firearm_repair_kit	
-XiomaraMasks	spider_claw venus_blowpipe_1 quasi_darts_ammo xio_light_armor_1 xio_light_helmet_1 xio_pants_1 xio_light_boots_1 quasi_repair_kit quasi_medical_kit_1 spider_cocoon spider_cocoon spider_cocoon	
-SheduThousand	medium_backpack_1 she_smg_1 she_gas_shotgun_1 medium_basic_ammo gas_ammo possessed_medium_armor_1 possessed_medium_helmet_1 possessed_medium_pants_1 possessed_medium_boots_1 armor_repair_kit firearm_repair_kit	
+XiomaraMasks	spider_claw venus_blowpipe_1 quasi_darts_ammo xio_light_armor_1 xio_light_helmet_1 xio_pants_1 xio_light_boots_1 quasi_repair_kit quasi_medical_kit_1 spider_cocoon spider_cocoon spider_cocoon skull_venus_reapers_harvest	
+SheduThousand	medium_backpack_1 she_smg_1 she_gas_shotgun_1 medium_basic_ammo gas_ammo possessed_medium_armor_1 possessed_medium_helmet_1 possessed_medium_pants_1 possessed_medium_boots_1 armor_repair_kit firearm_repair_kit skull_mars_scorched_armory	
 DaydreamChems	mercenary_chip medium_backpack_1 trucker_pistol_2 ddr_poisonknife_1 rifle_basic_ammo toxic_ammo medical_medium_armor_1 medical_medium_helmet_1 medical_medium_pants_1 medical_medium_boots_1 toxic_grenade toxic_grenade toxic_grenade	
 PlanetBridge	low_chip servo_backpack_1 rail_pistol_2 plb_worker_shockgun_1 battery_basic_ammo laborer_medium_armor_1 laborer_medium_helmet_1 laborer_medium_pants_1 laborer_medium_boots_1 engineering_repair_kit tech_repair_kit	
 Grasshopper	armored_expanded_vest_1 servo_backpack_1 trucker_pistol_2 grh_trucker_marksman_1 rifle_basic_ammo rifle_basic_ammo laborer_warm_shirt_1 laborer_warm_hat_1 laborer_warm_pants_1 laborer_warm_boots_1 firearm_repair_kit	
 Sunlight	class_chip medium_backpack_1 sun_laser_pistol_1 med_lightblade_1 battery_basic_ammo battery_basic_ammo military_medium_armor_1 military_medium_helmet_1 military_medium_pants_1 military_medium_boots_1 tech_repair_kit	
-FrancheComte	low_chip medium_backpack_1 common_shotgun_2 fra_security_smg_1 shotgun_bullet_ammo small_basic_ammo police_reinforced_shirt_1 police_cap_2 police_pants_2 police_boots_2 firearm_repair_kit	
+FrancheComte	low_chip medium_backpack_1 common_shotgun_2 fra_security_smg_1 shotgun_shrapnel_ammo small_basic_ammo police_reinforced_shirt_1 police_cap_2 police_pants_2 police_boots_2 firearm_repair_kit	
 ChurchRevelation	class_chip medium_backpack_1 trash_sawblade_1 army_pistol_3 gas_ammo shotgun_shrapnel_ammo chu_manager_shirt_1 chu_manager_mask_1 chu_manager_pants_1 chu_manager_boots_1 melee_repair_kit ultravoice	
 CoreWard	low_chip servo_backpack_1 worker_hmg_1 worker_flamethrower_1 nail_bolts_ammo gas_ammo miner_reinforced_shirt_1 miner_hard_cap_2 miner_reinforced_pants_1 miner_reinforced_boots_1 armor_repair_kit	
 CResistance	welding_machine_device communication_relay servo_backpack_1 civ_powerfist_1 civ_common_smg_1 battery_crafted_ammo medium_basic_ammo civ_medium_armor_2 civ_medium_helmet_2 civ_medium_pants_2 civ_medium_boots_2 engineering_repair_kit tech_repair_kit	
